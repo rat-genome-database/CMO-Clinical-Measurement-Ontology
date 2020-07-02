@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.97
-date: 27:06:2020 20:13
+data-version: 2.96
+date: 20:06:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-04-07 --
 default-namespace: clinical_measurement_ontology
@@ -4455,6 +4455,7 @@ creation_date: 2011-11-02T02:46:40Z
 id: CMO:0000549
 name: blood albumin level
 def: "The amount of albumin in a specified sample of blood. Albumin is the major plasma protein, responsible for much of the plasma colloidal osmotic pressure and serving as a transport protein for large organic anions (e.g., fatty acids, bilirubin, some drugs) and for some hormones when their specific binding globulins are saturated." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: CMO:0000023 ! blood chemistry measurement
 is_a: CMO:0000028 ! blood protein measurement
 created_by: mshimoyama
 creation_date: 2011-11-02T02:47:55Z
@@ -8291,10 +8292,7 @@ creation_date: 2012-07-27T05:59:34Z
 [Term]
 id: CMO:0000988
 name: heart left ventricle relative wall thickness
-alt_id: CMO:0000989
-def: "A calculated measurement of left ventricular geometry. It is calculated by dividing the end-diastolic diameter into 2x the posterior wall thickness or into the sum of the posterior and septal wall thicknesses. It represents a measure of the wall thickness normalized to the size of the ventricle lumen." [http://circ.ahajournals.org/cgi/content/meeting_abstract/120/18_MeetingAbstracts/S883 "Website"]
-synonym: "heart left ventricle end-diastolic relative wall thickness" EXACT []
-synonym: "RWT" EXACT []
+def: "A calculated measurement of left ventricular geometry and is calculated by dividing the end-diastolic diameter into 2x the posterior wall thickness, 2x the septal wall thickness or the sum of the posterior and septal wall thicknesses. It represents a measure of the wall thickness normalized to the size of the ventricle lumen." [http://circ.ahajournals.org/cgi/content/meeting_abstract/120/18_MeetingAbstracts/S883 "Website"]
 is_a: CMO:0000984 ! calculated heart left ventricle morphological measurement
 is_a: CMO:0000993 ! heart ventricle relative wall thickness
 created_by: JSmith
@@ -8304,7 +8302,7 @@ creation_date: 2012-07-27T06:00:34Z
 id: CMO:0000989
 name: heart left ventricle end-diastolic relative wall thickness
 def: "A calculated measurement of left ventricular geometry and is calculated by dividing the end-diastolic diameter into 2x the posterior wall thickness at end-diastole, 2x the septal wall thickness at end-diastole or the sum of the posterior and septal wall thicknesses at end-diastole. It represents a measure of the wall thickness normalized to the size of the ventricle lumen." [http://circ.ahajournals.org/cgi/content/meeting_abstract/120/18_MeetingAbstracts/S883 "Website"]
-is_obsolete: true
+is_a: CMO:0000988 ! heart left ventricle relative wall thickness
 created_by: JSmith
 creation_date: 2012-07-27T06:15:29Z
 
@@ -8341,12 +8339,11 @@ creation_date: 2012-07-30T11:05:55Z
 
 [Term]
 id: CMO:0000994
-name: velocity of circumferential fiber shortening
+name: mean velocity of circumferential fiber shortening
 def: "The extent of shortening of the minor internal circumference (at the midpoint of the long axis) between end-diastole and end-systole, divided by the time required for shortening." [PMID:5097436]
-synonym: "circumferential fiber shortening rate" EXACT []
-synonym: "Vcf" EXACT []
-synonym: "VCFr" EXACT []
-is_a: CMO:0000984 ! calculated heart left ventricle morphological measurement
+synonym: "mean circumferential fiber shortening rate" EXACT []
+synonym: "mean VCF" RELATED []
+is_a: CMO:0000662 ! heart contraction measurement
 created_by: JSmith
 creation_date: 2012-07-30T01:25:59Z
 
@@ -8388,7 +8385,7 @@ id: CMO:0000999
 name: urine albumin to low molecular weight protein ratio
 def: "The ratio of the amount of albumin in the urine, or excreted into the urine in a specified period of time to the amount of low molecular weight proteins in the urine, or excreted into the urine in a specified period of time." [PMID:17167120]
 is_a: CMO:0002922 ! calculated urine albumin level
-relationship: part_of CMO:0003217 ! urine albumin level to urine total protein level ratio
+relationship: part_of CMO:0003217 ! Urine albumin level to urine total protein level ratio
 created_by: JSmith
 creation_date: 2012-07-30T05:22:21Z
 
@@ -19417,7 +19414,7 @@ name: heart left ventricle natriuretic peptide A level
 def: "The amount in a specified sample of tissue from the heart left ventricle, of natriuretic peptide A (NPPA), a powerful vasodilator and peptide hormone secreted mainly by heart muscle cells and involved in control of extracellular fluid volume and electrolyte homeostasis." [RGD:730878, http://en.wikipedia.org/wiki/Atrial_natriuretic_peptide "Wikipedia"]
 synonym: "heart left ventricle atrial natriuretic factor level" EXACT []
 synonym: "heart left ventricle natriuretic peptide A protein level" EXACT []
-synonym: "heart left ventricle NPPA level" EXACT []
+synonym: "heart left ventricle NPPA level" RELATED []
 is_a: CMO:0002164 ! heart left ventricle molecular composition measurement
 created_by: JSmith
 creation_date: 2014-02-03T17:43:11Z
@@ -24331,7 +24328,7 @@ id: CMO:0002674
 name: average horizontal distance in proximity to the target  during voluntary locomotion in an experimental apparatus
 def: "The arithmetic mean of all measured horizontal distances between a test subject and a specific target such as a food reward or a submerged platform as the subject searches for the target. Horizontal distance is the length of a line between two points within a single plane parallel to the ground." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, PMID:16837653]
 synonym: "spatial accuracy measurement" BROAD []
-is_a: CMO:0002814 ! calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
+is_a: CMO:0002814 ! Calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
 created_by: jesmith
 creation_date: 2015-12-03T13:15:19Z
 
@@ -25611,13 +25608,13 @@ id: CMO:0002813
 name: horizontal distance covered resulting from voluntary locomotion in proximity to the target  in an experimental apparatus to total horizontal distance covered ratio
 def: "The ratio of the sum of the horizontal distance of an experimental subject made in proximity to the target to the total horizontal distance made within an apparatus. These movements are the results of voluntary locomotion of the experimental subject." []
 is_a: CMO:0002675 ! total horizontal distance covered resulting from voluntary locomotion in proximity to the target  in an experimental apparatus
-is_a: CMO:0002814 ! calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
+is_a: CMO:0002814 ! Calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
 created_by: sjwang
 creation_date: 2018-11-13T15:18:32Z
 
 [Term]
 id: CMO:0002814
-name: calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
+name: Calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
 is_a: CMO:0001442 ! measurement of voluntary horizontal locomotion in an experimental apparatus
 created_by: sjwang
 creation_date: 2018-11-14T10:26:31Z
@@ -26012,7 +26009,7 @@ creation_date: 2018-11-21T12:35:22Z
 
 [Term]
 id: CMO:0002860
-name: monophasic action potential
+name: Monophasic action potential
 def: "Monophasic action potentials (MAPs) are recorded using contact electrode catheters. The recordings provide local information about the actual cellular depolarization and repolarization process of myocardial tissue. They are different from body surface electrocardiographic (ECG) recordings or standard endocardial electrograms, which produce a summative or derivative view of the heart's electrical activity" [ISBN:ISBN\: 978-1-4557-2856-5, ZIPES:Zipes_Cardiac Electrophysiology\: From Cell to Bedside  (Sixth Edition)]
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: sjwang
@@ -26020,7 +26017,7 @@ creation_date: 2018-11-26T13:03:49Z
 
 [Term]
 id: CMO:0002861
-name: conduction velocity
+name: Conduction velocity
 def: "Conduction velocity is calculated as the distance from pacing electrode to the monophasic action potential recording electrode across the epicardial surface, divided by the conduction time, the time from the pacing spike to monophasic action potential onset." [XREF:PMID\:17322641]
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: sjwang
@@ -26087,7 +26084,6 @@ id: CMO:0002868
 name: calculated heart left ventricle end-systolic internal diameter
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the heart left ventricle end-systolic internal diameter." []
 synonym: "calculated heart left ventricle end-systolic internal dimension" EXACT []
-is_a: CMO:0000983 ! heart left ventricle end-systolic diameter
 is_a: CMO:0000984 ! calculated heart left ventricle morphological measurement
 created_by: sjwang
 creation_date: 2018-11-26T14:59:27Z
@@ -26157,7 +26153,7 @@ creation_date: 2018-11-27T13:20:33Z
 
 [Term]
 id: CMO:0002876
-name: blood NH2-terminal pro-B-type natriuretic peptide level
+name: Blood NH2-terminal pro-B-type natriuretic peptide level
 def: "The amount of N-terminal (NT)-pro hormone BNP (Nppb) in a specified volume of blood." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3194 "XREF"]
 synonym: "Blood NH2-terminal Nppb level" EXACT []
 is_a: CMO:0000286 ! blood peptide hormone level
@@ -26169,7 +26165,7 @@ id: CMO:0002877
 name: plasma NH2-terminal pro-B-type natriuretic peptide level
 def: "The amount of N-terminal (NT)-pro hormone BNP (Nppb) in a specified volume of plasma." []
 synonym: "plasma NH2-terminal Nppb level" EXACT []
-is_a: CMO:0002876 ! blood NH2-terminal pro-B-type natriuretic peptide level
+is_a: CMO:0002876 ! Blood NH2-terminal pro-B-type natriuretic peptide level
 created_by: sjwang
 creation_date: 2018-11-27T14:54:19Z
 
@@ -26449,25 +26445,25 @@ creation_date: 2018-12-04T12:06:42Z
 
 [Term]
 id: CMO:0002912
-name: heart left ventricle diastolic volume-axis intercept (V0)
+name: Heart left ventricle diastolic volume-axis intercept (V0)
 def: "Left ventricle diastolic volume-axis intercept (V0) is determined by the line Ped=Eed(Ved-V0), which is based on linear regression of points determined by interative calculation of the LV end-diastolic pressurevolume relationship." []
 is_a: CMO:0002911 ! calculated ventricle contraction measurement
-is_a: CMO:0002914 ! calculated endo-diastolic volume
+is_a: CMO:0002914 ! Calculated endo-diastolic volume
 created_by: sjwang
 creation_date: 2018-12-04T12:31:25Z
 
 [Term]
 id: CMO:0002913
-name: heart left ventricle systolic volume-axis intercept (V0)
+name: Heart left ventricle systolic volume-axis intercept (V0)
 def: "Left ventricle systolic volume-axis intercept (V0) is determined by the line Pes=Ees(Ves-V0), which is based on linear regression of points determined by iterative calculation of the LV end-diastolic pressurevolume relationship." []
 is_a: CMO:0002911 ! calculated ventricle contraction measurement
-is_a: CMO:0002915 ! calculated endo-systolic volume
+is_a: CMO:0002915 ! Calculated endo-systolic volume
 created_by: sjwang
 creation_date: 2018-12-04T12:34:18Z
 
 [Term]
 id: CMO:0002914
-name: calculated endo-diastolic volume
+name: Calculated endo-diastolic volume
 def: "A measurement of the volume of blood in ventricle immediately before a contraction which has been normalized or adjusted by a mathematical process or computation. ." []
 is_a: CMO:0000221 ! end-diastolic volume
 created_by: sjwang
@@ -26475,7 +26471,7 @@ creation_date: 2018-12-04T12:46:20Z
 
 [Term]
 id: CMO:0002915
-name: calculated endo-systolic volume
+name: Calculated endo-systolic volume
 def: "A measurement of the volume of blood in a ventricle at the end of a contraction which has been normalized or adjusted by a mathematical process or computation." []
 is_a: CMO:0000181 ! end-systolic volume
 created_by: sjwang
@@ -26789,7 +26785,7 @@ creation_date: 2018-12-20T14:59:58Z
 
 [Term]
 id: CMO:0002953
-name: heart septum weight
+name: Heart septum weight
 def: "The weight of the septum of the heart, which is the portion of the heart left ventricle ventral/anterior wall and right ventricle dorsal/posterior wall which is shared between the ventricles, after removal from the body and separation from the rest of the heart." []
 is_a: CMO:0000017 ! heart weight
 created_by: sjwang
@@ -26853,7 +26849,7 @@ creation_date: 2018-12-26T16:20:07Z
 
 [Term]
 id: CMO:0002961
-name: blood parathyroid hormone level
+name: Blood parathyroid hormone level
 def: "Amount of parathyroid hormone, a hormone that regulates blood calcium and phosphate levels, in a specified volume of blood." []
 is_a: CMO:0000286 ! blood peptide hormone level
 created_by: sjwang
@@ -26861,17 +26857,17 @@ creation_date: 2018-12-26T16:24:21Z
 
 [Term]
 id: CMO:0002962
-name: plasma parathyroid hormone level
+name: Plasma parathyroid hormone level
 def: "Amount of parathyroid hormone, a hormone that regulates blood calcium and phosphate levels, in a specified volume of plasma." []
-is_a: CMO:0002961 ! blood parathyroid hormone level
+is_a: CMO:0002961 ! Blood parathyroid hormone level
 created_by: sjwang
 creation_date: 2018-12-26T16:26:26Z
 
 [Term]
 id: CMO:0002963
-name: serum parathyroid hormone level
+name: Serum parathyroid hormone level
 def: "Amount of parathyroid hormone, a hormone that regulates blood calcium and phosphate levels, in a specified volume of serum." []
-is_a: CMO:0002961 ! blood parathyroid hormone level
+is_a: CMO:0002961 ! Blood parathyroid hormone level
 created_by: sjwang
 creation_date: 2018-12-26T16:27:55Z
 
@@ -27134,6 +27130,7 @@ name: heart left ventricular end-diastolic blood pressure to heart left ventricu
 def: "A calculated measurement in which the pressure in the heart left ventricle at the end of diastole, the period when the heart is in a state of relaxation and expansion and the ventricles fill with blood, divided by the diameter across the left ventricle of the heart at the end of diastole and the result presented as a ratio, fraction, quotient or percentage." []
 synonym: "LVEDP/LVDd" EXACT []
 is_a: CMO:0002992 ! calculated left ventricular end-diastolic blood pressure measurement
+is_a: CMO:0003219 ! Calculated heart left ventricle end-diastolic diameter
 created_by: sjwang
 creation_date: 2018-12-27T16:00:35Z
 
@@ -27346,7 +27343,7 @@ creation_date: 2019-01-22T16:01:15Z
 
 [Term]
 id: CMO:0003018
-name: calculated ovary weight 
+name: Calculated ovary weight 
 is_a: CMO:0000405 ! ovary weight
 created_by: sjwang
 creation_date: 2019-01-24T09:12:06Z
@@ -27355,7 +27352,7 @@ creation_date: 2019-01-24T09:12:06Z
 id: CMO:0003019
 name: both ovaries weight to body weight ratio
 is_a: CMO:0000407 ! both ovaries weight
-is_a: CMO:0003018 ! calculated ovary weight 
+is_a: CMO:0003018 ! Calculated ovary weight 
 created_by: sjwang
 creation_date: 2019-01-24T09:15:37Z
 
@@ -27539,7 +27536,7 @@ creation_date: 2019-02-15T11:23:30Z
 [Term]
 id: CMO:0003041
 name: blood calbindin level
-def: "The amount of calbindin in a specified sample of blood. Calbindin is a member of the calcium-binding protein superfamily that includes calmodulin and troponin C." [RGD:732083]
+def: "The amount of calbindin in a specified sample of blood. calbindin is a member of the calcium-binding protein superfamily that includes calmodulin and troponin C." [RGD:732083]
 is_a: CMO:0000028 ! blood protein measurement
 created_by: sjwang
 creation_date: 2019-02-15T11:36:14Z
@@ -28349,7 +28346,7 @@ creation_date: 2019-04-29T13:32:47Z
 
 [Term]
 id: CMO:0003145
-name: single kidney weight to tibia length ratio
+name: Single kidney weight to tibia length ratio
 def: "A calculated measurement in which the weight of one kidney is divided by the length of tibia, and the result presented as a ratio, fraction, quotient or percentage, thus normalizing it to tibia length." []
 is_a: CMO:0001951 ! calculated single kidney weight
 created_by: sjwang
@@ -28357,7 +28354,7 @@ creation_date: 2019-04-29T13:35:22Z
 
 [Term]
 id: CMO:0003146
-name: nasal septum tissue intracellular mucus area to basement membrane width ratio
+name: Nasal septum tissue intracellular mucus area to basement membrane width ratio
 def: "The the amount of stored mucosubstance in the epithelium of nasal septum quantified by the area of AB-PASpositive tissue per unit width of basement membrane." []
 is_a: CMO:0003147 ! nose measurement
 created_by: sjwang
@@ -28494,7 +28491,7 @@ creation_date: 2019-05-06T10:42:45Z
 
 [Term]
 id: CMO:0003163
-name: kidney total CD3 positive T cell count
+name: Kidney total CD3 positive T cell count
 def: "The number of CD3-positive T cell in the kidney." []
 is_a: CMO:0003164 ! kidney cellular composition measurement
 created_by: sjwang
@@ -28511,7 +28508,7 @@ creation_date: 2019-05-08T16:01:33Z
 
 [Term]
 id: CMO:0003165
-name: kidney total  CD45 positive leukocyte count
+name: Kidney total  CD45 positive leukocyte count
 is_a: CMO:0003164 ! kidney cellular composition measurement
 created_by: sjwang
 creation_date: 2019-05-08T16:14:33Z
@@ -28534,7 +28531,7 @@ creation_date: 2019-05-09T11:39:40Z
 
 [Term]
 id: CMO:0003168
-name: calculated brain infarction volume
+name: Calculated brain infarction volume
 def: "A measurement which has been normalized or adjusted by a mathematical process or computation of the brain infarction volume. A brain infarction is an area of necrotic tissue in the brain resulting from a reduction or obstruction of the oxygen or blood supply to the brain." []
 is_a: CMO:0001013 ! brain infarction volume
 created_by: sjwang
@@ -28544,7 +28541,7 @@ creation_date: 2019-05-22T11:34:41Z
 id: CMO:0003169
 name: cerebrum infarct volume to total cerebrum volume ratio
 def: "A calculated value in which the volume of cerebrum infarction is divided by the total volume of the cerebrum, and the result presented as a ratio, fraction or percentage, thus normalizing it to the size of the brain." []
-is_a: CMO:0003168 ! calculated brain infarction volume
+is_a: CMO:0003168 ! Calculated brain infarction volume
 created_by: sjwang
 creation_date: 2019-05-22T11:44:04Z
 
@@ -28817,7 +28814,7 @@ creation_date: 2019-07-22T15:26:26Z
 
 [Term]
 id: CMO:0003201
-name: left ventricle end-systolic wall stress 
+name: Left ventricle end-systolic wall stress 
 def: "Left ventricle end-systolic wall stress (LVES-WS)is calculated measurement of the force acting against the left ventricle wall at the endo of end of systole, the period of contraction of the heart when the blood is forced from the ventricles into the pulmonary artery (right ventricle) and the aorta (left ventricle). It is calculated by multiplying ventricular pressure by ventricular radius and dividing by 2 times the wall thickness. Commonly referred to as Law of Laplace (PMID: 2198115)" [PMID:PMID\: 2198115]
 synonym: "LVES-WS" RELATED []
 is_a: CMO:0002884 ! calculated left ventricular end-systolic blood pressure
@@ -28828,15 +28825,15 @@ creation_date: 2019-07-22T15:33:47Z
 id: CMO:0003202
 name: Myocardial interstitial angiotensin II level
 def: "Angiotensin II collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall." [PMID:PMID\: 22768235]
-is_obsolete: true
+is_a: CMO:0002863 ! heart molecular composition measurement
 created_by: sjwang
 creation_date: 2019-07-22T15:48:05Z
 
 [Term]
 id: CMO:0003203
-name: myocardial interstitial bradykinin level
-def: "Bradykinin found in the intercellular spaces of the myocardium." [PMID:PMID\: 22768235]
-is_obsolete: true
+name: Myocardial interstitial bradykinin
+def: "Bradykinin collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall - PMID: 22768235" [PMID:PMID\: 22768235]
+is_a: CMO:0002863 ! heart molecular composition measurement
 created_by: sjwang
 creation_date: 2019-07-22T15:57:30Z
 
@@ -28844,7 +28841,7 @@ creation_date: 2019-07-22T15:57:30Z
 id: CMO:0003204
 name: Myocardial interstitial norepinephrine
 def: "Norepinephrine collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall - PMID: 22768235" [PMID:PMID\: 22768235]
-is_obsolete: true
+is_a: CMO:0002863 ! heart molecular composition measurement
 created_by: sjwang
 creation_date: 2019-07-22T15:59:52Z
 
@@ -28852,7 +28849,7 @@ creation_date: 2019-07-22T15:59:52Z
 id: CMO:0003205
 name: Myocardial interstitial epinephrine
 def: "Epinephrine collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall - PMID: 22768235" [PMID:PMID\: 22768235]
-is_obsolete: true
+is_a: CMO:0002863 ! heart molecular composition measurement
 created_by: sjwang
 creation_date: 2019-07-22T16:01:55Z
 
@@ -28867,7 +28864,7 @@ creation_date: 2019-07-22T16:14:36Z
 
 [Term]
 id: CMO:0003207
-name: plasma bradykinin level
+name: Plasma bradykinin level
 def: "The amount of bradykinin in a specified sample of plasma. A linear nonapeptide messenger belonging to the kinin group of proteins, with amino acid sequence RPPGFSPFR. Enzymatically produced from kallidin in the blood, it is a powerful vasodilator that causes smooth muscle contraction, and may mediate inflammation." []
 synonym: "CHEBI:3165" RELATED []
 is_a: CMO:0003206 ! blood bradykinin level
@@ -28913,7 +28910,7 @@ creation_date: 2019-07-24T15:13:53Z
 
 [Term]
 id: CMO:0003212
-name: adrenal  angiotensin II type 1 receptor density
+name: Adrenal  angiotensin II type 1 receptor density
 def: "A measurement of the amount of angiotensin II type 1 receptor, the angiotensin receptor exhibiting vasopressor effects, regulation of aldosterone secretion and blood pressure and volume control, in a specified sample of adrenal tissue expressed relative to the weight of total protein in that sample." [https://en.wikipedia.org/wiki/Angiotensin_II_receptor_type_1 "wikipedia"]
 is_a: CMO:0002988 ! adrenal protein/peptide composition measurement
 created_by: sjwang
@@ -28929,7 +28926,7 @@ creation_date: 2019-07-24T15:57:45Z
 
 [Term]
 id: CMO:0003214
-name: plasma urotensin II level
+name: Plasma urotensin II level
 def: "The amount of urotensin II in a specified volume of plasma." []
 is_a: CMO:0003213 ! blood urotensin II level
 created_by: sjwang
@@ -28937,7 +28934,7 @@ creation_date: 2019-07-24T16:00:40Z
 
 [Term]
 id: CMO:0003215
-name: serum low density lipoprotein cholesterol to high density lipoprotein cholesterol ratio 
+name: Serum low density lipoprotein cholesterol to high density lipoprotein cholesterol ratio 
 def: "A calculated measurement in which the amount of LDL, relatively large-particle lipoproteins that transport cholesterol to extrahepatic tissue,in a specified volume of serum is divided by the amount of HDL, small-particle lipoproteins that promote transport of cholesterol from extrahepatic tissue to the liver for excretion in the bile, and presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "serum LDL-C to HDL-C ratio" RELATED []
 synonym: "serum LDL to HDL ratio" RELATED []
@@ -28949,7 +28946,7 @@ creation_date: 2019-07-25T13:26:32Z
 
 [Term]
 id: CMO:0003216
-name: aorta weight to body weight ratio
+name: Aorta weight to body weight ratio
 def: "A calculated measurement in which the weight of the aorta is divided by the total body weight of the organism." []
 is_a: CMO:0002721 ! calculated aorta morphological measurement
 created_by: sjwang
@@ -28957,7 +28954,7 @@ creation_date: 2019-07-25T13:38:29Z
 
 [Term]
 id: CMO:0003217
-name: urine albumin level to urine total protein level ratio
+name: Urine albumin level to urine total protein level ratio
 def: "A calculated measurement in which the amount of albumin in a specified sample of urine or the amount of albumin excreted into the urine in a specified period of time is divided by the amount of total protein in that sample of urine or the amount of total protein excreted into the urine in that period of time, and the result presented as a ratio, fraction, quotient or percentage." []
 is_a: CMO:0002922 ! calculated urine albumin level
 created_by: sjwang
@@ -28965,7 +28962,7 @@ creation_date: 2019-07-25T13:47:56Z
 
 [Term]
 id: CMO:0003218
-name: renal vascular resistance to kidney weight ratio
+name: Renal vascular resistance to kidney weight ratio
 is_a: CMO:0000160 ! calculated kidney weight
 is_a: CMO:0001899 ! calculated renal vascular resistance
 created_by: sjwang
@@ -28973,7 +28970,7 @@ creation_date: 2019-07-25T14:00:56Z
 
 [Term]
 id: CMO:0003219
-name: calculated heart left ventricle end-diastolic diameter
+name: Calculated heart left ventricle end-diastolic diameter
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the heart left ventricle end-diastolic internal diameter." []
 synonym: "Calculated heart left ventricle end-diastolic dimension" EXACT []
 synonym: "Calculated heart left ventricle end-diastolic internal dimension" RELATED []
@@ -28987,7 +28984,7 @@ name: heart left ventricle end-diastolic diameter to body weight ratio
 def: "A calculated measurement in which the heart left ventricle end-diastolic internal diameter is divided by the weight of the body, and the result presented as a ratio, fraction, quotient or percentage. Heart left ventricle end-diastolic internal dimension is the diameter across the left ventricle of the heart at the end of diastole, that is, when the heart muscle is maximally relaxed, and usually corresponds to its largest diameter." []
 synonym: "heart left ventricle end-diastolic dimension to body weight ratio" EXACT []
 synonym: "Heart left ventricle end-diastolic internal dimension index" RELATED []
-is_a: CMO:0003219 ! calculated heart left ventricle end-diastolic diameter
+is_a: CMO:0003219 ! Calculated heart left ventricle end-diastolic diameter
 created_by: sjwang
 creation_date: 2019-07-25T14:12:41Z
 
@@ -29009,21 +29006,21 @@ creation_date: 2019-07-30T15:40:30Z
 
 [Term]
 id: CMO:0003223
-name: percentage of CD4 positive cells expressing interferon gamma
+name: Percentage of CD4 positive cells expressing interferon gamma
 is_a: CMO:0003222 ! mononuclear cell interferon gamma expression
 created_by: sjwang
 creation_date: 2019-07-30T15:44:47Z
 
 [Term]
 id: CMO:0003224
-name: percentage of CD8 positive cells expressing interferon gamma
+name: Percentage of CD8 positive cells expressing interferon gamma
 is_a: CMO:0003222 ! mononuclear cell interferon gamma expression
 created_by: sjwang
 creation_date: 2019-07-30T15:45:59Z
 
 [Term]
 id: CMO:0003225
-name: osteoclast surface area to total bone area ratio
+name: Osteoclast surface area to total bone area ratio
 is_a: CMO:0000227 ! cell measurement
 created_by: sjwang
 creation_date: 2019-07-30T15:51:00Z
@@ -29046,7 +29043,7 @@ creation_date: 2019-08-01T11:24:17Z
 
 [Term]
 id: CMO:0003228
-name: serum pyrophosphate level
+name: Serum pyrophosphate level
 def: "Pyrophosphates are phosphorus oxyanions that contain two phosphorus atoms in a P-O-P linkage." []
 synonym: "CHEBI:18361" RELATED []
 is_a: CMO:0003229 ! blood pyrophosphate level 
@@ -29072,8 +29069,8 @@ creation_date: 2019-08-01T11:46:18Z
 
 [Term]
 id: CMO:0003231
-name: serum phosphate level to serum pyrophosphate ratio
-is_a: CMO:0003228 ! serum pyrophosphate level
+name: Serum phosphate level to serum pyrophosphate ratio
+is_a: CMO:0003228 ! Serum pyrophosphate level
 is_a: CMO:0003230 ! calculated serum phosphate level
 created_by: sjwang
 creation_date: 2019-08-01T11:48:30Z
@@ -29188,9 +29185,8 @@ creation_date: 2019-10-03T15:47:17Z
 [Term]
 id: CMO:0003246
 name: heart left ventricle interstitial angiotensin II level
-alt_id: CMO:0003202
-def: "Angiotensin II collected from the intercellular spaces of the left ventricle myocardium." []
-synonym: "heart left ventricle myocardium interstitial angiotensin II level" EXACT []
+synonym: "heart left ventricle myocardium interstitial angiotensin II level" RELATED []
+is_a: CMO:0003202 ! Myocardial interstitial angiotensin II level
 is_a: CMO:0003245 ! heart left ventricle angiotensin II level
 created_by: sjwang
 creation_date: 2019-10-03T15:49:43Z
@@ -29205,10 +29201,8 @@ creation_date: 2019-10-03T15:52:16Z
 [Term]
 id: CMO:0003248
 name: heart left ventricle interstitial bradykinin level
-alt_id: CMO:0003203
-def: "Bradykinin found in the intercellular spaces of the myocardium." []
-synonym: "heart left ventricle myocardial interstitial bradykinin level" EXACT []
-synonym: "myocardial interstitial bradykinin level" EXACT []
+synonym: "heart left ventricle myocardium interstitial bradykinin level" EXACT []
+is_a: CMO:0003203 ! Myocardial interstitial bradykinin
 is_a: CMO:0003247 ! heart left ventricle bradykinin level
 created_by: sjwang
 creation_date: 2019-10-03T15:53:55Z
@@ -29216,22 +29210,16 @@ creation_date: 2019-10-03T15:53:55Z
 [Term]
 id: CMO:0003249
 name: heart left ventricle interstitial epinephrine level
-alt_id: CMO:0003205
-def: "Epinephrine collected from the intercellular spaces of the left ventricle myocardium." []
-synonym: "heart left ventricle interstitial adrenaline level" EXACT []
-synonym: "heart left ventricle myocardium interstitial epinephrine level" EXACT []
-is_a: CMO:0003469 ! heart left ventricle epinephrine level
+synonym: "heart left ventricle myocardium interstitial epinephrine level" RELATED []
+is_a: CMO:0003205 ! Myocardial interstitial epinephrine
 created_by: sjwang
 creation_date: 2019-10-03T16:10:29Z
 
 [Term]
 id: CMO:0003250
 name: heart left ventricle interstitial norepinephrine level
-alt_id: CMO:0003204
-def: "Norepinephrine collected from the intercellular spaces of the left ventricle myocardium." []
-synonym: "heart left ventricle interstitial noradrenaline level" EXACT []
 synonym: "heart left ventricle myocardium interstitial norepinephrine level" RELATED []
-is_a: CMO:0003470 ! heart left ventricle norepinephrine level
+is_a: CMO:0003204 ! Myocardial interstitial norepinephrine
 created_by: sjwang
 creation_date: 2019-10-03T16:12:58Z
 
@@ -30881,275 +30869,6 @@ def: "The maximum slope of a body weight curve is the slope (m in y=mx+c) of the
 is_a: CMO:0003451 ! body weight growth curve measurement
 created_by: slaulede
 creation_date: 2020-06-18T17:31:02Z
-
-[Term]
-id: CMO:0003453
-name: brain mineral measurement
-def: "Any measurement of an inorganic element or compound containing a metal, nonmetal, radical, or phosphate that is needed for proper body function and maintenance of health, in brain, the portion of the central nervous system enclosed within the cranium which is composed of gray matter and white matter and is the primary center for the regulation and control of bodily activities, receiving and interpreting sensory impulses, and transmitting information to the muscles and body organs." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-is_a: CMO:0000911 ! brain measurement
-created_by: slaulede
-creation_date: 2020-06-22T13:33:04Z
-
-[Term]
-id: CMO:0003454
-name: brain copper measurement
-def: "Any measurement of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in brain, the portion of the central nervous system enclosed within the cranium which is composed of gray matter and white matter and is the primary center for the regulation and control of bodily activities, receiving and interpreting sensory impulses, and transmitting information to the muscles and body organs." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-is_a: CMO:0003453 ! brain mineral measurement
-created_by: slaulede
-creation_date: 2020-06-22T13:39:30Z
-
-[Term]
-id: CMO:0003455
-name: brain copper weight
-def: "Measurement of the weight or heaviness of the copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in a specified sample of brain." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-is_a: CMO:0002066 ! brain molecular composition measurement
-is_a: CMO:0003454 ! brain copper measurement
-created_by: slaulede
-creation_date: 2020-06-22T13:52:15Z
-
-[Term]
-id: CMO:0003456
-name: calculated brain copper weight
-def: "A measurement of the weight or heaviness of the copper in a specified sample of brain, when that measurement has been normalized, adjusted or derived by a mathematical process or computation." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-is_a: CMO:0003455 ! brain copper weight
-created_by: slaulede
-creation_date: 2020-06-22T13:57:15Z
-
-[Term]
-id: CMO:0003457
-name: brain total copper weight
-def: "Measurement of the total weight or heaviness of the copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in a whole brain." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "copper weight per whole brain" EXACT []
-synonym: "total brain copper weight" EXACT []
-is_a: CMO:0003455 ! brain copper weight
-created_by: slaulede
-creation_date: 2020-06-22T13:59:52Z
-
-[Term]
-id: CMO:0003458
-name: brain copper weight to body weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of brain is divided by the total weight of the body of the organism and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the organism" [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-is_a: CMO:0003456 ! calculated brain copper weight
-created_by: slaulede
-creation_date: 2020-06-22T14:14:12Z
-
-[Term]
-id: CMO:0003459
-name: brain copper weight to brain weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of brain is divided by the weight of that brain sample and presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-is_a: CMO:0003456 ! calculated brain copper weight
-created_by: slaulede
-creation_date: 2020-06-22T14:16:47Z
-
-[Term]
-id: CMO:0003460
-name: brain copper weight to brain dry weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of brain is divided by the dry weight of that brain sample, that is, the weight of the sample after dessication, and presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-xref: ISBN:978-1416049982
-is_a: CMO:0003459 ! brain copper weight to brain weight ratio
-created_by: slaulede
-creation_date: 2020-06-22T14:20:29Z
-
-[Term]
-id: CMO:0003461
-name: brain copper weight to brain wet weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of brain is divided by the wet weight of that brainsample, that is, the weight of the sample after removal from the body but without dessication, and presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-xref: ISBN:978-1416049982
-is_a: CMO:0003459 ! brain copper weight to brain weight ratio
-created_by: slaulede
-creation_date: 2020-06-22T14:47:57Z
-
-[Term]
-id: CMO:0003462
-name: blood mineral measurement
-def: "Any measurement of an inorganic element or compound containing a metal, nonmetal, radical, or phosphate that is needed for proper body function and maintenance of health, in blood." [Mosby:Mosbys_Medical_Dictionary--8th_Ed, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-is_a: CMO:0000023 ! blood chemistry measurement
-created_by: slaulede
-creation_date: 2020-06-22T15:06:16Z
-
-[Term]
-id: CMO:0003463
-name: blood copper level
-def: "The amount of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in a specified sample of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Saunders:Saunders\:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-is_a: CMO:0003462 ! blood mineral measurement
-created_by: slaulede
-creation_date: 2020-06-22T15:10:13Z
-
-[Term]
-id: CMO:0003464
-name: plasma copper level
-def: "The amount of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-is_a: CMO:0003463 ! blood copper level
-created_by: slaulede
-creation_date: 2020-06-22T15:52:15Z
-
-[Term]
-id: CMO:0003465
-name: serum copper level
-def: "The amount of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-xref: ISBN:978-1416049982
-is_a: CMO:0003463 ! blood copper level
-created_by: slaulede
-creation_date: 2020-06-22T15:56:19Z
-
-[Term]
-id: CMO:0003466
-name: blood ceruloplasmin level
-def: "The amount of ceruloplasmin in a specified sample of blood. Ceruloplasmin is a metalloprotein that binds most of the copper in plasma and is involved in the peroxidation of Fe(II)transferrin to Fe(III) transferrin." [RGD:2387]
-synonym: "blood bilitranslocase level" EXACT []
-synonym: "blood CERP level" EXACT []
-synonym: "blood CP levvel" EXACT []
-synonym: "blood ferroxidase level" EXACT []
-xref: RGD:2387
-is_a: CMO:0000028 ! blood protein measurement
-created_by: slaulede
-creation_date: 2020-06-22T16:43:30Z
-
-[Term]
-id: CMO:0003467
-name: plasma ceruloplasmin level
-def: "The amount of ceruloplasmin in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, RGD:2387]
-synonym: "plasma bilitranslocase level" EXACT []
-synonym: "plasma CERP level" EXACT []
-synonym: "plasma CP level" EXACT []
-synonym: "plasma ferroxidase level" EXACT []
-xref: ISBN:978-1416049982
-xref: RGD:2387
-is_a: CMO:0003466 ! blood ceruloplasmin level
-created_by: slaulede
-creation_date: 2020-06-22T16:49:18Z
-
-[Term]
-id: CMO:0003468
-name: serum ceruloplasmin level
-def: "The amount of ceruloplasmin in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, RGD:2387]
-synonym: "serum bilitranslocase level" EXACT []
-synonym: "serum CERP level" EXACT []
-synonym: "serum CP level" EXACT []
-synonym: "serum ferroxidase level" EXACT []
-xref: ISBN:978-1416049982
-xref: RGD:2387
-is_a: CMO:0003466 ! blood ceruloplasmin level
-created_by: slaulede
-creation_date: 2020-06-22T16:58:32Z
-
-[Term]
-id: CMO:0003469
-name: heart left ventricle epinephrine level
-def: "The amount in a specified sample of tissue from the heart left ventricle, of epinephrine, a catecholamine which can act as a neurotransmitter, a stress hormone, a stimulator of the sympathetic nervous system and a vasoconstrictor." [CMO:0002165, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "heart left ventricle adrenaline level" EXACT []
-xref: ISBN:978-1416049982
-is_a: CMO:0002164 ! heart left ventricle molecular composition measurement
-created_by: slaulede
-creation_date: 2020-06-25T15:35:37Z
-
-[Term]
-id: CMO:0003470
-name: heart left ventricle norepinephrine level
-def: "The amount in a specified sample of tissue from the heart left ventricle, of norepinephrine, a catecholamine neurotransmitter and stress hormone with multiple physiological roles including affects on heart rate, blood pressure and vascular tone." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, XCO:0000127]
-synonym: "heart left ventricle noradrenaline level" EXACT []
-xref: ISBN:978-1416049982
-xref: XCO:0000127
-is_a: CMO:0002164 ! heart left ventricle molecular composition measurement
-created_by: slaulede
-creation_date: 2020-06-25T15:43:54Z
-
-[Term]
-id: CMO:0003471
-name: heart left ventricle end-diastolic diameter to posterior wall thickness ratio
-def: "A calculated measurement in which the heart left ventricle end-diastolic internal diameter is divided by the posterior wall thickness, and the result presented as a ratio, fraction, quotient or percentage. Heart left ventricle end-diastolic internal dimension is the diameter across the left ventricle of the heart at the end of diastole, that is, when the heart muscle is maximally relaxed, and usually corresponds to its largest diameter." [PMID:22768235]
-xref: PMID:22768235
-is_a: CMO:0003219 ! calculated heart left ventricle end-diastolic diameter
-created_by: slaulede
-creation_date: 2020-06-25T17:26:40Z
-
-[Term]
-id: CMO:0003472
-name: kidney mineral measurement
-def: "Any measurement of an inorganic element or compound containing a metal, nonmetal, radical, or phosphate that is needed for proper body function and maintenance of health, in kidney, the organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes." [American_Heritage:American_Heritage\:The_American_Heritage_Medical_Dictionary_2007, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "renal mineral measurement" EXACT []
-is_a: CMO:0000906 ! kidney measurement
-created_by: slaulede
-creation_date: 2020-06-26T14:19:28Z
-
-[Term]
-id: CMO:0003473
-name: kidney copper measurement
-def: "Any measurement of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in kidney, the organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes." [American_Heritage:American_Heritage\:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "renal copper measurement" EXACT []
-is_a: CMO:0003472 ! kidney mineral measurement
-created_by: slaulede
-creation_date: 2020-06-26T14:23:28Z
-
-[Term]
-id: CMO:0003474
-name: kidney copper weight
-def: "Measurement of the weight or heaviness of the copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in a specified sample of kidney." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "renal copper weight" EXACT []
-xref: ISBN:978-1416049982
-is_a: CMO:0001852 ! kidney molecular composition measurement
-is_a: CMO:0003473 ! kidney copper measurement
-created_by: slaulede
-creation_date: 2020-06-26T14:36:40Z
-
-[Term]
-id: CMO:0003475
-name: kidney total copper weight
-def: "Measurement of the total weight or heaviness of the copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in one or both kidneys." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "renal total copper weight" EXACT []
-xref: ISBN:978-1416049982
-is_a: CMO:0003474 ! kidney copper weight
-created_by: slaulede
-creation_date: 2020-06-26T14:40:55Z
-
-[Term]
-id: CMO:0003476
-name: calculated kidney copper weight
-def: "A measurement of the weight or heaviness of the copper in a specified sample of kidney, when that measurement has been normalized, adjusted or derived by a mathematical process or computation." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-synonym: "calculated renal copper weight" EXACT []
-is_a: CMO:0003474 ! kidney copper weight
-created_by: slaulede
-creation_date: 2020-06-26T14:45:47Z
-
-[Term]
-id: CMO:0003477
-name: kidney copper weight to body weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of kidney is divided by the total weight of the body of the organism and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the organism." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "renal copper weight to body weight ratio" EXACT []
-xref: ISBN:978-1416049982
-is_a: CMO:0003476 ! calculated kidney copper weight
-created_by: slaulede
-creation_date: 2020-06-26T14:48:58Z
-
-[Term]
-id: CMO:0003478
-name: kidney copper weight to kidney dry weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of kidney is divided by the dry weight of that kidney sample, that is, the weight of the sample after dessication, and presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "renal copper weight to renal dry weight ratio" EXACT []
-xref: ISBN:978-1416049982
-is_a: CMO:0003479 ! kidney copper weight to kidney weight ratio
-created_by: slaulede
-creation_date: 2020-06-26T15:12:08Z
-
-[Term]
-id: CMO:0003479
-name: kidney copper weight to kidney weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of kidney is divided by the weight of that kidney sample and presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "renal copper weight to renal weight ratio" EXACT []
-xref: ISBN:978-1416049982
-is_a: CMO:0003476 ! calculated kidney copper weight
-created_by: slaulede
-creation_date: 2020-06-26T15:17:16Z
-
-[Term]
-id: CMO:0003480
-name: kidney copper weight to kidney wet weight ratio
-def: "A calculated measurement in which the weight of copper in a specified sample of kidney is divided by the wet weight of that kidney sample, that is, the weight of the sample after removal from the body but without dessication, and presented as a ratio, fraction, quotient or percentage" [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
-synonym: "renal copper weight to renal wet weight ratio" EXACT []
-xref: ISBN:978-1416049982
-is_a: CMO:0003479 ! kidney copper weight to kidney weight ratio
-created_by: slaulede
-creation_date: 2020-06-26T15:21:32Z
 
 [Typedef]
 id: part_of
