@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.100
-date: 18:07:2020 20:13
+data-version: 2.98
+date: 04:07:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: clinical_measurement_ontology
@@ -2920,9 +2920,7 @@ creation_date: 2010-12-13T09:32:14Z
 [Term]
 id: CMO:0000365
 name: total white blood cell count
-def: "The total number of leukocytes in a designated volume of blood." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
-synonym: "total leukocyte count" EXACT []
-synonym: "total white corpuscle count" EXACT []
+def: "The total number of leukocytes in 1 cubic millimeter of peripheral venous blood." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 is_a: CMO:0000027 ! white blood cell count
 created_by: mshimoyama
 creation_date: 2010-12-13T10:22:15Z
@@ -16537,7 +16535,6 @@ creation_date: 2013-11-05T19:10:21Z
 id: CMO:0001864
 name: immune cell measurement
 def: "Any value resulting from the quantification of a morphological or physiological parameter of one or more of the cells of the immune system, a complex set of interconnected and interdependent cellular and molecular components having the primary functions of distinguishing self from not self and of defense against foreign organisms or substances. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_a: CMO:0000227 ! cell measurement
 is_a: CMO:0001579 ! immune system measurement
 created_by: JSmith
 creation_date: 2013-11-07T16:05:25Z
@@ -21096,7 +21093,6 @@ name: white blood cell measurement
 def: "Any value resulting from the quantification of a morphological or physiological parameter of leukocytes, largely colorless blood corpuscles capable of ameboid movement, whose chief function is to protect the body against microorganisms and other disease-causing entities." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "leukocyte measurement" EXACT []
 is_a: CMO:0000035 ! blood measurement
-is_a: CMO:0000227 ! cell measurement
 created_by: JSmith
 creation_date: 2014-04-24T12:47:44Z
 
@@ -30712,7 +30708,7 @@ creation_date: 2020-06-04T17:05:15Z
 [Term]
 id: CMO:0003434
 name: metastatic lung tumor number
-def: "A value or quantity determined by count of metastatic tumors in the lung. A metastatic tumor in the lung is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the lung from the place where they first formed." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://www.cancer.gov/publications/dictionaries/cancer-terms/def/metastasis "NCI"]
+def: "A value or quantity determined by count of metastatic tumors in the lung. A metastatic tumor in the lung is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the lung from the place where they first formed." [American_Heritage:A value or quantity determined by count of colorectal tumors\, abnormal growths of tissue resulting from uncontrolled\, progressive multiplication of cells and serving no physiological function\, which occur in the large intestine, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, https://www.cancer.gov/publications/dictionaries/cancer-terms/def/metastasis "NCI"]
 synonym: "metastatic lung tumor count" EXACT []
 is_a: CMO:0003433 ! lung tumor number
 created_by: slaulede
@@ -31222,95 +31218,6 @@ synonym: "serum N-acetyl-&#946;-d-glucosaminidase activity level" EXACT []
 is_a: CMO:0003485 ! blood NAG activity level
 created_by: slaulede
 creation_date: 2020-06-29T18:56:09Z
-
-[Term]
-id: CMO:0003488
-name: kidney glomerular surface area
-def: "The measurement of the total glomerular surface area as delimited by the internal edge of Bowman's capsule." [PMID:12827026]
-synonym: "kidney glomerulus surface area" EXACT []
-xref: PMID:12827026
-is_a: CMO:0001165 ! kidney glomerulus morphological measurement
-created_by: slaulede
-creation_date: 2020-07-07T17:17:47Z
-
-[Term]
-id: CMO:0003489
-name: kidney glomerular tuft surface area
-def: "The tuft surface area is defined as the total glomerular surface area minus the urinary space area and the urinary recesses." [PMID:12827026]
-xref: PMID:12827026
-is_a: CMO:0003488 ! kidney glomerular surface area
-created_by: slaulede
-creation_date: 2020-07-07T17:24:08Z
-
-[Term]
-id: CMO:0003490
-name: urine mineral measurement 
-def: "Any measurement of an inorganic element or compound containing a metal, nonmetal, radical, or phosphate that is needed for proper body function and maintenance of health, in urine, the fluid waste product excreted by the kidneys." [ISBN-13: 978-0323049375, ISBN-13: 978-0702027895]
-is_a: CMO:0000256 ! urine measurement
-created_by: slaulede
-creation_date: 2020-07-10T17:11:50Z
-
-[Term]
-id: CMO:0003491
-name: urine copper measurement
-def: "Any measurement of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in urine, the fluid waste product excreted by the kidneys." [ISBN-13: 978-0702027895, ISBN-13: 978-1416062578]
-is_a: CMO:0003490 ! urine mineral measurement 
-created_by: slaulede
-creation_date: 2020-07-10T17:21:15Z
-
-[Term]
-id: CMO:0003492
-name: calculated urine copper measurement
-def: "Any measurement of urine copper which has been normalized or adjusted by a mathematical process or computation." [ISBN: 978-0-87779-809-5]
-is_a: CMO:0003491 ! urine copper measurement
-created_by: slaulede
-creation_date: 2020-07-10T17:26:15Z
-
-[Term]
-id: CMO:0003493
-name: urine copper level to urine creatinine level ratio
-def: "A calculated measurement in which the level of copper in a specified sample of urine is divided by the level of creatinine in that sample of urine and presented as a ratio, fraction, quotient or percentage." [ISBN-13: 978-1416062578]
-is_a: CMO:0003492 ! calculated urine copper measurement
-created_by: slaulede
-creation_date: 2020-07-10T17:33:46Z
-
-[Term]
-id: CMO:0003494
-name: cell ion flux
-def: "The movement of ions across biological membranes essential for generating electrical signals, regulating ion homeostasis, cell volume, and maintaining the resting membrane potential." [PMID:27916567]
-synonym: "cellular ion flux" EXACT []
-is_a: CMO:0000227 ! cell measurement
-created_by: slaulede
-creation_date: 2020-07-16T15:57:25Z
-
-[Term]
-id: CMO:0003495
-name: calculated cell ion flux
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of cellular ion flux." [ISBN-13: 978-0618082308 "American Heritage Dictionary", PMID:27916567]
-synonym: "calculated cellular ion flux" EXACT []
-is_a: CMO:0003494 ! cell ion flux
-created_by: slaulede
-creation_date: 2020-07-16T16:06:27Z
-
-[Term]
-id: CMO:0003496
-name: net sodium influx to blood lymphocyte dry weight ratio per unit time
-def: "A measurement, which has been derived by a mathematical process, of lymphocytes present in a sample of blood for which sodium flux was determined in samples of isolated cells following ex vivo assay and sample drying." [PMID:3611778]
-synonym: "net Na influx to blood lymphocyte dry weight ratio per unit time" EXACT []
-is_a: CMO:0000375 ! calculated white blood cell measurement
-is_a: CMO:0003495 ! calculated cell ion flux
-created_by: slaulede
-creation_date: 2020-07-16T17:21:03Z
-
-[Term]
-id: CMO:0003497
-name: net potassium efflux to blood lymphocyte dry weight ratio per unit time
-def: "A measurement, which has been derived by a mathematical process, of lymphocytes present in a sample of blood for which potassium flux was determined in samples of isolated cells following ex vivo assay and sample drying." [PMID:3611778]
-synonym: "net K efflux to blood lymphocyte dry weight ratio per unit time" EXACT []
-is_a: CMO:0000375 ! calculated white blood cell measurement
-is_a: CMO:0003495 ! calculated cell ion flux
-created_by: slaulede
-creation_date: 2020-07-16T17:27:02Z
 
 [Typedef]
 id: part_of
