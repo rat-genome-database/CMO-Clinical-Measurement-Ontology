@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.103
-date: 08:08:2020 20:13
+data-version: 2.102
+date: 01:08:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: clinical_measurement_ontology
@@ -17040,7 +17040,7 @@ name: renal plasma flow
 def: "The amount of plasma that perfuses the kidneys per unit time. Plasma is the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. The kidneys are the paired organs that function to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Renal_blood_flow "Wikipedia", ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "renal plasma flow rate" EXACT []
 synonym: "RPF" RELATED []
-is_a: CMO:0000907 ! renal blood flow rate
+is_a: CMO:0003419 ! kidney physiological measurement
 created_by: JSmith
 creation_date: 2013-11-19T14:28:34Z
 
@@ -26921,12 +26921,11 @@ creation_date: 2018-12-27T10:05:44Z
 
 [Term]
 id: CMO:0002968
-name: single glomerular afferent plasma flow
-def: "Volume of blood plasma delivered to a single glomerulus per unit time" [E-Book:Brenner and Rector's The Kidney E-Book, PMID:24875196]
-synonym: "glomerular capillary plasma flow rate" EXACT []
-synonym: "glomerular plasma flow rate" EXACT []
+name: glomerular capillary plasma flow rate
+def: "Volume of blood plasma delivered to a single glomerulus per unit time" [E-Book:Brenner and Rector's The Kidney E-Book]
 synonym: "Qa" EXACT []
 is_a: CMO:0001917 ! calculated renal plasma flow
+is_a: CMO:0002931 ! calculated glomerular filtration rate
 created_by: sjwang
 creation_date: 2018-12-27T11:44:39Z
 
