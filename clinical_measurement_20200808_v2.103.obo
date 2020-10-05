@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.110
-date: 03:10:2020 20:13
+data-version: 2.103
+date: 08:08:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: clinical_measurement_ontology
@@ -2536,7 +2536,7 @@ creation_date: 2010-09-01T08:18:12Z
 id: CMO:0000320
 name: retina cell count
 def: "Number of cells in a specified sample of the innermost coat lining of the interior of the eyeball." [Wikipedia:en.wikipedia.org]
-is_obsolete: true
+is_a: CMO:0000227 ! cell measurement
 created_by: mshimoyama
 creation_date: 2010-09-01T08:19:08Z
 
@@ -4644,9 +4644,10 @@ id: CMO:0000574
 name: blood alanine aminotransferase activity level
 def: "The amount of enzymatic activity of glutamic-pyruvate transaminase enzyme, commonly known as alanine transaminase or alanine aminotransferase (ALT), enzyme in a specified sample of blood. ALT catalyzes the reversible transamination between alanine and 2-oxoglutarate to generate pyruvate and glutamate. Blood ALT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Creatine_kinase "Wikipedia", RGD:737472]
 synonym: "blood alanine transaminase activity level" EXACT []
-synonym: "blood ALT activity level" EXACT []
+synonym: "blood ALT activity level" RELATED []
 synonym: "blood glutamic-pyruvate transaminase activity level" EXACT []
-synonym: "blood GPT activity level" EXACT []
+synonym: "blood GPT activity level" RELATED []
+is_a: CMO:0000023 ! blood chemistry measurement
 is_a: CMO:0000064 ! blood enzyme activity level
 created_by: mshimoyama
 creation_date: 2011-11-02T04:09:38Z
@@ -9070,7 +9071,7 @@ creation_date: 2012-09-04T02:00:48Z
 [Term]
 id: CMO:0001071
 name: area of individual liver tumorous lesion
-def: "A measurement of the extent of a two-dimensional surface of, or of a plane through an individual tumorous lesion in the liver. A tumorous lesion is one which is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors and preneoplastic lesions, as well as hyperplastic lesions composed of histologically normal cells." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A measurement of the extent of a two-dimensional surface of or plane through an individual tumorous lesion in the liver. A tumorous lesion is one which is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors and preneoplastic lesions, as well as hyperplastic lesions composed of histologically normal cells." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: CMO:0001070 ! liver tumorous lesion area measurement
 created_by: jsmith
 creation_date: 2012-09-04T02:03:24Z
@@ -9086,7 +9087,7 @@ creation_date: 2012-09-04T02:03:40Z
 [Term]
 id: CMO:0001073
 name: calculated liver tumorous lesion area measurement
-def: "Measurement of the extent of a two-dimensional surface or plane through an individual tumorous lesion in the liver, or a measurement of the total area occupied by tumorous lesions in a cross-section of the liver when such a measurement has been normalized or adjusted by a mathematical process or computation." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
+def: "Measurement of the extent of a two-dimensional surface of or plane through an individual tumorous lesion in the liver, or a measurement of the total area occupied by tumorous lesions in a cross-section of the liver when such a measurement has been normalized or adjusted by a mathematical process or computation." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 is_a: CMO:0001070 ! liver tumorous lesion area measurement
 created_by: jsmith
 creation_date: 2012-09-04T02:03:59Z
@@ -11586,7 +11587,6 @@ creation_date: 2013-01-10T16:09:55Z
 id: CMO:0001349
 name: plateletcrit
 def: "The proportion of blood volume that is occupied by platelets, expressed as a percentage." [QTLdb:CAP]
-synonym: "thrombocrit" EXACT []
 is_a: CMO:0003100 ! platelet morphological measurement
 created_by: JSmith
 creation_date: 2013-01-10T16:24:24Z
@@ -11594,8 +11594,8 @@ creation_date: 2013-01-10T16:24:24Z
 [Term]
 id: CMO:0001350
 name: platelet distribution width
-def: "A measurement of platelet anisocytosis calculated from the distribution of individual platelet volumes." [https://www.sciencedirect.com/topics/immunology-and-microbiology/platelet-distribution-width, QTLdb:CAP]
-is_a: CMO:0003525 ! calculated platelet morphological measurement
+def: "Measure of variation in platelet size." [QTLdb:CAP]
+is_a: CMO:0003100 ! platelet morphological measurement
 created_by: JSmith
 creation_date: 2013-01-10T16:25:40Z
 
@@ -16336,8 +16336,8 @@ creation_date: 2013-10-16T13:25:11Z
 [Term]
 id: CMO:0001843
 name: thymocyte count
-def: "Measurement of the number of immature lymphocytes in the thymus. The thymus is the lymphoid organ which is the site of the proliferation, differentiation and maturation of T lymphocytes, and of the production of hormones such as thymopoietin and thymosin which control these processes." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "thymic lymphocyte count" EXACT []
+def: "Measurement of the number of lymphocytes, i.e. immature T cells, in the thymus. The thymus is the lymphoid organ which is the site of the proliferation, differentiation and maturation of T lymphocytes, and of the production of hormones such as thymopoietin and thymosin which control these processes." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "thymic lymphocyte cound" EXACT []
 synonym: "thymus immature T cell count" EXACT []
 is_a: CMO:0001841 ! thymus cell count
 created_by: JSmith
@@ -19014,8 +19014,6 @@ name: spleen mononuclear cell count
 def: "Determination of the number of mononuclear cells, i.e. leukocytes such as lymphocytes and monocytes with a single round or oval nucleus found in a specified sample of spleen, the highly vascular lymphoid organ which serves to store blood, disintegrate old blood cells, filter foreign substances from the blood, and produce lymphocytes." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "spleen mononuclear cell number" RELATED []
 synonym: "splenic mononuclear cell count" EXACT []
-synonym: "splenocyte count" BROAD []
-is_a: CMO:0001865 ! immune cell count
 is_a: CMO:0002117 ! spleen cell count
 is_a: CMO:0002119 ! mononuclear cell count
 created_by: JSmith
@@ -19032,11 +19030,10 @@ creation_date: 2014-01-27T16:18:54Z
 
 [Term]
 id: CMO:0002122
-name: IFNG-secreting splenocyte count
-def: "Determination of the number of mononuclear cells that secrete (i.e. produce and release) interferon gamma (IFNG), found in a specified sample of spleen, the highly vascular lymphoid organ which serves to store blood, disintegrate old blood cells, filter foreign substances from the blood, and produce lymphocytes. Ifng is a member of the type II interferon family which is a soluble cytokine with antiviral, immunoregulatory and anti-tumor properties and functions as a potent activator of macrophages." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, RGD:737487]
+name: splenic interferon gamma-secreting mononuclear cell count
+def: "Determination of the number of mononuclear cells that secrete (i.e. produce and release) interferon gamma (Ifng), found in a specified sample of spleen, the highly vascular lymphoid organ which serves to store blood, disintegrate old blood cells, filter foreign substances from the blood, and produce lymphocytes. Ifng is a member of the type II interferon family which is a soluble cytokine with antiviral, immunoregulatory and anti-tumor properties and functions as a potent activator of macrophages." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, RGD:737487]
 synonym: "spleen interferon gamma-secreting mononuclear cell count" EXACT []
 synonym: "splenic IFN gamma-secreting mononuclear cell count" RELATED []
-synonym: "splenic interferon gamma-secreting mononuclear cell count" EXACT []
 is_a: CMO:0002120 ! spleen mononuclear cell count
 created_by: JSmith
 creation_date: 2014-01-27T16:29:49Z
@@ -22358,9 +22355,9 @@ creation_date: 2014-06-12T12:28:45Z
 
 [Term]
 id: CMO:0002467
-name: blood acetaminophen level
-def: "Measurement of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "blood paracetamol level" EXACT []
+name: blood paracetamol level
+def: "Measurement of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "blood acetaminophen level" EXACT []
 xref: CHEBI:46195
 is_a: CMO:0002466 ! blood xenobiotic level
 created_by: JSmith
@@ -22368,65 +22365,65 @@ creation_date: 2014-06-12T12:36:43Z
 
 [Term]
 id: CMO:0002468
-name: serum acetaminophen level
-def: "Measurement of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "serum paracetamol level" EXACT []
+name: serum paracetamol level
+def: "Measurement of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "serum acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002467 ! blood acetaminophen level
+is_a: CMO:0002467 ! blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:37:54Z
 
 [Term]
 id: CMO:0002469
-name: plasma acetaminophen level
-def: "Measurement of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-synonym: "plasma paracetamol level" EXACT []
+name: plasma paracetamol level
+def: "Measurement of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+synonym: "plasma acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002467 ! blood acetaminophen level
+is_a: CMO:0002467 ! blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:37:58Z
 
 [Term]
 id: CMO:0002470
-name: calculated blood acetaminophen level
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-synonym: "calculated blood paracetamol level" EXACT []
+name: calculated blood paracetamol level
+def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
+synonym: "calculated blood acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002467 ! blood acetaminophen level
+is_a: CMO:0002467 ! blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:40:26Z
 
 [Term]
 id: CMO:0002471
-name: blood acetaminophen level area under curve
-def: "A calculated measurement in which a series of measurements of the amount of acetaminophen in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
-synonym: "blood acetaminophen AUC" RELATED []
-synonym: "blood paracetamol level area under curve (AUC)" EXACT []
+name: blood paracetamol level area under curve (AUC)
+def: "A calculated measurement in which a series of measurements of the amount of paracetamol (also known as acetaminophen) in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
+synonym: "blood  acetaminofen AUC" RELATED []
+synonym: "blood acetaminofen level area under curve" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002470 ! calculated blood acetaminophen level
+is_a: CMO:0002470 ! calculated blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:42:03Z
 
 [Term]
 id: CMO:0002472
-name: calculated plasma acetaminophen level
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-synonym: "calculated plasma paracetamol level" EXACT []
+name: calculated plasma paracetamol level
+def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+synonym: "calculated plasma acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002469 ! plasma acetaminophen level
-is_a: CMO:0002470 ! calculated blood acetaminophen level
+is_a: CMO:0002469 ! plasma paracetamol level
+is_a: CMO:0002470 ! calculated blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:46:58Z
 
 [Term]
 id: CMO:0002473
-name: plasma acetaminophen level area under curve
-def: "A calculated measurement in which a series of measurements of the amount of acetaminophen in a specified volume of plasma is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
+name: plasma paracetamol level area under curve (AUC)
+def: "A calculated measurement in which a series of measurements of the amount of paracetamol (also known as acetaminophen) in a specified volume of plasma is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
 synonym: "plasma acetaminophen AUC" RELATED []
-synonym: "plasma paracetamol level area under curve (AUC)" EXACT []
+synonym: "plasma acetaminophen level area under curve" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002471 ! blood acetaminophen level area under curve
-is_a: CMO:0002472 ! calculated plasma acetaminophen level
+is_a: CMO:0002471 ! blood paracetamol level area under curve (AUC)
+is_a: CMO:0002472 ! calculated plasma paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:48:31Z
 
@@ -23578,24 +23575,24 @@ creation_date: 2014-10-29T10:36:08Z
 
 [Term]
 id: CMO:0002598
-name: calculated serum acetaminophen level
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "calculated serum paracetamol level" EXACT []
+name: calculated serum paracetamol level
+def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "calculated serum acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002468 ! serum acetaminophen level
-is_a: CMO:0002470 ! calculated blood acetaminophen level
+is_a: CMO:0002468 ! serum paracetamol level
+is_a: CMO:0002470 ! calculated blood paracetamol level
 created_by: JSmith
 creation_date: 2014-10-31T17:13:09Z
 
 [Term]
 id: CMO:0002599
-name: serum acetaminophen level area under curve
-def: "A calculated measurement in which a series of measurements of the amount of acetaminophen in a specified volume of serum is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
+name: serum paracetamol level area under curve (AUC)
+def: "A calculated measurement in which a series of measurements of the amount of paracetamol (also known as acetaminophen)  in a specified volume of serum is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
 synonym: "serum acetaminophen AUC" RELATED []
-synonym: "serum paracetamol level area under curve (AUC)" EXACT []
+synonym: "serum acetaminophen level area under curve" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002471 ! blood acetaminophen level area under curve
-is_a: CMO:0002598 ! calculated serum acetaminophen level
+is_a: CMO:0002471 ! blood paracetamol level area under curve (AUC)
+is_a: CMO:0002598 ! calculated serum paracetamol level
 created_by: JSmith
 creation_date: 2014-10-31T17:17:00Z
 
@@ -25103,9 +25100,6 @@ creation_date: 2017-07-20T13:21:12Z
 id: CMO:0002758
 name: urine protein level to urine creatinine level ratio
 def: "A calculated measurement in which the amount of protein in a specified sample of urine or the amount of protein excreted into the urine in a specified period of time is divided by the amount of creatinine in that sample of urine or the amount of creatinine excreted into the urine in that period of time, and the result presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "PCR" EXACT []
-synonym: "Protein Creatine Ratio" EXACT []
-synonym: "UPCR" EXACT []
 synonym: "urine protein/creatinine ratio" EXACT []
 is_a: CMO:0000949 ! calculated urine protein level
 created_by: jesmith
@@ -27872,8 +27866,7 @@ creation_date: 2019-03-19T16:01:25Z
 
 [Term]
 id: CMO:0003081
-name: retina morphological measurement
-synonym: "retinal layer morphological measurement" EXACT []
+name: retinal layer morphological measurement
 is_a: CMO:0003080 ! eye morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:03:47Z
@@ -27882,7 +27875,7 @@ creation_date: 2019-03-19T16:03:47Z
 id: CMO:0003082
 name: full retina thickness
 def: "Measurement of the thickness of the full retina between the apical portion of the retinal pigment epithelium and the outer margin of the ganglion cell layer." [PMID:25361751]
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:08:55Z
 
@@ -27890,7 +27883,7 @@ creation_date: 2019-03-19T16:08:55Z
 id: CMO:0003083
 name: retinal outer layer thickness 
 def: "The outer retinal thickness is defined as straight lines between outer plexiform layer to the apical layer of the retinal pigment epithelium perpendicular to the retinal layer measured.The measurement usually is done by optical coherence tomography (OCT)." [PMID:25361751]
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:11:22Z
 
@@ -27898,7 +27891,7 @@ creation_date: 2019-03-19T16:11:22Z
 id: CMO:0003084
 name: retinal inner layer thickness
 def: "The inner retinal thickness is defined as straight lines between outer plexiform layer to the vitreous perpendicular to the retinal layer measured.The measurement usually is done by optical coherence tomography (OCT)." []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:16:29Z
 
@@ -27907,7 +27900,7 @@ id: CMO:0003085
 name: retinal outer nuclear layer photoreceptor nucleus count
 def: "The number of photoreceptor nuclei in the retinal outer nuclear layer." []
 synonym: "retinal ONL photoreceptor nucleus count" EXACT []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:32:04Z
 
@@ -27915,7 +27908,7 @@ creation_date: 2019-03-19T16:32:04Z
 id: CMO:0003086
 name: retinal outer nuclear layer thickness 
 def: "The measurement of the thickness of the retinal layer that contains the nuclei and cell bodies of rods and cones." []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:40:31Z
 
@@ -28513,7 +28506,7 @@ creation_date: 2019-05-06T10:42:45Z
 [Term]
 id: CMO:0003163
 name: kidney total CD3 positive T cell count
-def: "The number of CD3-positive T cells in the kidney." []
+def: "The number of CD3-positive T cell in the kidney." []
 is_a: CMO:0003164 ! kidney cellular composition measurement
 created_by: sjwang
 creation_date: 2019-05-08T15:54:11Z
@@ -28546,7 +28539,7 @@ creation_date: 2019-05-09T11:28:38Z
 id: CMO:0003167
 name: spleen regulatory T cell count to total T cell count ratio
 def: "Measurement of the relative abundance of regulatory T cells in the spleen. Regulatory T cells control or suppress T cell mediated immune response. Regulatory T cells are generally distinguished from other classes of lymphocytes on the basis of the presence and/or absence of a number of specific cell surface marker proteins." []
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
+is_a: CMO:0002120 ! spleen mononuclear cell count
 created_by: sjwang
 creation_date: 2019-05-09T11:39:40Z
 
@@ -31437,525 +31430,6 @@ synonym: "serum ProANF 3-67 peptide level" EXACT []
 is_a: CMO:0003506 ! blood proANF 31-67 peptide level
 created_by: slaulede
 creation_date: 2020-07-27T17:35:34Z
-
-[Term]
-id: CMO:0003509
-name: blood 11-dehydrocorticosterone level
-def: "The amount of 11-dehydrocorticosterone, an 11-oxo steroid that is corticosterone in which the hydroxy substituent at the 11beta position has been oxidized to give the corresponding ketone, found in a specific volume of blood." [CHEBI:78600, ISBN:9780618824359 "ISBN 13"]
-synonym: "blood 11-DHC level" EXACT []
-synonym: "blood dehydrocorticosterone level" EXACT []
-xref: CHEBI:78600
-is_a: CMO:0001172 ! blood corticosterone level
-created_by: slaulede
-creation_date: 2020-08-13T18:23:42Z
-
-[Term]
-id: CMO:0003510
-name: plasma 11-dehydrocorticosterone level
-def: "The amount of 11-dehydrocorticosterone, an 11-oxo steroid that is corticosterone in which the hydroxy substituent at the 11beta position has been oxidized to give the corresponding ketone, found in a specific volume of plasma." [CHEBI:78600, ISBN:9780618824359]
-synonym: "plasma 11-DHC level" EXACT []
-synonym: "plasma dehydrocorticosterone level" EXACT []
-xref: CHEBI:78600
-is_a: CMO:0003509 ! blood 11-dehydrocorticosterone level
-created_by: slaulede
-creation_date: 2020-08-13T18:31:47Z
-
-[Term]
-id: CMO:0003511
-name: serum 11-dehydrocorticosterone level
-def: "The amount of 11-dehydrocorticosterone, an 11-oxo steroid that is corticosterone in which the hydroxy substituent at the 11beta position has been oxidized to give the corresponding ketone, found in a specific volume of serum." [CHEBI:78600, ISBN:9780618824359]
-synonym: "plasma 11-DHC level" EXACT []
-synonym: "plasma dehydrocorticosterone level" EXACT []
-xref: CHEBI:78600
-is_a: CMO:0003509 ! blood 11-dehydrocorticosterone level
-created_by: slaulede
-creation_date: 2020-08-14T10:08:08Z
-
-[Term]
-id: CMO:0003512
-name: calculated blood corticosterone level
-def: "Measurement of the amount of corticosterone in a specified volume of blood, which has been normalized, adjusted or derived by a mathematical process or computation." [ISBN:9780618824359]
-synonym: "11&#946;,21-dihydroxyprogesterone" EXACT []
-synonym: "17-deoxycortisol" EXACT []
-xref: CHEBI:16827
-xref: D003345
-is_a: CMO:0001172 ! blood corticosterone level
-created_by: slaulede
-creation_date: 2020-08-14T10:12:08Z
-
-[Term]
-id: CMO:0003513
-name: calculated plasma corticosterone level
-def: "Measurement of the amount of corticosterone in a specified volume of plasma, which has been normalized, adjusted or derived by a mathematical process or computation." [ISBN:9780618824359]
-synonym: "calculated plasma 11&#946;,21-dihydroxyprogesterone level" EXACT []
-synonym: "calculated plasma 17-deoxycortisol level" EXACT []
-xref: CHEBI:16827
-xref: D003345
-is_a: CMO:0003512 ! calculated blood corticosterone level
-created_by: slaulede
-creation_date: 2020-08-14T10:43:04Z
-
-[Term]
-id: CMO:0003514
-name: plasma corticosterone level to 11-dehydrocorticosterone level ratio
-def: "A calculated measurement in which the amount of corticosterone in a sample of plasma is divided by the amount of 11-dehydrocorticosterone in that sample and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the 11-dehydrocorticosterone level." [ISBN:9780618824359]
-synonym: "plasma corticosterone level to 11&#946;,21-dihydroxyprogesterone level ratio" EXACT []
-synonym: "plasma corticosterone level to 17-deoxycortisol level ratio" EXACT []
-xref: CHEBI:16827
-xref: D003345
-is_a: CMO:0003513 ! calculated plasma corticosterone level
-created_by: slaulede
-creation_date: 2020-08-14T10:52:10Z
-
-[Term]
-id: CMO:0003515
-name: necrotic liver tumorous lesion area to total liver tumorous lesion area ratio
-def: "A calculated value in which the area of a liver tumorous lesion occupied by necrosis is divided by the total area of that individual liver tumorous lesion and presented as a ratio, percentage, fraction or quotient, thus normalizing it to the size of the liver tumorous lesion." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN-13:978-1416049982]
-synonym: "percentage of tumor necrosis" EXACT []
-is_a: CMO:0001073 ! calculated liver tumorous lesion area measurement
-created_by: slaulede
-creation_date: 2020-08-18T16:36:00Z
-
-[Term]
-id: CMO:0003516
-name: area of necrosis in liver tumorous lesion
-def: "A measurement of the extent of necrosis in a two-dimensional surface of, or in a plane through an individual tumorous lesion in the liver." [PMID:32178957]
-xref: PMID:32178957
-is_a: CMO:0001071 ! area of individual liver tumorous lesion
-created_by: slaulede
-creation_date: 2020-08-20T11:18:32Z
-
-[Term]
-id: CMO:0003517
-name: CD3+ thymocyte count
-def: "The number of thymocytes expressing CD3 molecules on their surface in a specified sample of thymus tissue. The CD3 complex, including five CD3 subunits, binds either TCR alpha/beta or TCR gamma/delta to form the TCR/CD3 complex on the surface of T-cells. The thymus is the lymphoid organ which is the site of the proliferation, differentiation and maturation of T lymphocytes, and of the production of hormones such as thymopoietin and thymosin, which control these processes." [ISBN-13:978-1416062578, RGD:736987]
-synonym: "CD3-positive thymocyte count" EXACT []
-is_a: CMO:0001843 ! thymocyte count
-created_by: slaulede
-creation_date: 2020-09-01T18:03:56Z
-
-[Term]
-id: CMO:0003518
-name: blood amylase activity level
-def: "The amount of enzymatic activity of amylase, a digestive enzyme that helps the body break down carbohydrates, in a specified sample of blood. Both the salivary glands and the pancreas produce amylase. Blood amylase level is used to diagnose or monitor a problem with the pancreas." [https://medlineplus.gov/lab-tests/amylase-test/, https://www.medicalnewstoday.com/articles/324521]
-is_a: CMO:0000064 ! blood enzyme activity level
-created_by: slaulede
-creation_date: 2020-09-04T16:19:32Z
-
-[Term]
-id: CMO:0003519
-name: serum amylase activity level
-def: "The amount of enzymatic activity of amylase, a digestive enzyme that helps the body break down carbohydrates, in a specified sample of serum. Both the salivary glands and the pancreas produce amylase. Blood amylase level is used to diagnose or monitor a problem with the pancreas." [https://medlineplus.gov/lab-tests/amylase-test/, https://www.medicalnewstoday.com/articles/324521]
-is_a: CMO:0003518 ! blood amylase activity level
-created_by: slaulede
-creation_date: 2020-09-04T16:41:34Z
-
-[Term]
-id: CMO:0003520
-name: plasma amylase activity leve
-def: "The amount of enzymatic activity of amylase, a digestive enzyme that helps the body break down carbohydrates, in a specified sample of plasma. Both the salivary glands and the pancreas produce amylase. Blood amylase level is used to diagnose or monitor a problem with the pancreas." [https://medlineplus.gov/lab-tests/amylase-test/, https://www.medicalnewstoday.com/articles/324521]
-is_a: CMO:0003518 ! blood amylase activity level
-created_by: slaulede
-creation_date: 2020-09-04T16:44:18Z
-
-[Term]
-id: CMO:0003521
-name: apoptotic hypodiploid thymocyte count to total thymocyte count ratio
-def: "A calculated measurement in which the number of hypodiploid thymocytes displaying apoptotic features in a specified sample of thymus is divided by the total number of thymocytes in the sample, and the result presented as a ratio, fraction, quotient or percentage. Hypodiploid is the condition of having slightly fewer than the diploid number of chromosomes and apoptosis is a programmed cell death process which proceeds through a series of specific biochemical events." [GO:0006915, ISBN-13:978-1416062578]
-is_a: CMO:0001097 ! calculated apoptotic cell measurement
-is_a: CMO:0003522 ! calculated thymocyte count 
-created_by: slaulede
-creation_date: 2020-09-08T12:40:29Z
-
-[Term]
-id: CMO:0003522
-name: calculated thymocyte count 
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of one or more of the various, specific types of thymocytes present in a sample of thymus for which a total thymocyte count was taken." [ISBN-13:978-1416062578]
-is_a: CMO:0001843 ! thymocyte count
-created_by: slaulede
-creation_date: 2020-09-08T12:48:42Z
-
-[Term]
-id: CMO:0003523
-name: G0 stage diploid thymocyte count to total thymocyte count ratio
-def: "A calculated measurement in which the number of G0 stage diploid thymocytes in a specified sample of thymus is divided by the total number of thymocytes in the sample, and the result presented as a ratio, fraction, quotient or percentage. Diploid is the condition of having two sets of homologous chromosomes and G0 is a cell cycle quiescent stage ." [https://www.merriam-webster.com/dictionary/dictionary, ISBN-13:978-1416062578]
-is_a: CMO:0003522 ! calculated thymocyte count 
-created_by: slaulede
-creation_date: 2020-09-08T13:09:37Z
-
-[Term]
-id: CMO:0003524
-name: G2/M stage tetraploid thymocyte count to total thymocyte count ratio
-def: "A calculated measurement in which the number of G2/M stage tetraploid thymocytes in a specified sample of thymus is divided by the total number of thymocytes in the sample, and the result presented as a ratio, fraction, quotient or percentage. Tetraploid is the condition of having four sets of homologous chromosomes and G2/M is a cell cycle checkpoint which assures that mitosis doesn't proceed until DNA replication/repair is finished ." [ISBN-13:978-1416062578, PMID:12503848]
-is_a: CMO:0003522 ! calculated thymocyte count 
-created_by: slaulede
-creation_date: 2020-09-08T13:55:53Z
-
-[Term]
-id: CMO:0003525
-name: calculated platelet morphological measurement
-def: "A quantification which has been normalized, adjusted or derived by a mathematical process or computation of the measurement of the physical form or structure of platelets, the disk-shaped structures found in the blood of mammals which play a vital role in blood coagulation. Platelets lack nuclei and DNA but contain active enzymes and mitochondria." [ISBN-13:978-1416062578, ISBN:978-0-87779-809-5]
-is_a: CMO:0003100 ! platelet morphological measurement
-created_by: slaulede
-creation_date: 2020-09-10T14:53:39Z
-
-[Term]
-id: CMO:0003526
-name: platelet distribution width (percentage)
-def: "A measurement of platelet anisocytosis calculated from the distribution of individual platelet volumes and reported as percentage." [https://www.sciencedirect.com/topics/immunology-and-microbiology/platelet-distribution-width, QTLdb:CAP]
-is_a: CMO:0003525 ! calculated platelet morphological measurement
-created_by: slaulede
-creation_date: 2020-09-10T15:03:44Z
-
-[Term]
-id: CMO:0003527
-name: CD4+CD8- thymocyte count
-def: "The number of thymocytes expressing CD4 molecules but not CD8 molecules on their surface in a specified sample of thymus tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD8 molecule is a cell surface glycoprotein found on most cytotoxic T lymphocytes that mediates efficient cell-cell interactions within the immune system." [RGD:735285, RGD:735603]
-is_a: CMO:0001843 ! thymocyte count
-created_by: slaulede
-creation_date: 2020-09-10T18:41:43Z
-
-[Term]
-id: CMO:0003528
-name: CD4+CD8+ thymocyte count
-def: "The number of thymocytes expressing both CD4 and CD8 molecules on their surface in a specified sample of thymus tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD8 molecule is a cell surface glycoprotein found on most cytotoxic T lymphocytes that mediates efficient cell-cell interactions within the immune system." [RGD:735285, RGD:735603]
-is_a: CMO:0001843 ! thymocyte count
-created_by: slaulede
-creation_date: 2020-09-11T13:55:37Z
-
-[Term]
-id: CMO:0003529
-name: CD4-CD8+ thymocyte count
-def: "The number of thymocytes expressing CD8 molecules but not CD4 molecules on their surface in a specified sample of thymus tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD8 molecule is a cell surface glycoprotein found on most cytotoxic T lymphocytes that mediates efficient cell-cell interactions within the immune system." [RGD:735285, RGD:735603]
-is_a: CMO:0001843 ! thymocyte count
-created_by: slaulede
-creation_date: 2020-09-11T13:58:51Z
-
-[Term]
-id: CMO:0003530
-name: CD4+CD25+ thymocyte count
-def: "The number of thymocytes expressing both CD4 and CD25 molecules on their surface in a specified sample of thymus tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD25 molecule (IL2RA) is normally an integral-membrane protein, but soluble IL2RA has been isolated and determined to result from extracellular proteolysis." [RGD:735285, RGD:735603]
-is_a: CMO:0001843 ! thymocyte count
-created_by: slaulede
-creation_date: 2020-09-11T14:40:34Z
-
-[Term]
-id: CMO:0003531
-name: CD4+CD25+ splenocyte count
-def: "The number of splenocytes expressing both CD4 and CD25 molecules on their surface in a specified sample of spleen tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD25 molecule (IL2RA) is normally an integral-membrane protein, but soluble IL2RA has been isolated and determined to result from extracellular proteolysis." [RGD:735285, RGD:735603]
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-11T15:25:15Z
-
-[Term]
-id: CMO:0003532
-name: CD4+CD25- splenocyte count
-def: "The number of splenocytes expressing CD4 molecules, but not CD25 molecules on their surface in a specified sample of spleen tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD25 molecule (IL2RA) is normally an integral-membrane protein, but soluble IL2RA has been isolated and determined to result from extracellular proteolysis." [RGD:735285, RGD:735603]
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-11T15:43:51Z
-
-[Term]
-id: CMO:0003533
-name: CD3+ splenocyte count
-def: "The number of splenocytes expressing CD3 molecules on their surface in a specified sample of spleen, the highly vascular lymphoid organ which serves to store blood, disintegrate old blood cells, filter foreign substances from the blood, and produce lymphocytes.. The CD3 complex, including five CD3 subunits, binds either TCR alpha/beta or TCR gamma/delta to form the TCR/CD3 complex on the surface of T-cells." [ISBN-13:978-1416062578, RGD:736987]
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-11T15:46:52Z
-
-[Term]
-id: CMO:0003534
-name: CD11b/c+ splenocyte count
-def: "The number of splenocytes expressing CD11B and/or CD11C molecules on their surface in a specified sample of spleen tissue. The CD11B molecule (ITGAM, integrin alpha M chain) combines with the beta 2 chain (ITGB2) to form a leukocyte-specific integrin referred to as macrophage receptor 1 (Mac-1), or inactivated-C3b (iC3b) receptor 3 (CR3). The CD11C molecule (ITGAX, integrin subunit alpha X chain) combines with the beta 2 chain (ITGB2) to form a leukocyte-specific integrin referred to as inactivated-C3b (iC3b) receptor 4 (CR4)." [RGD:1343608, RGD:1348968]
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-11T16:07:04Z
-
-[Term]
-id: CMO:0003535
-name: CD45RA+ splenocyte count
-def: "The number of splenocytes expressing CD45RA molecules (PTPRC) on their surface in a specified sample of spleen tissue. The CD45RA molecule is the long isoform of CD45 and is expressed on naive T lymphocytes." [https://seattlechildrenslab.testcatalog.org/show/CD45RA-RO, RGD:736371]
-synonym: "CD45 RA+ splenocyte count" EXACT []
-synonym: "CD45RA splenocyte count" EXACT []
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-11T17:36:28Z
-
-[Term]
-id: CMO:0003536
-name: calculated spleen mononuclear cell count
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the mononuclear cell counts of the spleen, that is, the number of mononuclear cells (leukocytes such as lymphocytes and monocytes with a single round or oval nucleus) found in a specified sample of spleen." [CL:0000842, ISBN-13:978-1416062578]
-synonym: "calculated splenocyte count" EXACT []
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-11T18:19:44Z
-
-[Term]
-id: CMO:0003537
-name: CD4+CD25- splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing surface CD4 molecules, but not CD25 molecules, in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage." [RGD:735285, RGD:735603]
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-11T18:36:05Z
-
-[Term]
-id: CMO:0003538
-name: CD4+CD25+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing both CD4 and CD25 molecules on their surface in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage." [RGD:735285, RGD:735603]
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T12:56:23Z
-
-[Term]
-id: CMO:0003539
-name: CD3+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing surface CD3 molecules in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage." [ISBN-13:978-1416062578, RGD:736987]
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T13:00:51Z
-
-[Term]
-id: CMO:0003540
-name: CD11b/c+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing CD11B and/or CD11C molecules on their surface in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage. The CD11C molecule (ITGAX, integrin subunit alpha X chain) combines with the beta 2 chain (ITGB2) to form a leukocyte-specific integrin referred to as inactivated-C3b (iC3b) receptor 4 (CR4)." [RGD:1343608, RGD:1348968]
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T13:23:03Z
-
-[Term]
-id: CMO:0003541
-name: CD45RA+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing CD45RA molecules (PTPRC) on their surface in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage. The CD45RA molecule is the long isoform of CD45 and is expressed on naive T lymphocytes." [https://seattlechildrenslab.testcatalog.org/show/CD45RA-RO, RGD:736371]
-synonym: "CD45 RA+ splenocyte count to total splenocyte count ratio" EXACT []
-synonym: "CD45RA splenocyte count to total splenocyte count ratio" EXACT []
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T13:30:41Z
-
-[Term]
-id: CMO:0003542
-name: CD4-CD25+ splenocyte count
-def: "The number of splenocytes expressing CD25 molecules, but not CD4 molecules on their surface in a specified sample of spleen tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD25 molecule (IL2RA) is normally an integral-membrane protein, but soluble IL2RA has been isolated and determined to result from extracellular proteolysis." [RGD:735285, RGD:735603]
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-17T16:00:09Z
-
-[Term]
-id: CMO:0003543
-name: bacterial infection incidence/prevalence measurement
-def: "Any measurement in which the number of individuals in a study population that display a specified bacterial infection at a point in time or develop a specified parasitic infection within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. A bacterial infection is the invasion and colonization of one or more tissues in the body by bacteria, any of the unicellular prokaryotic microorganisms that commonly multiply by cell division, lack a nucleus or membrane-bound organelles, and possess a cell wall." [ISBN-13:978-1416062578, ISBN:978-0-87779-809-5]
-is_a: CMO:0002025 ! infection incidence/prevalence measurement
-created_by: slaulede
-creation_date: 2020-09-18T12:15:30Z
-
-[Term]
-id: CMO:0003544
-name: bacterial infection population measurement
-def: "Any measurement which deals with bacterial infections in terms of population, geography or demographics." [ISBN-13:978-1416062578, ISBN:978-0-87779-809-5]
-is_a: CMO:0001149 ! disease population measurement
-created_by: slaulede
-creation_date: 2020-09-18T12:23:15Z
-
-[Term]
-id: CMO:0003545
-name: number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a specified bacterial infection at a point in time are counted. A Pasteurellaceae infection is the invasion and colonization of one or more tissues in the body by any bacteria of the family Pasteurellaceae, a large family of Gram-negative bacteria including the genera Pasteurella and Haemophilus, some of which are pathogenic." [https://en.wikipedia.org/wiki/Pasteurellaceae, PMID:16197708]
-synonym: "count of individuals in a study population displaying Pasteurellaceae infection at a point in time" EXACT []
-is_a: CMO:0003544 ! bacterial infection population measurement
-created_by: slaulede
-creation_date: 2020-09-18T12:29:15Z
-
-[Term]
-id: CMO:0003546
-name: number of individuals in a study population developing Pasteurellaceae infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Pasteurellaceae infection within a determined period of time are counted. A Pasteurellaceae infection is the invasion and colonization of one or more tissues in the body by any bacterial species of the family Pasteurellaceae, a large family of Gram-negative bacteria including the genera Pasteurella and Haemophilus, some of which are pathogenic." [https://en.wikipedia.org/wiki/Pasteurellaceae, PMID:16197708]
-synonym: "count of individuals in a study population developing Pasteurellaceae infection during a period of time" EXACT []
-is_a: CMO:0003544 ! bacterial infection population measurement
-created_by: slaulede
-creation_date: 2020-09-18T13:25:04Z
-
-[Term]
-id: CMO:0003547
-name: number of individuals in a study population displaying Haemophilus H21 infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a Haemophilus H21 infection at a point in time are counted. A Haemophilus H21 infection is the invasion and colonization of one or more tissues in the body by the H21 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population displaying Haemophilus H21 infection at a point in time" EXACT []
-is_a: CMO:0003545 ! number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-created_by: slaulede
-creation_date: 2020-09-18T13:46:12Z
-
-[Term]
-id: CMO:0003548
-name: number of individuals in a study population displaying Haemophilus H35 infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a Haemophilus H35 infection at a point in time are counted. A Haemophilus H35 infection is the invasion and colonization of one or more tissues in the body by the H35 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population displaying Haemophilus H35 infection at a point in time" EXACT []
-is_a: CMO:0003545 ! number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-created_by: slaulede
-creation_date: 2020-09-18T13:54:32Z
-
-[Term]
-id: CMO:0003549
-name: number of individuals in a study population displaying Pasteurella pneumotropica infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a Pasteurella pneumotropica infection at a point in time are counted. A Pasteurella pneumotropica infection is the invasion and colonization of one or more tissues in the body by Pasteurella pneumotropica. Pasteurella pneumotropica is a species of Pasteurella, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.uptodate.com/contents/pasteurella-infections, PMID:16197708]
-synonym: "count of individuals in a study population displaying Pasteurella pneumotropica infection at a point in time" EXACT []
-is_a: CMO:0003545 ! number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-created_by: slaulede
-creation_date: 2020-09-18T13:58:52Z
-
-[Term]
-id: CMO:0003550
-name: number of individuals in a study population developing Haemophilus H21 infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Haemophilus H21 infection within a determined period of time are counted. A Haemophilus H21 infection is the invasion and colonization of one or more tissues in the body by the H21 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population developing Haemophilus H21 infection during a period of time" EXACT []
-is_a: CMO:0003546 ! number of individuals in a study population developing Pasteurellaceae infection during a period of time
-created_by: slaulede
-creation_date: 2020-09-18T14:06:34Z
-
-[Term]
-id: CMO:0003551
-name: number of individuals in a study population developing Haemophilus H35 infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Haemophilus H35 infection within a determined period of time are counted. A Haemophilus H35 infection is the invasion and colonization of one or more tissues in the body by the H35 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population developing Haemophilus H35 infection during a period of time" EXACT []
-is_a: CMO:0003546 ! number of individuals in a study population developing Pasteurellaceae infection during a period of time
-created_by: slaulede
-creation_date: 2020-09-18T14:19:25Z
-
-[Term]
-id: CMO:0003552
-name: number of individuals in a study population developing Pasteurella pneumotropica infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Pasteurella pneumotropica infection within a determined period of time are counted. A Pasteurella pneumotropica infection is the invasion and colonization of one or more tissues in the body by Pasteurella pneumotropica. Pasteurella pneumotropica is a species of Pasteurella, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.uptodate.com/contents/pasteurella-infections, PMID:16197708]
-synonym: "count of individuals in a study population developing Pasteurella pneumotropica infection during a period of time" EXACT []
-is_a: CMO:0003546 ! number of individuals in a study population developing Pasteurellaceae infection during a period of time
-created_by: slaulede
-creation_date: 2020-09-18T17:22:48Z
-
-[Term]
-id: CMO:0003553
-name: intraperitoneal tumor measurement
-def: "The quantification of a parameter related to an abnormal growth of tissue resulting from uncontrolled, progressive multiplication of cells and serving no physiological function, which occurs in the lining of/or within the peritoneal cavity." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/intraperitoneal, ISBN-13:978-0877798071, ISBN-13:978-1416062578]
-synonym: "IP tumor measurement" EXACT []
-is_a: CMO:0000341 ! tumor measurement
-created_by: slaulede
-creation_date: 2020-09-22T16:45:24Z
-
-[Term]
-id: CMO:0003554
-name: metastatic intraperitoneal tumor weight
-def: "The weight of metastatic tumors in the peritoneum. A metastatic tumor in the peritoneum is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the peritoneum from the place where they first formed." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/metastasis, ISBN-13:978-1416062578]
-synonym: "metastatic IP tumor weight" EXACT []
-is_a: CMO:0003553 ! intraperitoneal tumor measurement
-created_by: slaulede
-creation_date: 2020-09-22T17:01:11Z
-
-[Term]
-id: CMO:0003555
-name: plasma insulin level to plasma glucose level ratio
-def: "A calculated measurement in which the value for the amount of insulin in a specified sample of plasma is divided by the value for the level of glucose in the same sample of plasma, and the result is presented as a ratio, fraction, quotient or percentage." [https://www.merriam-webster.com/]
-is_a: CMO:0002170 ! calculated plasma insulin level
-is_a: CMO:0003556 ! calculated plasma glucose level
-created_by: slaulede
-creation_date: 2020-09-29T17:46:52Z
-
-[Term]
-id: CMO:0003556
-name: calculated plasma glucose level
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation of the amount of glucose in a specified sample of plasma." [https://www.merriam-webster.com/]
-is_a: CMO:0000042 ! plasma glucose level
-is_a: CMO:0000352 ! calculated blood glucose level
-created_by: slaulede
-creation_date: 2020-09-29T17:50:59Z
-
-[Term]
-id: CMO:0003557
-name: retina cell count
-alt_id: CMO:0000320
-def: "The total number of cells in a specified sample of retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates." [CL:0009004, https://www.merriam-webster.com/]
-synonym: "retinal cell count" EXACT []
-is_a: CMO:0000227 ! cell measurement
-is_a: CMO:0003081 ! retina morphological measurement
-created_by: slaulede
-creation_date: 2020-10-01T17:04:03Z
-
-[Term]
-id: CMO:0003558
-name: retina horizontal cell count
-def: "The total number of horizontal cells in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578]
-synonym: "horizontal cell count" EXACT []
-is_a: CMO:0003557 ! retina cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:15:54Z
-
-[Term]
-id: CMO:0003559
-name: calculated retina horizontal cell count
-def: "Any measurement that has been normalized, adjusted or derived by a mathematical process or computation, of the retina horizontal cell count from one or both retinas." [CL:0000745, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-synonym: "calculated horizontal cell count" EXACT []
-is_a: CMO:0003558 ! retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:21:06Z
-
-[Term]
-id: CMO:0003560
-name: central retina horizontal cell count to area ratio
-def: "A calculated measurement in which the number of horizontal cells in the central retina is divided by the total area of the peripheral retina. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578, PMID:20127257]
-is_a: CMO:0003559 ! calculated retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:43:09Z
-
-[Term]
-id: CMO:0003561
-name: peripheral retina horizontal cell count to area ratio
-def: "A calculated measurement in which the number of horizontal cells in the peripheral retina is divided by the total area of the peripheral retina. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578, PMID:20127257]
-is_a: CMO:0003559 ! calculated retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:53:17Z
-
-[Term]
-id: CMO:0003562
-name: retina rod bipolar cell count
-def: "The total number of rod bipolar cells in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, ISBN-13:978-1416062578]
-is_a: CMO:0003557 ! retina cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:16:00Z
-
-[Term]
-id: CMO:0003563
-name: calculated retina rod bipolar cell count
-def: "Any measurement that has been normalized, adjusted or derived by a mathematical process or computation, of the retina rod bipolar cell count from one or both retinas." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003562 ! retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:19:35Z
-
-[Term]
-id: CMO:0003564
-name: central retina rod bipolar cell count to area ratio
-def: "A calculated measurement in which the number of rod bipolar cells in the central retina is divided by the total area of the central retina. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003563 ! calculated retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:24:49Z
-
-[Term]
-id: CMO:0003565
-name: peripheral retina rod bipolar cell count to area ratio
-def: "A calculated measurement in which the number of rod bipolar cells in the peripheral retina is divided by the total area of the peripheral retina. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003563 ! calculated retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:28:12Z
-
-[Term]
-id: CMO:0003566
-name: measurement of minimal stimulus needed to elicit evasive reaction
-def: "A measurement of thermal, mechanical, or chemical stimulus which causes the subject to take evasive action to avoid further stimulation." [https://en.wikipedia.org/wiki/Nociception, https://www.physio-pedia.com/Nociception, PMID:21682605]
-is_a: CMO:0000953 ! body movement measurement
-created_by: slaulede
-creation_date: 2020-10-02T16:49:37Z
-
-[Term]
-id: CMO:0003567
-name: measurement of minimal mechanical stimulus needed to elicit evasive reaction
-def: "A measurement of the pressure of liquid, gas, or solid stimulus which causes the subject to take evasive action to avoid further stimulation. This measurement is often interpreted as the threshold of pain." [https://en.wikipedia.org/wiki/Nociception, https://www.physio-pedia.com/Nociception, PMID:21682605]
-is_a: CMO:0003566 ! measurement of minimal stimulus needed to elicit evasive reaction
-created_by: slaulede
-creation_date: 2020-10-02T17:06:34Z
 
 [Typedef]
 id: part_of

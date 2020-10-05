@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.110
-date: 03:10:2020 20:13
+data-version: 2.107
+date: 12:09:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: clinical_measurement_ontology
@@ -2536,7 +2536,7 @@ creation_date: 2010-09-01T08:18:12Z
 id: CMO:0000320
 name: retina cell count
 def: "Number of cells in a specified sample of the innermost coat lining of the interior of the eyeball." [Wikipedia:en.wikipedia.org]
-is_obsolete: true
+is_a: CMO:0000227 ! cell measurement
 created_by: mshimoyama
 creation_date: 2010-09-01T08:19:08Z
 
@@ -22358,9 +22358,9 @@ creation_date: 2014-06-12T12:28:45Z
 
 [Term]
 id: CMO:0002467
-name: blood acetaminophen level
-def: "Measurement of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "blood paracetamol level" EXACT []
+name: blood paracetamol level
+def: "Measurement of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "blood acetaminophen level" EXACT []
 xref: CHEBI:46195
 is_a: CMO:0002466 ! blood xenobiotic level
 created_by: JSmith
@@ -22368,65 +22368,65 @@ creation_date: 2014-06-12T12:36:43Z
 
 [Term]
 id: CMO:0002468
-name: serum acetaminophen level
-def: "Measurement of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "serum paracetamol level" EXACT []
+name: serum paracetamol level
+def: "Measurement of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "serum acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002467 ! blood acetaminophen level
+is_a: CMO:0002467 ! blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:37:54Z
 
 [Term]
 id: CMO:0002469
-name: plasma acetaminophen level
-def: "Measurement of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-synonym: "plasma paracetamol level" EXACT []
+name: plasma paracetamol level
+def: "Measurement of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+synonym: "plasma acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002467 ! blood acetaminophen level
+is_a: CMO:0002467 ! blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:37:58Z
 
 [Term]
 id: CMO:0002470
-name: calculated blood acetaminophen level
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-synonym: "calculated blood paracetamol level" EXACT []
+name: calculated blood paracetamol level
+def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
+synonym: "calculated blood acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002467 ! blood acetaminophen level
+is_a: CMO:0002467 ! blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:40:26Z
 
 [Term]
 id: CMO:0002471
-name: blood acetaminophen level area under curve
-def: "A calculated measurement in which a series of measurements of the amount of acetaminophen in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
-synonym: "blood acetaminophen AUC" RELATED []
-synonym: "blood paracetamol level area under curve (AUC)" EXACT []
+name: blood paracetamol level area under curve (AUC)
+def: "A calculated measurement in which a series of measurements of the amount of paracetamol (also known as acetaminophen) in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
+synonym: "blood  acetaminofen AUC" RELATED []
+synonym: "blood acetaminofen level area under curve" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002470 ! calculated blood acetaminophen level
+is_a: CMO:0002470 ! calculated blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:42:03Z
 
 [Term]
 id: CMO:0002472
-name: calculated plasma acetaminophen level
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
-synonym: "calculated plasma paracetamol level" EXACT []
+name: calculated plasma paracetamol level
+def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+synonym: "calculated plasma acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002469 ! plasma acetaminophen level
-is_a: CMO:0002470 ! calculated blood acetaminophen level
+is_a: CMO:0002469 ! plasma paracetamol level
+is_a: CMO:0002470 ! calculated blood paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:46:58Z
 
 [Term]
 id: CMO:0002473
-name: plasma acetaminophen level area under curve
-def: "A calculated measurement in which a series of measurements of the amount of acetaminophen in a specified volume of plasma is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
+name: plasma paracetamol level area under curve (AUC)
+def: "A calculated measurement in which a series of measurements of the amount of paracetamol (also known as acetaminophen) in a specified volume of plasma is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
 synonym: "plasma acetaminophen AUC" RELATED []
-synonym: "plasma paracetamol level area under curve (AUC)" EXACT []
+synonym: "plasma acetaminophen level area under curve" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002471 ! blood acetaminophen level area under curve
-is_a: CMO:0002472 ! calculated plasma acetaminophen level
+is_a: CMO:0002471 ! blood paracetamol level area under curve (AUC)
+is_a: CMO:0002472 ! calculated plasma paracetamol level
 created_by: JSmith
 creation_date: 2014-06-12T12:48:31Z
 
@@ -23578,24 +23578,24 @@ creation_date: 2014-10-29T10:36:08Z
 
 [Term]
 id: CMO:0002598
-name: calculated serum acetaminophen level
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of acetaminophen, an analgesic and antipyretic with effects similar to aspirin but only weakly anti-inflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "calculated serum paracetamol level" EXACT []
+name: calculated serum paracetamol level
+def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of paracetamol (also known as acetaminophen), an analgesic and antipyretic with effects similar to aspirin but only weakly antiinflammatory, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "calculated serum acetaminophen level" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002468 ! serum acetaminophen level
-is_a: CMO:0002470 ! calculated blood acetaminophen level
+is_a: CMO:0002468 ! serum paracetamol level
+is_a: CMO:0002470 ! calculated blood paracetamol level
 created_by: JSmith
 creation_date: 2014-10-31T17:13:09Z
 
 [Term]
 id: CMO:0002599
-name: serum acetaminophen level area under curve
-def: "A calculated measurement in which a series of measurements of the amount of acetaminophen in a specified volume of serum is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
+name: serum paracetamol level area under curve (AUC)
+def: "A calculated measurement in which a series of measurements of the amount of paracetamol (also known as acetaminophen)  in a specified volume of serum is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia"]
 synonym: "serum acetaminophen AUC" RELATED []
-synonym: "serum paracetamol level area under curve (AUC)" EXACT []
+synonym: "serum acetaminophen level area under curve" EXACT []
 xref: CHEBI:46195
-is_a: CMO:0002471 ! blood acetaminophen level area under curve
-is_a: CMO:0002598 ! calculated serum acetaminophen level
+is_a: CMO:0002471 ! blood paracetamol level area under curve (AUC)
+is_a: CMO:0002598 ! calculated serum paracetamol level
 created_by: JSmith
 creation_date: 2014-10-31T17:17:00Z
 
@@ -27872,8 +27872,7 @@ creation_date: 2019-03-19T16:01:25Z
 
 [Term]
 id: CMO:0003081
-name: retina morphological measurement
-synonym: "retinal layer morphological measurement" EXACT []
+name: retinal layer morphological measurement
 is_a: CMO:0003080 ! eye morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:03:47Z
@@ -27882,7 +27881,7 @@ creation_date: 2019-03-19T16:03:47Z
 id: CMO:0003082
 name: full retina thickness
 def: "Measurement of the thickness of the full retina between the apical portion of the retinal pigment epithelium and the outer margin of the ganglion cell layer." [PMID:25361751]
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:08:55Z
 
@@ -27890,7 +27889,7 @@ creation_date: 2019-03-19T16:08:55Z
 id: CMO:0003083
 name: retinal outer layer thickness 
 def: "The outer retinal thickness is defined as straight lines between outer plexiform layer to the apical layer of the retinal pigment epithelium perpendicular to the retinal layer measured.The measurement usually is done by optical coherence tomography (OCT)." [PMID:25361751]
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:11:22Z
 
@@ -27898,7 +27897,7 @@ creation_date: 2019-03-19T16:11:22Z
 id: CMO:0003084
 name: retinal inner layer thickness
 def: "The inner retinal thickness is defined as straight lines between outer plexiform layer to the vitreous perpendicular to the retinal layer measured.The measurement usually is done by optical coherence tomography (OCT)." []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:16:29Z
 
@@ -27907,7 +27906,7 @@ id: CMO:0003085
 name: retinal outer nuclear layer photoreceptor nucleus count
 def: "The number of photoreceptor nuclei in the retinal outer nuclear layer." []
 synonym: "retinal ONL photoreceptor nucleus count" EXACT []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:32:04Z
 
@@ -27915,7 +27914,7 @@ creation_date: 2019-03-19T16:32:04Z
 id: CMO:0003086
 name: retinal outer nuclear layer thickness 
 def: "The measurement of the thickness of the retinal layer that contains the nuclei and cell bodies of rods and cones." []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:40:31Z
 
@@ -31685,7 +31684,6 @@ creation_date: 2020-09-11T17:36:28Z
 id: CMO:0003536
 name: calculated spleen mononuclear cell count
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the mononuclear cell counts of the spleen, that is, the number of mononuclear cells (leukocytes such as lymphocytes and monocytes with a single round or oval nucleus) found in a specified sample of spleen." [CL:0000842, ISBN-13:978-1416062578]
-synonym: "calculated splenocyte count" EXACT []
 is_a: CMO:0002120 ! spleen mononuclear cell count
 created_by: slaulede
 creation_date: 2020-09-11T18:19:44Z
@@ -31693,269 +31691,10 @@ creation_date: 2020-09-11T18:19:44Z
 [Term]
 id: CMO:0003537
 name: CD4+CD25- splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing surface CD4 molecules, but not CD25 molecules, in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage." [RGD:735285, RGD:735603]
+def: "A calculated measurement in which the number of splenocytes expressing surface CD4 molecules, but not CD25 molecules in a specified sample of spleen tissue, is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage." [RGD:735285, RGD:735603]
 is_a: CMO:0003536 ! calculated spleen mononuclear cell count
 created_by: slaulede
 creation_date: 2020-09-11T18:36:05Z
-
-[Term]
-id: CMO:0003538
-name: CD4+CD25+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing both CD4 and CD25 molecules on their surface in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage." [RGD:735285, RGD:735603]
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T12:56:23Z
-
-[Term]
-id: CMO:0003539
-name: CD3+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing surface CD3 molecules in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage." [ISBN-13:978-1416062578, RGD:736987]
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T13:00:51Z
-
-[Term]
-id: CMO:0003540
-name: CD11b/c+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing CD11B and/or CD11C molecules on their surface in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage. The CD11C molecule (ITGAX, integrin subunit alpha X chain) combines with the beta 2 chain (ITGB2) to form a leukocyte-specific integrin referred to as inactivated-C3b (iC3b) receptor 4 (CR4)." [RGD:1343608, RGD:1348968]
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T13:23:03Z
-
-[Term]
-id: CMO:0003541
-name: CD45RA+ splenocyte count to total splenocyte count ratio
-def: "A calculated measurement in which the number of splenocytes expressing CD45RA molecules (PTPRC) on their surface in a specified sample of spleen tissue is divided by the number of total splenocytes in the same sample, and presented as a ratio, fraction, quotient or percentage. The CD45RA molecule is the long isoform of CD45 and is expressed on naive T lymphocytes." [https://seattlechildrenslab.testcatalog.org/show/CD45RA-RO, RGD:736371]
-synonym: "CD45 RA+ splenocyte count to total splenocyte count ratio" EXACT []
-synonym: "CD45RA splenocyte count to total splenocyte count ratio" EXACT []
-is_a: CMO:0003536 ! calculated spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-14T13:30:41Z
-
-[Term]
-id: CMO:0003542
-name: CD4-CD25+ splenocyte count
-def: "The number of splenocytes expressing CD25 molecules, but not CD4 molecules on their surface in a specified sample of spleen tissue. The CD4 molecule acts as a coreceptor with the T-cell receptor on the T lymphocyte to recognize antigens displayed by an antigen presenting cell in the context of class II MHC molecules. The CD25 molecule (IL2RA) is normally an integral-membrane protein, but soluble IL2RA has been isolated and determined to result from extracellular proteolysis." [RGD:735285, RGD:735603]
-is_a: CMO:0002120 ! spleen mononuclear cell count
-created_by: slaulede
-creation_date: 2020-09-17T16:00:09Z
-
-[Term]
-id: CMO:0003543
-name: bacterial infection incidence/prevalence measurement
-def: "Any measurement in which the number of individuals in a study population that display a specified bacterial infection at a point in time or develop a specified parasitic infection within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. A bacterial infection is the invasion and colonization of one or more tissues in the body by bacteria, any of the unicellular prokaryotic microorganisms that commonly multiply by cell division, lack a nucleus or membrane-bound organelles, and possess a cell wall." [ISBN-13:978-1416062578, ISBN:978-0-87779-809-5]
-is_a: CMO:0002025 ! infection incidence/prevalence measurement
-created_by: slaulede
-creation_date: 2020-09-18T12:15:30Z
-
-[Term]
-id: CMO:0003544
-name: bacterial infection population measurement
-def: "Any measurement which deals with bacterial infections in terms of population, geography or demographics." [ISBN-13:978-1416062578, ISBN:978-0-87779-809-5]
-is_a: CMO:0001149 ! disease population measurement
-created_by: slaulede
-creation_date: 2020-09-18T12:23:15Z
-
-[Term]
-id: CMO:0003545
-name: number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a specified bacterial infection at a point in time are counted. A Pasteurellaceae infection is the invasion and colonization of one or more tissues in the body by any bacteria of the family Pasteurellaceae, a large family of Gram-negative bacteria including the genera Pasteurella and Haemophilus, some of which are pathogenic." [https://en.wikipedia.org/wiki/Pasteurellaceae, PMID:16197708]
-synonym: "count of individuals in a study population displaying Pasteurellaceae infection at a point in time" EXACT []
-is_a: CMO:0003544 ! bacterial infection population measurement
-created_by: slaulede
-creation_date: 2020-09-18T12:29:15Z
-
-[Term]
-id: CMO:0003546
-name: number of individuals in a study population developing Pasteurellaceae infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Pasteurellaceae infection within a determined period of time are counted. A Pasteurellaceae infection is the invasion and colonization of one or more tissues in the body by any bacterial species of the family Pasteurellaceae, a large family of Gram-negative bacteria including the genera Pasteurella and Haemophilus, some of which are pathogenic." [https://en.wikipedia.org/wiki/Pasteurellaceae, PMID:16197708]
-synonym: "count of individuals in a study population developing Pasteurellaceae infection during a period of time" EXACT []
-is_a: CMO:0003544 ! bacterial infection population measurement
-created_by: slaulede
-creation_date: 2020-09-18T13:25:04Z
-
-[Term]
-id: CMO:0003547
-name: number of individuals in a study population displaying Haemophilus H21 infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a Haemophilus H21 infection at a point in time are counted. A Haemophilus H21 infection is the invasion and colonization of one or more tissues in the body by the H21 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population displaying Haemophilus H21 infection at a point in time" EXACT []
-is_a: CMO:0003545 ! number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-created_by: slaulede
-creation_date: 2020-09-18T13:46:12Z
-
-[Term]
-id: CMO:0003548
-name: number of individuals in a study population displaying Haemophilus H35 infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a Haemophilus H35 infection at a point in time are counted. A Haemophilus H35 infection is the invasion and colonization of one or more tissues in the body by the H35 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population displaying Haemophilus H35 infection at a point in time" EXACT []
-is_a: CMO:0003545 ! number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-created_by: slaulede
-creation_date: 2020-09-18T13:54:32Z
-
-[Term]
-id: CMO:0003549
-name: number of individuals in a study population displaying Pasteurella pneumotropica infection at a point in time
-def: "A measurement in which the number of individuals in a study population that display a Pasteurella pneumotropica infection at a point in time are counted. A Pasteurella pneumotropica infection is the invasion and colonization of one or more tissues in the body by Pasteurella pneumotropica. Pasteurella pneumotropica is a species of Pasteurella, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.uptodate.com/contents/pasteurella-infections, PMID:16197708]
-synonym: "count of individuals in a study population displaying Pasteurella pneumotropica infection at a point in time" EXACT []
-is_a: CMO:0003545 ! number of individuals in a study population displaying Pasteurellaceae infection at a point in time
-created_by: slaulede
-creation_date: 2020-09-18T13:58:52Z
-
-[Term]
-id: CMO:0003550
-name: number of individuals in a study population developing Haemophilus H21 infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Haemophilus H21 infection within a determined period of time are counted. A Haemophilus H21 infection is the invasion and colonization of one or more tissues in the body by the H21 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population developing Haemophilus H21 infection during a period of time" EXACT []
-is_a: CMO:0003546 ! number of individuals in a study population developing Pasteurellaceae infection during a period of time
-created_by: slaulede
-creation_date: 2020-09-18T14:06:34Z
-
-[Term]
-id: CMO:0003551
-name: number of individuals in a study population developing Haemophilus H35 infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Haemophilus H35 infection within a determined period of time are counted. A Haemophilus H35 infection is the invasion and colonization of one or more tissues in the body by the H35 strain of Haemophilus, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/haemophilus, PMID:16197708]
-synonym: "count of individuals in a study population developing Haemophilus H35 infection during a period of time" EXACT []
-is_a: CMO:0003546 ! number of individuals in a study population developing Pasteurellaceae infection during a period of time
-created_by: slaulede
-creation_date: 2020-09-18T14:19:25Z
-
-[Term]
-id: CMO:0003552
-name: number of individuals in a study population developing Pasteurella pneumotropica infection during a period of time
-def: "A measurement in which the number of individuals in a study population that develop a Pasteurella pneumotropica infection within a determined period of time are counted. A Pasteurella pneumotropica infection is the invasion and colonization of one or more tissues in the body by Pasteurella pneumotropica. Pasteurella pneumotropica is a species of Pasteurella, a genus of Gram-negative, coccobacilli bacteria, some of which are pathogenic." [https://www.uptodate.com/contents/pasteurella-infections, PMID:16197708]
-synonym: "count of individuals in a study population developing Pasteurella pneumotropica infection during a period of time" EXACT []
-is_a: CMO:0003546 ! number of individuals in a study population developing Pasteurellaceae infection during a period of time
-created_by: slaulede
-creation_date: 2020-09-18T17:22:48Z
-
-[Term]
-id: CMO:0003553
-name: intraperitoneal tumor measurement
-def: "The quantification of a parameter related to an abnormal growth of tissue resulting from uncontrolled, progressive multiplication of cells and serving no physiological function, which occurs in the lining of/or within the peritoneal cavity." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/intraperitoneal, ISBN-13:978-0877798071, ISBN-13:978-1416062578]
-synonym: "IP tumor measurement" EXACT []
-is_a: CMO:0000341 ! tumor measurement
-created_by: slaulede
-creation_date: 2020-09-22T16:45:24Z
-
-[Term]
-id: CMO:0003554
-name: metastatic intraperitoneal tumor weight
-def: "The weight of metastatic tumors in the peritoneum. A metastatic tumor in the peritoneum is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the peritoneum from the place where they first formed." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/metastasis, ISBN-13:978-1416062578]
-synonym: "metastatic IP tumor weight" EXACT []
-is_a: CMO:0003553 ! intraperitoneal tumor measurement
-created_by: slaulede
-creation_date: 2020-09-22T17:01:11Z
-
-[Term]
-id: CMO:0003555
-name: plasma insulin level to plasma glucose level ratio
-def: "A calculated measurement in which the value for the amount of insulin in a specified sample of plasma is divided by the value for the level of glucose in the same sample of plasma, and the result is presented as a ratio, fraction, quotient or percentage." [https://www.merriam-webster.com/]
-is_a: CMO:0002170 ! calculated plasma insulin level
-is_a: CMO:0003556 ! calculated plasma glucose level
-created_by: slaulede
-creation_date: 2020-09-29T17:46:52Z
-
-[Term]
-id: CMO:0003556
-name: calculated plasma glucose level
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation of the amount of glucose in a specified sample of plasma." [https://www.merriam-webster.com/]
-is_a: CMO:0000042 ! plasma glucose level
-is_a: CMO:0000352 ! calculated blood glucose level
-created_by: slaulede
-creation_date: 2020-09-29T17:50:59Z
-
-[Term]
-id: CMO:0003557
-name: retina cell count
-alt_id: CMO:0000320
-def: "The total number of cells in a specified sample of retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates." [CL:0009004, https://www.merriam-webster.com/]
-synonym: "retinal cell count" EXACT []
-is_a: CMO:0000227 ! cell measurement
-is_a: CMO:0003081 ! retina morphological measurement
-created_by: slaulede
-creation_date: 2020-10-01T17:04:03Z
-
-[Term]
-id: CMO:0003558
-name: retina horizontal cell count
-def: "The total number of horizontal cells in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578]
-synonym: "horizontal cell count" EXACT []
-is_a: CMO:0003557 ! retina cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:15:54Z
-
-[Term]
-id: CMO:0003559
-name: calculated retina horizontal cell count
-def: "Any measurement that has been normalized, adjusted or derived by a mathematical process or computation, of the retina horizontal cell count from one or both retinas." [CL:0000745, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-synonym: "calculated horizontal cell count" EXACT []
-is_a: CMO:0003558 ! retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:21:06Z
-
-[Term]
-id: CMO:0003560
-name: central retina horizontal cell count to area ratio
-def: "A calculated measurement in which the number of horizontal cells in the central retina is divided by the total area of the peripheral retina. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578, PMID:20127257]
-is_a: CMO:0003559 ! calculated retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:43:09Z
-
-[Term]
-id: CMO:0003561
-name: peripheral retina horizontal cell count to area ratio
-def: "A calculated measurement in which the number of horizontal cells in the peripheral retina is divided by the total area of the peripheral retina. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578, PMID:20127257]
-is_a: CMO:0003559 ! calculated retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:53:17Z
-
-[Term]
-id: CMO:0003562
-name: retina rod bipolar cell count
-def: "The total number of rod bipolar cells in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, ISBN-13:978-1416062578]
-is_a: CMO:0003557 ! retina cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:16:00Z
-
-[Term]
-id: CMO:0003563
-name: calculated retina rod bipolar cell count
-def: "Any measurement that has been normalized, adjusted or derived by a mathematical process or computation, of the retina rod bipolar cell count from one or both retinas." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003562 ! retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:19:35Z
-
-[Term]
-id: CMO:0003564
-name: central retina rod bipolar cell count to area ratio
-def: "A calculated measurement in which the number of rod bipolar cells in the central retina is divided by the total area of the central retina. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003563 ! calculated retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:24:49Z
-
-[Term]
-id: CMO:0003565
-name: peripheral retina rod bipolar cell count to area ratio
-def: "A calculated measurement in which the number of rod bipolar cells in the peripheral retina is divided by the total area of the peripheral retina. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003563 ! calculated retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:28:12Z
-
-[Term]
-id: CMO:0003566
-name: measurement of minimal stimulus needed to elicit evasive reaction
-def: "A measurement of thermal, mechanical, or chemical stimulus which causes the subject to take evasive action to avoid further stimulation." [https://en.wikipedia.org/wiki/Nociception, https://www.physio-pedia.com/Nociception, PMID:21682605]
-is_a: CMO:0000953 ! body movement measurement
-created_by: slaulede
-creation_date: 2020-10-02T16:49:37Z
-
-[Term]
-id: CMO:0003567
-name: measurement of minimal mechanical stimulus needed to elicit evasive reaction
-def: "A measurement of the pressure of liquid, gas, or solid stimulus which causes the subject to take evasive action to avoid further stimulation. This measurement is often interpreted as the threshold of pain." [https://en.wikipedia.org/wiki/Nociception, https://www.physio-pedia.com/Nociception, PMID:21682605]
-is_a: CMO:0003566 ! measurement of minimal stimulus needed to elicit evasive reaction
-created_by: slaulede
-creation_date: 2020-10-02T17:06:34Z
 
 [Typedef]
 id: part_of

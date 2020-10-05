@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.110
-date: 03:10:2020 20:13
+data-version: 2.109
+date: 26:09:2020 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2020-07-03 --
 default-namespace: clinical_measurement_ontology
@@ -2536,7 +2536,7 @@ creation_date: 2010-09-01T08:18:12Z
 id: CMO:0000320
 name: retina cell count
 def: "Number of cells in a specified sample of the innermost coat lining of the interior of the eyeball." [Wikipedia:en.wikipedia.org]
-is_obsolete: true
+is_a: CMO:0000227 ! cell measurement
 created_by: mshimoyama
 creation_date: 2010-09-01T08:19:08Z
 
@@ -27872,8 +27872,7 @@ creation_date: 2019-03-19T16:01:25Z
 
 [Term]
 id: CMO:0003081
-name: retina morphological measurement
-synonym: "retinal layer morphological measurement" EXACT []
+name: retinal layer morphological measurement
 is_a: CMO:0003080 ! eye morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:03:47Z
@@ -27882,7 +27881,7 @@ creation_date: 2019-03-19T16:03:47Z
 id: CMO:0003082
 name: full retina thickness
 def: "Measurement of the thickness of the full retina between the apical portion of the retinal pigment epithelium and the outer margin of the ganglion cell layer." [PMID:25361751]
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:08:55Z
 
@@ -27890,7 +27889,7 @@ creation_date: 2019-03-19T16:08:55Z
 id: CMO:0003083
 name: retinal outer layer thickness 
 def: "The outer retinal thickness is defined as straight lines between outer plexiform layer to the apical layer of the retinal pigment epithelium perpendicular to the retinal layer measured.The measurement usually is done by optical coherence tomography (OCT)." [PMID:25361751]
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:11:22Z
 
@@ -27898,7 +27897,7 @@ creation_date: 2019-03-19T16:11:22Z
 id: CMO:0003084
 name: retinal inner layer thickness
 def: "The inner retinal thickness is defined as straight lines between outer plexiform layer to the vitreous perpendicular to the retinal layer measured.The measurement usually is done by optical coherence tomography (OCT)." []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:16:29Z
 
@@ -27907,7 +27906,7 @@ id: CMO:0003085
 name: retinal outer nuclear layer photoreceptor nucleus count
 def: "The number of photoreceptor nuclei in the retinal outer nuclear layer." []
 synonym: "retinal ONL photoreceptor nucleus count" EXACT []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:32:04Z
 
@@ -27915,7 +27914,7 @@ creation_date: 2019-03-19T16:32:04Z
 id: CMO:0003086
 name: retinal outer nuclear layer thickness 
 def: "The measurement of the thickness of the retinal layer that contains the nuclei and cell bodies of rods and cones." []
-is_a: CMO:0003081 ! retina morphological measurement
+is_a: CMO:0003081 ! retinal layer morphological measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:40:31Z
 
@@ -31845,117 +31844,6 @@ synonym: "metastatic IP tumor weight" EXACT []
 is_a: CMO:0003553 ! intraperitoneal tumor measurement
 created_by: slaulede
 creation_date: 2020-09-22T17:01:11Z
-
-[Term]
-id: CMO:0003555
-name: plasma insulin level to plasma glucose level ratio
-def: "A calculated measurement in which the value for the amount of insulin in a specified sample of plasma is divided by the value for the level of glucose in the same sample of plasma, and the result is presented as a ratio, fraction, quotient or percentage." [https://www.merriam-webster.com/]
-is_a: CMO:0002170 ! calculated plasma insulin level
-is_a: CMO:0003556 ! calculated plasma glucose level
-created_by: slaulede
-creation_date: 2020-09-29T17:46:52Z
-
-[Term]
-id: CMO:0003556
-name: calculated plasma glucose level
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation of the amount of glucose in a specified sample of plasma." [https://www.merriam-webster.com/]
-is_a: CMO:0000042 ! plasma glucose level
-is_a: CMO:0000352 ! calculated blood glucose level
-created_by: slaulede
-creation_date: 2020-09-29T17:50:59Z
-
-[Term]
-id: CMO:0003557
-name: retina cell count
-alt_id: CMO:0000320
-def: "The total number of cells in a specified sample of retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates." [CL:0009004, https://www.merriam-webster.com/]
-synonym: "retinal cell count" EXACT []
-is_a: CMO:0000227 ! cell measurement
-is_a: CMO:0003081 ! retina morphological measurement
-created_by: slaulede
-creation_date: 2020-10-01T17:04:03Z
-
-[Term]
-id: CMO:0003558
-name: retina horizontal cell count
-def: "The total number of horizontal cells in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578]
-synonym: "horizontal cell count" EXACT []
-is_a: CMO:0003557 ! retina cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:15:54Z
-
-[Term]
-id: CMO:0003559
-name: calculated retina horizontal cell count
-def: "Any measurement that has been normalized, adjusted or derived by a mathematical process or computation, of the retina horizontal cell count from one or both retinas." [CL:0000745, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-synonym: "calculated horizontal cell count" EXACT []
-is_a: CMO:0003558 ! retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:21:06Z
-
-[Term]
-id: CMO:0003560
-name: central retina horizontal cell count to area ratio
-def: "A calculated measurement in which the number of horizontal cells in the central retina is divided by the total area of the peripheral retina. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578, PMID:20127257]
-is_a: CMO:0003559 ! calculated retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:43:09Z
-
-[Term]
-id: CMO:0003561
-name: peripheral retina horizontal cell count to area ratio
-def: "A calculated measurement in which the number of horizontal cells in the peripheral retina is divided by the total area of the peripheral retina. A horizontal cell is a neuron that laterally connects other neurons in the inner nuclear layer of the retina." [CL:0000745, ISBN-13:978-1416062578, PMID:20127257]
-is_a: CMO:0003559 ! calculated retina horizontal cell count
-created_by: slaulede
-creation_date: 2020-10-01T17:53:17Z
-
-[Term]
-id: CMO:0003562
-name: retina rod bipolar cell count
-def: "The total number of rod bipolar cells in the retina, the innermost layer or coating at the back of the eyeball, which is sensitive to light and in which the optic nerve terminates. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, ISBN-13:978-1416062578]
-is_a: CMO:0003557 ! retina cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:16:00Z
-
-[Term]
-id: CMO:0003563
-name: calculated retina rod bipolar cell count
-def: "Any measurement that has been normalized, adjusted or derived by a mathematical process or computation, of the retina rod bipolar cell count from one or both retinas." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003562 ! retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:19:35Z
-
-[Term]
-id: CMO:0003564
-name: central retina rod bipolar cell count to area ratio
-def: "A calculated measurement in which the number of rod bipolar cells in the central retina is divided by the total area of the central retina. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003563 ! calculated retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:24:49Z
-
-[Term]
-id: CMO:0003565
-name: peripheral retina rod bipolar cell count to area ratio
-def: "A calculated measurement in which the number of rod bipolar cells in the peripheral retina is divided by the total area of the peripheral retina. A rod bipolar cell is a neuron that is synapsed by rod photoreceptor cells but not by cone photoreceptor cells." [CL:0000751, https://www.merriam-webster.com/, ISBN-13:978-1416062578]
-is_a: CMO:0003563 ! calculated retina rod bipolar cell count
-created_by: slaulede
-creation_date: 2020-10-01T18:28:12Z
-
-[Term]
-id: CMO:0003566
-name: measurement of minimal stimulus needed to elicit evasive reaction
-def: "A measurement of thermal, mechanical, or chemical stimulus which causes the subject to take evasive action to avoid further stimulation." [https://en.wikipedia.org/wiki/Nociception, https://www.physio-pedia.com/Nociception, PMID:21682605]
-is_a: CMO:0000953 ! body movement measurement
-created_by: slaulede
-creation_date: 2020-10-02T16:49:37Z
-
-[Term]
-id: CMO:0003567
-name: measurement of minimal mechanical stimulus needed to elicit evasive reaction
-def: "A measurement of the pressure of liquid, gas, or solid stimulus which causes the subject to take evasive action to avoid further stimulation. This measurement is often interpreted as the threshold of pain." [https://en.wikipedia.org/wiki/Nociception, https://www.physio-pedia.com/Nociception, PMID:21682605]
-is_a: CMO:0003566 ! measurement of minimal stimulus needed to elicit evasive reaction
-created_by: slaulede
-creation_date: 2020-10-02T17:06:34Z
 
 [Typedef]
 id: part_of
