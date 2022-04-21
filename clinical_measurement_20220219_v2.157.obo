@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.162
-date: 09:04:2022 20:13
+data-version: 2.157
+date: 19:02:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -186,10 +186,8 @@ is_a: CMO:0003102 ! red blood cell morphological measurement
 [Term]
 id: CMO:0000026
 name: blood hemoglobin level
-alt_id: CMO:0000506
-def: "The amount of hemoglobin, the red oxygen-carrying pigment of erythrocytes, in a specified volume of blood." [ISBN-13: 978-0781733908]
-synonym: "hemoglobin absorbance" RELATED []
-synonym: "hemoglobin concentration" EXACT []
+def: "The amount of hemoglobin in a specific volume of blood, expressed as grams per deciliter of whole blood in humans." [http://www.medicinenet.com "MedicineNet"]
+synonym: "blood haemoglobin level" EXACT []
 is_a: CMO:0000508 ! hemoglobin measurement
 
 [Term]
@@ -479,13 +477,13 @@ is_a: CMO:0000502 ! blood calcium level
 [Term]
 id: CMO:0000066
 name: plasma anion gap
-def: "The plasma anion gap is a measurement of the difference-or gap-between the negatively charged and positively charged electrolytes in plasma, i.e. blood from which cells and cellular components have been removed. If the anion gap is either too high or too low, it may be a sign of a disorder in the lungs, kidneys, or other organ systems." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
+def: "The difference between the sum of the concentrations of cations and anions found in plasma particularly the sum of sodium plus potassium minus the sum of chloride plus bicarbonate." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 is_a: CMO:0000067 ! anion gap
 
 [Term]
 id: CMO:0000067
 name: anion gap
-def: "This is a measurement of the difference-or gap-between the negatively charged and positively charged electrolytes in blood. If the anion gap is either too high or too low, it may be a sign of a disorder in the lungs, kidneys, or other organ systems." [https://medlineplus.gov/lab-tests/anion-gap-blood-test/, ISBN:978-0323057479]
+def: "The difference between the sum of the concentrations of blood cations and anions particularly the sum of sodium plus potassium minus the sum of chloride plus bicarbonate." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 is_a: CMO:0000063 ! blood electrolyte measurement
 
 [Term]
@@ -613,7 +611,6 @@ is_a: CMO:0000000 ! clinical measurement
 id: CMO:0000087
 name: kidney morphological measurement
 def: "Measurement of the physical form or structure of one or both kidneys, the organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
-synonym: "renal morphological measurement" EXACT []
 is_a: CMO:0000068 ! organ morphological measurement
 is_a: CMO:0000906 ! kidney measurement
 
@@ -2325,8 +2322,9 @@ creation_date: 2010-06-25T01:31:46Z
 [Term]
 id: CMO:0000291
 name: mean corpuscular hemoglobin concentration
-def: "This is a measure of the concentration of hemoglobin in a given volume of packed red blood cells." [http://en.wikipedia.org "Wikipedia"]
+def: "The amount of hemoglobin in a given volume of packed red blood cells in g/dl, and is equivalent to hemoglobin mass divided by red cell mass as a percentage." [http://en.wikipedia.org "Wikipedia"]
 synonym: "MCHC" EXACT []
+synonym: "mean corpuscular haemoglobin concentration" EXACT []
 is_a: CMO:0003614 ! red blood cell molecular composition measurement
 created_by: mshimoyama
 creation_date: 2010-06-25T01:32:50Z
@@ -2812,8 +2810,7 @@ creation_date: 2010-11-08T01:45:04Z
 id: CMO:0000350
 name: blood glucose level area under curve (AUC)
 def: "A calculated value in which a series of measurements of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia", Mondofacto:Mondofacto_Online_Medical_Dictionary]
-synonym: "blood glucose AUC" EXACT []
-synonym: "glucose AUC" BROAD []
+synonym: "AUC glucose" RELATED []
 is_a: CMO:0000352 ! calculated blood glucose level
 created_by: mshimoyama
 creation_date: 2010-11-08T03:31:06Z
@@ -2822,7 +2819,7 @@ creation_date: 2010-11-08T03:31:06Z
 id: CMO:0000351
 name: blood insulin level area under curve (AUC)
 def: "A calculated value in which a series of measurements of the amount of insulin in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined. Insulin is the fuel-regulating peptide hormone which is formed from proinsulin in the beta cells of the pancreatic islets and which promotes the storage of glucose and the uptake of amino acids, increases protein and lipid synthesis, and inhibits lipolysis and gluconeogenesis." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia", ISBN:978-1416049982]
-synonym: "blood insulin AUC" EXACT []
+synonym: "blood insulin AUC" RELATED []
 is_a: CMO:0000353 ! calculated blood insulin level
 created_by: mshimoyama
 creation_date: 2010-11-08T03:54:32Z
@@ -3580,8 +3577,6 @@ creation_date: 2010-12-29T02:08:58Z
 id: CMO:0000439
 name: spinal column length
 def: "Distance from first vertebra to last vertebra making up the spinal column." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "total length of vertebrae" EXACT []
-synonym: "total length of vertebral column" EXACT []
 is_a: CMO:0000437 ! skeleton morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T02:10:41Z
@@ -3758,8 +3753,7 @@ creation_date: 2010-12-29T03:54:47Z
 id: CMO:0000460
 name: cervical vertebral column length
 def: "Distance from end to end of the expanse of the spinal column made up of cervical vertebrae, which constitutes the neck skeletal frame." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "total length of cervical vertebrae" RELATED []
-relationship: part_of CMO:0000439 ! spinal column length
+is_a: CMO:0000437 ! skeleton morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T03:56:07Z
 
@@ -4139,9 +4133,10 @@ creation_date: 2011-01-04T03:28:42Z
 [Term]
 id: CMO:0000506
 name: hemoglobin concentration
-def: "The amount of hemoglobin, the red oxygen-carrying pigment of erythrocytes, in a specified volume of blood, as calculated from the optical density of a solution of lysed red cells in which hemoglobin has been converted to cyanomethemoglobin and measured with a spectrophotometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "The amount of hemoglobin, the red oxygen-carrying pigment of erythrocytes, in a specified volume of blood, as calculated from the optical density of a solution of lysed red cells in which hemoglobin has been converted to cyanomethemoglobin and measured with a spectrophotometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, RGD:MS]
+synonym: "haemoglobin concentration" EXACT []
 synonym: "hemoglobin absorbance" RELATED []
-is_obsolete: true
+is_a: CMO:0000508 ! hemoglobin measurement
 created_by: mshimoyama
 creation_date: 2011-01-05T08:36:48Z
 
@@ -4638,7 +4633,6 @@ creation_date: 2011-11-02T03:00:24Z
 [Term]
 id: CMO:0000569
 name: serum anion gap
-def: "The serum anion gap is a measurement of the difference-or gap-between the negatively charged and positively charged electrolytes in serum, i.e. blood plasma from which clotting factors have been removed. If the anion gap is either too high or too low, it may be a sign of a disorder in the lungs, kidneys, or other organ systems." [https://medlineplus.gov/lab-tests/anion-gap-blood-test/, ISBN-13: 978-0323446631]
 is_a: CMO:0000067 ! anion gap
 created_by: mshimoyama
 creation_date: 2011-11-02T04:07:40Z
@@ -4694,11 +4688,11 @@ creation_date: 2011-11-02T04:09:38Z
 [Term]
 id: CMO:0000575
 name: serum alanine aminotransferase activity level
-def: "The amount of ezymatic activity of glutamic-pyruvate transaminase enzyme, commonly known as alanine transaminase or alanine aminotransferase (ALT), enzyme in a specified sample of serum. ALT catalyzes the reversible transamination between alanine and 2-oxoglutarate to generate pyruvate and glutamate. Serum ALT level is used as an enzymatic marker for liver disease or damage." [https://en.wikipedia.org/wiki/Alanine_transaminase "Wikipedia", RGD:621720]
+def: "The amount of ezymatic activity of glutamic-pyruvate transaminase enzyme, commonly known as alanine transaminase or alanine aminotransferase (ALT), enzyme in a specified sample of serum. ALT catalyzes the reversible transamination between alanine and 2-oxoglutarate to generate pyruvate and glutamate. Serum ALT level is used as an enzymatic marker for  liver disease or damage." [http://en.wikipedia.org/wiki/Creatine_kinase "Wikipedia", RGD:737472]
 synonym: "serum alanine transaminase activity level" EXACT []
-synonym: "serum ALT activity level" EXACT []
+synonym: "serum ALT activity level" RELATED []
 synonym: "serum glutamic-pyruvate transaminase activity level" EXACT []
-synonym: "serum GPT activity level" EXACT []
+synonym: "serum GPT activity level" RELATED []
 is_a: CMO:0000574 ! blood alanine aminotransferase activity level
 created_by: mshimoyama
 creation_date: 2011-11-02T04:10:11Z
@@ -4813,7 +4807,7 @@ creation_date: 2011-11-02T04:23:54Z
 [Term]
 id: CMO:0000587
 name: serum urea nitrogen level
-def: "The level of urea in terms of nitrogen content found in a specific volume of serum, i.e. blood plasma from which clotting factors have been removed. The urea nitrogen level is converted to urea concentration by multiplying by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood.Urea is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "The level of urea in terms of nitrogen content found in a specific volume of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrogen has been removed. The urea nitrogen level is converted to urea concentration by multiplying by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood.Urea is formed in the liver from amino acids and from ammonia compounds and is found in urine, blood, and lymph." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "BUN level" BROAD []
 is_a: CMO:0000049 ! blood urea nitrogen level
 created_by: mshimoyama
@@ -19579,10 +19573,9 @@ creation_date: 2014-02-04T18:11:48Z
 [Term]
 id: CMO:0002171
 name: quantitative insulin sensitivity check index
-def: "A calculated measurement to estimate the effect of insulin on net glucose disposal (insulin sensitivity) in an organism, calculated as 1/(log[fasting plasma insulin in uU/mL] + log[fasting blood glucose in mg/dL]), i.e., the inverse of the logarithm of the product of fasting plasma insulin level and fasting blood glucose level. The insulin and glucose levels may also be measured in any combination of blood, plasma, and serum." [PMID:10902785]
+def: "A calculated measurement to estimate the effect of insulin on net glucose disposal (insulin sensitivity) in an organism, calculated as 1/(log[fasting plasma insulin in uU/mL] + log[fasting blood glucose in mg/dL]), i.e., the inverse of the logarithm of the product of fasting plasma insulin level and fasting blood glucose level." [PMID:10902785]
 synonym: "QUICKI" RELATED []
 is_a: CMO:0000352 ! calculated blood glucose level
-is_a: CMO:0000359 ! calculated serum insulin level
 is_a: CMO:0002170 ! calculated plasma insulin level
 created_by: JSmith
 creation_date: 2014-02-04T18:13:36Z
@@ -20199,8 +20192,8 @@ id: CMO:0002239
 name: blood gamma-glutamyltransferase activity level
 def: "The amount of enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of blood. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase "Wikipedia"]
 synonym: "blood gamma-glutamyl transpeptidase activity level" EXACT []
-synonym: "blood GGT activity level" EXACT []
-synonym: "blood GGTP activity level" EXACT []
+synonym: "blood GGT activity level" RELATED []
+synonym: "blood GGTP activity level" RELATED []
 is_a: CMO:0000064 ! blood enzyme activity level
 created_by: JSmith
 creation_date: 2014-03-11T14:08:40Z
@@ -20233,10 +20226,9 @@ creation_date: 2014-03-11T14:10:11Z
 id: CMO:0002242
 name: blood creatine kinase activity level
 def: "The amount of enzymatic activity of creatine kinase (CK) enzyme in a specified sample of blood. CK catalyses the reversible transfer of phosphate between ATP and various phosphogens such as creatine phosphate. Blood CK level is used as an enzymatic marker for myocardial infarction, rhabdomyolysis and acute renal failure." [http://en.wikipedia.org/wiki/Creatine_kinase "Wikipedia", RGD:737472]
-synonym: "blood CK activity level" EXACT []
-synonym: "blood CPK activity level" EXACT []
+synonym: "blood CK activity level" RELATED []
+synonym: "blood CPK activity level" RELATED []
 synonym: "blood creatine phosphokinase activity level" EXACT []
-synonym: "blood phosphocreatine kinase activity level" EXACT []
 is_a: CMO:0000064 ! blood enzyme activity level
 created_by: JSmith
 creation_date: 2014-03-11T14:12:54Z
@@ -35396,100 +35388,6 @@ synonym: "ratio of deaths related to 2'-deoxy-5-fluorouridine toxicity to total 
 is_a: CMO:0001023 ! ratio of deaths to total study population during a period of time
 created_by: slaulede
 creation_date: 2022-02-15T13:48:27Z
-
-[Term]
-id: CMO:0003876
-name: blood urea level
-def: "This is the level of urea in the blood; converted from urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "blood urea concentration" EXACT []
-is_a: CMO:0000023 ! blood chemistry measurement
-created_by: slaulede
-creation_date: 2022-02-25T09:23:49Z
-
-[Term]
-id: CMO:0003877
-name: serum urea level
-def: "This is the level of urea in blood serum, i.e. blood plasma from which clotting factors have been removed. This value can be determined by converting urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "serum urea concentration" EXACT []
-is_a: CMO:0003876 ! blood urea level
-created_by: slaulede
-creation_date: 2022-02-25T09:49:54Z
-
-[Term]
-id: CMO:0003878
-name: plasma urea level
-def: "This is the level of urea in blood plasma, i.e. blood from which cells and cellular components have been removed. This value can be determined by converting urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-synonym: "plasma urea concentration" EXACT []
-is_a: CMO:0003876 ! blood urea level
-created_by: slaulede
-creation_date: 2022-02-25T10:04:14Z
-
-[Term]
-id: CMO:0003879
-name: ratio of survivors of meconium ileus to total study population during a period of time
-def: "This is a measure of the total number of subjects within a study population which remain alive despite a propensity to suffer from meconium ileus during a specified period of time divided by the total number of individuals in the study population, presented as a ratio, fraction, quotient or percentage." [https://www.merriam-webster.com, PMID:32084371]
-synonym: "incidence of meconium ileus survivors" EXACT []
-xref: PMID:32084371
-is_a: CMO:0002737 ! ratio of survivors to total study population during a period of time
-created_by: slaulede
-creation_date: 2022-02-28T17:05:40Z
-
-[Term]
-id: CMO:0003880
-name: meconium ileus incidence/prevalence measurement
-def: "Any measurement in which the number of individuals in a study population that display meconium ileuss at a point in time or develop meconium ileus within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
-synonym: "meconium ileus incidence/prevalence" EXACT []
-is_a: CMO:0002363 ! alimentary/gastrointestinal disease incidence/prevalence measurement
-created_by: slaulede
-creation_date: 2022-02-28T17:40:25Z
-
-[Term]
-id: CMO:0003881
-name: percentage of study population developing meconium ileus during a period of time
-def: "This is the number of new cases of meconium ileus appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
-synonym: "incidence of meconium ileus" EXACT []
-synonym: "meconium ileus incidence" EXACT []
-xref: PMID:32084371
-is_a: CMO:0003880 ! meconium ileus incidence/prevalence measurement
-created_by: slaulede
-creation_date: 2022-02-28T17:46:15Z
-
-[Term]
-id: CMO:0003882
-name: post-insult time of death due to metastatic liver tumors
-def: "This is a measurement of the length of time between experimental introduction of metastatic liver tumors and the death of the subject, i.e. the cessation of all vital functions of the body including the heartbeat, brain activity (including the brain stem), and breathing." [https://www.merriam-webster.com, PMID:30309203]
-synonym: "post-insult time of death as a result of metastatic liver tumors" EXACT []
-synonym: "post-insult time of death due to colonic adenocarcinoma PROb cells" NARROW []
-xref: PMID:30309203
-is_a: CMO:0002005 ! post-insult time of death
-created_by: slaulede
-creation_date: 2022-03-01T18:35:37Z
-
-[Term]
-id: CMO:0003883
-name: serum carbon dioxide level
-def: "The concentration of carbon dioxide (the product of the combustion of carbon with an excess of oxygen) in blood serum." []
-is_a: CMO:0001322 ! blood carbon dioxide level
-created_by: jrsmith
-creation_date: 2022-03-31T16:10:47Z
-
-[Term]
-id: CMO:0003884
-name: serum glucose level area under curve (AUC)
-def: "A calculated value in which a series of measurements of the amount of glucose in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13: 978-0781733908]
-synonym: "serum glucose AUC" EXACT []
-is_a: CMO:0000350 ! blood glucose level area under curve (AUC)
-created_by: slaulede
-creation_date: 2022-04-04T14:16:46Z
-
-[Term]
-id: CMO:0003885
-name: serum insulin level area under curve (AUC)
-def: "A calculated value in which a series of measurements of the amount of insulin in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13: 978-0781733908]
-synonym: "serum insulin AUC" EXACT []
-is_a: CMO:0000351 ! blood insulin level area under curve (AUC)
-created_by: slaulede
-creation_date: 2022-04-04T14:37:24Z
 
 [Typedef]
 id: part_of

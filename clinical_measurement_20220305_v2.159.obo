@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.162
-date: 09:04:2022 20:13
+data-version: 2.159
+date: 05:03:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -613,7 +613,6 @@ is_a: CMO:0000000 ! clinical measurement
 id: CMO:0000087
 name: kidney morphological measurement
 def: "Measurement of the physical form or structure of one or both kidneys, the organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
-synonym: "renal morphological measurement" EXACT []
 is_a: CMO:0000068 ! organ morphological measurement
 is_a: CMO:0000906 ! kidney measurement
 
@@ -2812,8 +2811,7 @@ creation_date: 2010-11-08T01:45:04Z
 id: CMO:0000350
 name: blood glucose level area under curve (AUC)
 def: "A calculated value in which a series of measurements of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia", Mondofacto:Mondofacto_Online_Medical_Dictionary]
-synonym: "blood glucose AUC" EXACT []
-synonym: "glucose AUC" BROAD []
+synonym: "AUC glucose" RELATED []
 is_a: CMO:0000352 ! calculated blood glucose level
 created_by: mshimoyama
 creation_date: 2010-11-08T03:31:06Z
@@ -2822,7 +2820,7 @@ creation_date: 2010-11-08T03:31:06Z
 id: CMO:0000351
 name: blood insulin level area under curve (AUC)
 def: "A calculated value in which a series of measurements of the amount of insulin in a specified volume of blood is plotted against time for a single individual and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined. Insulin is the fuel-regulating peptide hormone which is formed from proinsulin in the beta cells of the pancreatic islets and which promotes the storage of glucose and the uptake of amino acids, increases protein and lipid synthesis, and inhibits lipolysis and gluconeogenesis." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Area_under_curve "Wikipedia", ISBN:978-1416049982]
-synonym: "blood insulin AUC" EXACT []
+synonym: "blood insulin AUC" RELATED []
 is_a: CMO:0000353 ! calculated blood insulin level
 created_by: mshimoyama
 creation_date: 2010-11-08T03:54:32Z
@@ -3580,8 +3578,6 @@ creation_date: 2010-12-29T02:08:58Z
 id: CMO:0000439
 name: spinal column length
 def: "Distance from first vertebra to last vertebra making up the spinal column." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "total length of vertebrae" EXACT []
-synonym: "total length of vertebral column" EXACT []
 is_a: CMO:0000437 ! skeleton morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T02:10:41Z
@@ -3758,8 +3754,7 @@ creation_date: 2010-12-29T03:54:47Z
 id: CMO:0000460
 name: cervical vertebral column length
 def: "Distance from end to end of the expanse of the spinal column made up of cervical vertebrae, which constitutes the neck skeletal frame." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "total length of cervical vertebrae" RELATED []
-relationship: part_of CMO:0000439 ! spinal column length
+is_a: CMO:0000437 ! skeleton morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T03:56:07Z
 
@@ -19579,10 +19574,9 @@ creation_date: 2014-02-04T18:11:48Z
 [Term]
 id: CMO:0002171
 name: quantitative insulin sensitivity check index
-def: "A calculated measurement to estimate the effect of insulin on net glucose disposal (insulin sensitivity) in an organism, calculated as 1/(log[fasting plasma insulin in uU/mL] + log[fasting blood glucose in mg/dL]), i.e., the inverse of the logarithm of the product of fasting plasma insulin level and fasting blood glucose level. The insulin and glucose levels may also be measured in any combination of blood, plasma, and serum." [PMID:10902785]
+def: "A calculated measurement to estimate the effect of insulin on net glucose disposal (insulin sensitivity) in an organism, calculated as 1/(log[fasting plasma insulin in uU/mL] + log[fasting blood glucose in mg/dL]), i.e., the inverse of the logarithm of the product of fasting plasma insulin level and fasting blood glucose level." [PMID:10902785]
 synonym: "QUICKI" RELATED []
 is_a: CMO:0000352 ! calculated blood glucose level
-is_a: CMO:0000359 ! calculated serum insulin level
 is_a: CMO:0002170 ! calculated plasma insulin level
 created_by: JSmith
 creation_date: 2014-02-04T18:13:36Z
@@ -20199,8 +20193,8 @@ id: CMO:0002239
 name: blood gamma-glutamyltransferase activity level
 def: "The amount of enzymatic activity of gamma-glutamyltransferase (GGT) in a specified sample of blood. GGT catalyzes the transfer of the gamma-glutamyl moiety of glutathione to an acceptor such as amino acid, a peptide or water. Blood GGT level is used as an enzymatic marker for liver disease or damage." [http://en.wikipedia.org/wiki/Gamma-glutamyl_transpeptidase "Wikipedia"]
 synonym: "blood gamma-glutamyl transpeptidase activity level" EXACT []
-synonym: "blood GGT activity level" EXACT []
-synonym: "blood GGTP activity level" EXACT []
+synonym: "blood GGT activity level" RELATED []
+synonym: "blood GGTP activity level" RELATED []
 is_a: CMO:0000064 ! blood enzyme activity level
 created_by: JSmith
 creation_date: 2014-03-11T14:08:40Z
@@ -35464,32 +35458,6 @@ xref: PMID:30309203
 is_a: CMO:0002005 ! post-insult time of death
 created_by: slaulede
 creation_date: 2022-03-01T18:35:37Z
-
-[Term]
-id: CMO:0003883
-name: serum carbon dioxide level
-def: "The concentration of carbon dioxide (the product of the combustion of carbon with an excess of oxygen) in blood serum." []
-is_a: CMO:0001322 ! blood carbon dioxide level
-created_by: jrsmith
-creation_date: 2022-03-31T16:10:47Z
-
-[Term]
-id: CMO:0003884
-name: serum glucose level area under curve (AUC)
-def: "A calculated value in which a series of measurements of the amount of glucose in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13: 978-0781733908]
-synonym: "serum glucose AUC" EXACT []
-is_a: CMO:0000350 ! blood glucose level area under curve (AUC)
-created_by: slaulede
-creation_date: 2022-04-04T14:16:46Z
-
-[Term]
-id: CMO:0003885
-name: serum insulin level area under curve (AUC)
-def: "A calculated value in which a series of measurements of the amount of insulin in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13: 978-0781733908]
-synonym: "serum insulin AUC" EXACT []
-is_a: CMO:0000351 ! blood insulin level area under curve (AUC)
-created_by: slaulede
-creation_date: 2022-04-04T14:37:24Z
 
 [Typedef]
 id: part_of
