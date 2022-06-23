@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.166
-date: 23:06:2022 12:30
+data-version: 2.165
+date: 04:06:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -14714,7 +14714,6 @@ id: CMO:0001674
 name: femur stiffness
 def: "A calculated measurement of the rigidity of the femur, that is, the extent to which it resists deformation in response to an applied force, taken as the initial, i.e. the maximum, slope of the load-displacement curve. The femur is the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Stiffness "Wikipedia", ISBN:978-1416049982, PMID:16059631]
 synonym: "femoral stiffness" EXACT []
-synonym: "Young's modulus" RELATED []
 xref: MA:0001359
 is_a: CMO:0001664 ! femur biomechanical measurement
 is_a: CMO:0001673 ! bone stiffness

@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.166
-date: 23:06:2022 12:30
+data-version: 2.163
+date: 23:04:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -2862,7 +2862,6 @@ creation_date: 2010-11-10T10:57:59Z
 id: CMO:0000356
 name: retroperitoneal fat pad weight
 def: "Weight of the encapsulated adipose tissue found posterior to the peritoneum." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "RetroFat" EXACT []
 is_a: CMO:0000088 ! abdominal fat pad weight
 created_by: mshimoyama
 creation_date: 2010-11-10T10:58:18Z
@@ -2871,7 +2870,6 @@ creation_date: 2010-11-10T10:58:18Z
 id: CMO:0000357
 name: epididymal fat pad weight
 def: "Weight of the encapsulated adipose tissue surrounding the epididymis, the structure along the posterior body of the testis." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "EpiFat" EXACT []
 synonym: "gonadal fat pad weight" EXACT []
 is_a: CMO:0000657 ! epididymal fat pad morphological measurement
 created_by: mshimoyama
@@ -13558,7 +13556,7 @@ creation_date: 2013-05-07T17:39:15Z
 [Term]
 id: CMO:0001556
 name: bone mineral content to body weight ratio
-def: "A calculated measurement in which the mass of mineral in any or all of the bones of the body is divided by the total weight of the body and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the organism." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A calculated measurement in which the mass of mineral in any or all of the bones of the body is divided by the total weight of the body and presented as a ratio, fraction, quotient or percentage, thus nromalizing it to the size of the organism." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "BMC/BW" RELATED []
 is_a: CMO:0001555 ! calculated bone mineral content measurement
 created_by: JSmith
@@ -14714,7 +14712,6 @@ id: CMO:0001674
 name: femur stiffness
 def: "A calculated measurement of the rigidity of the femur, that is, the extent to which it resists deformation in response to an applied force, taken as the initial, i.e. the maximum, slope of the load-displacement curve. The femur is the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Stiffness "Wikipedia", ISBN:978-1416049982, PMID:16059631]
 synonym: "femoral stiffness" EXACT []
-synonym: "Young's modulus" RELATED []
 xref: MA:0001359
 is_a: CMO:0001664 ! femur biomechanical measurement
 is_a: CMO:0001673 ! bone stiffness
@@ -14726,7 +14723,6 @@ id: CMO:0001675
 name: femur ultimate force
 def: "A calculated measurement of the force necessary to fracture the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds, under specified conditions and thus a measure of the biomechanical strength of that bone. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, PMID:11905527]
 synonym: "femur force at failure" RELATED []
-synonym: "Fmax femur" EXACT []
 xref: MA:0001359
 is_a: CMO:0001561 ! bone ultimate force
 is_a: CMO:0001664 ! femur biomechanical measurement
@@ -14750,7 +14746,6 @@ id: CMO:0001677
 name: femur total energy absorbed before break
 def: "A calculated measurement of the maximum amount of energy the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds, can absorb under stress before it breaks, derived as the area under the stress-strain or load-displacement curve at the point of failure. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, PMID:8274302]
 synonym: "femoral energy to break" RELATED []
-synonym: "femoral strength" EXACT []
 synonym: "femoral toughness measurement" RELATED []
 synonym: "femoral work to failure" RELATED []
 synonym: "femur energy absorption capacity" RELATED []
@@ -22315,7 +22310,7 @@ creation_date: 2014-06-05T13:01:21Z
 [Term]
 id: CMO:0002450
 name: liver molecular composition measurement
-def: "Any quantification of the amounts or proportions of proteins, lipids, minerals, nutrients, gases, or other substances in a specified sample of liver tissue." [ISBN:0683400088, Stedman:Stedmans_Medical_Dictionary]
+def: "Any quantification of the amounts or proportions of proteins, lipids, minerals, nutrients, gases, or other substances ina specified sample of liver tissue." [ISBN:0683400088, Stedman:Stedmans_Medical_Dictionary]
 synonym: "hepatic molecular composition measurement" RELATED []
 is_a: CMO:0000093 ! liver morphological measurement
 is_a: CMO:0002067 ! tissue molecular composition measurement
@@ -23701,7 +23696,7 @@ name: heart left ventricle end-diastolic  posterior wall thickness
 def: "The thickness or depth (i.e. the measurement of the two-dimensional extent of the distance between the inner and outer surfaces) of the dorsal/posterior wall of the left ventricle of the heart at the end of diastole, that is, when the heart muscle is maximally relaxed. The dorsal wall is the portion of the muscle enclosing the ventricle which is closest to the spine and farthest from the chest wall of the organism." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Anatomical_terms_of_location) "Wikipedia", ISBN:978-1416049982]
 comment: Note that "left" in this context refers to the perspective of the organism, not that of the observer.
 synonym: "end-diastolic heart left ventricle posterior wall thickness" EXACT []
-synonym: "end-diastolic heart left ventricle PWT" EXACT []
+synonym: "end-diastolic heart left ventricle PWT" RELATED []
 is_a: CMO:0000239 ! heart left ventricle posterior wall thickness
 created_by: JSmith
 creation_date: 2014-10-29T10:36:08Z
@@ -25593,7 +25588,7 @@ creation_date: 2018-05-15T17:13:43Z
 [Term]
 id: CMO:0002793
 name: tissue ribonucleic acid composition measurement
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified tissue." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNA) of which a tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "tissue RNA composition measurement" EXACT []
 is_a: CMO:0002067 ! tissue molecular composition measurement
 created_by: jrsmith
@@ -27472,9 +27467,7 @@ creation_date: 2019-01-22T15:16:22Z
 id: CMO:0003010
 name: blood dipeptidyl peptidase 4 activity level
 def: "Quantitation of the catalytic effect exerted by dipeptidyl-peptidase 4 (DPP4) in a specified volume of blood. Dpp4 is a cell surface glycoprotein receptor involved in the costimulatory signal essential for T-cell receptor (TCR)-mediated T-cell activation." []
-synonym: "blood DPP-4 activity level" EXACT []
-synonym: "blood DPP4 activity level" EXACT []
-xref: PMID:25264749
+synonym: "blood DPP4 activity level" RELATED []
 is_a: CMO:0000064 ! blood enzyme activity level
 created_by: sjwang
 creation_date: 2019-01-22T15:24:56Z
@@ -27483,9 +27476,7 @@ creation_date: 2019-01-22T15:24:56Z
 id: CMO:0003011
 name: plasma dipeptidyl peptidase 4 activity level
 def: "Quantitation of the catalytic effect exerted by dipeptidyl-peptidase IV (DPP4) in a specified volume of plasma. Dpp4 is a cell surface glycoprotein receptor involved in the costimulatory signal essential for T-cell receptor (TCR)-mediated T-cell activation." []
-synonym: "plasma DPP-4 activity level" EXACT []
-synonym: "plasma DPP4 activity level" EXACT []
-xref: PMID:25264749
+synonym: "plasma DPP4 activity level" RELATED []
 is_a: CMO:0003010 ! blood dipeptidyl peptidase 4 activity level
 created_by: sjwang
 creation_date: 2019-01-22T15:29:26Z
@@ -27494,9 +27485,6 @@ creation_date: 2019-01-22T15:29:26Z
 id: CMO:0003012
 name: serum dipeptidyl peptidase 4 activity level
 def: "Quantitation of the catalytic effect exerted by dipeptidyl-peptidase IV (DPP4) in a specified volume of serum. Dpp4 is a cell surface glycoprotein receptor involved in the costimulatory signal essential for T-cell receptor (TCR)-mediated T-cell activation." []
-synonym: "serum DPP-4 activity level" EXACT []
-synonym: "serum DPP4 activity level" EXACT []
-xref: PMID:25264749
 is_a: CMO:0003010 ! blood dipeptidyl peptidase 4 activity level
 created_by: sjwang
 creation_date: 2019-01-22T15:31:02Z
@@ -35516,58 +35504,6 @@ xref: PMID: 25573024
 is_a: CMO:0001200 ! calculated epididymal fat pad weight
 created_by: slaulede
 creation_date: 2022-04-21T18:20:35Z
-
-[Term]
-id: CMO:0003887
-name: tissue deoxyribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the deoxyribonucleic acids (DNAs) found in a specified tissue." [https://www.merriam-webster.com/]
-synonym: "tissue DNA composition measurement" EXACT []
-is_a: CMO:0002067 ! tissue molecular composition measurement
-created_by: slaulede
-creation_date: 2022-06-02T15:20:26Z
-
-[Term]
-id: CMO:0003888
-name: calculated tissue deoxyribonucleic acid composition measurement
-def: "This is a measurement of one or more deoxyribonucleic acids, the molecules that are usually the molecular basis of heredity, which has been normalized, adjusted or derived by a mathematical process or computation." [https://www.merriam-webster.com/]
-synonym: "calculated tissue DNA composition measurement" EXACT []
-xref: PMID:25264749
-is_a: CMO:0003887 ! tissue deoxyribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2022-06-02T15:31:10Z
-
-[Term]
-id: CMO:0003889
-name: tissue mitochondrial DNA to nuclear DNA ratio
-def: "This is a calculated measurement in which the amount of mitochondrial DNA in a specified sample of tissue is divided by the amount of nuclear DNA in the same sample and presented as a ratio, fraction, quotient or percentage, thus normalizing it to nuclear DNA level." [https://www.merriam-webster.com/]
-synonym: "tissue mitochondrial deoxyribonucleic acid to nuclear deoxyribonucleic acid ratio" EXACT []
-xref: PMID:25264749
-is_a: CMO:0003888 ! calculated tissue deoxyribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2022-06-02T15:36:27Z
-
-[Term]
-id: CMO:0003890
-name: calculated bone mineral density measurement
-def: "This is a measurement, the value of which has been normalized, adjusted or derived by a mathematical process or computation, of the mass of mineral per unit volume of bone, the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [https://en.wikipedia.org/wiki/Bone_density, https://www.merriam-webster.com/]
-synonym: "calculated BMD measurement" EXACT []
-synonym: "calculated bone density measurement" EXACT []
-synonym: "Not4Curation" RELATED []
-xref: PMID:22446865
-is_a: CMO:0001226 ! bone mineral density
-created_by: slaulede
-creation_date: 2022-06-03T14:55:16Z
-
-[Term]
-id: CMO:0003891
-name: total bone mineral density
-def: "This is a calculated measurement in which the sum of the bone mineral density in all of the bones measured is divided by the total number of bones or types of bones measured. This measurement represents an average bone mineral density across different bones." [https://www.merriam-webster.com/, PMID:22446865]
-synonym: "total BMD" EXACT []
-synonym: "total bone density" EXACT []
-xref: PMID:22446865
-is_a: CMO:0003890 ! calculated bone mineral density measurement
-created_by: slaulede
-creation_date: 2022-06-03T15:16:01Z
 
 [Typedef]
 id: part_of
