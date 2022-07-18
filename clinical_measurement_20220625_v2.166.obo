@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.168
-date: 16:07:2022 20:13
+data-version: 2.166
+date: 25:06:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -10623,8 +10623,8 @@ creation_date: 2012-12-18T17:29:09Z
 id: CMO:0001230
 name: change in mean arterial blood pressure to change in intracerebroventricular sodium concentration ratio
 def: "A calculated measurement of the ratio between the change in mean arterial blood pressure and the concentration of sodium infused directly into the ventricle(s) of the brain; calculated as the slope of the curve of mean arterial blood pressure versus intracerebroventricular-infused sodium concentration." [PMID:17420333, PMID:19558257]
+is_a: CMO:0000009 ! mean arterial blood pressure
 is_a: CMO:0000743 ! change in calculated blood pressure
-is_a: CMO:0003895 ! calculated mean arterial blood pressure measurement
 created_by: JSmith
 creation_date: 2013-01-07T13:24:24Z
 
@@ -10691,7 +10691,7 @@ id: CMO:0001238
 name: change in renal sympathetic nerve activity to change in intracerebroventricular sodium concentration ratio
 def: "A calculated measurement in which the change in the activity, i.e., the recordable electrical energy, of the renal sympathetic nerves between two points in time or two conditions is compared to the concentration of a solution of sodium, the chemical element with atomic number 11, infused directly into the ventricle(s) of the brain; calculated as the slope of the curve of renal sympathetic nerve activity versus intracerebroventricular-infused sodium concentration. A renal sympathetic nerve is a nerve (a cordlike structure that conveys impulses between the central nervous system and one or more parts of the body, and that consists of an outer connective tissue sheath surrounding a bundle of conductive fibers) of the autonomic nervous system that regulates involuntary and automatic reactions, especially to stress, associated with and controlling activity of the kidneys." [http://en.wikipedia.org/wiki/Sympathetic_nerve "Wikipedia", http://www.thefreedictionary.com/ "Multiple_Dictionaries", ISBN:978-1416049982, PMID:17420333, PMID:19558257]
 synonym: "change in RSNA to change in intracerebroventricular sodium concentration ratio" RELATED []
-is_a: CMO:0002404 ! ratio of change in renal sympathetic nerve activity
+is_a: CMO:0001785 ! calculated renal sympathetic nerve activity measurement
 created_by: JSmith
 creation_date: 2013-01-07T15:44:48Z
 
@@ -10734,8 +10734,6 @@ creation_date: 2013-01-07T16:25:29Z
 id: CMO:0001243
 name: cerebrospinal fluid chloride level
 def: "Measurement of the amount of choride, the negatively charged ion of chlorine, found in a specified volume of cerebrospinal fluid." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "CSF chloride concentration" EXACT []
-synonym: "CSF Cl- concentration" EXACT []
 is_a: CMO:0001242 ! cerebrospinal fluid electrolyte measurement
 created_by: JSmith
 creation_date: 2013-01-07T16:39:25Z
@@ -10744,9 +10742,6 @@ creation_date: 2013-01-07T16:39:25Z
 id: CMO:0001244
 name: cerebrospinal fluid sodium level
 def: "The amount of cationic sodium in a specified volume of cerebrospinal fluid." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "CSF Na+ concentration" EXACT []
-synonym: "CSF sodium concentration" EXACT []
-synonym: "CSF sodium ion concentration" EXACT []
 is_a: CMO:0001242 ! cerebrospinal fluid electrolyte measurement
 created_by: JSmith
 creation_date: 2013-01-07T16:42:05Z
@@ -15850,8 +15845,9 @@ creation_date: 2013-09-17T18:26:30Z
 id: CMO:0001786
 name: stimulated renal sympathetic nerve activity to basal renal sympathetic nerve activity ratio
 def: "A calculated measurement in which the recordable electrical energy of a renal sympathetic nerve assessed after the application of an agent or activity designed to excite or increase the activity of is divided by the activity of such a nerve assessed without outside influences and presented as a ratio, fraction, quotient or percentage. A renal sympathetic nerve is a nerve (a cordlike structure that conveys impulses between the central nervous system and one or more parts of the body, and that consists of an outer connective tissue sheath surrounding a bundle of conductive fibers) of the autonomic nervous system that regulates involuntary and automatic reactions, especially to stress, associated with and controlling activity of the kidneys." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, Gale:Gale_Encyclopedia_of_Medicine_2008, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
-synonym: "stimulated RSNA to basal RSNA ratio" EXACT []
-is_a: CMO:0002404 ! ratio of change in renal sympathetic nerve activity
+synonym: "percent change in RSNA" RELATED []
+synonym: "stimulated RSNA to basal RSNA ratio" RELATED []
+is_a: CMO:0001785 ! calculated renal sympathetic nerve activity measurement
 created_by: JSmith
 creation_date: 2013-09-20T12:30:31Z
 
@@ -17605,7 +17601,7 @@ id: CMO:0001965
 name: change in mean arterial blood pressure to change in the logarithm of the vasoconstrictor dose ratio
 def: "A calculated measurement in which difference in the mean arterial blood pressure between two or more dosages of a drug or chemical which reduces the interior diameter of blood vessels is divided by difference in the logarithm of the applied dosages and presented as a ratio, fraction, quotient or percentage. The value is calculated as the slope of the curve of the mean arterial blood pressure versus log of the vasoconstrictor dose [VC] graph, given by the equation (log[VC]2 - log[VC]1)/(MAP at [VC]2 - MAP at [VC]1). A logarithm is the power to which a base, such as 10, must be raised to produce a given number." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "change in MAP to change in log[vasoconstrictor] ratio" RELATED []
-is_a: CMO:0003895 ! calculated mean arterial blood pressure measurement
+is_a: CMO:0000009 ! mean arterial blood pressure
 created_by: JSmith
 creation_date: 2013-12-02T10:53:31Z
 
@@ -18289,8 +18285,8 @@ id: CMO:0002035
 name: percent change in mean arterial blood pressure
 def: "The difference in mean arterial blood pressure between two points in time or two conditions expressed as a percentage (the proportion or rate per hundred parts)." [Collins:Collins_Online_English_Dictionary, PMID:17420333]
 comment: The term "absolute change" refers to the subtraction of one value from another, as opposed to a dissimilarity of two values expressed as a ratio or as a percentage. In this context it is not intended to necessarily imply the difference expressed as an absolute value |n|, that is, the numeric value of the difference without regard to its sign.
+is_a: CMO:0000009 ! mean arterial blood pressure
 is_a: CMO:0000743 ! change in calculated blood pressure
-is_a: CMO:0003895 ! calculated mean arterial blood pressure measurement
 created_by: JSmith
 creation_date: 2014-01-07T16:35:21Z
 
@@ -18299,10 +18295,9 @@ id: CMO:0002036
 name: change in heart rate to change in mean arterial blood pressure ratio
 def: "Average slope of the line defined by the change in heart rate (the number of contractions of the cardiac ventricles per unit of time) relative to the change in mean arterial blood pressure (the average force the blood exerts on an artery wall) over time and/or in response to a change in conditions." [Collins:Collins_Online_English_Dictionary, PMID:17420333]
 synonym: "baroreceptor reflex sensitivity" EXACT []
-synonym: "change in HR to change in MAP ratio" EXACT []
+is_a: CMO:0000009 ! mean arterial blood pressure
 is_a: CMO:0000743 ! change in calculated blood pressure
 is_a: CMO:0002161 ! calculated heart rate measurement
-is_a: CMO:0003895 ! calculated mean arterial blood pressure measurement
 created_by: JSmith
 creation_date: 2014-01-07T16:51:06Z
 
@@ -20789,7 +20784,7 @@ def: "A calculated measurement in which difference in the mean arterial blood pr
 synonym: "beta coefficient of mean arterial blood pressure change" RELATED []
 synonym: "change in MAP to change in [vasoactive chemical] ratio" RELATED []
 synonym: "slope of the change in mean arterial blood pressure" RELATED []
-is_a: CMO:0003895 ! calculated mean arterial blood pressure measurement
+is_a: CMO:0000009 ! mean arterial blood pressure
 created_by: JSmith
 creation_date: 2014-03-28T12:01:46Z
 
@@ -21874,10 +21869,9 @@ creation_date: 2014-05-28T12:26:55Z
 
 [Term]
 id: CMO:0002404
-name: ratio of change in renal sympathetic nerve activity
-def: "This is a calculated measurement of the relative difference in the activity of the renal sympathetic nerve between a treated state and a control state or between two points in time, expressed as a ratio, fraction, quotient or percentage. Ratio of change is calculated as the difference between the two values divided by the baseline, starting or reference value." [http://en.wikipedia.org/wiki/Percent_change "Wikipedia"]
-synonym: "percent change in RSNA" NARROW []
-synonym: "ratio of change in RSNA" EXACT []
+name: percent change in renal sympathetic nerve activity
+def: "A calculated measurement of the relative difference in the activity of the renal sympathetic nerve between a treated state and a control state or between two points in time, expressed as a percentage. Percent change is calculated as the difference between the two values divided by the baseline, starting or reference value, and the result multiplied by 100." [http://en.wikipedia.org/wiki/Percent_change "Wikipedia"]
+synonym: "percent change in RSNA" RELATED []
 is_a: CMO:0001785 ! calculated renal sympathetic nerve activity measurement
 created_by: JSmith
 creation_date: 2014-05-28T12:40:51Z
@@ -35574,80 +35568,6 @@ xref: PMID:22446865
 is_a: CMO:0003890 ! calculated bone mineral density measurement
 created_by: slaulede
 creation_date: 2022-06-03T15:16:01Z
-
-[Term]
-id: CMO:0003892
-name: range of RSNA changes during variation of MAP
-def: "This calculated measurement is the range of change in renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
-synonym: "range of percentage of change in renal sympathetic nerve activity" NARROW []
-synonym: "range of percentage of change in RSNA" NARROW []
-synonym: "range of ratio of change in RSNA" EXACT []
-synonym: "range of renal sympathetic nerve activity changes during variation of mean arterial blood pressure" EXACT []
-synonym: "ratio of change in renal sympathetic nerve activity (range)" EXACT []
-xref: PMID:15458950
-is_a: CMO:0002404 ! ratio of change in renal sympathetic nerve activity
-created_by: slaulede
-creation_date: 2022-07-08T13:11:02Z
-
-[Term]
-id: CMO:0003893
-name: change in RSNA to change in MAP ratio
-def: "This calculated value is the average slope of the curve defined by the change in renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
-synonym: "change in renal sympathetic nerve activity to change in mean arterial blood pressure ratio" EXACT []
-xref: PMID:15458950
-is_a: CMO:0002404 ! ratio of change in renal sympathetic nerve activity
-created_by: slaulede
-creation_date: 2022-07-08T14:10:40Z
-
-[Term]
-id: CMO:0003894
-name: mean arterial pressure at the midpoint of a range of renal sympathetic nerve activity
-def: "This calculated value is the value of the mean arterial blood pressure at the midpoint of the curve defined by the change of renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [ISBN-13: 978-0781733908, PMID:15458950]
-synonym: "MAP50 of RSNA range" EXACT []
-xref: PMID:15458950
-relationship: part_of CMO:0003892 ! range of RSNA changes during variation of MAP
-created_by: slaulede
-creation_date: 2022-07-08T14:27:18Z
-
-[Term]
-id: CMO:0003895
-name: calculated mean arterial blood pressure measurement
-def: "This is a measurement which has been normalized, adjusted or derived by a mathematical process or computation, of mean arterial blood pressure, the average blood pressure within an artery over a specified period of time." [https://www.merriam-webster.com/, ISBN-13: 978-0781733908]
-xref: PMID:15458950
-is_a: CMO:0000009 ! mean arterial blood pressure
-created_by: slaulede
-creation_date: 2022-07-08T15:09:23Z
-
-[Term]
-id: CMO:0003896
-name: range of heart rate variation during variation of mean arterial blood pressure
-def: "This calculated measurement is the range of change in heart rate (the number of contractions of the cardiac ventricles per unit of time) relative to the change in mean arterial blood pressure (the average force the blood exerts on an artery wall) over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
-synonym: "range of change in heart rate during changes in mean arterial blood pressure" EXACT []
-synonym: "range of change in HR during changes in MAP" EXACT []
-synonym: "range of variation in HR during variation in MAP" EXACT []
-is_a: CMO:0002161 ! calculated heart rate measurement
-created_by: slaulede
-creation_date: 2022-07-11T16:35:24Z
-
-[Term]
-id: CMO:0003897
-name: mean arterial pressure at the midpoint of a range of heart rates
-def: "This calculated value is the value of the mean arterial blood pressure at the midpoint of the curve defined by the change of heart rate relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
-synonym: "MAP50 of HR range" EXACT []
-relationship: part_of CMO:0003896 ! range of heart rate variation during variation of mean arterial blood pressure
-created_by: slaulede
-creation_date: 2022-07-11T16:44:02Z
-
-[Term]
-id: CMO:0003898
-name: cerebrospinal fluid potassium level
-def: "The amount of cationic potassium in a specified volume of cerebrospinal fluid." [ISBN-13: 978-0781733908]
-synonym: "CSF K+ concentration" EXACT []
-synonym: "CSF potassium concentration" EXACT []
-synonym: "CSF potassium ion concentration" EXACT []
-is_a: CMO:0001242 ! cerebrospinal fluid electrolyte measurement
-created_by: slaulede
-creation_date: 2022-07-12T17:21:53Z
 
 [Typedef]
 id: part_of

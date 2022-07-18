@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.168
-date: 16:07:2022 20:13
+data-version: 2.167
+date: 09:07:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -10734,8 +10734,6 @@ creation_date: 2013-01-07T16:25:29Z
 id: CMO:0001243
 name: cerebrospinal fluid chloride level
 def: "Measurement of the amount of choride, the negatively charged ion of chlorine, found in a specified volume of cerebrospinal fluid." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "CSF chloride concentration" EXACT []
-synonym: "CSF Cl- concentration" EXACT []
 is_a: CMO:0001242 ! cerebrospinal fluid electrolyte measurement
 created_by: JSmith
 creation_date: 2013-01-07T16:39:25Z
@@ -10744,9 +10742,6 @@ creation_date: 2013-01-07T16:39:25Z
 id: CMO:0001244
 name: cerebrospinal fluid sodium level
 def: "The amount of cationic sodium in a specified volume of cerebrospinal fluid." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "CSF Na+ concentration" EXACT []
-synonym: "CSF sodium concentration" EXACT []
-synonym: "CSF sodium ion concentration" EXACT []
 is_a: CMO:0001242 ! cerebrospinal fluid electrolyte measurement
 created_by: JSmith
 creation_date: 2013-01-07T16:42:05Z
@@ -18299,7 +18294,6 @@ id: CMO:0002036
 name: change in heart rate to change in mean arterial blood pressure ratio
 def: "Average slope of the line defined by the change in heart rate (the number of contractions of the cardiac ventricles per unit of time) relative to the change in mean arterial blood pressure (the average force the blood exerts on an artery wall) over time and/or in response to a change in conditions." [Collins:Collins_Online_English_Dictionary, PMID:17420333]
 synonym: "baroreceptor reflex sensitivity" EXACT []
-synonym: "change in HR to change in MAP ratio" EXACT []
 is_a: CMO:0000743 ! change in calculated blood pressure
 is_a: CMO:0002161 ! calculated heart rate measurement
 is_a: CMO:0003895 ! calculated mean arterial blood pressure measurement
@@ -35577,13 +35571,11 @@ creation_date: 2022-06-03T15:16:01Z
 
 [Term]
 id: CMO:0003892
-name: range of RSNA changes during variation of MAP
-def: "This calculated measurement is the range of change in renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
+name: range of ratio of change in renal sympathetic nerve activity
+def: "This calculated measurement is the range of change in renal sympathetic nerve activity over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
 synonym: "range of percentage of change in renal sympathetic nerve activity" NARROW []
 synonym: "range of percentage of change in RSNA" NARROW []
 synonym: "range of ratio of change in RSNA" EXACT []
-synonym: "range of renal sympathetic nerve activity changes during variation of mean arterial blood pressure" EXACT []
-synonym: "ratio of change in renal sympathetic nerve activity (range)" EXACT []
 xref: PMID:15458950
 is_a: CMO:0002404 ! ratio of change in renal sympathetic nerve activity
 created_by: slaulede
@@ -35602,10 +35594,10 @@ creation_date: 2022-07-08T14:10:40Z
 [Term]
 id: CMO:0003894
 name: mean arterial pressure at the midpoint of a range of renal sympathetic nerve activity
-def: "This calculated value is the value of the mean arterial blood pressure at the midpoint of the curve defined by the change of renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [ISBN-13: 978-0781733908, PMID:15458950]
+def: "This calculated value is the value of the mean arterial blood pressure at the midpoint of the curve defined by the renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [ISBN-13: 978-0781733908, PMID:15458950]
 synonym: "MAP50 of RSNA range" EXACT []
 xref: PMID:15458950
-relationship: part_of CMO:0003892 ! range of RSNA changes during variation of MAP
+is_a: CMO:0003892 ! range of ratio of change in renal sympathetic nerve activity
 created_by: slaulede
 creation_date: 2022-07-08T14:27:18Z
 
@@ -35617,37 +35609,6 @@ xref: PMID:15458950
 is_a: CMO:0000009 ! mean arterial blood pressure
 created_by: slaulede
 creation_date: 2022-07-08T15:09:23Z
-
-[Term]
-id: CMO:0003896
-name: range of heart rate variation during variation of mean arterial blood pressure
-def: "This calculated measurement is the range of change in heart rate (the number of contractions of the cardiac ventricles per unit of time) relative to the change in mean arterial blood pressure (the average force the blood exerts on an artery wall) over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
-synonym: "range of change in heart rate during changes in mean arterial blood pressure" EXACT []
-synonym: "range of change in HR during changes in MAP" EXACT []
-synonym: "range of variation in HR during variation in MAP" EXACT []
-is_a: CMO:0002161 ! calculated heart rate measurement
-created_by: slaulede
-creation_date: 2022-07-11T16:35:24Z
-
-[Term]
-id: CMO:0003897
-name: mean arterial pressure at the midpoint of a range of heart rates
-def: "This calculated value is the value of the mean arterial blood pressure at the midpoint of the curve defined by the change of heart rate relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [https://www.merriam-webster.com/, PMID:15458950]
-synonym: "MAP50 of HR range" EXACT []
-relationship: part_of CMO:0003896 ! range of heart rate variation during variation of mean arterial blood pressure
-created_by: slaulede
-creation_date: 2022-07-11T16:44:02Z
-
-[Term]
-id: CMO:0003898
-name: cerebrospinal fluid potassium level
-def: "The amount of cationic potassium in a specified volume of cerebrospinal fluid." [ISBN-13: 978-0781733908]
-synonym: "CSF K+ concentration" EXACT []
-synonym: "CSF potassium concentration" EXACT []
-synonym: "CSF potassium ion concentration" EXACT []
-is_a: CMO:0001242 ! cerebrospinal fluid electrolyte measurement
-created_by: slaulede
-creation_date: 2022-07-12T17:21:53Z
 
 [Typedef]
 id: part_of
