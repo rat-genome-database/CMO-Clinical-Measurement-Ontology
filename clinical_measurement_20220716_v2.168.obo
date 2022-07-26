@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.169
-date: 23:07:2022 20:13
+data-version: 2.168
+date: 16:07:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -15489,9 +15489,6 @@ creation_date: 2013-07-31T15:27:12Z
 id: CMO:0001747
 name: time constant of left ventricular pressure decay
 def: "A calculated hemodynamic value related to the ability of the heart left ventricle to relax. Tau is calculated as an exponential function of the change in intraventricular pressure during the diastolic isovolumic left ventricular pressure decrease." [PMID:15733052]
-synonym: "Left ventricular relaxation time constant" EXACT []
-synonym: "P/(&#8722;dP/dt)" EXACT []
-synonym: "T" EXACT []
 synonym: "Tau" EXACT []
 synonym: "time constant of left ventricular relaxation" EXACT []
 is_a: CMO:0001744 ! calculated left ventricular blood pressure
@@ -26410,10 +26407,8 @@ creation_date: 2018-11-27T15:20:50Z
 [Term]
 id: CMO:0002885
 name: arterial elastance
-def: "Effective arterial elastance (Ea), defined as the ratio of left ventricular end-systolic pressure (Pes) to stroke volume (SV), provides a convenient, useful method to assess arterial load." [PMID:11834502, PMID:1638719]
-synonym: "E(a)" EXACT []
+def: "Effective arterial elastance (Ea), defined as the ratio of left ventricular end-systolic pressure to stroke volume, provides a convenient, useful method to assess arterial load." [PMID:11834502, PMID:1638719]
 synonym: "Ea(PV)" EXACT []
-synonym: "Pes/SV" EXACT []
 xref: PMID:27521423
 is_a: CMO:0002884 ! calculated left ventricular end-systolic blood pressure
 created_by: sjwang
