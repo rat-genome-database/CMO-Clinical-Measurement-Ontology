@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.172
-date: 01:10:2022 20:13
+data-version: 2.171
+date: 24:09:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -34011,8 +34011,8 @@ creation_date: 2021-06-29T12:29:24Z
 
 [Term]
 id: CMO:0003742
-name: heart left ventricle fibrotic lesion size measurement
-def: "This is any measurement of the physical dimensions, proportions, magnitude, or extent of a lesion in the left ventricle of the heart characterized by an abnormal proliferation of fibrous connective tissue. A lesion is a localized pathological change in structure of an organ or tissue due to injury or disease; especially one that is circumscribed and well defined." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+name: heart left ventricule fibrotic lesion size measurement
+def: "Any measurement of the physical dimensions, proportions, magnitude, or extent of a lesion in the left ventricule of the heart characterized by an abnormal proliferation of fibrous connective tissue. A lesion is a localized pathological change in structure of an organ or tissue due to injury or disease; especially one that is circumscribed and well defined." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 xref: PMID:20864942
 is_a: CMO:0003741 ! heart left ventricle fibrotic lesion measurement
 created_by: slaulede
@@ -34020,37 +34020,37 @@ creation_date: 2021-06-29T12:34:47Z
 
 [Term]
 id: CMO:0003743
-name: heart left ventricle fibrotic lesion area measurement
-def: "This is a measurement of the extent of a two-dimensional surface of or plane through a single heart left ventricle fibrotic lesion, or a measurement of the total area occupied by fibrotic lesions in a cross-section of the heart left ventricle." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+name: heart left ventricule fibrotic lesion area measurement
+def: "A measurement of the extent of a two-dimensional surface of or plane through a single heart left ventricule fibrotic lesion, or a measurement of the total area occupied by fibrotic lesions in a cross-section of the kidney." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 xref: PMID:20864942
-is_a: CMO:0003742 ! heart left ventricle fibrotic lesion size measurement
+is_a: CMO:0003742 ! heart left ventricule fibrotic lesion size measurement
 created_by: slaulede
 creation_date: 2021-06-29T12:49:29Z
 
 [Term]
 id: CMO:0003744
-name: calculated heart left ventricle fibrotic lesion area measurement
-def: "This is a measurement of the extent of a two-dimensional surface of or plane through a single heart left ventricle fibrotic lesion, or a measurement of the total area occupied by fibrotic lesions in a cross-section of the heart left ventricle, when that value has been normalized, adjusted or derived by a mathematical process or computation." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+name: calculated heart left ventricule fibrotic lesion area measurement
+def: "A measurement of the extent of a two-dimensional surface of or plane through a single heart left ventricule fibrotic lesion, or a measurement of the total area occupied by fibrotic lesions in a cross-section of the heart left ventricule, when that value has been normalized, adjusted or derived by a mathematical process or computation." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 xref: PMID:20864942
-is_a: CMO:0003743 ! heart left ventricle fibrotic lesion area measurement
+is_a: CMO:0003743 ! heart left ventricule fibrotic lesion area measurement
 created_by: slaulede
 creation_date: 2021-06-29T12:53:13Z
 
 [Term]
 id: CMO:0003745
-name: heart left ventricle interstitial fibrotic lesion area to total heart left ventricule area ratio
-def: "This is a calculated value in which the extent of the two-dimensional surface occupied by interstitial fibrotic lesions is divided by the total extent of the two-dimensional surface of the heart left ventricle and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the heart left ventricle." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+name: heart left ventricule interstitial fibrotic lesion area to total heart left ventricule area ratio
+def: "A calculated value in which the extent of the two-dimensional surface occupied by interstitial fibrotic lesions is divided by the total extent of the two-dimensional surface of the heart left ventricule and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the heart left ventricule." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 xref: PMID:20864942
-is_a: CMO:0003744 ! calculated heart left ventricle fibrotic lesion area measurement
+is_a: CMO:0003744 ! calculated heart left ventricule fibrotic lesion area measurement
 created_by: slaulede
 creation_date: 2021-06-29T13:09:59Z
 
 [Term]
 id: CMO:0003746
-name: heart left ventricle perivascular fibrotic lesion area to total heart left ventricule area ratio
-def: "This is calculated value in which the extent of the two-dimensional surface occupied by perivascular fibrotic lesions is divided by the total extent of the two-dimensional surface of the heart left ventricle and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the heart left ventricle." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+name: heart left ventricule perivascular fibrotic lesion area to total heart left ventricule area ratio
+def: "A calculated value in which the extent of the two-dimensional surface occupied by perivascular fibrotic lesions is divided by the total extent of the two-dimensional surface of the heart left ventricule and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the heart left ventricule." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 xref: PMID:20864942
-is_a: CMO:0003744 ! calculated heart left ventricle fibrotic lesion area measurement
+is_a: CMO:0003744 ! calculated heart left ventricule fibrotic lesion area measurement
 created_by: slaulede
 creation_date: 2021-06-29T13:13:15Z
 
@@ -35712,18 +35712,6 @@ synonym: "slope of the heart rate/ vasoactive chemical dose curve" EXACT []
 is_a: CMO:0002161 ! calculated heart rate measurement
 created_by: slaulede
 creation_date: 2022-09-20T17:08:47Z
-
-[Term]
-id: CMO:0003905
-name: area of atherosclerotic lesion to total artery area ratio
-def: "This is calculated value in which the extent of the two-dimensional surface occupied by atherosclerotic lesion(s) is divided by the total extent of the two-dimensional surface of the artery and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the artery." [ISBN-13:978-0781733908, PMID:28469073]
-synonym: "atherosclerotic area as percentage of total" NARROW []
-synonym: "average atherosclerotic area" EXACT []
-synonym: "lesioned artery area to total artery area ratio" BROAD []
-xref: PMID:28469073
-is_a: CMO:0000976 ! calculated artery lesion measurement
-created_by: slaulede
-creation_date: 2022-09-29T09:47:33Z
 
 [Typedef]
 id: part_of
