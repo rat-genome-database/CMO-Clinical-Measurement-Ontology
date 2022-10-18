@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.173
-date: 15:10:2022 20:13
+data-version: 2.172
+date: 01:10:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -46,16 +46,12 @@ is_a: CMO:0000003 ! blood pressure measurement
 id: CMO:0000006
 name: left ventricular diastolic blood pressure
 def: "The minimum pressure in the heart left ventricle, usually at the point at which the heart is in a state of relaxation and expansion and the ventricles fill with blood." [Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
-synonym: "LVDP" EXACT []
 is_a: CMO:0000005 ! diastolic blood pressure
 
 [Term]
 id: CMO:0000007
 name: left ventricular systolic blood pressure
 def: "Measurement of the pressure within the heart left ventricle at the point of maximal contraction, when the blood is forced from the left ventricle into the aorta." [Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
-synonym: "LVP" EXACT []
-synonym: "LVPmax" NARROW []
-synonym: "peak left ventricular pressure" NARROW []
 is_a: CMO:0000004 ! systolic blood pressure
 
 [Term]
@@ -4995,8 +4991,6 @@ creation_date: 2011-11-03T02:34:53Z
 id: CMO:0000606
 name: left ventricular end-diastolic blood pressure
 def: "The pressure in the heart left ventricle at the end of diastole, the period when the heart is in a state of relaxation and expansion and the ventricles fill with blood." [Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
-synonym: "left ventricular end-diastolic pressure" EXACT []
-synonym: "LVEDP" EXACT []
 is_a: CMO:0000006 ! left ventricular diastolic blood pressure
 created_by: mshimoyama
 creation_date: 2011-11-03T02:35:59Z
@@ -15458,7 +15452,7 @@ creation_date: 2013-07-31T13:40:52Z
 id: CMO:0001744
 name: calculated left ventricular blood pressure
 def: "Any measurement of the blood pressure in the left ventricle of the heart which has been normalized or adjusted by a mathematical process or computation. Left ventricular blood pressure is the pressure, or force per area, exerted by circulating blood against the walls of the left ventricle, the lower chamber of the left side of the heart, which pumps oxygenated blood out through the aorta to all the tissues of the body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
-synonym: "calculated left ventricular pressure" EXACT []
+synonym: "calculated left ventricular pressure" RELATED []
 is_a: CMO:0000008 ! calculated blood pressure
 created_by: JSmith
 creation_date: 2013-07-31T15:17:53Z
@@ -35730,33 +35724,6 @@ xref: PMID:28469073
 is_a: CMO:0000976 ! calculated artery lesion measurement
 created_by: slaulede
 creation_date: 2022-09-29T09:47:33Z
-
-[Term]
-id: CMO:0003906
-name: coronary perfusion pressure
-def: "This is a calculated measurement of the pressure gradient that drives coronary blood pressure. CPP can be measured by calculating the difference between the aortic pressure and the left ventricular end diastolic pressure: Coronary Perfusion Pressure (CPP) = Aortic Diastolic Pressure  Left Ventricular end-diastolic Pressure (LVEDP)." [https://en.wikipedia.org/wiki/Coronary_perfusion_pressure, https://www.ncbi.nlm.nih.gov/books/NBK551531/]
-synonym: "CPP" EXACT []
-is_a: CMO:0000008 ! calculated blood pressure
-created_by: slaulede
-creation_date: 2022-10-10T13:14:15Z
-
-[Term]
-id: CMO:0003907
-name: coronary blood flow rate
-def: "The is a measurement of the amount of blood perfusing the heart muscle through the coronary arteries per unit time." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-is_a: CMO:0000198 ! arterial blood flow rate
-created_by: slaulede
-creation_date: 2022-10-10T13:42:52Z
-
-[Term]
-id: CMO:0003908
-name: coronary blood flow rate to heart weight ratio
-def: "The is a measurement of the amount of blood perfusing the heart muscle through the coronary arteries per unit time, divided by the total weight of the heart, and the result presented as a ratio, fraction, quotient or percentage, thus normalizing coronary blood flow rate to heart weight." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "coronary blood flow per gram of heart tissue" NARROW []
-is_a: CMO:0001543 ! calculated blood flow measurement
-is_a: CMO:0003907 ! coronary blood flow rate
-created_by: slaulede
-creation_date: 2022-10-10T13:49:52Z
 
 [Typedef]
 id: part_of
