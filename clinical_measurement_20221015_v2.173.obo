@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.174
-date: 22:10:2022 20:13
+data-version: 2.173
+date: 15:10:2022 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -33735,9 +33735,8 @@ creation_date: 2021-05-11T17:25:35Z
 [Term]
 id: CMO:0003716
 name: mesangium volume per glomerulus
-def: "This is a calculated value made by dividing the total mesangial volume measurement by the total number of glomeruli measured, both values having been determined from measurements of microscopic images. Alternately, the fractional mesangial volume (FMV) may be multiplied by the mean glomerular volume (GV) to get the total mesangial volume (TMV)." [PMID:14993490, PMID:7894005]
+def: "A calculated value made by dividing the total mesangial volume measurement by the total number of glomeruli measured, both values having been determined from measurements of microscopic images." [https://www.merriam-webster.com, PMID:7894005]
 synonym: "kidney mesangial volume per glomerulus" EXACT []
-synonym: "TMV" EXACT []
 synonym: "Vmes" BROAD []
 xref: PMID:7894005
 is_a: CMO:0002247 ! kidney glomerulus volume
