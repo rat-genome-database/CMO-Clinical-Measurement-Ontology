@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.176
-date: 18:02:2023 20:13
+data-version: 2.175
+date: 11:02:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -35758,24 +35758,6 @@ is_a: CMO:0001543 ! calculated blood flow measurement
 is_a: CMO:0003907 ! coronary blood flow rate
 created_by: slaulede
 creation_date: 2022-10-10T13:49:52Z
-
-[Term]
-id: CMO:0003909
-name: blood myoglobin level
-def: "The amount of myoglobin in a specified volume of blood. Myoglobin is an iron-containing protein similar to hemoglobin that is found in muscle." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "blood myoglobin concentration" EXACT []
-is_a: CMO:0000028 ! blood protein measurement
-created_by: slaulede
-creation_date: 2023-02-13T13:43:31Z
-
-[Term]
-id: CMO:0003910
-name: erythrocyte sedimentation rate
-def: "This is the sinking velocity red corpuscles, i.e., the rapidity which which the red cells sink in a mass of drawn blood." [ISBN-13:978-0781733908]
-synonym: "ESR" EXACT []
-is_a: CMO:0003102 ! red blood cell morphological measurement
-created_by: slaulede
-creation_date: 2023-02-13T13:55:51Z
 
 [Typedef]
 id: part_of
