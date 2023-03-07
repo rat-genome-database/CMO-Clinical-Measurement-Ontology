@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.176
-date: 18:02:2023 20:13
+data-version: 2.177
+date: 04:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -10593,10 +10593,10 @@ creation_date: 2012-12-18T16:55:56Z
 id: CMO:0001226
 name: bone mineral density
 def: "Measurement of the mineral mass per unit area of bone, the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
-synonym: "areal BMD" RELATED []
+synonym: "areal BMD" EXACT []
 synonym: "areal bone mineral density" EXACT []
-synonym: "BMD" RELATED []
-synonym: "bone density" RELATED []
+synonym: "BMD" EXACT []
+synonym: "bone density" EXACT []
 is_a: CMO:0001552 ! bone mineral morphological measurement
 created_by: JSmith
 creation_date: 2012-12-18T17:04:40Z
