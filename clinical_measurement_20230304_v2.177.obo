@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.178
-date: 11:03:2023 20:13
+data-version: 2.177
+date: 04:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -261,12 +261,11 @@ is_a: CMO:0000000 ! clinical measurement
 [Term]
 id: CMO:0000036
 name: complete blood count and differential
-def: "Value resulting from the quantification of the cellular elements of the blood, including morphological parameters of blood cells, i.e. cells native to the circulation, including those of erythroid, lymphoid, myeloid and monocytic lineages. The CBC/differential indicates the differential counts of white blood cells, counts of red blood cells and platelets, the concentration of hemoglobin, and the hematocrit." [https://en.wikipedia.org/wiki/Complete_blood_count "Multiple_Dictionaries", ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
+def: "A value resulting from the quantification of the cellular elements of the blood, including morphological parameters of blood cells, i.e. cells native to the circulation, including those of erythroid, lymphoid, myeloid and monocytic lineages. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning." [http://www.thefreedictionary.com/ "Multiple_Dictionaries", ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "CBC" RELATED []
 synonym: "CBC blood test" EXACT []
 synonym: "CBC, differential" EXACT []
 synonym: "CMO:0000364" EXACT []
-synonym: "Not4curation" EXACT []
 is_a: CMO:0000035 ! blood measurement
 is_a: CMO:0000227 ! cell measurement
 
