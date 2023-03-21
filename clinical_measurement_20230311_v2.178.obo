@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.179
-date: 18:03:2023 20:13
+data-version: 2.178
+date: 11:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -13617,8 +13617,7 @@ creation_date: 2013-05-07T18:42:39Z
 id: CMO:0001561
 name: bone ultimate force
 def: "A calculated measurement of the force necessary to fracture a bone under specified conditions and thus a measure of the biomechanical strength of that bone. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [PMID:11905527]
-synonym: "force at failure of bone" EXACT []
-synonym: "ultimate load of bone" EXACT []
+synonym: "force at failure" RELATED []
 is_a: CMO:0001557 ! bone biomechanical measurement
 created_by: JSmith
 creation_date: 2013-05-07T18:45:42Z
@@ -15302,13 +15301,10 @@ creation_date: 2013-07-29T14:36:10Z
 
 [Term]
 id: CMO:0001730
-name: compact volumetric bone mineral density
-def: "Measurement of the mineral mass per unit volume of cortical bone. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts. Cortical or compact bone is the relatively solid type of bone tissue found in the middle of long bones which is a hierarchical composite material consisting of a collagen-hydroxyapatite composite at the lowest level forming a complex network of cylindrical units of laminated bone at the highest level." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://biomech2.me.berkeley.edu/cortical.html "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
-synonym: "compact vBMD" EXACT []
-synonym: "compact volumetric BMD" EXACT []
-synonym: "cortical vBMD" EXACT []
-synonym: "cortical volumetric BMD" EXACT []
-synonym: "volumetric bone mineral density of compact bone" EXACT []
+name: cortical volumetric bone mineral density
+def: "Measurement of the mineral mass per unit volume of corrical bone. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts. Cortical or compact bone is the relatively solid type of bone tissue found in the middle of long bones which is a hierarchical composite material consisting of a collagen-hydroxyapatite composite at the lowest level forming a complex network of cylindrical units of laminated bone at the highest level." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://biomech2.me.berkeley.edu/cortical.html "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
+synonym: "cortical vBMD" RELATED []
+synonym: "cortical volumetric BMD" RELATED []
 synonym: "volumetric bone mineral density of cortical bone" EXACT []
 is_a: CMO:0001553 ! volumetric bone mineral density
 created_by: JSmith
@@ -25652,7 +25648,7 @@ id: CMO:0002797
 name: kidney ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the kidney is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "kidney RNA composition measurement" EXACT []
-is_obsolete: true
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T17:56:04Z
 
@@ -35781,39 +35777,6 @@ synonym: "ESR" EXACT []
 is_a: CMO:0003102 ! red blood cell morphological measurement
 created_by: slaulede
 creation_date: 2023-02-13T13:55:51Z
-
-[Term]
-id: CMO:0003911
-name: kidney nucleic acid measurement
-def: "This is quantification of a morphological or physiological parameter of one or more nucleic acids in a specified sample of kidney tissue, that is, tissue from one or both of the paired organs which function to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes. Nucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose or deoxyribose sugar, and a phosphate group, and are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
-synonym: "renal nucleic acid measurement" EXACT []
-is_a: CMO:0001852 ! kidney molecular composition measurement
-created_by: slaulede
-creation_date: 2023-03-13T17:03:59Z
-
-[Term]
-id: CMO:0003912
-name: kidney ribonucleic acid measurement
-alt_id: CMO:0002797
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) that reside in the kidney. Ribonucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose sugar, and a phosphate group. They are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
-synonym: "kidney ribonucleic acid composition measurement" EXACT []
-synonym: "kidney RNA composition measurement" EXACT []
-synonym: "renal ribonucleic acid measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
-is_a: CMO:0003911 ! kidney nucleic acid measurement
-created_by: slaulede
-creation_date: 2023-03-13T17:13:14Z
-
-[Term]
-id: CMO:0003913
-name: kidney mRNA level
-def: "This is the measurement of the amount of messenger ribonucleic acid (mRNA) which codes for the amino acid sequences of proteins in a specified sample of kidney." [ISBN-13:978-0781733908]
-synonym: "kidney messenger ribonucleic acid level" EXACT []
-synonym: "kidney messenger RNA level" EXACT []
-synonym: "renal mRNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid measurement
-created_by: slaulede
-creation_date: 2023-03-13T17:18:54Z
 
 [Typedef]
 id: part_of
