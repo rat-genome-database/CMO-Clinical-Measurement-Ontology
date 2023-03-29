@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.180
-date: 25:03:2023 20:13
+data-version: 2.179
+date: 18:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -15293,10 +15293,10 @@ creation_date: 2013-07-29T14:29:18Z
 [Term]
 id: CMO:0001729
 name: trabecular volumetric bone mineral density
-def: "Measurement of the mineral mass per unit volume of trabecular bone. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts. Trabecular or spongy bone is the porous type of bone found in the vertebrae and at all articulating joints, consisting of an irregular three-dimensional array of boney rods and plates (trabeculae) which themselves are composed of a composite material with bone marrow filling the spaces of the pores." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://biomech2.me.berkeley.edu/trabecular.html "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
+def: "Measurement of the mineral mass per unit volume of trabecular bone. Bone is the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts.  Trabecular or spongy bone is the porous type of bone found in the vertebrae and at all articulating joints, consisting of an irregular three-dimensional array of boney rods and plates (trabeculae) which themselves are composed of a composite material with bone marrow filling the spaces of the pores." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://biomech2.me.berkeley.edu/trabecular.html "Website", ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
 synonym: "trabecular vBMD" RELATED []
 synonym: "trabecular volumetric BMD" RELATED []
-relationship: part_of CMO:0001728 ! total volumetric bone mineral density
+is_a: CMO:0001553 ! volumetric bone mineral density
 created_by: JSmith
 creation_date: 2013-07-29T14:36:10Z
 
@@ -15310,7 +15310,7 @@ synonym: "cortical vBMD" EXACT []
 synonym: "cortical volumetric BMD" EXACT []
 synonym: "volumetric bone mineral density of compact bone" EXACT []
 synonym: "volumetric bone mineral density of cortical bone" EXACT []
-relationship: part_of CMO:0001728 ! total volumetric bone mineral density
+is_a: CMO:0001553 ! volumetric bone mineral density
 created_by: JSmith
 creation_date: 2013-07-29T14:36:18Z
 
