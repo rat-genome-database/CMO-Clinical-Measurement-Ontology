@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.181
-date: 08:04:2023 20:13
+data-version: 2.180
+date: 25:03:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2022-01-04 --
 default-namespace: clinical_measurement_ontology
@@ -25886,8 +25886,8 @@ creation_date: 2018-11-16T10:44:28Z
 [Term]
 id: CMO:0002825
 name: cell organelle measurement
-def: "Any quantification of a morphological or physiological parameter of one or more cellular organelles." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-is_a: CMO:0003914 ! cell composition measurement
+def: "Any quantification of a morphological or physiological parameter of one or more cellular organelles." []
+is_a: CMO:0000227 ! cell measurement
 created_by: sjwang
 creation_date: 2018-11-16T14:05:49Z
 
@@ -35814,81 +35814,6 @@ synonym: "renal mRNA level" EXACT []
 is_a: CMO:0003912 ! kidney ribonucleic acid measurement
 created_by: slaulede
 creation_date: 2023-03-13T17:18:54Z
-
-[Term]
-id: CMO:0003914
-name: cell composition measurement
-def: "This is the quantitation or other measurement of the organelles, cytosol, and molecules which constitute the total make-up of a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "cell composition" EXACT []
-is_a: CMO:0000227 ! cell measurement
-created_by: slaulede
-creation_date: 2023-04-03T16:32:15Z
-
-[Term]
-id: CMO:0003915
-name: cell molecular composition measurement
-def: "This is any quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-is_a: CMO:0003914 ! cell composition measurement
-created_by: slaulede
-creation_date: 2023-04-03T17:02:38Z
-
-[Term]
-id: CMO:0003916
-name: cell ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "cell RNA composition measurement" EXACT []
-synonym: "Not4Curation" EXACT []
-is_a: CMO:0003915 ! cell molecular composition measurement
-created_by: slaulede
-creation_date: 2023-04-03T17:06:23Z
-
-[Term]
-id: CMO:0003917
-name: native cell ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment)." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "native cell RNA composition measurement" EXACT []
-is_a: CMO:0003916 ! cell ribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2023-04-03T17:16:36Z
-
-[Term]
-id: CMO:0003918
-name: isolated cell ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells isolated from an organism before the occurance of any in vitro culturing." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "extracted cell RNA composition measurement" EXACT []
-synonym: "isolated cell RNA composition measurement" EXACT []
-synonym: "purified cell RNA composition measurement" EXACT []
-is_a: CMO:0003917 ! native cell ribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2023-04-03T17:25:06Z
-
-[Term]
-id: CMO:0003919
-name: cultured cell ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells after in vitro cell culturing for a specified length of time. Cell culture refers to the growth of isolated cells from an animal or plant in a favorable artificial environment." [https://www.thermofisher.com, ISBN-13:978-0781733908]
-synonym: "cultured cell RNA composition measurement" EXACT []
-synonym: "Not4Curation" EXACT []
-is_a: CMO:0003918 ! isolated cell ribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2023-04-03T17:34:15Z
-
-[Term]
-id: CMO:0003920
-name: primary cultured cell ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells after in vitro cell culturing for a specified length of time without the benefit of cell passage (harvesting and reseeding/splitting into multiple daughter cultures) . Cell culture refers to the growth of isolated cells from an animal or plant in a favorable artificial environment." [https://www.culturecollections.org.uk/, ISBN-13:978-0781733908]
-synonym: "primary cultured cell RNA composition measurement" EXACT []
-is_a: CMO:0003919 ! cultured cell ribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2023-04-03T17:47:29Z
-
-[Term]
-id: CMO:0003921
-name: cell line ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell line after in vitro cell culturing for a specified number of passages (harvesting and reseeding/splitting into multiple daughter cultures). A cell linerefers to a defined population of cells that can be maintained in culture for an extended period of time, retaining stability of certain phenotypes and functions. Cell lines are usually clonal, meaning that the entire population originated from a single common ancestor cell." [https://www.sciencedirect.com, ISBN-13:978-0781733908]
-synonym: "cell line RNA measurement" EXACT []
-is_a: CMO:0003919 ! cultured cell ribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2023-04-03T17:54:54Z
 
 [Typedef]
 id: part_of
