@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.183
-date: 10:06:2023 20:13
+data-version: 2.182
+date: 03:06:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -16433,6 +16433,7 @@ id: CMO:0001841
 name: thymus cell count
 def: "Any measurement of the number of cells in the thymus, the lymphoid organ which is the site of the proliferation, differentiation and maturation of T lymphocytes, and of the production of hormones such as thymopoietin and thymosin which control these processes." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: CMO:0000609 ! thymus morphological measurement
+is_a: CMO:0001865 ! immune cell count
 created_by: JSmith
 creation_date: 2013-10-16T13:24:27Z
 
@@ -19124,7 +19125,7 @@ id: CMO:0002119
 name: mononuclear cell count
 def: "Determination of the number of mononuclear cells, i.e. leukocytes such as lymphocytes and monocytes with a single round or oval nucleus (including but not limited to such cells found in blood, lymph or spleen) found in a specified sample." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "mononuclear cell number" RELATED []
-is_a: CMO:0000027 ! white blood cell count
+is_a: CMO:0001865 ! immune cell count
 is_a: CMO:0002118 ! mononuclear cell measurement
 created_by: JSmith
 creation_date: 2014-01-27T15:49:38Z
@@ -19136,6 +19137,7 @@ def: "Determination of the number of mononuclear cells, i.e. leukocytes such as 
 synonym: "spleen mononuclear cell number" RELATED []
 synonym: "splenic mononuclear cell count" EXACT []
 synonym: "splenocyte count" BROAD []
+is_a: CMO:0001865 ! immune cell count
 is_a: CMO:0002117 ! spleen cell count
 is_a: CMO:0002119 ! mononuclear cell count
 created_by: JSmith
@@ -21241,7 +21243,7 @@ name: white blood cell measurement
 def: "Any value resulting from the quantification of a morphological or physiological parameter of leukocytes, largely colorless blood corpuscles capable of ameboid movement, whose chief function is to protect the body against microorganisms and other disease-causing entities." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "leukocyte measurement" EXACT []
 is_a: CMO:0000035 ! blood measurement
-is_a: CMO:0001864 ! immune cell measurement
+is_a: CMO:0000227 ! cell measurement
 created_by: JSmith
 creation_date: 2014-04-24T12:47:44Z
 
@@ -29650,7 +29652,8 @@ creation_date: 2019-11-19T12:54:02Z
 [Term]
 id: CMO:0003270
 name: cerebrum ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002066 ! brain molecular composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:02:13Z
 
@@ -29857,7 +29860,7 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003297
 name: left renal pelvis ribonucleic acid composition measurement
-relationship: part_of CMO:0003912 ! kidney ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -29878,7 +29881,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003300
 name: dorsal thalamus ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29899,21 +29902,21 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003303
 name: hippocampal formation ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003304
 name: pituitary gland ribonucleic acid composition measurement
-relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003305
 name: parietal lobe ribonucleic acid composition measurement
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29927,7 +29930,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003307
 name: pineal body ribonucleic acid composition measurement
-relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29941,14 +29944,14 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003309
 name: occipital lobe ribonucleic acid composition measurement
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003310
 name: brain meninx ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29983,7 +29986,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003315
 name: amygdala ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29997,24 +30000,21 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003317
 name: caudate nucleus ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003318
 name: diencephalon ribonucleic acid composition measurement
-relationship: part_of CMO:0003370 ! combined pituitary and diencephalon ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003319
 name: occipital cortex ribonucleic acid composition measurement
-alt_id: CMO:0003382
-synonym: "occipital cortex ribonucleic acid composition measurement" EXACT []
-xref: UBERON:0016540
-relationship: part_of CMO:0003309 ! occipital lobe ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30049,8 +30049,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003324
 name: left cardiac atrium ribonucleic acid composition measurement
-synonym: "heart left atrium ribonucleic acid composition measurement" EXACT []
-relationship: part_of CMO:0002796 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30064,7 +30063,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003326
 name: medulla oblongata ribonucleic acid composition measurement
-relationship: part_of CMO:0003383 ! brainstem ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30113,28 +30112,28 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003333
 name: heart left ventricle ribonucleic acid composition measurement
-relationship: part_of CMO:0002796 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003334
 name: middle frontal gyrus ribonucleic acid composition measurement
-relationship: part_of CMO:0003384 ! frontal cortex ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003335
 name: middle temporal gyrus ribonucleic acid composition measurement
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003336
 name: putamen ribonucleic acid composition measurement
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30169,7 +30168,7 @@ creation_date: 2020-01-13T12:34:30Z
 [Term]
 id: CMO:0003341
 name: cerebral cortex ribonucleic acid composition measurement
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:38:29Z
 
@@ -30316,7 +30315,7 @@ creation_date: 2020-01-17T08:19:34Z
 [Term]
 id: CMO:0003363
 name: hindbrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:01:21Z
 
@@ -30330,14 +30329,14 @@ creation_date: 2020-01-17T09:01:49Z
 [Term]
 id: CMO:0003365
 name: hippocampus proper ribonucleic acid composition measurement
-relationship: part_of CMO:0003303 ! hippocampal formation ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:02:13Z
 
 [Term]
 id: CMO:0003366
 name: pons ribonucleic acid composition measurement
-relationship: part_of CMO:0003383 ! brainstem ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:02:35Z
 
@@ -30351,35 +30350,35 @@ creation_date: 2020-01-17T09:03:16Z
 [Term]
 id: CMO:0003368
 name: telencephalon ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:01Z
 
 [Term]
 id: CMO:0003369
 name: forebrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:39Z
 
 [Term]
 id: CMO:0003370
 name: combined pituitary and diencephalon ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:05Z
 
 [Term]
 id: CMO:0003371
 name: combined diencephalon and midbrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:23Z
 
 [Term]
 id: CMO:0003372
 name: combined forebrain and midbrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:45Z
 
@@ -30387,7 +30386,7 @@ creation_date: 2020-01-17T09:05:45Z
 id: CMO:0003373
 name: hindbrain without cerebellum ribonucleic acid composition measurement
 synonym: "combined hindbrain without cerebellum ribonucleic acid composition measurement" EXACT []
-relationship: part_of CMO:0003363 ! hindbrain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:06:07Z
 
@@ -30455,7 +30454,7 @@ creation_date: 2020-02-17T13:18:50Z
 id: CMO:0003381
 name: corpus callosum ribonucleic acid composition measurement
 xref: UBERON:0002336
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:20:28Z
 
@@ -30463,7 +30462,7 @@ creation_date: 2020-02-17T13:20:28Z
 id: CMO:0003382
 name: occipital cortex ribonucleic acid composition measurement
 xref: UBERON:0016540
-is_obsolete: true
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:21:43Z
 
@@ -30471,7 +30470,7 @@ creation_date: 2020-02-17T13:21:43Z
 id: CMO:0003383
 name: brainstem ribonucleic acid composition measurement
 xref: UBERON:0002298
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:22:47Z
 
@@ -30479,7 +30478,7 @@ creation_date: 2020-02-17T13:22:47Z
 id: CMO:0003384
 name: frontal cortex ribonucleic acid composition measurement
 xref: UBERON:0001870
-relationship: part_of CMO:0003341 ! cerebral cortex ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:23:46Z
 
@@ -30487,7 +30486,7 @@ creation_date: 2020-02-17T13:23:46Z
 id: CMO:0003385
 name: combined dorsal plus ventral thalamus ribonucleic acid composition measurement
 xref: UBERON:0001897
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:24:59Z
 
@@ -35794,7 +35793,7 @@ creation_date: 2023-03-13T17:03:59Z
 
 [Term]
 id: CMO:0003912
-name: kidney ribonucleic acid composition measurement
+name: kidney ribonucleic acid measurement
 alt_id: CMO:0002797
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) that reside in the kidney. Ribonucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose sugar, and a phosphate group. They are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
 synonym: "kidney ribonucleic acid composition measurement" EXACT []
@@ -35812,7 +35811,7 @@ def: "This is the measurement of the amount of messenger ribonucleic acid (mRNA)
 synonym: "kidney messenger ribonucleic acid level" EXACT []
 synonym: "kidney messenger RNA level" EXACT []
 synonym: "renal mRNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
+is_a: CMO:0003912 ! kidney ribonucleic acid measurement
 created_by: slaulede
 creation_date: 2023-03-13T17:18:54Z
 
