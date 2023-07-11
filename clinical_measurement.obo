@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.184
-date: 24:06:2023 20:13
+data-version: 2.185
+date: 08:07:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -14448,7 +14448,7 @@ creation_date: 2013-06-18T13:25:39Z
 
 [Term]
 id: CMO:0001647
-name: heart left ventricle deoxyribonucleic acid content
+name: heart left ventricle deoxyribonucleic acid composition measurement
 def: "The amount of deoxyribonucleic acid (DNA), the molecule composed of the sugar deoxyribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or thymine, extracted from or contained in the heart left ventricle, the lower chamber of the left side of the heart (from the perspective of the organism rather than the observer), which pumps oxygenated blood out through the aorta to all the tissues of the body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Anatomical_terms_of_location "Wikipedia", ISBN:978-1416049982]
 synonym: "heart left ventricle DNA content" RELATED []
 synonym: "heart LV DNA content" RELATED []
@@ -14459,55 +14459,55 @@ creation_date: 2013-06-18T14:44:11Z
 
 [Term]
 id: CMO:0001648
-name: calculated heart left ventricle deoxyribonucleic acid content
+name: calculated heart left ventricle deoxyribonucleic acid composition measurement
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of deoxyribonucleic acid (DNA), the molecule composed of the sugar deoxyribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or thymine, extracted from or contained in the heart left ventricle, the lower chamber of the left side of the heart (from the perspective of the organism rather than the observer), which pumps oxygenated blood out through the aorta to all the tissues of the body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Anatomical_terms_of_location "Wikipedia", ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "calculated heart left ventricle DNA content" RELATED []
 synonym: "calculated heart LV DNA content" RELATED []
 is_a: CMO:0000984 ! calculated heart left ventricle morphological measurement
-is_a: CMO:0001647 ! heart left ventricle deoxyribonucleic acid content
+is_a: CMO:0001647 ! heart left ventricle deoxyribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-06-18T14:46:40Z
 
 [Term]
 id: CMO:0001649
-name: heart left ventricle deoxyribonucleic acid content to body weight ratio
+name: heart left ventricle deoxyribonucleic acid level to body weight ratio
 def: "A calculated measurement in which amount of deoxyribonucleic acid (DNA), the molecule composed of the sugar deoxyribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or thymine, extracted from or contained in the heart left ventricle, the lower chamber of the left side of the heart (from the perspective of the organism rather than the observer), which pumps oxygenated blood out through the aorta to all the tissues of the body, is divided by the total weight or heaviness of the body and presented as a ratio, fraction, quotient or percentage, thus normalizing it to body weight and, by extension, to the size of the organism." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Anatomical_terms_of_location "Wikipedia", ISBN:978-1416049982]
 synonym: "heart left ventricle DNA content to body weight ratio" RELATED []
 synonym: "heart left ventricle DNA content to BW ratio" RELATED []
 synonym: "heart LV DNA content to body weight ratio" RELATED []
-is_a: CMO:0001648 ! calculated heart left ventricle deoxyribonucleic acid content
+is_a: CMO:0001648 ! calculated heart left ventricle deoxyribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-06-18T14:49:33Z
 
 [Term]
 id: CMO:0001650
-name: heart right ventricle deoxyribonucleic acid content
+name: heart right ventricle deoxyribonucleic acid composition measurement
 def: "The amount of deoxyribonucleic acid (DNA), the molecule composed of the sugar deoxyribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or thymine, extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Anatomical_terms_of_location "Wikipedia", ISBN:978-1416049982]
 synonym: "heart right ventricle DNA content" RELATED []
 synonym: "heart RV DNA content" RELATED []
-is_a: CMO:0000952 ! heart right ventricle morphological measurement
+is_a: CMO:0002938 ! heart right ventricle molecular composition measurement
 created_by: JSmith
 creation_date: 2013-06-18T14:52:32Z
 
 [Term]
 id: CMO:0001651
-name: calculated heart right ventricle deoxyribonucleic acid content
+name: calculated heart right ventricle deoxyribonucleic acid composition measurement
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of deoxyribonucleic acid (DNA), the molecule composed of the sugar deoxyribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or thymine, extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Anatomical_terms_of_location "Wikipedia", ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "calculated heart right ventricle DNA content" RELATED []
 synonym: "calculated heart RV DNA content" RELATED []
 is_a: CMO:0001125 ! calculated heart right ventricle morphological measurement
-is_a: CMO:0001650 ! heart right ventricle deoxyribonucleic acid content
+is_a: CMO:0001650 ! heart right ventricle deoxyribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-06-18T14:54:27Z
 
 [Term]
 id: CMO:0001652
-name: heart right ventricle deoxyribonucleic acid content to body weight ratio
+name: heart right ventricle deoxyribonucleic acid level to body weight ratio
 def: "A calculated measurement in which amount of deoxyribonucleic acid (DNA), the molecule composed of the sugar deoxyribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or thymine, extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung, is divided by the total weight or heaviness of the body and presented as a ratio, fraction, quotient or percentage, thus normalizing it to body weight and, by extension, to the size of the organism." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Anatomical_terms_of_location "Wikipedia", ISBN:978-1416049982]
 synonym: "heart right ventricle DNA content to body weight ratio" RELATED []
 synonym: "heart right ventricle DNA content to BW ratio" RELATED []
 synonym: "heart RV DNA content to body weight ratio" RELATED []
-is_a: CMO:0001651 ! calculated heart right ventricle deoxyribonucleic acid content
+is_a: CMO:0001651 ! calculated heart right ventricle deoxyribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-06-18T14:56:34Z
 
@@ -25630,9 +25630,11 @@ creation_date: 2018-09-28T17:48:52Z
 
 [Term]
 id: CMO:0002795
-name: brain ribonucleic acid composition measurement
+name: brain ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the brain is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "brain RNA composition measurement" EXACT []
+synonym: "brain RNA level" EXACT []
+is_a: CMO:0002066 ! brain molecular composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T17:52:36Z
@@ -25642,7 +25644,7 @@ id: CMO:0002796
 name: heart ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the heart is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "heart RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
+is_obsolete: true
 created_by: jrsmith
 creation_date: 2018-09-28T17:54:27Z
 
@@ -26827,7 +26829,11 @@ creation_date: 2018-12-07T11:57:13Z
 [Term]
 id: CMO:0002933
 name: heart ribonucleic acid composition measurement
+alt_id: CMO:0002796
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart is formed or composed." []
+synonym: "heart ribonucleic acid composition measurement" EXACT []
+synonym: "heart RNA composition measurement" EXACT []
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 is_a: CMO:0002932 ! heart nucleic acid measurement
 created_by: sjwang
 creation_date: 2018-12-07T12:02:20Z
@@ -26842,8 +26848,10 @@ creation_date: 2018-12-07T12:04:28Z
 
 [Term]
 id: CMO:0002935
-name: heart left ventricle ribonucleic acid content
+name: heart left ventricle ribonucleic acid composition measurement
+alt_id: CMO:0003333
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart left ventricle is formed or composed." []
+synonym: "heart left ventricle ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002164 ! heart left ventricle molecular composition measurement
 is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
 created_by: sjwang
@@ -26853,14 +26861,14 @@ creation_date: 2018-12-07T12:09:49Z
 id: CMO:0002936
 name: heart right ventricle insulin-like growth factor 1 mRNA level
 is_a: CMO:0002934 ! heart insulin-like growth factor 1 mRNA level
-is_a: CMO:0002937 ! heart right ventricle ribonucleic acid content
+is_a: CMO:0002937 ! heart right ventricle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2018-12-07T12:23:27Z
 
 [Term]
 id: CMO:0002937
-name: heart right ventricle ribonucleic acid content
-def: "The amount of ribonucleic acid (DNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil , extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." []
+name: heart right ventricle ribonucleic acid composition measurement
+def: "The amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil , extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." []
 is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
 is_a: CMO:0002938 ! heart right ventricle molecular composition measurement
 created_by: sjwang
@@ -26878,7 +26886,7 @@ id: CMO:0002939
 name: heart left ventricle insulin-like growth factor 1 mRNA level
 synonym: "heart left ventricle Igf1r mRNA level" EXACT []
 is_a: CMO:0002934 ! heart insulin-like growth factor 1 mRNA level
-is_a: CMO:0002935 ! heart left ventricle ribonucleic acid content
+is_a: CMO:0002935 ! heart left ventricle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2018-12-07T12:35:54Z
 
@@ -26893,7 +26901,7 @@ creation_date: 2018-12-07T12:44:11Z
 [Term]
 id: CMO:0002941
 name: heart right ventricle insulin-like growth factor 1 receptor mRNA level
-is_a: CMO:0002937 ! heart right ventricle ribonucleic acid content
+is_a: CMO:0002937 ! heart right ventricle ribonucleic acid composition measurement
 is_a: CMO:0002940 ! heart insulin-like growth factor 1 receptor mRNA level
 created_by: sjwang
 creation_date: 2018-12-07T12:46:44Z
@@ -26901,7 +26909,7 @@ creation_date: 2018-12-07T12:46:44Z
 [Term]
 id: CMO:0002942
 name: heart left ventricle insulin-like growth factor 1 receptor mRNA level
-is_a: CMO:0002935 ! heart left ventricle ribonucleic acid content
+is_a: CMO:0002935 ! heart left ventricle ribonucleic acid composition measurement
 is_a: CMO:0002940 ! heart insulin-like growth factor 1 receptor mRNA level
 created_by: sjwang
 creation_date: 2018-12-07T12:49:23Z
@@ -29651,7 +29659,7 @@ creation_date: 2019-11-19T12:54:02Z
 [Term]
 id: CMO:0003270
 name: cerebrum ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:02:13Z
 
@@ -29879,7 +29887,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003300
 name: dorsal thalamus ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29900,7 +29908,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003303
 name: hippocampal formation ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29949,7 +29957,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003310
 name: brain meninx ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29984,7 +29992,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003315
 name: amygdala ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29998,7 +30006,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003317
 name: caudate nucleus ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30051,7 +30059,7 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003324
 name: left cardiac atrium ribonucleic acid composition measurement
 synonym: "heart left atrium ribonucleic acid composition measurement" EXACT []
-relationship: part_of CMO:0002796 ! heart ribonucleic acid composition measurement
+relationship: part_of CMO:0002933 ! heart ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30114,7 +30122,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003333
 name: heart left ventricle ribonucleic acid composition measurement
-relationship: part_of CMO:0002796 ! heart ribonucleic acid composition measurement
+is_obsolete: true
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30317,7 +30325,7 @@ creation_date: 2020-01-17T08:19:34Z
 [Term]
 id: CMO:0003363
 name: hindbrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:01:21Z
 
@@ -30352,35 +30360,35 @@ creation_date: 2020-01-17T09:03:16Z
 [Term]
 id: CMO:0003368
 name: telencephalon ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:01Z
 
 [Term]
 id: CMO:0003369
 name: forebrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:39Z
 
 [Term]
 id: CMO:0003370
 name: combined pituitary and diencephalon ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:05Z
 
 [Term]
 id: CMO:0003371
 name: combined diencephalon and midbrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:23Z
 
 [Term]
 id: CMO:0003372
 name: combined forebrain and midbrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:45Z
 
@@ -30456,7 +30464,7 @@ creation_date: 2020-02-17T13:18:50Z
 id: CMO:0003381
 name: corpus callosum ribonucleic acid composition measurement
 xref: UBERON:0002336
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:20:28Z
 
@@ -30472,7 +30480,7 @@ creation_date: 2020-02-17T13:21:43Z
 id: CMO:0003383
 name: brainstem ribonucleic acid composition measurement
 xref: UBERON:0002298
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:22:47Z
 
@@ -30488,7 +30496,7 @@ creation_date: 2020-02-17T13:23:46Z
 id: CMO:0003385
 name: combined dorsal plus ventral thalamus ribonucleic acid composition measurement
 xref: UBERON:0001897
-relationship: part_of CMO:0002795 ! brain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:24:59Z
 
@@ -35934,12 +35942,22 @@ creation_date: 2023-06-22T16:39:26Z
 
 [Term]
 id: CMO:0003926
-name: dorsal root ganglion ribonucleic acid composition measurement
+name: dorsal root ganglion ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the dorsal root ganglion is formed or composed." [https://www.merriam-webster.com]
+synonym: "dorsal root ganglion RNA level" EXACT []
 xref: MA:0000230
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-06-22T16:53:18Z
+
+[Term]
+id: CMO:0003927
+name: sciatic nerve ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the sciatic nerve is formed or composed." [https://www.merriam-webster.com, UBERON:0001322]
+synonym: "sciatic nerve RNA level" EXACT []
+is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
+created_by: slaulede
+creation_date: 2023-07-07T13:46:11Z
 
 [Typedef]
 id: part_of
