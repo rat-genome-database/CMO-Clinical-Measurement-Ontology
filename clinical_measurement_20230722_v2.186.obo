@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.187
-date: 29:07:2023 20:13
+data-version: 2.186
+date: 22:07:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -191,7 +191,7 @@ is_a: CMO:0003102 ! red blood cell morphological measurement
 id: CMO:0000026
 name: blood hemoglobin level
 alt_id: CMO:0000506
-def: "The amount of hemoglobin, the red oxygen-carrying pigment of erythrocytes, in a specified volume of blood." [ISBN-13:978-0781733908]
+def: "The amount of hemoglobin, the red oxygen-carrying pigment of erythrocytes, in a specified volume of blood." [ISBN-13:_978-0781733908]
 synonym: "hemoglobin absorbance" RELATED []
 synonym: "hemoglobin concentration" EXACT []
 is_a: CMO:0000508 ! hemoglobin measurement
@@ -4646,7 +4646,7 @@ creation_date: 2011-11-02T03:00:24Z
 [Term]
 id: CMO:0000569
 name: serum anion gap
-def: "The serum anion gap is a measurement of the difference-or gap-between the negatively charged and positively charged electrolytes in serum, i.e. blood plasma from which clotting factors have been removed. If the anion gap is either too high or too low, it may be a sign of a disorder in the lungs, kidneys, or other organ systems." [https://medlineplus.gov/lab-tests/anion-gap-blood-test/, ISBN-13:978-0323446631]
+def: "The serum anion gap is a measurement of the difference-or gap-between the negatively charged and positively charged electrolytes in serum, i.e. blood plasma from which clotting factors have been removed. If the anion gap is either too high or too low, it may be a sign of a disorder in the lungs, kidneys, or other organ systems." [https://medlineplus.gov/lab-tests/anion-gap-blood-test/, ISBN-13:_978-0323446631]
 is_a: CMO:0000067 ! anion gap
 created_by: mshimoyama
 creation_date: 2011-11-02T04:07:40Z
@@ -5420,7 +5420,7 @@ id: CMO:0000654
 name: mesenteric fat pad weight to body weight ratio
 def: "A calculated measurement in which the weight of the mesenteric fat pad, after removal from the body, is measured, divided by the total weight of the body, and presented as a ratio, percentage, fraction or quotient, thus normalizing it to body weight." [https://www.merriam-webster.com/]
 synonym: "mesenteric fat pad weight as a percentage of body weight" EXACT []
-xref: PMID:27523322
+xref: PMID: 27523322
 is_a: CMO:0000653 ! calculated mesenteric fat pad weight
 created_by: mshimoyama
 creation_date: 2011-11-03T03:28:13Z
@@ -10489,7 +10489,7 @@ creation_date: 2012-12-17T12:55:19Z
 id: CMO:0001214
 name: percentage of study population displaying chronic pancreatitis at a point in time
 def: "The number of individuals in a study population which display chronic pancreatitis at a specified point in time compared to the total number of individuals in the study population, expressed as a percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "chronic pancreatitis prevalence" RELATED []
+synonym: "chronic pancreatitis prevalence:" RELATED []
 is_a: CMO:0001212 ! chronic pancreatitis incidence/prevalence measurement
 created_by: JSmith
 creation_date: 2012-12-17T12:59:47Z
@@ -15594,7 +15594,7 @@ name: lactotroph count to total pituicyte count ratio in prolactinoma
 def: "A calculated measurement in which the number of lactotrophs in a specified sample of prolactinoma is divided by the total number of pituicytes in that sample and presented as a ratio, fraction, quotient or percentage. A prolactinoma is a pituitary adenoma which secretes prolactin." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Pituicyte "Wikipedia", ISBN:978-1416049982]
 synonym: "lactotroph density in prolactinoma" EXACT []
 synonym: "prolactin-positive cell count to total pituicyte count ratio in prolactinoma" EXACT []
-xref: PMID:16416090
+xref: PMID: 16416090
 is_a: CMO:0001025 ! pituitary tumor measurement
 created_by: JSmith
 creation_date: 2013-08-01T16:48:31Z
@@ -17202,7 +17202,7 @@ name: liver ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the liver is formed or composed." [CHEBI:33697, CHEBI:33699, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "liver RNA composition measurement" EXACT []
 is_a: CMO:0001918 ! liver nucleic acid measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-11-22T16:09:53Z
 
@@ -25612,11 +25612,9 @@ creation_date: 2018-05-15T17:13:43Z
 
 [Term]
 id: CMO:0002793
-name: tissue ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified tissue." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "tissue ribonucleic acid composition measurement" EXACT []
+name: tissue ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified tissue." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "tissue RNA composition measurement" EXACT []
-synonym: "tissue RNA level" EXACT []
 is_a: CMO:0002067 ! tissue molecular composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T17:35:30Z
@@ -25626,7 +25624,7 @@ id: CMO:0002794
 name: adrenal gland ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNA) of which the tissue of the adrenal gland is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "adrenal gland RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T17:48:52Z
 
@@ -25637,7 +25635,7 @@ def: "Any measurement of the absolute or relative amount(s) of one or more of th
 synonym: "brain RNA composition measurement" EXACT []
 synonym: "brain RNA level" EXACT []
 is_a: CMO:0002066 ! brain molecular composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T17:52:36Z
 
@@ -25664,7 +25662,7 @@ id: CMO:0002798
 name: lung ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the lung is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "lung RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T17:58:33Z
 
@@ -25673,7 +25671,7 @@ id: CMO:0002799
 name: muscle ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which muscle tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "muscle RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T18:00:11Z
 
@@ -25682,7 +25680,7 @@ id: CMO:0002800
 name: spleen ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the spleen is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "spleen RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T18:01:49Z
 
@@ -25691,7 +25689,7 @@ id: CMO:0002801
 name: testis ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which testis tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "testis RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T18:03:47Z
 
@@ -25700,7 +25698,7 @@ id: CMO:0002802
 name: thymus ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the thymus is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "thymus RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T18:05:11Z
 
@@ -25709,7 +25707,7 @@ id: CMO:0002803
 name: uterus ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the uterus is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "uterus RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T18:06:48Z
 
@@ -26069,7 +26067,7 @@ creation_date: 2018-11-16T15:38:07Z
 [Term]
 id: CMO:0002845
 name: neuron  vacuole measurement
-def: "Any quantification of a morphological or physiological parameter of the neuronal vacuole." [GO:0005773, ISBN:0198547684]
+def: "Any quantification of a morphological or physiological parameter of the neuronal vacuole." [Gene_Ontology:GO\:0005773, ISBN:0198547684]
 synonym: "neuronal vacuole measurement" EXACT []
 is_a: CMO:0002826 ! neuron organelle measurement
 created_by: sjwang
@@ -26552,7 +26550,7 @@ creation_date: 2018-11-30T15:20:01Z
 [Term]
 id: CMO:0002900
 name: calculated blood hemoglobin level
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of hemoglobin, or a derivative of hemoglobin, in a specified sample of blood." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the amount of hemoglobin, or a derivative of hemoglobin, in a specified sample of blood." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 is_a: CMO:0000026 ! blood hemoglobin level
 created_by: sjwang
 creation_date: 2018-11-30T15:41:03Z
@@ -26636,7 +26634,7 @@ creation_date: 2018-12-03T16:21:42Z
 [Term]
 id: CMO:0002910
 name: heart left ventricle end-systolic elastance
-def: "Left ventricle end-systolic elastance (Ees) is the estimate of the slope of the line Pes = Ees(Ves-V0), which is based on linear regression of points determined by iterative calculation of the LV end-systolic pressure-volume relationship." [PMID:12957726]
+def: "Left ventricle end-systolic elastance (Ees) is the estimate of the slope of the line Pes = Ees(Ves-V0), which is based on linear regression of points determined by iterative calculation of the LV end-systolic pressure-volume relationship." [PMID:_12957726]
 synonym: "Ees" EXACT []
 is_a: CMO:0000605 ! left ventricular end-systolic blood pressure
 is_a: CMO:0002915 ! calculated end-systolic volume
@@ -26683,7 +26681,7 @@ creation_date: 2018-12-04T12:46:20Z
 id: CMO:0002915
 name: calculated end-systolic volume
 def: "A measurement of the volume of blood in a ventricle at the end of a contraction which has been normalized or adjusted by a mathematical process or computation." [PMID:12957726]
-xref: PMID:12957726
+xref: PMID: 12957726
 is_a: CMO:0000181 ! end-systolic volume
 created_by: sjwang
 creation_date: 2018-12-04T12:59:56Z
@@ -26835,7 +26833,7 @@ alt_id: CMO:0002796
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart is formed or composed." []
 synonym: "heart ribonucleic acid composition measurement" EXACT []
 synonym: "heart RNA composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 is_a: CMO:0002932 ! heart nucleic acid measurement
 created_by: sjwang
 creation_date: 2018-12-07T12:02:20Z
@@ -28086,7 +28084,7 @@ creation_date: 2019-03-19T15:58:58Z
 [Term]
 id: CMO:0003080
 name: eye morphological measurement
-def: "Measurement of the physical form or structure of the eye, the organ of vision, which is sensitive to light and in which the optic nerve terminates." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "Measurement of the physical form or structure of the eye, the organ of vision, which is sensitive to light and in which the optic nerve terminates." [https://www.merriam-webster.com/, ISBN-13:__978-0781733908]
 is_a: CMO:0003079 ! eye measurement
 created_by: sjwang
 creation_date: 2019-03-19T16:01:25Z
@@ -29537,7 +29535,7 @@ creation_date: 2019-10-17T16:13:44Z
 id: CMO:0003253
 name: ovary ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which ovary tissue is formed or composed." []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:16:27Z
 
@@ -29545,39 +29543,36 @@ creation_date: 2019-10-17T16:16:27Z
 id: CMO:0003254
 name: colon ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which colon tissue is formed or composed." []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:18:33Z
 
 [Term]
 id: CMO:0003255
-name: skin ribonucleic acid level
-synonym: "skin ribonucleic acid composition measurement" EXACT []
-synonym: "skin RNA composition measurement" EXACT []
-synonym: "skin RNA level" EXACT []
+name: skin ribonucleic acid composition measurement
 is_a: CMO:0002761 ! skin molecular composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:00:23Z
 
 [Term]
 id: CMO:0003256
 name: appendix ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:04:48Z
 
 [Term]
 id: CMO:0003257
 name: urinary bladder ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:08:22Z
 
 [Term]
 id: CMO:0003258
 name: tonsil ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:11:40Z
 
@@ -29585,42 +29580,42 @@ creation_date: 2019-11-19T12:11:40Z
 id: CMO:0003259
 name: thyroid gland ribonucleic acid composition measurement
 is_a: CMO:0002389 ! thyroid gland morphological measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:15:01Z
 
 [Term]
 id: CMO:0003260
 name: smooth muscle ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:21:49Z
 
 [Term]
 id: CMO:0003261
 name: stomach ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:25:46Z
 
 [Term]
 id: CMO:0003262
 name: small intestine ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:32:03Z
 
 [Term]
 id: CMO:0003263
 name: salivary gland ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:36:38Z
 
 [Term]
 id: CMO:0003264
 name: rectum ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:39:24Z
 
@@ -29628,7 +29623,7 @@ creation_date: 2019-11-19T12:39:24Z
 id: CMO:0003265
 name: placenta ribonucleic acid composition measurement
 is_a: CMO:0002086 ! placenta morphological measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:42:10Z
 
@@ -29636,28 +29631,28 @@ creation_date: 2019-11-19T12:42:10Z
 id: CMO:0003266
 name: pancreas ribonucleic acid composition measurement
 is_a: CMO:0002576 ! pancreas molecular composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:46:04Z
 
 [Term]
 id: CMO:0003267
 name: gall bladder ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:48:52Z
 
 [Term]
 id: CMO:0003268
 name: oviduct ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:51:17Z
 
 [Term]
 id: CMO:0003269
 name: esophagus ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:54:02Z
 
@@ -29671,21 +29666,21 @@ creation_date: 2019-11-19T13:02:13Z
 [Term]
 id: CMO:0003271
 name: bone marrow ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:13:09Z
 
 [Term]
 id: CMO:0003272
 name: prostate gland ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:16:43Z
 
 [Term]
 id: CMO:0003273
 name: lymph node ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:19:13Z
 
@@ -29693,27 +29688,22 @@ creation_date: 2019-11-19T13:19:13Z
 id: CMO:0003274
 name: white blood cell ribonucleic acid composition measurement
 is_a: CMO:0002341 ! white blood cell measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:23:57Z
 
 [Term]
 id: CMO:0003275
 name: mammary organ ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:29:32Z
 
 [Term]
 id: CMO:0003276
-name: adipose tissue ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in adipose tissue, the portion of connective tissue composed of adipocytes enmeshed in areolar tissue." [UBERON:0001013]
-synonym: "adipose tissue ribonucleic acid composition measurement" EXACT []
-synonym: "adipose tissue RNA level" EXACT []
-synonym: "fat tissue RNA level" EXACT []
-synonym: "RNA level of fat tissue" EXACT []
+name: adipose tissue ribonucleic acid composition measurement
 is_a: CMO:0000484 ! adipose tissue molecular composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:33:15Z
 
@@ -29820,56 +29810,56 @@ creation_date: 2019-12-20T11:25:47Z
 [Term]
 id: CMO:0003289
 name: right renal cortex ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003290
 name: large intestine ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003291
 name: right renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003292
 name: muscle of arm ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003293
 name: muscle of leg ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003294
 name: skeletal muscle of trunk ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003295
 name: spinal cord ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003296
 name: renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -29883,14 +29873,14 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003298
 name: eye ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003299
 name: throat ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29904,14 +29894,14 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003301
 name: mitral valve ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003302
 name: dura mater ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29939,7 +29929,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003306
 name: olfactory apparatus ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29953,7 +29943,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003308
 name: diaphragm ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -29974,28 +29964,28 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003311
 name: vas deferens ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003312
 name: trachea ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003313
 name: umbilical cord ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003314
 name: minor salivary gland ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30009,7 +29999,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003316
 name: artery ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30040,28 +30030,28 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003320
 name: parotid gland ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003321
 name: penis ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003322
 name: vagina ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003323
 name: globus pallidus ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30076,7 +30066,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003325
 name: locus ceruleus ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30090,42 +30080,42 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003327
 name: pulmonary valve ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003328
 name: submandibular gland ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003329
 name: tricuspid valve ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003330
 name: uterine cervix ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003331
 name: substantia nigra ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003332
 name: epididymis ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30160,28 +30150,28 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003337
 name: blood ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T10:59:26Z
 
 [Term]
 id: CMO:0003338
 name: mouth mucosa ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T10:59:26Z
 
 [Term]
 id: CMO:0003339
 name: tongue ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:28:22Z
 
 [Term]
 id: CMO:0003340
 name: seminal vesicle  ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:34:30Z
 
@@ -30195,112 +30185,112 @@ creation_date: 2020-01-13T12:38:29Z
 [Term]
 id: CMO:0003342
 name: proximal gut ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2019-12-09T08:12:56Z
 
 [Term]
 id: CMO:0003343
 name: terminal ileum ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2019-12-09T08:13:13Z
 
 [Term]
 id: CMO:0003344
 name: distal gut ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2019-12-09T08:12:39Z
 
 [Term]
 id: CMO:0003345
 name: pleura ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
 
 [Term]
 id: CMO:0003346
 name: cartilage tissue ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
 
 [Term]
 id: CMO:0003347
 name: chordate pharynx ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
 
 [Term]
 id: CMO:0003348
 name: nasal septum ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
 
 [Term]
 id: CMO:0003349
 name: oral cavity ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
 
 [Term]
 id: CMO:0003350
 name: bone tissue ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
 
 [Term]
 id: CMO:0003351
 name: epithelium of bronchus ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:26:31Z
 
 [Term]
 id: CMO:0003353
 name: caecum ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:40:22Z
 
 [Term]
 id: CMO:0003354
 name: ileum ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:42:55Z
 
 [Term]
 id: CMO:0003355
 name: mucosa ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:03:38Z
 
 [Term]
 id: CMO:0003356
 name: connective tissue ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:04:10Z
 
 [Term]
 id: CMO:0003357
 name: vulva ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:04:35Z
 
 [Term]
 id: CMO:0003358
 name: bile duct ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:05:00Z
 
@@ -30314,21 +30304,21 @@ creation_date: 2020-01-16T08:05:24Z
 [Term]
 id: CMO:0003360
 name: umbilical cord blood ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-16T10:38:12Z
 
 [Term]
 id: CMO:0003361
 name: hematopoietic system ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T07:53:22Z
 
 [Term]
 id: CMO:0003362
 name: musculature ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T08:19:34Z
 
@@ -30342,7 +30332,7 @@ creation_date: 2020-01-17T09:01:21Z
 [Term]
 id: CMO:0003364
 name: basal ganglion ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:01:49Z
 
@@ -30363,7 +30353,7 @@ creation_date: 2020-01-17T09:02:35Z
 [Term]
 id: CMO:0003367
 name: choroid plexus ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:03:16Z
 
@@ -30377,7 +30367,6 @@ creation_date: 2020-01-17T09:04:01Z
 [Term]
 id: CMO:0003369
 name: forebrain ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the forebrain is formed or composed. The forebrain is the most anterior region of the brain including both the telencephalon and diencephalon." []
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:39Z
@@ -30399,8 +30388,7 @@ creation_date: 2020-01-17T09:05:23Z
 [Term]
 id: CMO:0003372
 name: combined forebrain and midbrain ribonucleic acid composition measurement
-is_a: CMO:0003369 ! forebrain ribonucleic acid composition measurement
-is_a: CMO:0003929 ! midbrain ribonucleic acid composition measurement
+relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:45Z
 
@@ -30415,7 +30403,7 @@ creation_date: 2020-01-17T09:06:07Z
 [Term]
 id: CMO:0003374
 name: venous blood ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T12:28:10Z
 
@@ -30451,7 +30439,7 @@ creation_date: 2020-01-28T10:18:51Z
 id: CMO:0003378
 name: omentum ribonucleic acid composition measurement
 xref: UBERON:0003688
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T12:02:08Z
 
@@ -30459,7 +30447,7 @@ creation_date: 2020-02-17T12:02:08Z
 id: CMO:0003379
 name: mesenteric lymph node ribonucleic acid composition measurement
 xref: UBERON:0002509
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:16:53Z
 
@@ -30468,7 +30456,7 @@ id: CMO:0003380
 name: lung alveolus ribonucleic acid composition measurement
 synonym: "alveolus of lung ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0002299
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:18:50Z
 
@@ -30779,11 +30767,11 @@ creation_date: 2020-05-12T17:18:33Z
 [Term]
 id: CMO:0003410
 name: carbachol-induced blood vessel dilation expressed as percent reduction of  the force generated in a pre-constricted blood vessel
-def: "This is a measure of the relaxation caused by the addition of carbachol to a pre-constricted blood vessel. It is the ratio of the amount of dilation compared to a fully dilated blood vessel." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, PMID:22783192]
+def: "This is a measure of the relaxation caused by the addition of carbachol to a pre-constricted blood vessel. It is the ratio of the amount of dilation compared to a fully dilated blood vessel." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, PMID:_22783192]
 synonym: "carbachol-induced blood vessel dilation expressed as percent of phenylephrine-induced vasoconstriction" RELATED []
 xref: CHEBI:3385
 xref: MESH:D002217
-xref: PMID:22783192
+xref: PMID: 22783192
 is_a: CMO:0000730 ! blood vessel dilation expressed as percent reduction of the force generated in a pre-constricted blood vessel
 is_a: CMO:0003408 ! carbachol response/sensitivity measurement
 created_by: slaulede
@@ -31554,7 +31542,7 @@ creation_date: 2020-07-07T17:24:08Z
 [Term]
 id: CMO:0003490
 name: urine mineral measurement
-def: "Any measurement of an inorganic element or compound containing a metal, nonmetal, radical, or phosphate that is needed for proper body function and maintenance of health, in urine, the fluid waste product excreted by the kidneys." [ISBN-13:978-0323049375, ISBN-13:978-0702027895]
+def: "Any measurement of an inorganic element or compound containing a metal, nonmetal, radical, or phosphate that is needed for proper body function and maintenance of health, in urine, the fluid waste product excreted by the kidneys." [ISBN-13:_978-0323049375, ISBN-13:_978-0702027895]
 is_a: CMO:0000256 ! urine measurement
 created_by: slaulede
 creation_date: 2020-07-10T17:11:50Z
@@ -31562,7 +31550,7 @@ creation_date: 2020-07-10T17:11:50Z
 [Term]
 id: CMO:0003491
 name: urine copper measurement
-def: "Any measurement of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in urine, the fluid waste product excreted by the kidneys." [ISBN-13:978-0702027895, ISBN-13:978-1416062578]
+def: "Any measurement of copper, an essential dietary trace element, atomic number 29, involved in the formation of bone and blood as a necessary component of several enzymes, in urine, the fluid waste product excreted by the kidneys." [ISBN-13:_978-0702027895, ISBN-13:_978-1416062578]
 is_a: CMO:0003490 ! urine mineral measurement
 created_by: slaulede
 creation_date: 2020-07-10T17:21:15Z
@@ -31570,7 +31558,7 @@ creation_date: 2020-07-10T17:21:15Z
 [Term]
 id: CMO:0003492
 name: calculated urine copper measurement
-def: "Any measurement of urine copper which has been normalized or adjusted by a mathematical process or computation." [ISBN:978-0-87779-809-5]
+def: "Any measurement of urine copper which has been normalized or adjusted by a mathematical process or computation." [ISBN:_978-0-87779-809-5]
 is_a: CMO:0003491 ! urine copper measurement
 created_by: slaulede
 creation_date: 2020-07-10T17:26:15Z
@@ -31578,7 +31566,7 @@ creation_date: 2020-07-10T17:26:15Z
 [Term]
 id: CMO:0003493
 name: urine copper level to urine creatinine level ratio
-def: "A calculated measurement in which the level of copper in a specified sample of urine is divided by the level of creatinine in that sample of urine and presented as a ratio, fraction, quotient or percentage." [ISBN-13:978-1416062578]
+def: "A calculated measurement in which the level of copper in a specified sample of urine is divided by the level of creatinine in that sample of urine and presented as a ratio, fraction, quotient or percentage." [ISBN-13:_978-1416062578]
 is_a: CMO:0003492 ! calculated urine copper measurement
 created_by: slaulede
 creation_date: 2020-07-10T17:33:46Z
@@ -31595,7 +31583,7 @@ creation_date: 2020-07-16T15:57:25Z
 [Term]
 id: CMO:0003495
 name: calculated cell ion flux
-def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of cellular ion flux." [ISBN-13:978-0618082308 "American Heritage Dictionary", PMID:27916567]
+def: "Any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of cellular ion flux." [ISBN-13:_978-0618082308 "American Heritage Dictionary", PMID:27916567]
 synonym: "calculated cellular ion flux" EXACT []
 is_a: CMO:0003494 ! cell ion flux
 created_by: slaulede
@@ -32392,7 +32380,7 @@ creation_date: 2020-10-12T17:17:05Z
 [Term]
 id: CMO:0003583
 name: tear secretion rate
-def: "A measure of tears secreted per unit time." [https://www.merriam-webster.com/, PMID:17251454]
+def: "A measure of tears secreted per unit time." [https://www.merriam-webster.com/, PMID:_17251454]
 is_a: CMO:0003582 ! calculated tear volume measurement
 created_by: slaulede
 creation_date: 2020-10-12T17:25:51Z
@@ -33231,7 +33219,7 @@ id: CMO:0003664
 name: phenylephrine-induced blood vessel contractile force expressed as percent of contractile force generated by potassium chloride
 def: "A calculated measurement in which the contractile force of a blood vessel in response to a specified dosage of phenylephrine is divided by the contractile force exerted by that vessel in the presence of potassium chloride and the result expressed as a percentage. Phenylephrine is an adrenergic drug that is a powerful vasoconstrictor." [PMID:22783192]
 synonym: "Emax" BROAD []
-xref: PMID:22783192
+xref: PMID: 22783192
 is_a: CMO:0000739 ! phenylephrine response/sensitivity measurement
 created_by: slaulede
 creation_date: 2021-02-25T15:23:38Z
@@ -33399,7 +33387,7 @@ creation_date: 2021-03-25T17:25:23Z
 id: CMO:0003680
 name: measurement of the 50% threshold of mechanical stimulus needed to elicit evasive reaction
 def: "A nociception assay is used to determine the mechanical force required to elicit a paw withdrawal response in 50% of subjects. The calculation is based on the statistical formula used to determine LD50s." [PMID:28932184]
-xref: PMID:24388923
+xref: PMID: 24388923
 is_a: CMO:0003679 ! calculated measurement of mechanical stimulus needed to elicit evasive reaction
 created_by: slaulede
 creation_date: 2021-03-25T17:39:33Z
@@ -33407,7 +33395,7 @@ creation_date: 2021-03-25T17:39:33Z
 [Term]
 id: CMO:0003681
 name: calculated platelet aggregation measurement
-def: "Measurement of the ability of platelets to aggregate in response to a known platelet aggregating factor such as collagen, ADP or thrombin which has been normalized, adjusted or derived by a mathematical process or computation." [https://www.merriam-webster.com, ISBN-13:978-0702027895]
+def: "Measurement of the ability of platelets to aggregate in response to a known platelet aggregating factor such as collagen, ADP or thrombin which has been normalized, adjusted or derived by a mathematical process or computation." [https://www.merriam-webster.com, ISBN-13:_978-0702027895]
 xref: PMID:17261463
 is_a: CMO:0000920 ! platelet aggregation measurement
 created_by: slaulede
@@ -34151,7 +34139,7 @@ creation_date: 2021-07-02T11:54:47Z
 id: CMO:0003753
 name: blood lipase activity level
 def: "Any quantitation of the catalytic effect exerted by lipase in a specified sample of blood. Lipase, is an enzyme that catalyzes the hydrolysis of lipids. It's normal to have a small amount of lipase in blood, but a high level of lipase can mean the subject has some type of pancreatic disease." [https://en.wikipedia.org/wiki/Lipase, https://medlineplus.gov/lab-tests/lipase-tests/]
-xref: PMID:23774700
+xref: PMID: 23774700
 is_a: CMO:0000064 ! blood enzyme activity level
 created_by: slaulede
 creation_date: 2021-07-02T13:58:20Z
@@ -34160,7 +34148,7 @@ creation_date: 2021-07-02T13:58:20Z
 id: CMO:0003754
 name: serum lipase activity level
 def: "Any quantitation of the catalytic effect exerted by lipase in a specified sample of blood serum. Lipase, is an enzyme that catalyzes the hydrolysis of lipids. It's normal to have a small amount of lipase in blood, but a high level of lipase can mean the subject has some type of pancreatic disease." [https://en.wikipedia.org/wiki/Lipase, https://medlineplus.gov/lab-tests/lipase-tests/]
-xref: PMID:23774700
+xref: PMID: 23774700
 is_a: CMO:0003753 ! blood lipase activity level
 created_by: slaulede
 creation_date: 2021-07-02T14:33:51Z
@@ -34169,7 +34157,7 @@ creation_date: 2021-07-02T14:33:51Z
 id: CMO:0003755
 name: plasma lipase activity level
 def: "Any quantitation of the catalytic effect exerted by lipase in a specified sample of blood plasma. Lipase, is an enzyme that catalyzes the hydrolysis of lipids. It's normal to have a small amount of lipase in blood, but a high level of lipase can mean the subject has some type of pancreatic disease." [https://en.wikipedia.org/wiki/Lipase, https://medlineplus.gov/lab-tests/lipase-tests/]
-xref: PMID:23774700
+xref: PMID: 23774700
 is_a: CMO:0003753 ! blood lipase activity level
 created_by: slaulede
 creation_date: 2021-07-02T14:35:54Z
@@ -34371,7 +34359,7 @@ creation_date: 2021-07-13T16:57:27Z
 [Term]
 id: CMO:0003775
 name: number of small metastatic liver tumors in the right liver
-def: "A value or quantity determined by count of small (< 1 mm) metastatic tumors in the right lobes (right lobes and caudate lobes) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:10.15835/buasvmcn-vm\:002717, PMID:23136993]
+def: "A value or quantity determined by count of small (< 1 mm) metastatic tumors in the right lobes (right lobes and caudate lobes) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:_10.15835/buasvmcn-vm\:002717, PMID:23136993]
 synonym: "count of micrometastases in the right liver" EXACT []
 synonym: "count of micrometastases in the right liver < 1 mm" EXACT []
 synonym: "number of micrometastases in the right liver" EXACT []
@@ -34383,7 +34371,7 @@ creation_date: 2021-07-15T15:21:11Z
 [Term]
 id: CMO:0003776
 name: number of small metastatic liver tumors in the left liver
-def: "A value or quantity determined by count of small (< 1 mm) metastatic tumors in the left lobes (left lateral lobe and median lobes in rat) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:10.15835/buasvmcn-vm\:002717, PMID:23136993]
+def: "A value or quantity determined by count of small (< 1 mm) metastatic tumors in the left lobes (left lateral lobe and median lobes in rat) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:_10.15835/buasvmcn-vm\:002717, PMID:23136993]
 synonym: "count of metastases in the left liver < 1 mm" EXACT []
 synonym: "count of micrometastases in the left liver" EXACT []
 synonym: "number of micrometastases in the left liver" EXACT []
@@ -34395,7 +34383,7 @@ creation_date: 2021-07-15T15:35:44Z
 [Term]
 id: CMO:0003777
 name: small liver metastatic tumorous lesion diameter measurement
-def: "The distance (< 1 mm) between two specified opposite points on the periphery of a micrometastatic tumorous lesion found on or in the liver. A micrometastatic tumorous lesion is one that is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors, preneoplastic lesions, and hyperplastic lesions composed of histologically normal cells." [DOI:10.15835/buasvmcn-vm\:002717, PMID:23136993]
+def: "The distance (< 1 mm) between two specified opposite points on the periphery of a micrometastatic tumorous lesion found on or in the liver. A micrometastatic tumorous lesion is one that is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors, preneoplastic lesions, and hyperplastic lesions composed of histologically normal cells." [DOI:_10.15835/buasvmcn-vm\:002717, PMID:23136993]
 synonym: "liver micrometastatic tumorous lesion diameter measurement" BROAD []
 xref: PMID:23136993
 is_a: CMO:0001076 ! liver tumorous lesion diameter measurement
@@ -34405,7 +34393,7 @@ creation_date: 2021-07-15T15:58:54Z
 [Term]
 id: CMO:0003778
 name: large liver metastatic tumorous lesion diameter measurement
-def: "The distance (> 3 mm) between two specified opposite points on the periphery of a macrometastatic tumorous lesion found on or in the liver. A macrometastatic tumorous lesion is one that is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors, preneoplastic lesions, and hyperplastic lesions composed of histologically normal cells." [DOI:10.15835/buasvmcn-vm\:002717, PMID:23136993]
+def: "The distance (> 3 mm) between two specified opposite points on the periphery of a macrometastatic tumorous lesion found on or in the liver. A macrometastatic tumorous lesion is one that is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors, preneoplastic lesions, and hyperplastic lesions composed of histologically normal cells." [DOI:_10.15835/buasvmcn-vm\:002717, PMID:23136993]
 synonym: "liver macrometastatic tumorous lesion diameter measurement" EXACT []
 xref: PMID:23136993
 is_a: CMO:0001076 ! liver tumorous lesion diameter measurement
@@ -34415,7 +34403,7 @@ creation_date: 2021-07-15T16:39:55Z
 [Term]
 id: CMO:0003779
 name: medium-sized liver metastatic tumorous lesion diameter measurement
-def: "The distance ( 1-3 mm) between two specified opposite points on the periphery of a micrometastatic tumorous lesion found on or in the liver. A micrometastatic tumorous lesion is one that is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors, preneoplastic lesions, and hyperplastic lesions composed of histologically normal cell" [DOI:10.15835/buasvmcn-vm\:002717, PMID:23136993]
+def: "The distance ( 1-3 mm) between two specified opposite points on the periphery of a micrometastatic tumorous lesion found on or in the liver. A micrometastatic tumorous lesion is one that is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors, preneoplastic lesions, and hyperplastic lesions composed of histologically normal cell" [OI:_10.15835/buasvmcn-vm\:002717, PMID:23136993]
 synonym: "liver micrometastatic tumorous lesion diameter measurement" BROAD []
 xref: PMID:23136993
 is_a: CMO:0001076 ! liver tumorous lesion diameter measurement
@@ -34435,7 +34423,7 @@ creation_date: 2021-07-15T17:03:07Z
 [Term]
 id: CMO:0003781
 name: number of large metastatic liver tumors in the left liver
-def: "A value or quantity determined by count of large ( > 3 mm) metastatic tumors in the left lobes (left lateral lobe and median lobes in rat) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:10.15835/buasvmcn-vm\:002717, PMID:23136993]
+def: "A value or quantity determined by count of large ( > 3 mm) metastatic tumors in the left lobes (left lateral lobe and median lobes in rat) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:_10.15835/buasvmcn-vm\:002717, PMID:23136993]
 synonym: "count of macrometastases in the left liver" EXACT []
 synonym: "count of metastases in the left liver > 3 mm" EXACT []
 synonym: "number of macrometastases in the left liver" EXACT []
@@ -34447,7 +34435,7 @@ creation_date: 2021-07-15T17:20:25Z
 [Term]
 id: CMO:0003782
 name: number of large metastatic liver tumors in the right liver
-def: "A value or quantity determined by count of large (> 3 mm) metastatic tumors in the right lobes (right lobes and caudate lobes) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:10.15835/buasvmcn-vm\:002717, PMID:23136993]
+def: "A value or quantity determined by count of large (> 3 mm) metastatic tumors in the right lobes (right lobes and caudate lobes) of the liver. A metastatic tumor in the liver is a secondary, abnormal growth of tissue resulting from the spread of cancer cells to the liver from the place where they first formed." [DOI:_10.15835/buasvmcn-vm\:002717, PMID:23136993]
 synonym: "count of macrometastases in the right liver" EXACT []
 synonym: "count of metastases in the right liver > 3 mm" EXACT []
 synonym: "number of macrometastases in the right liver" EXACT []
@@ -34918,7 +34906,7 @@ creation_date: 2021-08-03T13:58:18Z
 [Term]
 id: CMO:0003826
 name: number of fetuses with left umbilical artery to total number of fetuses ratio
-def: "A calculated measurement in which the number of fetuses with left umbilical artery is divided by the total number of fetuses in the prospective litter, and the result presented as a ratio, fraction, quotient or percentage. In a rat fetus the right umbilical artery tends to remain patent while the left becomes closed near the end of gestation." [ISBN-13:9780781733908, PMID:2391780]
+def: "A calculated measurement in which the number of fetuses with left umbilical artery is divided by the total number of fetuses in the prospective litter, and the result presented as a ratio, fraction, quotient or percentage. In a rat fetus the right umbilical artery tends to remain patent while the left becomes closed near the end of gestation." [ISBN-13:9780781733908, PMID:_2391780]
 synonym: "percent of fetuses with left umbilical artery" NARROW []
 xref: PMID:3347907
 is_a: CMO:0003822 ! number of fetuses with visceral malformations to total number of fetuses ratio
@@ -35460,7 +35448,7 @@ creation_date: 2022-02-15T13:48:27Z
 [Term]
 id: CMO:0003876
 name: blood urea level
-def: "This is the level of urea in the blood; converted from urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the level of urea in the blood; converted from urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "blood urea concentration" EXACT []
 is_a: CMO:0000023 ! blood chemistry measurement
 created_by: slaulede
@@ -35469,7 +35457,7 @@ creation_date: 2022-02-25T09:23:49Z
 [Term]
 id: CMO:0003877
 name: serum urea level
-def: "This is the level of urea in blood serum, i.e. blood plasma from which clotting factors have been removed. This value can be determined by converting urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the level of urea in blood serum, i.e. blood plasma from which clotting factors have been removed. This value can be determined by converting urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "serum urea concentration" EXACT []
 is_a: CMO:0003876 ! blood urea level
 created_by: slaulede
@@ -35478,7 +35466,7 @@ creation_date: 2022-02-25T09:49:54Z
 [Term]
 id: CMO:0003878
 name: plasma urea level
-def: "This is the level of urea in blood plasma, i.e. blood from which cells and cellular components have been removed. This value can be determined by converting urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is the level of urea in blood plasma, i.e. blood from which cells and cellular components have been removed. This value can be determined by converting urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 synonym: "plasma urea concentration" EXACT []
 is_a: CMO:0003876 ! blood urea level
 created_by: slaulede
@@ -35536,7 +35524,7 @@ creation_date: 2022-03-31T16:10:47Z
 [Term]
 id: CMO:0003884
 name: serum glucose level area under curve (AUC)
-def: "A calculated value in which a series of measurements of the amount of glucose in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13:978-0781733908]
+def: "A calculated value in which a series of measurements of the amount of glucose in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13:_978-0781733908]
 synonym: "serum glucose AUC" EXACT []
 is_a: CMO:0000350 ! blood glucose level area under curve (AUC)
 created_by: slaulede
@@ -35545,7 +35533,7 @@ creation_date: 2022-04-04T14:16:46Z
 [Term]
 id: CMO:0003885
 name: serum insulin level area under curve (AUC)
-def: "A calculated value in which a series of measurements of the amount of insulin in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13:978-0781733908]
+def: "A calculated value in which a series of measurements of the amount of insulin in a specified volume of serum is plotted against time and the extent of the two dimensional region bounded by the curve and the axes of the graph is determined." [http://en.wikipedia.org/wiki/Area_under_curve, ISBN-13:_978-0781733908]
 synonym: "serum insulin AUC" EXACT []
 is_a: CMO:0000351 ! blood insulin level area under curve (AUC)
 created_by: slaulede
@@ -35554,11 +35542,11 @@ creation_date: 2022-04-04T14:37:24Z
 [Term]
 id: CMO:0003886
 name: combined renal and gonadal fat pad weight
-def: "This is a measurement which has been derived by addition of the weight of the encapsulated adipose tissue surrounding the epididymis and the weight of the encapsulated adipose tissue associated with the kidney." [PMID:25573024]
+def: "This is a measurement which has been derived by addition of the weight of the encapsulated adipose tissue surrounding the epididymis and the weight of the encapsulated adipose tissue associated with the kidney." [PMID:_25573024]
 synonym: "combined perirenal and epididymal fat pad weight" EXACT []
 synonym: "combined perirenal and gonadal fat pad weight" EXACT []
 synonym: "combined renal and epididymal fat pad weight" EXACT []
-xref: PMID:25573024
+xref: PMID: 25573024
 is_a: CMO:0001200 ! calculated epididymal fat pad weight
 created_by: slaulede
 creation_date: 2022-04-21T18:20:35Z
@@ -35642,7 +35630,7 @@ creation_date: 2022-07-08T14:10:40Z
 [Term]
 id: CMO:0003894
 name: mean arterial pressure at the midpoint of a range of renal sympathetic nerve activity
-def: "This calculated value is the value of the mean arterial blood pressure at the midpoint of the curve defined by the change of renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [ISBN-13:978-0781733908, PMID:15458950]
+def: "This calculated value is the value of the mean arterial blood pressure at the midpoint of the curve defined by the change of renal sympathetic nerve activity relative to the change in mean arterial blood pressure over time and/or in response to a change in conditions." [ISBN-13:_978-0781733908, PMID:15458950]
 synonym: "MAP50 of RSNA range" EXACT []
 xref: PMID:15458950
 relationship: part_of CMO:0003892 ! range of RSNA changes during variation of MAP
@@ -35652,7 +35640,7 @@ creation_date: 2022-07-08T14:27:18Z
 [Term]
 id: CMO:0003895
 name: calculated mean arterial blood pressure measurement
-def: "This is a measurement which has been normalized, adjusted or derived by a mathematical process or computation, of mean arterial blood pressure, the average blood pressure within an artery over a specified period of time." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
+def: "This is a measurement which has been normalized, adjusted or derived by a mathematical process or computation, of mean arterial blood pressure, the average blood pressure within an artery over a specified period of time." [https://www.merriam-webster.com/, ISBN-13:_978-0781733908]
 xref: PMID:15458950
 is_a: CMO:0000009 ! mean arterial blood pressure
 created_by: slaulede
@@ -35681,7 +35669,7 @@ creation_date: 2022-07-11T16:44:02Z
 [Term]
 id: CMO:0003898
 name: cerebrospinal fluid potassium level
-def: "The amount of cationic potassium in a specified volume of cerebrospinal fluid." [ISBN-13:978-0781733908]
+def: "The amount of cationic potassium in a specified volume of cerebrospinal fluid." [ISBN-13:_978-0781733908]
 synonym: "CSF K+ concentration" EXACT []
 synonym: "CSF potassium concentration" EXACT []
 synonym: "CSF potassium ion concentration" EXACT []
@@ -35692,7 +35680,7 @@ creation_date: 2022-07-12T17:21:53Z
 [Term]
 id: CMO:0003899
 name: calculated plasma chylomicron cholesterol level
-def: "The amount of chylomicron cholesterol in a specified volume of blood plasma where the value was derived by a mathematical process or computation rather than being measured directly. Chylomicrons are a class of lipoproteins (approximate density range <0.95 g/ml) that transport exogenous triglycerides and cholesterol from the small intestine to other tissues." [ISBN-13:978-0781733908]
+def: "The amount of chylomicron cholesterol in a specified volume of blood plasma where the value was derived by a mathematical process or computation rather than being measured directly. Chylomicrons are a class of lipoproteins (approximate density range <0.95 g/ml) that transport exogenous triglycerides and cholesterol from the small intestine to other tissues." [ISBN-13:_978-0781733908]
 is_a: CMO:0002684 ! plasma chylomicron cholesterol level
 created_by: slaulede
 creation_date: 2022-08-12T15:50:38Z
@@ -35700,7 +35688,7 @@ creation_date: 2022-08-12T15:50:38Z
 [Term]
 id: CMO:0003900
 name: calculated plasma very low density lipoprotein cholesterol level
-def: "The amount of very low density lipoprotein (VLDL) cholesterol in a specified volume of blood plasma where the value was derived by a mathematical process or computation rather than being measured directly. VLDL are a class of lipoproteins (typical density in plasma between 0.95 and 1.006 g/ml) that transport exogenous triglycerides and cholesterol from the small intestine to other tissues. VLDL constitute a class of large (e.g. approximately 30-80 nm in diameter) lipoprotein particles." [http://themedicalbiochemistrypage.org/lipoproteins.php, ISBN-13:978-0781733908]
+def: "The amount of very low density lipoprotein (VLDL) cholesterol in a specified volume of blood plasma where the value was derived by a mathematical process or computation rather than being measured directly. VLDL are a class of lipoproteins (typical density in plasma between 0.95 and 1.006 g/ml) that transport exogenous triglycerides and cholesterol from the small intestine to other tissues. VLDL constitute a class of large (e.g. approximately 30-80 nm in diameter) lipoprotein particles." [http://themedicalbiochemistrypage.org/lipoproteins.php, ISBN-13:_978-0781733908]
 synonym: "calculated plasma VLDL cholesterol level" EXACT []
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0000649 ! plasma very low density lipoprotein cholesterol level
@@ -35710,7 +35698,7 @@ creation_date: 2022-08-12T16:33:45Z
 [Term]
 id: CMO:0003901
 name: plasma chylomicron and VLDL cholesterol level
-def: "This is a calculated measurement in which the value for chylomicron cholesterol and the value for very low density lipoprotein cholesterol in a specified sample of plasma are added together for an approximation of non-HDL, non-LDL cholesterol in that same sample." [http://themedicalbiochemistrypage.org/lipoproteins.php, ISBN-13:978-0781733908]
+def: "This is a calculated measurement in which the value for chylomicron cholesterol and the value for very low density lipoprotein cholesterol in a specified sample of plasma are added together for an approximation of non-HDL, non-LDL cholesterol in that same sample." [http://themedicalbiochemistrypage.org/lipoproteins.php, ISBN-13:_978-0781733908]
 synonym: "plasma chylomicron and very low density lipoprotein cholesterol level" EXACT []
 is_a: CMO:0003899 ! calculated plasma chylomicron cholesterol level
 is_a: CMO:0003900 ! calculated plasma very low density lipoprotein cholesterol level
@@ -35720,7 +35708,7 @@ creation_date: 2022-08-12T16:53:43Z
 [Term]
 id: CMO:0003902
 name: calculated plasma intermediate density lipoprotein cholesterol level
-def: "The amount of intermediate density lipoprotein (IDL) cholesterol in a specified volume of blood plasma where the value was derived by a mathematical process or computation rather than being measured directly. IDL are relatively large lipoprotein particles (complexes that consist of protein surrounding a core of lipids) formed by degradation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and LDL." [ISBN-13:978-0781733908]
+def: "The amount of intermediate density lipoprotein (IDL) cholesterol in a specified volume of blood plasma where the value was derived by a mathematical process or computation rather than being measured directly. IDL are relatively large lipoprotein particles (complexes that consist of protein surrounding a core of lipids) formed by degradation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and LDL." [ISBN-13:_978-0781733908]
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0001563 ! plasma intermediate density lipoprotein cholesterol level
 created_by: slaulede
@@ -35729,7 +35717,7 @@ creation_date: 2022-08-12T17:05:56Z
 [Term]
 id: CMO:0003903
 name: plasma IDL and LDL cholesterol
-def: "This is a calculated measurement in which the value for intermediate density lipoprotein (IDL) cholesterol and the value for low density lipoprotein (LDL) cholesterol in a specified sample of plasma are added together for an approximation of non-HDL, non-chylomicron/VLDL cholesterol in that same sample. Together, IDL and LDL cover a plasma density of 1.006 to 1.063 g/ml." [ISBN-13:978-0781733908]
+def: "This is a calculated measurement in which the value for intermediate density lipoprotein (IDL) cholesterol and the value for low density lipoprotein (LDL) cholesterol in a specified sample of plasma are added together for an approximation of non-HDL, non-chylomicron/VLDL cholesterol in that same sample. Together, IDL and LDL cover a plasma density of 1.006 to 1.063 g/ml." [ISBN-13:_978-0781733908]
 synonym: "plasma intermediate density lipoprotein and low density lipoprotein cholesterol" EXACT []
 is_a: CMO:0001245 ! calculated plasma low density lipoprotein cholesterol level
 is_a: CMO:0003902 ! calculated plasma intermediate density lipoprotein cholesterol level
@@ -35821,7 +35809,7 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "kidney ribonucleic acid composition measurement" EXACT []
 synonym: "kidney RNA composition measurement" EXACT []
 synonym: "renal ribonucleic acid measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 is_a: CMO:0003911 ! kidney nucleic acid measurement
 created_by: slaulede
 creation_date: 2023-03-13T17:13:14Z
@@ -35947,7 +35935,7 @@ alt_id: CMO:0003359
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the peripheral nervous system is formed or composed." [https://www.merriam-webster.com, UBERON:0000010]
 synonym: "peripheral nervous system ribonucleic acid composition measurement" EXACT []
 synonym: "PNS ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid composition measurement
 is_a: CMO:0003924 ! peripheral nervous system molecular composition measurement
 created_by: slaulede
 creation_date: 2023-06-22T16:39:26Z
@@ -35970,59 +35958,6 @@ synonym: "sciatic nerve RNA level" EXACT []
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-07-07T13:46:11Z
-
-[Term]
-id: CMO:0003928
-name: cerebellum ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the cerebellum is formed or composed." [ISBN:978-1455756438]
-synonym: "epencephalon-1 ribonucleic acid composition measurement" EXACT []
-xref: UBERON:0002037
-is_a: CMO:0002795 ! brain ribonucleic acid level
-created_by: slaulede
-creation_date: 2023-07-24T15:51:56Z
-
-[Term]
-id: CMO:0003929
-name: midbrain ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the midbrain is formed or composed." [http://braininfo.rprc.washington.edu/Default.aspx]
-synonym: "mesencephalon ribonucleic acid composition measurement" EXACT []
-xref: UBERON:0001891
-is_a: CMO:0002795 ! brain ribonucleic acid level
-created_by: slaulede
-creation_date: 2023-07-24T16:03:01Z
-
-[Term]
-id: CMO:0003930
-name: hypothalamus ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the hypothalamus is formed or composed." [http://braininfo.rprc.washington.edu/Default.aspx]
-xref: UBERON:0001898
-is_a: CMO:0003369 ! forebrain ribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2023-07-24T16:18:48Z
-
-[Term]
-id: CMO:0003931
-name: dermis ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in dermis, a layer of skin between the epidermis (with which it makes up the skin) and subcutaneous tissues. Dermis is composed of two layers, the papillary and reticular dermis." [UBERON:0002067]
-synonym: "dermal ribonucleic acid level" EXACT []
-synonym: "dermal RNA level" EXACT []
-synonym: "dermis RNA composition measurement" EXACT []
-xref: PMID:29317265
-is_a: CMO:0003255 ! skin ribonucleic acid level
-created_by: slaulede
-creation_date: 2023-07-25T13:54:06Z
-
-[Term]
-id: CMO:0003932
-name: epidermis ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in epidermis, the outer epithelial layer of skin that is superficial to the dermis." [UBERON:0001003]
-synonym: "epidermal RNA level" EXACT []
-synonym: "epidermis ribonucleic acid composition measurement" EXACT []
-synonym: "epidermis RNA level" EXACT []
-xref: PMID:29317265
-is_a: CMO:0003255 ! skin ribonucleic acid level
-created_by: slaulede
-creation_date: 2023-07-25T14:00:25Z
 
 [Typedef]
 id: part_of
