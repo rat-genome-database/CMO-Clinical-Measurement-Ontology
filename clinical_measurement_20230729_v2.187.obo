@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.188
-date: 05:08:2023 20:13
+data-version: 2.187
+date: 29:07:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -11707,8 +11707,6 @@ creation_date: 2013-01-10T17:10:04Z
 id: CMO:0001353
 name: semen measurement
 def: "Any measurement of the viscous secretion of the male reproductive organs, typically containing spermatazoa and secretions of the testes, seminal vesicles, prostate, and bulbourethral glands." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
-synonym: "seminal fluid measurement" EXACT []
-xref: EFO:0010745
 is_a: CMO:0000389 ! reproduction measurement
 created_by: JSmith
 creation_date: 2013-01-10T17:13:53Z
