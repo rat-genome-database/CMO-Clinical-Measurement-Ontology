@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.189
-date: 12:08:2023 20:13
+data-version: 2.188
+date: 05:08:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -8451,8 +8451,7 @@ creation_date: 2012-07-30T03:50:37Z
 [Term]
 id: CMO:0000998
 name: defecation rate
-def: "This is a measurement of the number of instances of defecation, or amount of defecation as measured by the number of pieces of fecal matter, or the weight of fecal matter within a specified period of time." [RGD:JRS]
-synonym: "fecal output" EXACT []
+def: "The number of times an organism passes feces or the number of pieces of fecal matter excreted within a specified period of time." [RGD:JRS]
 is_a: CMO:0000997 ! defecation measurement
 created_by: JSmith
 creation_date: 2012-07-30T04:03:18Z
@@ -11360,7 +11359,8 @@ creation_date: 2013-01-09T14:47:26Z
 id: CMO:0001312
 name: feed conversion ratio
 def: "A calculated measurement in which the weight of feed consumed over a specific period of time is divided by body weight gain for the same period." [QTLdb:CAP, RGD:JRS]
-is_a: CMO:0001774 ! calculated food intake measurement
+is_a: CMO:0000420 ! body weight gain
+is_a: CMO:0000427 ! food intake rate
 created_by: JSmith
 creation_date: 2013-01-09T14:54:59Z
 
@@ -19640,7 +19640,7 @@ creation_date: 2014-03-03T17:56:13Z
 id: CMO:0002174
 name: bisphenol A drink intake rate
 def: "The amount of a solution of bisphenol A that is consumed as a drink, that is, a liquid that is brought into the mouth and swallowed to quench thirst, for nourishment, etc., per unit time. Bisphenol A (BPA) is a synthetic phenolic compound with the chemical formula (CH3)2C(C6H4OH)2, i.e. one in which a central carbon links to two methyl groups and two hydroxyphenyl groups. BPA is similar in structure to estradiol and can bind to and activate the estrogen receptor." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Bisphenol_A "Wikipedia", ISBN:978-1416049982]
-synonym: "BPA drink intake rate" EXACT []
+synonym: "BPA drink intake rate" RELATED []
 is_a: CMO:0000455 ! drink intake rate
 created_by: JSmith
 creation_date: 2014-03-05T15:30:30Z
@@ -19670,7 +19670,7 @@ def: "The number of calories (usually large calories, kilogram calories, dietary
 synonym: "calorie intake rate from food" EXACT []
 synonym: "food energy intake rate" RELATED []
 is_a: CMO:0000427 ! food intake rate
-relationship: part_of CMO:0002178 ! total food calorie intake rate
+is_a: CMO:0002206 ! food calorie intake measurement
 created_by: JSmith
 creation_date: 2014-03-05T15:51:17Z
 
@@ -19679,7 +19679,7 @@ id: CMO:0002178
 name: total food calorie intake rate
 def: "The entire number of calories (usually large calories, kilogram calories, dietary calories, or nutritional calories) consumed as food by an organism per period of time, i.e., the calorie intake rate from all food sources." [http://en.wikipedia.org/wiki/Calorie "Wikipedia"]
 synonym: "total food energy intake rate" RELATED []
-is_a: CMO:0002208 ! total food calorie intake level
+is_a: CMO:0002177 ! food calorie intake rate
 created_by: JSmith
 creation_date: 2014-03-05T15:52:38Z
 
@@ -36025,112 +36025,6 @@ xref: PMID:29317265
 is_a: CMO:0003255 ! skin ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-25T14:00:25Z
-
-[Term]
-id: CMO:0003933
-name: bisphenol F in ethanol drink intake rate
-def: "The amount of a solution of bisphenol F that is consumed as a drink containing ethanol, that is, a liquid that is brought into the mouth and swallowed to quench thirst, for nourishment, etc., per unit time." [https://www.merriam-webster.com/]
-synonym: "BPF in ethanol drink intake rate" EXACT []
-is_a: CMO:0000455 ! drink intake rate
-created_by: slaulede
-creation_date: 2023-08-08T17:33:00Z
-
-[Term]
-id: CMO:0003934
-name: calculated calorie intake measurement
-def: "This is any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the calories consumed by a subject per period of time." [https://www.merriam-webster.com/]
-synonym: "Not4Curation" RELATED []
-is_a: CMO:0002248 ! calorie intake measurement
-created_by: slaulede
-creation_date: 2023-08-11T12:20:45Z
-
-[Term]
-id: CMO:0003935
-name: calories absorbed to calorie intake ratio
-def: "This is a calculated measurement in which the number of calories absorbed by a subject during a specified period of time or under specified conditions, is divided by the total calories consumed by the subject, and the result presented as a ratio, fraction, quotient or percentage. It is a measure of the amount of ingested chemical energy actually absorbed by the subject." [https://encyclopedia2.thefreedictionary.com/digestive+efficiency, https://www.merriam-webster.com/]
-synonym: "digestive efficiency" EXACT []
-synonym: "total caloric absorption to total caloric intake ratio" EXACT []
-xref: PMID:37191987
-is_a: CMO:0003934 ! calculated calorie intake measurement
-created_by: slaulede
-creation_date: 2023-08-11T12:45:16Z
-
-[Term]
-id: CMO:0003936
-name: total caloric absorption
-def: "This is a measurement of total calories consumed minus total calories lost through defecation during a specific time period. Total caloric absorption = [Total calories consumed ] - [Total caloric loss through feces]" [https://www.merriam-webster.com/, ISBN:978-1455756438]
-xref: PMID:37191987
-is_a: CMO:0003934 ! calculated calorie intake measurement
-created_by: slaulede
-creation_date: 2023-08-11T13:27:14Z
-
-[Term]
-id: CMO:0003937
-name: dry feces weight
-def: "This is a measure of the relative mass of a sample of fecal matter. The weight of an object is the force acting on the object due to acceleration or gravity." [https://en.wikipedia.org/wiki/Weight]
-synonym: "weight of dry excreta" EXACT []
-xref: PMID:37191987
-is_a: CMO:0000997 ! defecation measurement
-created_by: slaulede
-creation_date: 2023-08-11T14:02:06Z
-
-[Term]
-id: CMO:0003938
-name: fecal calorie level
-def: "This is a measure of the calories generated by fecal matter. It may be determined by use of a bomb calorimeter." [ISBN:978-1455756438]
-synonym: "fecal caloric density" RELATED []
-xref: PMID:37191987
-is_a: CMO:0000997 ! defecation measurement
-created_by: slaulede
-creation_date: 2023-08-11T15:00:01Z
-
-[Term]
-id: CMO:0003939
-name: calculated body weight gain measurement
-def: "This is any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the total body weight gained by a subject per period of time or or under specified conditions." [https://www.merriam-webster.com/]
-synonym: "PMID:37191987" EXACT []
-is_a: CMO:0000420 ! body weight gain
-created_by: slaulede
-creation_date: 2023-08-11T15:16:20Z
-
-[Term]
-id: CMO:0003940
-name: body weight gain to calories absorbed ratio
-def: "This is a calculated measurement in which the number of grams of body weight gained by a subject during a specified period of time or under specified conditions, is divided by the total calories absorbed by the subject, and the result presented as a ratio, fraction, quotient or percentage." [https://www.merriam-webster.com/, PMID:37191987]
-synonym: "energy efficiency" EXACT []
-is_a: CMO:0003939 ! calculated body weight gain measurement
-created_by: slaulede
-creation_date: 2023-08-11T15:31:13Z
-
-[Term]
-id: CMO:0003941
-name: interscapular fat pad weight
-def: "This is a measure of the relative mass of the interscapular fat pad, the accumulation of encapsulated adipose tissue located in between the scapulae." [UBERON:0014396]
-xref: PMID:37191987
-relationship: part_of CMO:0000429 ! back fat weight
-created_by: slaulede
-creation_date: 2023-08-11T16:23:36Z
-
-[Term]
-id: CMO:0003942
-name: total body water weight
-def: "This measurement is a calculated/estimated value of the relative mass of total fluid in an organism. The two main fluid compartments are divided by the cell membrane into the extracellular fluid (ECF) and the intracellular fluid (ICF)." [https://en.wikipedia.org/wiki/Body_water]
-synonym: "TBW weight" EXACT []
-synonym: "total body fluid weight" EXACT []
-xref: PMID:37191987
-is_a: CMO:0002304 ! calculated body weight estimate
-created_by: slaulede
-creation_date: 2023-08-11T17:07:21Z
-
-[Term]
-id: CMO:0003943
-name: defecation rate by weight
-def: "This is a measurement of the weight of fecal matter excreted within a specified period of time." [https://www.merriam-webster.com/]
-synonym: "fecal output by weight" EXACT []
-xref: PMID:37191987
-is_a: CMO:0000998 ! defecation rate
-created_by: slaulede
-creation_date: 2023-08-11T17:45:27Z
 
 [Typedef]
 id: part_of
