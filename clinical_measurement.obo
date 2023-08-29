@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.189
-date: 12:08:2023 20:13
+data-version: 2.190
+date: 26:08:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -87,6 +87,7 @@ is_a: CMO:0000021 ! body morphological measurement
 id: CMO:0000012
 name: body weight
 def: "The heaviness or degree to which an entire organism's body is drawn to the earth by gravity." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "body mass" RELATED []
 is_a: CMO:0000011 ! whole body morphological measurement
 
 [Term]
@@ -2421,7 +2422,7 @@ creation_date: 2010-08-04T02:17:57Z
 [Term]
 id: CMO:0000302
 name: body fat percentage
-is_a: CMO:0000312 ! calculated body fat morphological measurement
+is_a: CMO:0003945 ! total body fat mass to total body mass ratio
 created_by: mshimoyama
 creation_date: 2010-08-05T08:53:40Z
 
@@ -2443,7 +2444,8 @@ creation_date: 2010-08-05T09:10:41Z
 
 [Term]
 id: CMO:0000305
-name: total body fat weight
+name: total body fat mass
+synonym: "total body fat weight" RELATED []
 is_a: CMO:0000089 ! body fat morphological measurement
 created_by: mshimoyama
 creation_date: 2010-08-05T09:19:24Z
@@ -25743,7 +25745,7 @@ creation_date: 2018-11-13T14:34:51Z
 id: CMO:0002807
 name: calculated whole body visceral fat weight
 def: "Measurement of the whole body visceral fat which has been normalized, adjusted or derived by a mathematical process or computation." []
-is_a: CMO:0000305 ! total body fat weight
+is_a: CMO:0000305 ! total body fat mass
 is_a: CMO:0000312 ! calculated body fat morphological measurement
 created_by: sjwang
 creation_date: 2018-11-13T14:37:39Z
@@ -36113,10 +36115,11 @@ creation_date: 2023-08-11T16:23:36Z
 
 [Term]
 id: CMO:0003942
-name: total body water weight
+name: total body water mass
 def: "This measurement is a calculated/estimated value of the relative mass of total fluid in an organism. The two main fluid compartments are divided by the cell membrane into the extracellular fluid (ECF) and the intracellular fluid (ICF)." [https://en.wikipedia.org/wiki/Body_water]
 synonym: "TBW weight" EXACT []
-synonym: "total body fluid weight" EXACT []
+synonym: "total body fluid mass" EXACT []
+synonym: "total body fluid weight" RELATED []
 xref: PMID:37191987
 is_a: CMO:0002304 ! calculated body weight estimate
 created_by: slaulede
@@ -36124,13 +36127,75 @@ creation_date: 2023-08-11T17:07:21Z
 
 [Term]
 id: CMO:0003943
-name: defecation rate by weight
+name: defecation rate by mass
 def: "This is a measurement of the weight of fecal matter excreted within a specified period of time." [https://www.merriam-webster.com/]
-synonym: "fecal output by weight" EXACT []
+synonym: "defecation rate by weight" RELATED []
+synonym: "fecal output by mass" EXACT []
 xref: PMID:37191987
 is_a: CMO:0000998 ! defecation rate
 created_by: slaulede
 creation_date: 2023-08-11T17:45:27Z
+
+[Term]
+id: CMO:0003944
+name: whole body lean tissue mass
+def: "This is a measurement that determines whole body lean tissue mass of an organism by subtracting whole body fat mass from total body mass." [ISBN:978-1455756438]
+synonym: "total body fat-free mass" EXACT []
+synonym: "whole body fat-free mass" EXACT []
+synonym: "whole body lean tissue weight" RELATED []
+xref: PMID:37191987
+is_a: CMO:0001196 ! calculated body weight measurement
+created_by: slaulede
+creation_date: 2023-08-21T13:38:35Z
+
+[Term]
+id: CMO:0003945
+name: total body fat mass to total body mass ratio
+def: "This is a calculated value in which the total fat mass of an organism is divided by the total mass of an organism and presented as a ratio, fraction, quotient or percentage, thus normalizing fat mass to the total mass of the body." [https://www.merriam-webster.com/]
+synonym: "percentage of total body fat" NARROW []
+xref: PMID:37191987
+is_a: CMO:0000312 ! calculated body fat morphological measurement
+created_by: slaulede
+creation_date: 2023-08-25T13:01:40Z
+
+[Term]
+id: CMO:0003946
+name: total body lean mass to total body mass ratio
+def: "This is a calculated value in which the total lean mass of an organism is divided by the total mass of an organism and presented as a ratio, fraction, quotient or percentage, thus normalizing lean mass to the total mass of the body. Whole body lean tissue mass of an organism is determined by subtracting whole body fat mass from total body mass." [https://www.merriam-webster.com/]
+synonym: "total body lean weight to total body weight ratio" RELATED []
+xref: PMID:37191987
+is_a: CMO:0003944 ! whole body lean tissue mass
+created_by: slaulede
+creation_date: 2023-08-25T13:21:19Z
+
+[Term]
+id: CMO:0003947
+name: total body water mass to total body mass ratio
+def: "This is a calculated value in which the total water mass of an organism is divided by the total mass of an organism and presented as a ratio, fraction, quotient or percentage, thus normalizing water mass to the total mass of the body. Total body water mass of an organism is a calculated/estimated value of the relative mass of total fluid in an organism." [https://www.merriam-webster.com/]
+xref: PMID:37191987
+is_a: CMO:0003942 ! total body water mass
+created_by: slaulede
+creation_date: 2023-08-25T13:54:11Z
+
+[Term]
+id: CMO:0003948
+name: urine mass
+def: "This is any measurement of the mass of urine voided." [https://www.merriam-webster.com/]
+synonym: "weight of urine" RELATED []
+xref: PMID:37191987
+is_a: CMO:0000256 ! urine measurement
+created_by: slaulede
+creation_date: 2023-08-25T17:08:02Z
+
+[Term]
+id: CMO:0003949
+name: timed urine mass
+def: "This is any measurement of the mass of urine voided over a specified period of time." [https://www.merriam-webster.com/]
+synonym: "timed urine weight" RELATED []
+xref: PMID:37191987
+is_a: CMO:0003948 ! urine mass
+created_by: slaulede
+creation_date: 2023-08-25T17:12:03Z
 
 [Typedef]
 id: part_of
