@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.191
-date: 09:09:2023 20:13
+data-version: 2.190
+date: 26:08:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -2454,7 +2454,7 @@ creation_date: 2010-08-05T09:19:24Z
 id: CMO:0000306
 name: fat free mass index (FFMI)
 def: "Portion of the body not comprised of lipids often calculated as fat free mass equal to fat free mass divided by height squared." [Schutz_Kyle_and_Pichard:Schutz_et_al_2002]
-is_a: CMO:0003944 ! total body fat-free mass
+is_a: CMO:0000312 ! calculated body fat morphological measurement
 created_by: mshimoyama
 creation_date: 2010-08-05T09:21:40Z
 
@@ -10336,7 +10336,6 @@ creation_date: 2012-11-15T15:26:07Z
 [Term]
 id: CMO:0001196
 name: calculated body weight measurement
-synonym: "calculated body mass measurement" RELATED []
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0000012 ! body weight
 is_a: CMO:0000022 ! calculated body morphological measurement
@@ -36139,10 +36138,11 @@ creation_date: 2023-08-11T17:45:27Z
 
 [Term]
 id: CMO:0003944
-name: total body fat-free mass
+name: whole body lean tissue mass
 def: "This is a measurement that determines whole body lean tissue mass of an organism by subtracting whole body fat mass from total body mass." [ISBN:978-1455756438]
-synonym: "total body fat-free weight" RELATED []
+synonym: "total body fat-free mass" EXACT []
 synonym: "whole body fat-free mass" EXACT []
+synonym: "whole body lean tissue weight" RELATED []
 xref: PMID:37191987
 is_a: CMO:0001196 ! calculated body weight measurement
 created_by: slaulede
@@ -36160,11 +36160,11 @@ creation_date: 2023-08-25T13:01:40Z
 
 [Term]
 id: CMO:0003946
-name: total body fat-free mass to total body mass ratio
+name: total body lean mass to total body mass ratio
 def: "This is a calculated value in which the total lean mass of an organism is divided by the total mass of an organism and presented as a ratio, fraction, quotient or percentage, thus normalizing lean mass to the total mass of the body. Whole body lean tissue mass of an organism is determined by subtracting whole body fat mass from total body mass." [https://www.merriam-webster.com/]
-synonym: "total body fat-free weight to total body weight ratio" RELATED []
+synonym: "total body lean weight to total body weight ratio" RELATED []
 xref: PMID:37191987
-is_a: CMO:0003944 ! total body fat-free mass
+is_a: CMO:0003944 ! whole body lean tissue mass
 created_by: slaulede
 creation_date: 2023-08-25T13:21:19Z
 
@@ -36172,8 +36172,6 @@ creation_date: 2023-08-25T13:21:19Z
 id: CMO:0003947
 name: total body water mass to total body mass ratio
 def: "This is a calculated value in which the total water mass of an organism is divided by the total mass of an organism and presented as a ratio, fraction, quotient or percentage, thus normalizing water mass to the total mass of the body. Total body water mass of an organism is a calculated/estimated value of the relative mass of total fluid in an organism." [https://www.merriam-webster.com/]
-synonym: "total body fluid mass to total body mass ratio" EXACT []
-synonym: "total body water weight to total body weight ratio" RELATED []
 xref: PMID:37191987
 is_a: CMO:0003942 ! total body water mass
 created_by: slaulede
@@ -36198,38 +36196,6 @@ xref: PMID:37191987
 is_a: CMO:0003948 ! urine mass
 created_by: slaulede
 creation_date: 2023-08-25T17:12:03Z
-
-[Term]
-id: CMO:0003950
-name: total body lean mass
-def: "This is a measurement of the total mass of the lean tissue of an organism. This measurement can be done by (TD-NMR) time-domain nuclear magnetic resonance for laboratory animals, or estimated by calculation using height and weight for human subjects." [https://en.wikipedia.org/wiki/Lean_body_mass]
-synonym: "total body lean weight" RELATED []
-synonym: "total LBM" EXACT []
-synonym: "total lean body mass" EXACT []
-xref: PMID:37191987
-is_a: CMO:0002184 ! lean tissue morphological measurement
-created_by: slaulede
-creation_date: 2023-08-28T14:08:52Z
-
-[Term]
-id: CMO:0003951
-name: calculated lean tissue mass measurement
-def: "This is a measurement which has been normalized or adjusted by a mathematical process or computation of the total lean tissue mass of an organism." [https://www.merriam-webster.com/]
-synonym: "calculated lean tissue weight measurement" RELATED []
-xref: PMID:37191987
-is_a: CMO:0002184 ! lean tissue morphological measurement
-created_by: slaulede
-creation_date: 2023-08-28T14:27:36Z
-
-[Term]
-id: CMO:0003952
-name: total body lean mass to total body mass ratio
-def: "This is a calculated value in which the total lean mass of an organism is divided by the total mass of an organism and presented as a ratio, fraction, quotient or percentage, thus normalizing lean mass to the total mass of the body. Whole body lean tissue mass of an organism is determined by TD-NMR (time-domain nuclear magnetic resonance) or a formula using height and weight of subject." [https://en.wikipedia.org/wiki/Lean_body_mass, https://www.merriam-webster.com/]
-xref: PMID:37191987
-is_a: CMO:0001196 ! calculated body weight measurement
-is_a: CMO:0003951 ! calculated lean tissue mass measurement
-created_by: slaulede
-creation_date: 2023-08-28T14:34:44Z
 
 [Typedef]
 id: part_of
