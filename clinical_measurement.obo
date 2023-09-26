@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.191
-date: 09:09:2023 20:13
+data-version: 2.192
+date: 23:09:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -4280,7 +4280,7 @@ creation_date: 2011-01-05T10:23:51Z
 
 [Term]
 id: CMO:0000523
-name: caculated blood apolipoprotein level
+name: calculated blood apolipoprotein level
 is_a: CMO:0000518 ! blood apolipoprotein level
 created_by: mshimoyama
 creation_date: 2011-01-05T10:24:54Z
@@ -4288,7 +4288,7 @@ creation_date: 2011-01-05T10:24:54Z
 [Term]
 id: CMO:0000524
 name: blood apolipoprotein AI to apolipoprotein B ratio
-is_a: CMO:0000523 ! caculated blood apolipoprotein level
+is_a: CMO:0000523 ! calculated blood apolipoprotein level
 created_by: mshimoyama
 creation_date: 2011-01-05T10:25:16Z
 
