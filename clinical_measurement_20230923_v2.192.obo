@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.193
-date: 30:09:2023 20:13
+data-version: 2.192
+date: 23:09:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -36230,104 +36230,6 @@ is_a: CMO:0001196 ! calculated body weight measurement
 is_a: CMO:0003951 ! calculated lean tissue mass measurement
 created_by: slaulede
 creation_date: 2023-08-28T14:34:44Z
-
-[Term]
-id: CMO:0003953
-name: thyroid gland wet weight to body weight ratio
-def: "This is a calculated measurement in which the wet weight of the thyroid gland, the largest of the endocrine glands, is divided by the total body weight of the organism and the result presented as a ratio, fraction, quotient or percentage thus normalizing it to body weight and, by extension, to the size of the organism." [https://www.merriam-webster.com/, ISBN:978-1455756438]
-is_a: CMO:0002392 ! thyroid gland wet weight
-created_by: slaulede
-creation_date: 2023-09-28T18:43:45Z
-
-[Term]
-id: CMO:0003954
-name: whole body physiology measurement
-def: "This is any measurement of a physiological process(es) which involve(s) or affect(s) most organ systems in the body." [https://www.merriam-webster.com/]
-synonym: "whole body physiological measurement" EXACT []
-is_a: CMO:0000000 ! clinical measurement
-created_by: slaulede
-creation_date: 2023-09-29T10:28:00Z
-
-[Term]
-id: CMO:0003955
-name: basal metabolic rate
-def: "This is a calculated value which is a measure of the rate of energy expenditure per unit time by endothermic animals at rest. It represents the minimum amount of energy required to sustain life while at complete rest, including the body being in a post-absorptive state (ie the digestive system is inactive." [EFO:0007777, https://www.merriam-webster.com/]
-synonym: "base metabolic rate" EXACT []
-synonym: "BMR" EXACT []
-is_a: CMO:0003956 ! metabolic rate
-created_by: slaulede
-creation_date: 2023-09-29T10:44:25Z
-
-[Term]
-id: CMO:0003956
-name: metabolic rate
-def: "This is a calculated value which is a measure of the rate of energy expenditure per unit time by endothermic animals at a specific moment or across a specified span of time, under specific conditions." [https://www.merriam-webster.com/, PMID:37191987]
-synonym: "average metabolic rate" EXACT []
-xref: PMID:37191987
-is_a: CMO:0003954 ! whole body physiology measurement
-created_by: slaulede
-creation_date: 2023-09-29T12:33:04Z
-
-[Term]
-id: CMO:0003957
-name: resting metabolic rate
-def: "This is a calculated value which is a measure of the rate of energy expenditure per unit time by endothermic animals at rest. It represents the minimum amount of energy required to sustain life during a time period of steady resting conditions, with less rigorous criteria than for basal metabolic rate." [EFO:0008004, https://en.wikipedia.org/wiki/Basal_metabolic_rate]
-synonym: "RMR" EXACT []
-xref: PMID:37191987
-is_a: CMO:0003956 ! metabolic rate
-created_by: slaulede
-creation_date: 2023-09-29T12:50:21Z
-
-[Term]
-id: CMO:0003958
-name: ANCOVA-adjusted average metabolic rate
-def: "This is a calculated value which is a measure of the rate of energy expenditure per unit time by endothermic animals at a specific moment or across a specified span of time, under specific conditions. It involves analysis of covariance which examines the influence of an independent variable on a dependent variable while removing the effect of the covariate factor." [https://en.wikipedia.org/wiki/Basal_metabolic_rate, https://www.statisticssolutions.com]
-xref: PMID:37191987
-is_a: CMO:0003956 ! metabolic rate
-created_by: slaulede
-creation_date: 2023-09-29T13:21:33Z
-
-[Term]
-id: CMO:0003959
-name: ANCOVA-adjusted resting metabolic rate
-def: "This is a calculated value which is a measure of the rate of energy expenditure per unit time by endothermic animals at rest. It represents the minimum amount of energy required to sustain life during a time period of steady resting conditions, with less rigorous criteria than for basal metabolic rate. It involves analysis of covariance which examines the influence of an independent variable on a dependent variable while removing the effect of the covariate factor." [EFO:0008004, https://www.statisticssolutions.com]
-synonym: "ANCOVA-adjusted RMR" EXACT []
-xref: PMID:37191987
-is_a: CMO:0003957 ! resting metabolic rate
-created_by: slaulede
-creation_date: 2023-09-29T13:28:52Z
-
-[Term]
-id: CMO:0003960
-name: kidney glomerulus area
-def: "This is a calculated measurement of the average cross-sectional area of glomeruli sampled in microscopic images." [PMID:37191987]
-synonym: "average kidney glomerulus cross-sectional area" EXACT []
-synonym: "kidney glomerular area" EXACT []
-is_a: CMO:0002817 ! calculated kidney glomerulus measurement
-created_by: slaulede
-creation_date: 2023-09-29T14:35:28Z
-
-[Term]
-id: CMO:0003961
-name: kidney cortex damaged tubule count to kidney cortex total tubule count ratio
-def: "This is a calculated measurement in which the average number of damaged kidney cortex tubules per subject is divided by the average total number of kidney cortex tubules per subject with the result presented as a ratio, thus normalizing the number of damaged tubules to total number of tubules." [ISBN:978-1455756438, PMID:37191987]
-synonym: "percentage of damaged kidney cortex tubules" EXACT []
-synonym: "percentage of damaged renal cortex tubules" EXACT []
-synonym: "renal cortex damaged tubule count to renal cortex total tubule count ratio" EXACT []
-is_a: CMO:0002947 ! calculated kidney morphological measurement
-created_by: slaulede
-creation_date: 2023-09-29T15:03:57Z
-
-[Term]
-id: CMO:0003962
-name: kidney medulla damaged tubule count to kidney medulla total tubule count ratio
-def: "This is a calculated measurement in which the average number of damaged kidney medulla tubules per subject is divided by the average total number of kidney medulla tubules per subject with the result presented as a ratio, thus normalizing the number of damaged tubules to the total number of tubules." [PMID:37191987]
-synonym: "percentage of damaged kidney medulla tubules" EXACT []
-synonym: "percentage of damaged renal medulla tubules" EXACT []
-synonym: "renal medulla damaged tubule count to renal medulla total tubule count ratio" EXACT []
-is_a: CMO:0002947 ! calculated kidney morphological measurement
-created_by: slaulede
-creation_date: 2023-09-29T15:17:14Z
 
 [Typedef]
 id: part_of
