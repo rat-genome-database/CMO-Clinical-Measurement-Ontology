@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.194
-date: 14:10:2023 20:13
+data-version: 2.193
+date: 30:09:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -29698,7 +29698,7 @@ creation_date: 2019-11-19T13:19:13Z
 id: CMO:0003274
 name: white blood cell ribonucleic acid composition measurement
 is_a: CMO:0002341 ! white blood cell measurement
-is_a: CMO:0003337 ! blood ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:23:57Z
 
@@ -36328,15 +36328,6 @@ synonym: "renal medulla damaged tubule count to renal medulla total tubule count
 is_a: CMO:0002947 ! calculated kidney morphological measurement
 created_by: slaulede
 creation_date: 2023-09-29T15:17:14Z
-
-[Term]
-id: CMO:0003963
-name: CD4+ lymphocyte ribonucleic acid composition measurement
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in CD4+ lymphocytes. CD4 is a membrane glycoprotein found primarily on T lymphocytes, but also can be expressed on B cells, macrophages, and granulocytes. On T cells it is a co-receptor for the T cell receptor (TCR), interacts with MHC class II antigens, and functions to initiate or augment the early phase of T-cell activation." [http://en.wikipedia.org/wiki/CD4]
-synonym: "CD4(+) llymphocyte ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003274 ! white blood cell ribonucleic acid composition measurement
-created_by: slaulede
-creation_date: 2023-10-03T12:41:58Z
 
 [Typedef]
 id: part_of
