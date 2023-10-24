@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.195
-date: 21:10:2023 20:13
+data-version: 2.194
+date: 14:10:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -13456,7 +13456,7 @@ id: CMO:0001542
 name: serum total immunoglobulin E level
 def: "The total amount of immunoglobulin E (IgE), one of the five classes of antibodies produced by the body which is concentrated in the lungs, skin, and mucous membranes and, as a primary defense against environmental antigens, can trigger anaphylactic hypersensitivity, in a specified volume of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "serum total IgE level" EXACT []
-is_obsolete: true
+is_a: CMO:0002101 ! serum immunoglobulin E level
 created_by: JSmith
 creation_date: 2013-01-30T14:07:17Z
 
@@ -18899,8 +18899,6 @@ id: CMO:0002095
 name: serum immunoglobulin A level
 def: "The amount in a specified sample of serum of one or more types of immunoglobulin A (IgA), one of the most prevalent of the five classes of antibodies produced by the body. IgA is found in all secretions of the body and is the major antibody in the tears, saliva, and mucous membranes lining the intestines and bronchi, constituting an important factor in mucosal immunity." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "serum IgA level" EXACT []
-synonym: "serum total IgA level" EXACT []
-synonym: "serum total immunoglobulin A level" EXACT []
 is_a: CMO:0001276 ! serum immunoglobulin measurement
 is_a: CMO:0002094 ! blood immunoglobulin A level
 created_by: JSmith
@@ -18921,8 +18919,6 @@ id: CMO:0002097
 name: serum immunoglobulin D level
 def: "The amount in a specified sample of serum of one or more types of immunoglobulin D (IgD), one of the five classes of antibodies produced by the body. IgD is found in small amounts in serum, and although its precise function is not known, IgD increases in quantity during allergic reactions to milk, insulin, penicillin, and various toxins." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "serum IgD level" EXACT []
-synonym: "serum total IgD level" EXACT []
-synonym: "serum total immunoglobulin D level" EXACT []
 is_a: CMO:0001276 ! serum immunoglobulin measurement
 is_a: CMO:0002093 ! blood immunoglobulin D level
 created_by: JSmith
@@ -18960,11 +18956,8 @@ creation_date: 2014-01-27T12:29:38Z
 [Term]
 id: CMO:0002101
 name: serum immunoglobulin E level
-alt_id: CMO:0001542
 def: "The amount in a specified sample of serum of one or more types of immunoglobulin E (IgE), one of the five classes of antibodies produced by the body which is concentrated in the lungs, skin, and mucous membranes and, as a primary defense against environmental antigens, can trigger anaphylactic hypersensitivity." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "serum IgE level" EXACT []
-synonym: "serum total IgE level" EXACT []
-synonym: "serum total immunoglobulin E level" EXACT []
 is_a: CMO:0001276 ! serum immunoglobulin measurement
 is_a: CMO:0002099 ! blood immunoglobulin E level
 created_by: JSmith
@@ -18973,11 +18966,8 @@ creation_date: 2014-01-27T12:30:14Z
 [Term]
 id: CMO:0002102
 name: serum immunoglobulin G level
-alt_id: CMO:0002113
 def: "The amount in a specified sample of serum of one or more types of immunoglobulin G (IgG), the most abundant class of antibodies found in blood serum and lymph. IgG antibodies are active against bacteria, fungi, viruses, and foreign particles, and trigger action of the complement system." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "serum IgG level" EXACT []
-synonym: "serum total IgG level" EXACT []
-synonym: "serum total immunoglobulin G level" EXACT []
 is_a: CMO:0001276 ! serum immunoglobulin measurement
 is_a: CMO:0002091 ! blood immunoglobulin G level
 created_by: JSmith
@@ -18996,11 +18986,8 @@ creation_date: 2014-01-27T12:33:26Z
 [Term]
 id: CMO:0002104
 name: serum immunoglobulin M level
-alt_id: CMO:0002110
 def: "The amount in a specified sample of serum of one or more types of immunoglobulin M (IgM), one of the five classes of antibodies produced by the body. IgM is found in circulating body fluids and is the first class of antibodies to appear in response to an initial exposure to an antigen." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "serum IgM level" EXACT []
-synonym: "serum total IgM level" EXACT []
-synonym: "serum total immunoglobulin M level" EXACT []
 is_a: CMO:0001276 ! serum immunoglobulin measurement
 is_a: CMO:0002092 ! blood immunoglobulin M level
 created_by: JSmith
@@ -19060,7 +19047,7 @@ id: CMO:0002110
 name: serum total immunoglobulin M level
 def: "The entire amount in a specified sample of serum of all types of immunoglobulin M (IgM), one of the five classes of antibodies produced by the body. IgM is found in circulating body fluids and is the first class of antibodies to appear in response to an initial exposure to an antigen." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "serum total IgM level" EXACT []
-is_obsolete: true
+is_a: CMO:0002104 ! serum immunoglobulin M level
 created_by: JSmith
 creation_date: 2014-01-27T13:12:36Z
 
@@ -19089,7 +19076,7 @@ id: CMO:0002113
 name: serum total immunoglobulin G level
 def: "The entire amount in a specified sample of serum of all types and subclasses of immunoglobulin G (IgG), the most abundant class of antibodies found in blood serum and lymph. IgG antibodies are active against bacteria, fungi, viruses, and foreign particles, and trigger action of the complement system." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "serum total IgG level" EXACT []
-is_obsolete: true
+is_a: CMO:0002102 ! serum immunoglobulin G level
 created_by: JSmith
 creation_date: 2014-01-27T13:37:33Z
 
