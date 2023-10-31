@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.196
-date: 28:10:2023 20:13
+data-version: 2.195
+date: 21:10:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -8657,7 +8657,7 @@ creation_date: 2012-08-21T11:03:55Z
 [Term]
 id: CMO:0001021
 name: survival measurement
-def: "This is any quantitative measurement of survival of an individual or a study population." [RGD:JRS]
+def: "Any quantitative measurement of survival of or in an individual or study population." [RGD:JRS]
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0001020 ! mortality/survival measurement
 created_by: jsmith
@@ -30571,8 +30571,8 @@ creation_date: 2020-04-07T16:55:45Z
 [Term]
 id: CMO:0003390
 name: serum anti-coronavirus antibody level
+alt_id: MESH:D017934
 def: "Measurement of the amount of anti-coronavirus antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-coronavirus antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a coronavirus." [MESH:D017934]
-xref: MESH:D017934
 is_a: CMO:0001277 ! serum antibody level
 created_by: slaulede
 creation_date: 2020-04-20T14:54:34Z
@@ -30580,11 +30580,10 @@ creation_date: 2020-04-20T14:54:34Z
 [Term]
 id: CMO:0003391
 name: serum anti-SARS-CoV-2 antibody level
-def: "Measurement of the amount of anti-SARS-CoV2 antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-SARS-CoV2 antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV2 betacoronavirus." [ISBN:978-1455756438, MESH:D000073640]
-synonym: "serum anti-COVID-19 antibody level" EXACT []
+alt_id: MESH:D000073640
+def: "Measurement of the amount of anti-SARS-CoV2 antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-SARS-CoV2 antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV2 betacoronavirus." [MESH:D000073640]
 synonym: "serum anti-SARS-CoV2 antibody level" EXACT []
 synonym: "serum anti-severe acute respiratory syndrome coronavirus-2 antibody level" EXACT []
-xref: MESH:D000073640
 is_a: CMO:0003398 ! serum anti-betacoronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T15:23:19Z
@@ -30592,11 +30591,11 @@ creation_date: 2020-04-20T15:23:19Z
 [Term]
 id: CMO:0003392
 name: serum anti-SARS-CoV antibody level
-def: "Measurement of the amount of anti-SARS-CoV antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-SARS-CoV antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV betacoronavirus." [ISBN:978-1455756438, MESH:D045473]
+alt_id: MESH:D045473
+def: "Measurement of the amount of anti-SARS-CoV antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-SARS-CoV antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV betacoronavirus." [MESH:D045473]
 synonym: "serum anti-SARS-Cov-1 antibody level" EXACT []
 synonym: "serum anti-SARS-Cov antibody level" EXACT []
 synonym: "serum anti-severe acute respiratory syndrome coronavirus antibody level" EXACT []
-xref: MESH:D045473
 is_a: CMO:0003398 ! serum anti-betacoronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T15:33:04Z
@@ -30604,10 +30603,10 @@ creation_date: 2020-04-20T15:33:04Z
 [Term]
 id: CMO:0003393
 name: serum anti-MERS-CoV antibody level
-def: "Measurement of the amount of anti-MERS-Cov antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-MERS-Cov antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a MERS-Cov betacoronavirus." [ISBN:978-1455756438, MESH:D065207]
+def: "Measurement of the amount of anti-MERS-Cov antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-MERS-Cov antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a MERS-Cov betacoronavirus." [MESH:D065207]
+synonym: "MESH:D065207" EXACT []
 synonym: "serum anti-MERS-Cov antibody level" EXACT []
 synonym: "serum anti-Middle East Respiratory Syndrome Coronavirus antibody level" EXACT []
-xref: MESH:D065207
 is_a: CMO:0003398 ! serum anti-betacoronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T15:43:28Z
@@ -30615,8 +30614,8 @@ creation_date: 2020-04-20T15:43:28Z
 [Term]
 id: CMO:0003394
 name: plasma anti-coronavirus antibody level
+alt_id: MESH:D017934
 def: "Measurement of the amount of anti-coronavirus antibodies in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. An anti-coronavirus antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a coronavirus." [MESH:D017934]
-xref: MESH:D017934
 is_a: CMO:0000478 ! plasma antibody level
 created_by: slaulede
 creation_date: 2020-04-20T16:38:51Z
@@ -30624,9 +30623,9 @@ creation_date: 2020-04-20T16:38:51Z
 [Term]
 id: CMO:0003395
 name: plasma anti-MERS-CoV antibody level
+alt_id: MESH:D065207
 def: "Measurement of the amount of anti-MERS-CoV antibodies in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. An anti-MERS-CoV antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a MERS-CoV betacoronavirus." [MESH:D065207]
 synonym: "plasma anti-Middle East Respiratory Syndrome Coronavirus antibody level" EXACT []
-xref: MESH:D065207
 is_a: CMO:0003399 ! plasma anti-betacoronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T16:44:06Z
@@ -30634,11 +30633,11 @@ creation_date: 2020-04-20T16:44:06Z
 [Term]
 id: CMO:0003396
 name: plasma anti-SARS-CoV antibody level
+alt_id: MESH:D045473
 def: "Measurement of the amount of anti-SARS-CoV antibodies in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. An anti-SARS-CoV antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV betacoronavirus." [MESH:D045473]
 synonym: "plasma anti-SARS-CoV-1 antibody level" EXACT []
 synonym: "plasma anti-SARS-CoV antibody level" EXACT []
 synonym: "plasma anti-severe acute respiratory syndrome coronavirus antibody level" EXACT []
-xref: MESH:D045473
 is_a: CMO:0003399 ! plasma anti-betacoronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T16:57:09Z
@@ -30646,10 +30645,10 @@ creation_date: 2020-04-20T16:57:09Z
 [Term]
 id: CMO:0003397
 name: plasma anti-SARS-CoV-2 antibody level
-def: "Measurement of the amount of anti-SARS-CoV-2 antibodies in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. An anti-SARS-CoV-2 antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV-2 betacoronavirus." [ISBN:978-1455756438, MESH:D000073640]
-synonym: "plasma anti-COVID-19 antibody level" EXACT []
+alt_id: MESH:D000073640
+def: "Measurement of the amount of anti-SARS-CoV-2 antibodies in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. An anti-SARS-CoV-2 antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV-2 betacoronavirus." [MESH:D000073640]
+synonym: "plasma anti-SARS-CoV2 antibody level" EXACT []
 synonym: "plasma anti-severe acute respiratory syndrome coronavirus-2 antibody level" EXACT []
-xref: MESH:D000073640
 is_a: CMO:0003399 ! plasma anti-betacoronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T17:15:39Z
@@ -30657,8 +30656,8 @@ creation_date: 2020-04-20T17:15:39Z
 [Term]
 id: CMO:0003398
 name: serum anti-betacoronavirus antibody level
-def: "Measurement of the amount of anti-betacoronavirus antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-betacoronavirus antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a betacoronavirus. Betacoronaviruses represent one of four genera of coronaviruses of the subfamily Orthocoronavirinae in the family Coronaviridae, of the order Nidovirales." [ISBN:978-1455756438, MESH:D000073640]
-xref: MESH:D000073640
+def: "Measurement of the amount of anti-betacoronavirus antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-betacoronavirus antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a betacoronavirus. Betacoronaviruses represent one of four genera of coronaviruses of the subfamily Orthocoronavirinae in the family Coronaviridae, of the order Nidovirales." [MESH:D000073640]
+synonym: "MESH:D000073640" EXACT []
 is_a: CMO:0003390 ! serum anti-coronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T17:37:33Z
@@ -30667,7 +30666,7 @@ creation_date: 2020-04-20T17:37:33Z
 id: CMO:0003399
 name: plasma anti-betacoronavirus antibody level
 def: "Measurement of the amount of anti-betacoronavirus antibodies in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. An anti-betacoronavirus antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a betacoronavirus. Betacoronaviruses represent one of four genera of coronaviruses of the subfamily Orthocoronavirinae in the family Coronaviridae, of the order Nidovirales." [MESH:D000073640]
-xref: MESH:D000073640
+synonym: "MESH:D000073640" EXACT []
 is_a: CMO:0003394 ! plasma anti-coronavirus antibody level
 created_by: slaulede
 creation_date: 2020-04-20T17:44:19Z
@@ -35100,7 +35099,6 @@ creation_date: 2021-09-09T18:12:17Z
 id: CMO:0003841
 name: serum non-high density lipoprotein cholesterol level
 def: "This is a calculated measurement in which the value for high density lipoprotein (HDL) cholesterol in a specified sample of serum is subtracted from the value for total cholesterol in that same sample. HDL is the smallest of the major lipoprotein particles, complex molecules that consist of a protein membrane surrounding a core of lipids" [ISBN-13:9780781733908, PMID:30208622]
-synonym: "serum NHDL cholesterol level" EXACT []
 synonym: "serum non-HDL cholesterol level" EXACT []
 xref: PMID:30208622
 is_a: CMO:0002281 ! serum cholesterol level
@@ -36352,48 +36350,6 @@ synonym: "CD4(+) llymphocyte ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0003274 ! white blood cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-10-03T12:41:58Z
-
-[Term]
-id: CMO:0003964
-name: blood anti-coronavirus antibody level
-def: "This is a measurement of the amount of anti-coronavirus antibodies in a specified sample of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them. An anti-coronavirus antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a coronavirus." [ISBN:978-1455756438]
-xref: MESH:D017934
-is_a: CMO:0001828 ! blood antibody level
-created_by: slaulederkind
-creation_date: 2023-10-24T11:28:56Z
-
-[Term]
-id: CMO:0003965
-name: blood anti-betacoronavirus antibody level
-def: "This is a measurement of the amount of anti-betacoronavirus antibodies in a specified sample of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them. An anti-betacoronavirus antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a betacoronavirus. Betacoronaviruses represent one of four genera of coronaviruses of the subfamily Orthocoronavirinae in the family Coronaviridae, of the order Nidovirales." [ISBN:978-1455756438, MESH:D000073640]
-xref: MESH:D000073640
-is_a: CMO:0003964 ! blood anti-coronavirus antibody level
-created_by: slaulederkind
-creation_date: 2023-10-24T11:36:57Z
-
-[Term]
-id: CMO:0003966
-name: blood anti-SARS-CoV-2 antibody level
-def: "This is a measurement of the amount of anti-SARS-CoV2 antibodies in a specified sample of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them. An anti-SARS-CoV2 antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV2 betacoronavirus." [ISBN:978-1455756438, MESH:D000073640]
-synonym: "blood anti-COVID-19 antibody level" EXACT []
-synonym: "blood anti-SARS-CoV2 antibody level" EXACT []
-synonym: "blood anti-severe acute respiratory syndrome coronavirus-2 antibody level" EXACT []
-xref: MESH:D000073640
-is_a: CMO:0003965 ! blood anti-betacoronavirus antibody level
-created_by: slaulederkind
-creation_date: 2023-10-24T12:03:20Z
-
-[Term]
-id: CMO:0003967
-name: blood non-high density lipoprotein cholesterol level
-def: "This is a calculated measurement in which the value for high density lipoprotein (HDL) cholesterol in a specified sample of blood is subtracted from the value for total cholesterol in that same sample. HDL is the smallest of the major lipoprotein particles, complex molecules that consist of a protein membrane surrounding a core of lipids" [ISBN-13:9780781733908, PMID:37696479]
-synonym: "blood NHDL cholesterol level" EXACT []
-synonym: "blood non-HDL cholesterol level" EXACT []
-synonym: "non-high density lipoprotein cholesterol measurement" EXACT []
-xref: EFO:0005689
-is_a: CMO:0002696 ! blood lipoprotein cholesterol level
-created_by: slaulederkind
-creation_date: 2023-10-27T14:47:52Z
 
 [Typedef]
 id: part_of
