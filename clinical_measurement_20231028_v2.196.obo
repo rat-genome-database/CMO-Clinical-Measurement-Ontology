@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.197
-date: 04:11:2023 20:13
+data-version: 2.196
+date: 28:10:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -10475,8 +10475,7 @@ creation_date: 2012-12-17T12:34:59Z
 [Term]
 id: CMO:0001212
 name: chronic pancreatitis incidence/prevalence measurement
-def: "Any measurement in which the number of individuals in a study population that display chronic pancreatitis, that is, chronic or ongoing inflammation of the pancreas with fibrosis and calcification of the gland at a point in time or develop chronic pancreatitis within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "Not4Curation" RELATED []
+def: "Any measurement in which the number of individuals in a study population that display chronic pancreatitis, that is, chronic or ongoing inflammation of the pancreas with fibrosis and calcification of the gland at a point in time or develop chronic pancreatitis  within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: CMO:0000926 ! disease incidence/prevalence measurement
 created_by: JSmith
 creation_date: 2012-12-17T12:50:40Z
@@ -25566,8 +25565,6 @@ synonym: "blood glycohemoglobin level" EXACT []
 synonym: "blood glycosylated hemoglobin level" EXACT []
 synonym: "blood HbA1c level" EXACT []
 synonym: "blood hemoglobin A1c level level to blood hemoglobin level ratio" EXACT []
-synonym: "HbA1c measurement" EXACT []
-xref: EFO:0004541
 is_a: CMO:0002900 ! calculated blood hemoglobin level
 created_by: jrsmith
 creation_date: 2018-05-15T16:47:18Z
@@ -26370,7 +26367,7 @@ creation_date: 2018-11-27T13:20:33Z
 [Term]
 id: CMO:0002876
 name: blood NH2-terminal pro-B-type natriuretic peptide level
-def: "This is a measurement of the amount of N-terminal (NT)-pro hormone BNP (NPPB) in a specified volume of blood." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3194 "XREF"]
+def: "The amount of N-terminal (NT)-pro hormone BNP (Nppb) in a specified volume of blood." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3194 "XREF"]
 synonym: "blood NH2-terminal Nppb level" EXACT []
 synonym: "blood N-terminal (NT)-pro hormone BNP level" EXACT []
 synonym: "blood NT-proBNP level" EXACT []
@@ -26382,7 +26379,7 @@ creation_date: 2018-11-27T14:45:16Z
 [Term]
 id: CMO:0002877
 name: plasma NH2-terminal pro-B-type natriuretic peptide level
-def: "This is a measurement of the amount of N-terminal (NT)-pro hormone BNP (NPPB) in a specified volume of plasma." []
+def: "The amount of N-terminal (NT)-pro hormone BNP (Nppb) in a specified volume of plasma." []
 synonym: "plasma NH2-terminal Nppb level" EXACT []
 is_a: CMO:0002876 ! blood NH2-terminal pro-B-type natriuretic peptide level
 created_by: sjwang
@@ -26548,11 +26545,8 @@ creation_date: 2018-11-30T15:09:39Z
 
 [Term]
 id: CMO:0002897
-name: urine acetoacetate level
-def: "This is a measurement of the amount of a ketone body, acetoacetate, in a specified sample of urine. Acetoacetate is the conjugate base of acetoacetic acid, a physiologically relevant ketone body." [https://en.wikipedia.org/wiki/Acetoacetic_acid, https://en.wikipedia.org/wiki/Ketone_bodies]
-synonym: "acetoacetate measurement" BROAD []
-synonym: "urine acetoacetic acid level" RELATED []
-xref: EFO:0010111
+name: urine acetoacetone level
+def: "Measurement of the amount of a ketone body, acetoacetone, in a specified sample of urine." []
 is_a: CMO:0002698 ! urine ketone body level
 created_by: sjwang
 creation_date: 2018-11-30T15:12:31Z
@@ -27878,32 +27872,24 @@ creation_date: 2019-02-15T15:28:33Z
 
 [Term]
 id: CMO:0003051
-name: blood vascular endothelial growth factor A level
-def: "Measurement of the amount of vascular endothelial growth factor A (VEGFA) in a specific sample of blood." []
-synonym: "blood vascular endothelial growth factor A measurement" EXACT []
-synonym: "blood VEGFA level" EXACT []
-synonym: "blood VEGFA measurement" EXACT []
+name: blood vascular endothelial growth factor A (VEGF-a)
+def: "Measurement of the amount of vascular endothelial growth factor A (VEGF-a) in a specific sample of blood." []
 is_a: CMO:0000028 ! blood protein measurement
 created_by: sjwang
 creation_date: 2019-02-15T15:39:14Z
 
 [Term]
 id: CMO:0003052
-name: serum vascular endothelial growth factor A level
-def: "Measurement of the amount of vascular endothelial growth factor A (VEGFA) in a specific sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." []
-synonym: "serum vascular endothelial growth factor A measurement" EXACT []
-synonym: "serum VEGFA level" EXACT []
-synonym: "serum VEGFA measurement" EXACT []
-is_a: CMO:0003051 ! blood vascular endothelial growth factor A level
+name: serum vascular endothelial growth factor A (VEGF-a)
+def: "Measurement of the amount of vascular endothelial growth factor A (VEGF-a) in a specific sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." []
+is_a: CMO:0003051 ! blood vascular endothelial growth factor A (VEGF-a)
 created_by: sjwang
 creation_date: 2019-02-15T15:41:19Z
 
 [Term]
 id: CMO:0003053
 name: blood complement C3a des Arg level
-def: "This is a measurement of the amount of C3a des Arg in a specified sample of blood. C3a des Arg is formed from C3a via carboxypeptidase cleavage of the C-terminal arginine group." [https://www.complementtech.com/catalog/product/anaphylatoxins/c3a-desarg/]
-synonym: "blood complement C3a des-Arg level" EXACT []
-xref: PMID:23799078
+def: "The amount of C3a des Arg in a specified sample of blood. C3a des Arg is formed from C3a via carboxypeptidase cleavage of the C-terminal arginine group. C3a is short lived in blood and plasma samples. Hence, the quantitation of C3a des Arg is more reliable measurement of C3a in plasma specimens." []
 is_a: CMO:0000028 ! blood protein measurement
 created_by: sjwang
 creation_date: 2019-02-15T15:53:15Z
@@ -27911,9 +27897,7 @@ creation_date: 2019-02-15T15:53:15Z
 [Term]
 id: CMO:0003054
 name: serum Complement C3a des Arg  level
-def: "This is a measurement of the amount of C3a des Arg in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. C3a des Arg is formed from C3a via carboxypeptidase cleavage of the C-terminal arginine group." [https://www.complementtech.com/catalog/product/anaphylatoxins/c3a-desarg/]
-synonym: "serum Complement C3a des-Arg  level" EXACT []
-xref: PMID:23799078
+def: "The amount of C3a des Arg in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. C3a des Arg is formed from C3a via carboxypeptidase cleavage of the C-terminal arginine group. C3a is short lived in blood and plasma samples. Hence, the quantitation of C3a des Arg is more reliable measurement of C3a in plasma specimens." []
 is_a: CMO:0003053 ! blood complement C3a des Arg level
 created_by: sjwang
 creation_date: 2019-02-15T16:07:08Z
@@ -30256,10 +30240,7 @@ creation_date: 2020-01-15T10:42:18Z
 
 [Term]
 id: CMO:0003346
-name: cartilage ribonucleic acid level
-synonym: "cartilage ribonucleic acid composition measurement" EXACT []
-synonym: "cartilage RNA level" EXACT []
-synonym: "cartilage tissue ribonucleic acid composition measurement" EXACT []
+name: cartilage tissue ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
@@ -30400,7 +30381,7 @@ creation_date: 2020-01-17T09:02:35Z
 [Term]
 id: CMO:0003367
 name: choroid plexus ribonucleic acid composition measurement
-is_a: CMO:0002795 ! brain ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:03:16Z
 
@@ -31740,8 +31721,7 @@ creation_date: 2020-07-24T16:17:10Z
 [Term]
 id: CMO:0003505
 name: blood pro-A-type natriuretic peptide level
-def: "This is a measurement of the amount of pro hormone ANP (NPPA) peptides (proANP 1-30 [first 30 amino acids(a.a) of the 126 a.a atrial natriuretic peptide (ANP) prohormone], proANP 31-67 (a.a 31-67), and/or full length proANP (a.a 1-126) in a specified volume of blood." [https://en.wikipedia.org/wiki/Atrial_natriuretic_peptide, https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193]
-synonym: "blood atrial natriuretic factor prohormone level" EXACT []
+def: "The amount of pro hormone ANP (Nppa) peptides (ProANF [1-30 first 30 amino acids(a.a) of the 126 a.a atrial natriuretic factor (ANF) prohormone], ProANF 31-67 (a.a 31-67), and/or atrial natriuretic factor (a.a 99-126) in a specified volume of blood." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193]
 synonym: "blood atrial natriuretic peptide prohormone level" EXACT []
 is_a: CMO:0000286 ! blood peptide hormone level
 created_by: slaulede
@@ -31750,7 +31730,7 @@ creation_date: 2020-07-27T17:16:15Z
 [Term]
 id: CMO:0003506
 name: blood proANF 31-67 peptide level
-def: "This is a measurement of the amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of blood." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
+def: "The amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of blood." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
 synonym: "blood ProANF 31-67 peptide level" EXACT []
 is_a: CMO:0003505 ! blood pro-A-type natriuretic peptide level
 created_by: slaulede
@@ -31759,7 +31739,7 @@ creation_date: 2020-07-27T17:27:13Z
 [Term]
 id: CMO:0003507
 name: plasma proANF 31-67 peptide level
-def: "This is a measurement of the amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of plasma." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
+def: "plasma." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
 synonym: "plasma ProANF 31-67 peptide level" EXACT []
 is_a: CMO:0003506 ! blood proANF 31-67 peptide level
 created_by: slaulede
@@ -31768,8 +31748,8 @@ creation_date: 2020-07-27T17:35:14Z
 [Term]
 id: CMO:0003508
 name: serum proANF 31-67 peptide level
-def: "This is a measurement of the amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of serum." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
-synonym: "serum ProANF 31-67 peptide level" EXACT []
+def: "The amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of serum." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
+synonym: "serum ProANF 3-67 peptide level" EXACT []
 is_a: CMO:0003506 ! blood proANF 31-67 peptide level
 created_by: slaulede
 creation_date: 2020-07-27T17:35:34Z
@@ -33597,8 +33577,7 @@ creation_date: 2021-04-12T17:32:02Z
 [Term]
 id: CMO:0003696
 name: plasma Complement C3a des Arg  level
-def: "This is a measurement of the amount of C3a des Arg in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. C3a des Arg is formed from C3a via carboxypeptidase cleavage of the C-terminal arginine group." [https://www.complementtech.com/catalog/product/anaphylatoxins/c3a-desarg/, ISBN:978-1416049982]
-synonym: "plasma Complement C3a des-Arg  level" EXACT []
+def: "The amount of C3a des Arg in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. C3a des Arg is formed from C3a via carboxypeptidase cleavage of the C-terminal arginine group. C3a is short lived in blood and plasma samples. Hence, the quantitation of C3a des Arg is more reliable measurement of C3a in plasma specimens." [https://www.complementtech.com/catalog/product/anaphylatoxins/c3a-desarg/, ISBN:978-1416049982]
 xref: PMID:23799078
 is_a: CMO:0003053 ! blood complement C3a des Arg level
 created_by: slaulede
@@ -33979,7 +33958,6 @@ id: CMO:0003732
 name: blood asymmetric dimethylarginine level
 def: "Measurement of the amount of asymmetric dimethylarginine, an arginine derivative that is arginine substituted by two methyl groups, in blood. Asymmetric dimethylarginine (ADMA) is a toxic, non-proteinogenic amino acid formed by post-translational modification and is a uremic toxin that inhibits nitric oxide (NO) production. ADMA has two methyl groups bound to one nitrogen of the parental arginine molecule." [PMID:28272322, PMID:32429667]
 synonym: "blood ADMA level" EXACT []
-synonym: "blood asymmetrical dimethylarginine level" EXACT []
 synonym: "blood asymmetric dimethylarginines level" EXACT []
 xref: PMID:19420905
 is_a: CMO:0003731 ! blood arginine level
@@ -33991,9 +33969,7 @@ id: CMO:0003733
 name: blood symmetric dimethylarginine level
 def: "Measurement of the amount of symmetric dimethylarginine, an arginine derivative that is arginine substituted by two methyl groups, in blood. Symmetric dimethylarginine (SDMA) is a toxic, non-proteinogenic amino acid formed by post-translational modification and is a uremic toxin that inhibits nitric oxide (NO) production. SDMA has two methyl groups each bound to different nitrogens of the parental arginine molecule." [PMID:28272322, PMID:32429667]
 synonym: "blood SDMA level" EXACT []
-synonym: "blood symmetrical dimethylarginines level" EXACT []
 synonym: "blood symmetric dimethylarginines level" EXACT []
-synonym: "symmetrical dimethylarginine measurement" EXACT []
 xref: PMID:19420905
 is_a: CMO:0003731 ! blood arginine level
 created_by: slaulede
@@ -36292,7 +36268,6 @@ id: CMO:0003955
 name: basal metabolic rate
 def: "This is a calculated value which is a measure of the rate of energy expenditure per unit time by endothermic animals at rest. It represents the minimum amount of energy required to sustain life while at complete rest, including the body being in a post-absorptive state (ie the digestive system is inactive." [EFO:0007777, https://www.merriam-webster.com/]
 synonym: "base metabolic rate" EXACT []
-synonym: "base metabolic rate measurement" EXACT []
 synonym: "BMR" EXACT []
 is_a: CMO:0003956 ! metabolic rate
 created_by: slaulede
