@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.199
-date: 18:11:2023 20:13
+data-version: 2.198
+date: 11:11:2023 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -37398,27 +37398,6 @@ is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003970 ! urethra molecular composition measurement
 created_by: slaulederkind
 creation_date: 2023-11-09T12:52:18Z
-
-[Term]
-id: CMO:0003972
-name: MRPVAT ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in adipose tissue surrounding small mesenteric blood vessels." [PMID:33815135]
-synonym: "MRPVAT RNA level" EXACT []
-synonym: "small mesenteric blood vessel perivascular adipose tissue RNA level" EXACT []
-xref: PMID:33815135
-is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2023-11-13T15:13:42Z
-
-[Term]
-id: CMO:0003973
-name: tendon ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in tendon, the fibrous bands or cords of connective tissue at the ends of muscle fibers that attach muscles to bones and other structures." [ISBN-13:978-1455756438, MESH:D013710]
-xref: PMID:37021050
-xref: UBERON:0000043
-is_a: CMO:0003356 ! connective tissue ribonucleic acid composition measurement
-created_by: slaulederkind
-creation_date: 2023-11-14T17:28:42Z
 
 [Typedef]
 id: part_of
