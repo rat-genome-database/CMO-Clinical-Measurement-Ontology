@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.200
-date: 06:01:2024 20:13
+data-version: 2.201
+date: 10:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -31246,7 +31246,7 @@ creation_date: 2020-01-17T09:03:16Z
 [Term]
 id: CMO:0003368
 name: telencephalon ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid level
+relationship: part_of CMO:0003369 ! forebrain ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:01Z
 
