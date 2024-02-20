@@ -2041,7 +2041,7 @@ creation_date: 2010-06-17T10:37:24Z
 id: CMO:0000232
 name: RR interval
 def: "Interval between an R wave and the next R wave of successive heart beats, inverse of the heart rate." [http://en.wikipedia.org/wiki/ECG "Wikipedia", RGD:MS]
-synonym: "RR_Interval" RELATED [ECGOntology:ECG_000000042]
+synonym: "RR_Interval" RELATED [ECGOntology:<new dbxref> "ECG_000000042"]
 synonym: "RR interval" EXACT []
 xref: EFO:0004831
 is_a: CMO:0000230 ! heart electrical conduction measurement
@@ -2052,7 +2052,7 @@ creation_date: 2010-06-17T10:39:30Z
 id: CMO:0000233
 name: PR interval
 def: "Time between the beginning of the P wave to the beginning of the QRS complex, reflects the time the electrical impulse takes to travel from the sinus node through the AV node and entering the ventricles, used as an estimate of AV node function." [http://en.wikipedia.org/wiki/ECG "Wikipedia"]
-synonym: "PQ Interval" EXACT []
+synonym: "PQ Interval" EXACT [ECGOntology:<new dbxref> ]
 synonym: "PR interval" EXACT []
 synonym: "PR segment" EXACT []
 xref: EFO:0004462
@@ -2065,7 +2065,7 @@ creation_date: 2010-06-17T10:40:52Z
 id: CMO:0000234
 name: ST interval
 def: "The time between the J point ( the point at which the QRS complex finishes and the ST segment begins) to the end of the T wave." [http://en.wikipedia.org/wiki/ECG "Wikipedia"]
-synonym: "ST_Interval" RELATED [ECGOntology:ECG_000000824]
+synonym: "ST_Interval" RELATED [ECGOntology:<new dbxref> "ECG_000000824"]
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: mshimoyama
 creation_date: 2010-06-17T10:43:21Z
@@ -2074,7 +2074,7 @@ creation_date: 2010-06-17T10:43:21Z
 id: CMO:0000235
 name: QT interval
 def: "An interval measured from the onset of the QRS wave complex to the offset of the T wave." [http://en.wikipedia.org/wiki/ECG "Wikipedia", RGD:MS]
-synonym: "QT_Interval" RELATED [ECGOntology:ECG_000000682]
+synonym: "QT_Interval" RELATED [ECGOntology:<new dbxref> "ECG_000000682"]
 synonym: "QT interval" EXACT []
 xref: EFO:0004682
 is_a: CMO:0000230 ! heart electrical conduction measurement
@@ -2454,7 +2454,7 @@ creation_date: 2010-06-17T12:43:21Z
 id: CMO:0000278
 name: PP interval
 def: "An interval measured from the onset of the P wave in one PQRST wave complex to the onset of the P wave in the following PQRST wave complex." [http://en.wikipedia.org/wiki/ECG "Wikipedia"]
-synonym: "PP_Interval" RELATED [ECGOntology:ECG_000000011]
+synonym: "PP_Interval" RELATED [ECGOntology:<new dbxref> "ECG_000000011"]
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: mshimoyama
 creation_date: 2010-06-17T03:09:47Z
@@ -33852,7 +33852,7 @@ synonym: "glucagon-like peptide-1 measurement" BROAD []
 xref: CHEBI:80270
 xref: EFO:0008465
 xref: MESH:D052216
-xref: PubChem_CID:16135499
+xref: PubChem CID:16135499
 is_a: CMO:0000286 ! blood peptide hormone level
 created_by: slaulede
 creation_date: 2021-01-22T14:04:29Z
