@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.201
-date: 10:02:2024 20:13
+data-version: 2.202
+date: 24:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -37419,6 +37419,16 @@ xref: UBERON:0000043
 is_a: CMO:0003356 ! connective tissue ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2023-11-14T17:28:42Z
+
+[Term]
+id: CMO:0003974
+name: temporal lobe ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the temporal lobe of one or both cerebral hemisphere(s) is formed or composed." [https://www.merriam-webster.com, ISBN-13:978-1455756438]
+synonym: "temporal lobe RNA level" EXACT []
+xref: PMID:35897746
+relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+created_by: slaulederkind
+creation_date: 2024-02-23T14:11:10Z
 
 [Typedef]
 id: part_of
