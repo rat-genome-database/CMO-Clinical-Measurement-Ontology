@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.203
-date: 02:03:2024 20:13
+data-version: 2.202
+date: 24:02:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -3682,11 +3682,11 @@ creation_date: 2010-12-28T01:45:55Z
 
 [Term]
 id: CMO:0000414
-name: mammary gland morphological measurement
-def: "Measurement of the physical form or structure of any part of the structure of the mammary gland, the specialized gland of the skin of female mammals, which secretes milk for nourishment of the young." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: mammary organ morphological measurement
+def: "Measurement of the physical form or structure of any part of the structure which includes and encases the mammary gland, the specialized gland of the skin of female mammals, which secretes milk for nourishment of the young." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "breast size" NARROW []
 xref: EFO:0004884
-is_obsolete: true
+is_a: CMO:0000068 ! organ morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-28T01:50:30Z
 
@@ -3701,7 +3701,7 @@ creation_date: 2010-12-28T01:50:50Z
 [Term]
 id: CMO:0000416
 name: udder measurement
-is_a: CMO:0001083 ! mammary gland morphological measurement
+is_a: CMO:0000414 ! mammary organ morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-28T01:54:27Z
 
@@ -3940,7 +3940,7 @@ creation_date: 2010-12-29T02:21:44Z
 id: CMO:0000445
 name: teat number
 def: "The number of teats, protuberances on the mammary glands, breasts or udders of female mammals through which milk is excreted." [Encarta:Encarta_World_English_Dictionary]
-is_a: CMO:0001083 ! mammary gland morphological measurement
+is_a: CMO:0000414 ! mammary organ morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T02:23:20Z
 
@@ -3948,7 +3948,7 @@ creation_date: 2010-12-29T02:23:20Z
 id: CMO:0000446
 name: interteat distance
 def: "Distance between any two teats, protuberances from the breasts, mammary glands or udders of female mammals, which excrete milk." [QTLdb:animal_QTL_data]
-is_a: CMO:0001083 ! mammary gland morphological measurement
+is_a: CMO:0000414 ! mammary organ morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T02:25:47Z
 
@@ -3956,7 +3956,7 @@ creation_date: 2010-12-29T02:25:47Z
 id: CMO:0000447
 name: teat length
 def: "Distance from top of teat attached to mammary gland, breast or udder to the part of the teat farthest away." [RGD:MS]
-is_a: CMO:0001083 ! mammary gland morphological measurement
+is_a: CMO:0000414 ! mammary organ morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T02:27:16Z
 
@@ -9703,12 +9703,8 @@ creation_date: 2012-09-04T03:06:12Z
 [Term]
 id: CMO:0001083
 name: mammary gland morphological measurement
-alt_id: CMO:0000414
-def: "Measurement of the physical form or structure of the mammary gland, the specialized exocrine gland of the skin of female mammals, which secretes milk for nourishment of the young." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "breast size" NARROW []
-synonym: "mammary gland morphological measurement" EXACT []
-xref: EFO:0004884
-is_a: CMO:0000068 ! organ morphological measurement
+def: "Measurement of the physical form or structure of the mammary gland, the specialized exocrine gland of the skin of female mammals, which secretes milk for nourishment of the young and which is included in and encased by the mammary organ." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: CMO:0000414 ! mammary organ morphological measurement
 is_a: CMO:0000786 ! mammary gland measurement
 created_by: jsmith
 creation_date: 2012-09-04T04:40:53Z
@@ -22443,7 +22439,7 @@ name: areola mammae/nipple number
 def: "The count of mammary areolae (pigmented area normally surrounding the nipple) and/or nipples (mammary papilla, that is, the projection on the anterior surface of the mammary organ which in females gives outlet to the lactiferous ducts) located on the thorax and/or abdomen of mammals." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "areola or nipple count" RELATED []
 synonym: "mammary areola/papilla number" RELATED []
-is_a: CMO:0001083 ! mammary gland morphological measurement
+is_a: CMO:0000414 ! mammary organ morphological measurement
 created_by: JSmith
 creation_date: 2014-05-27T17:09:37Z
 
@@ -25173,7 +25169,7 @@ creation_date: 2015-04-29T13:28:36Z
 [Term]
 id: CMO:0002668
 name: middle ear measurement
-def: "Any measurement of the middle ear, the middle of the three parts of the ear, consisting of an air-filled cavity bound externally by the tympanic membrane and containing three ossicles that vibrate in response to sound waves, passing the amplified sound to the inner ear." [ISBN-13:978-1455756438, Segen:Segens_Medical_Dictionary_2012]
+def: "Any measurement of the middle ear,  the middle of the three parts of the ear, consisting of an air-filled cavity bound externally by the tympanic membrane and containing three ossicles that vibrate in response to sound waves, passing the amplified sound to the inner ear." [Segen:Segens_Medical_Dictionary_2012]
 xref: UBERON:0001756
 is_a: CMO:0002667 ! ear measurement
 created_by: JSmith
@@ -37433,41 +37429,6 @@ xref: PMID:35897746
 relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-02-23T14:11:10Z
-
-[Term]
-id: CMO:0003975
-name: ear ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the ear, the sense organ in vertebrates that is specialized for the detection of sound, and the maintenance of balance." [ISBN-13:978-1455756438, UBERON:0001690]
-synonym: "auditory apparatus ribonucleic acid level" EXACT []
-synonym: "auris ribonucleic acid level" EXACT []
-synonym: "ear ribonucleic acid composition measurement" EXACT []
-xref: PMID:36733943
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-03-01T12:42:43Z
-
-[Term]
-id: CMO:0003976
-name: outer ear ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the outer ear, part of the ear external to the tympanum (eardrum), consisting of a tube (the external auditory meatus) and the pinna (auricle)." [https://www.merriam-webster.com/, UBERON:0001691]
-synonym: "external ear ribonucleic acid composition measurement" EXACT []
-synonym: "external ear ribonucleic acid level" EXACT []
-synonym: "outer ear ribonucleic acid composition measurement" EXACT []
-xref: PMID:36733943
-is_a: CMO:0003975 ! ear ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-03-01T12:51:34Z
-
-[Term]
-id: CMO:0003977
-name: mammary gland ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mammary gland, the specialized exocrine gland of the skin of female mammals, which secretes milk for nourishment of the young." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "mammary gland ribonucleic acid composition measurement" EXACT []
-xref: PMID:36733943
-is_a: CMO:0001083 ! mammary gland morphological measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-03-01T13:37:50Z
 
 [Typedef]
 id: part_of
