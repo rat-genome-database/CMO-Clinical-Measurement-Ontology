@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.204
-date: 09:03:2024 20:13
+data-version: 2.203
+date: 02:03:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -30885,10 +30885,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003316
-name: artery ribonucleic acid level
-synonym: "artery ribonucleic acid composition measurement" EXACT []
-synonym: "artery RNA composition measurement" EXACT []
-synonym: "artery RNA level" EXACT []
+name: artery ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -30933,10 +30930,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003322
-name: vagina ribonucleic acid level
-synonym: "vagina ribonucleic acid composition measurement" EXACT []
-synonym: "vagina RNA composition measurement" EXACT []
-synonym: "vagina RNA level" EXACT []
+name: vagina ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31056,10 +31050,7 @@ creation_date: 2020-01-13T10:59:26Z
 
 [Term]
 id: CMO:0003339
-name: tongue ribonucleic acid level
-synonym: "tongue ribonucleic acid composition measurement" EXACT []
-synonym: "tongue RNA composition measurement" EXACT []
-synonym: "tongue RNA level" EXACT []
+name: tongue ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:28:22Z
@@ -31348,7 +31339,7 @@ creation_date: 2020-02-17T12:02:08Z
 id: CMO:0003379
 name: mesenteric lymph node ribonucleic acid composition measurement
 xref: UBERON:0002509
-is_a: CMO:0003273 ! lymph node ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:16:53Z
 
@@ -37477,64 +37468,6 @@ is_a: CMO:0001083 ! mammary gland morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-03-01T13:37:50Z
-
-[Term]
-id: CMO:0003978
-name: vena cava morphological measurement
-def: "This is any quantification of the physical form or structure of the largest veins (superior vena cava and inferior vena cava in mammals) which deliver de-oxygenated blood from throughout the body back to the right cardiac atrium." [https://www.cancer.gov/publications/dictionaries/cancer-terms/def/vena-cava#\:~\:text=The%20vena%20cava%20has%20two\,largest%20vein%20in%20the%20body, https://www.merriam-webster.com/]
-synonym: "caval vein morphological measurement" EXACT []
-synonym: "venae cavae morphological measurement" EXACT []
-xref: PMID:36733943
-is_a: CMO:0001997 ! blood vessel morphological measurement
-created_by: slaulederkind
-creation_date: 2024-03-05T14:21:38Z
-
-[Term]
-id: CMO:0003979
-name: vena cava molecular composition measurement
-def: "This is any quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of the largest veins (superior vena cava and inferior vena cava in mammals) which deliver de-oxygenated blood from throughout the body back to the right cardiac atrium." [https://www.merriam-webster.com/]
-synonym: "caval vein molecular composition measurement" EXACT []
-synonym: "venae cavae molecular composition measurement" EXACT []
-xref: PMID:36733943
-is_a: CMO:0003978 ! vena cava morphological measurement
-created_by: slaulederkind
-creation_date: 2024-03-05T14:30:56Z
-
-[Term]
-id: CMO:0003980
-name: vena cava ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the largest veins (superior vena cava and inferior vena cava in mammals) which deliver de-oxygenated blood from throughout the body back to the right cardiac atrium." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "caval vein ribonucleic acid level" EXACT []
-synonym: "caval vein RNA level" EXACT []
-synonym: "vena cava RNA level" EXACT []
-synonym: "venae cavae ribonucleic acid level" EXACT []
-synonym: "venae cavae RNA level" EXACT []
-xref: PMID:36733943
-is_a: CMO:0003979 ! vena cava molecular composition measurement
-created_by: slaulederkind
-creation_date: 2024-03-05T15:08:39Z
-
-[Term]
-id: CMO:0003981
-name: cornea ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the cornea, the transparent anterior portion of the fibrous coat of the eye that serves as the chief refractory structure." [PMID:36733943]
-synonym: "cornea ribonucleic acid composition measurement" EXACT []
-synonym: "cornea RNA composition measurement" EXACT []
-synonym: "cornea RNA level" EXACT []
-is_a: CMO:0003298 ! eye ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-03-07T13:01:12Z
-
-[Term]
-id: CMO:0003982
-name: aorta ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in great artery arising from the left ventricle from which the systemic arterial system proceeds." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "aorta ribonucleic acid composition measurement" EXACT []
-synonym: "aorta RNA composition measurement" EXACT []
-synonym: "aorta RNA level" EXACT []
-is_a: CMO:0003316 ! artery ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-03-07T14:13:50Z
 
 [Typedef]
 id: part_of
