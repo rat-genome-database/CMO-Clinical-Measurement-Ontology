@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.206
-date: 30:03:2024 20:13
+data-version: 2.205
+date: 23:03:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -2302,7 +2302,6 @@ creation_date: 2010-06-17T12:31:57Z
 id: CMO:0000260
 name: timed urine volume
 def: "The amount of urine voided over a specified period of time." [RGD:MS]
-synonym: "urine output" EXACT []
 is_a: CMO:0000259 ! urine volume
 created_by: mshimoyama
 creation_date: 2010-06-17T12:32:06Z
