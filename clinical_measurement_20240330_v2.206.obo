@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.207
-date: 06:04:2024 20:13
+data-version: 2.206
+date: 30:03:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -27662,7 +27662,7 @@ creation_date: 2018-12-07T12:04:28Z
 
 [Term]
 id: CMO:0002935
-name: heart left ventricle ribonucleic acid level
+name: heart left ventricle ribonucleic acid composition measurement
 alt_id: CMO:0003333
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart left ventricle is formed or composed." []
 synonym: "heart left ventricle ribonucleic acid composition measurement" EXACT []
@@ -27675,16 +27675,14 @@ creation_date: 2018-12-07T12:09:49Z
 id: CMO:0002936
 name: heart right ventricle insulin-like growth factor 1 mRNA level
 is_a: CMO:0002934 ! heart insulin-like growth factor 1 mRNA level
-is_a: CMO:0002937 ! heart right ventricle ribonucleic acid level
+is_a: CMO:0002937 ! heart right ventricle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2018-12-07T12:23:27Z
 
 [Term]
 id: CMO:0002937
-name: heart right ventricle ribonucleic acid level
-def: "This is a measurement of the amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil, extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." []
-synonym: "heart right ventricle ribonucleic acid composition measurement" EXACT []
-synonym: "heart right ventricle RNA level" EXACT []
+name: heart right ventricle ribonucleic acid composition measurement
+def: "The amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil , extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." []
 is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
 is_a: CMO:0002938 ! heart right ventricle molecular composition measurement
 created_by: sjwang
@@ -27702,7 +27700,7 @@ id: CMO:0002939
 name: heart left ventricle insulin-like growth factor 1 mRNA level
 synonym: "heart left ventricle Igf1r mRNA level" EXACT []
 is_a: CMO:0002934 ! heart insulin-like growth factor 1 mRNA level
-is_a: CMO:0002935 ! heart left ventricle ribonucleic acid level
+is_a: CMO:0002935 ! heart left ventricle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2018-12-07T12:35:54Z
 
@@ -27717,7 +27715,7 @@ creation_date: 2018-12-07T12:44:11Z
 [Term]
 id: CMO:0002941
 name: heart right ventricle insulin-like growth factor 1 receptor mRNA level
-is_a: CMO:0002937 ! heart right ventricle ribonucleic acid level
+is_a: CMO:0002937 ! heart right ventricle ribonucleic acid composition measurement
 is_a: CMO:0002940 ! heart insulin-like growth factor 1 receptor mRNA level
 created_by: sjwang
 creation_date: 2018-12-07T12:46:44Z
@@ -27725,7 +27723,7 @@ creation_date: 2018-12-07T12:46:44Z
 [Term]
 id: CMO:0002942
 name: heart left ventricle insulin-like growth factor 1 receptor mRNA level
-is_a: CMO:0002935 ! heart left ventricle ribonucleic acid level
+is_a: CMO:0002935 ! heart left ventricle ribonucleic acid composition measurement
 is_a: CMO:0002940 ! heart insulin-like growth factor 1 receptor mRNA level
 created_by: sjwang
 creation_date: 2018-12-07T12:49:23Z
@@ -30953,11 +30951,9 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003324
-name: heart left atrium ribonucleic acid level
+name: left cardiac atrium ribonucleic acid composition measurement
 synonym: "heart left atrium ribonucleic acid composition measurement" EXACT []
-synonym: "left cardiac atrium ribonucleic acid composition measurement" EXACT []
-synonym: "left cardiac atrium ribonucleic acid level" EXACT []
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
+relationship: part_of CMO:0002933 ! heart ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -37552,28 +37548,6 @@ xref: PMID:33238484
 is_a: CMO:0003932 ! epidermis ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-03-22T13:02:06Z
-
-[Term]
-id: CMO:0003984
-name: heart right atrium ribonucleic acid level
-def: "This is a measurement of the amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil, extracted from or contained in the heart right atrium, the upper chamber of the right side of the heart, which receives deoxygenated blood from the venae cavae and the coronary sinus, and pumps it into the right ventricle through the tricuspid valve." [CHEBI:33697, UBERON:0002078]
-synonym: "heart right atrium ribonucleic acid amount" EXACT []
-synonym: "heart right atrium RNA level" EXACT []
-synonym: "right cardiac atrium ribonucleic acid amount" EXACT []
-synonym: "right cardiac atrium RNA level" EXACT []
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
-created_by: slaulederkind
-creation_date: 2024-04-02T13:51:49Z
-
-[Term]
-id: CMO:0003985
-name: sinoatrial node ribonucleic acid level
-def: "This is a measurement of the amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil, extracted from or contained in the sinoatrial node of the heart right atrium, the upper chamber of the right side of the heart, which receives deoxygenated blood from the vena cavae and the coronary sinus, and pumps it into the right ventricle through the tricuspid valve. The sinoatrial node is located at the junction of the superior vena cava and the right atrium." [CHEBI:33697, UBERON:0002351]
-synonym: "sinoatrial node RNA level" EXACT []
-relationship: part_of CMO:0003980 ! vena cava ribonucleic acid level
-relationship: part_of CMO:0003984 ! heart right atrium ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-04-02T14:45:15Z
 
 [Typedef]
 id: part_of
