@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.207
-date: 06:04:2024 20:13
+data-version: 2.208
+date: 20:04:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -37574,6 +37574,84 @@ relationship: part_of CMO:0003980 ! vena cava ribonucleic acid level
 relationship: part_of CMO:0003984 ! heart right atrium ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-02T14:45:15Z
+
+[Term]
+id: CMO:0003986
+name: embryonic cell/tissue ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in embryonic cells or tissue." [https://www.merriam-webster.com/]
+synonym: "embryo ribonucleic acid level" EXACT []
+xref: GSE163620
+xref: PMID:34818044
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2024-04-16T13:29:32Z
+
+[Term]
+id: CMO:0003987
+name: 1-cell embryo ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a one-cell embryo (zygote)." [ISBN-13:978-1455756438]
+synonym: "one-cell embryo ribonucleic acid level" EXACT []
+synonym: "zygote ribonucleic acid level" EXACT []
+xref: GSE163620
+xref: PMID:34818044
+is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2024-04-16T13:38:51Z
+
+[Term]
+id: CMO:0003988
+name: 2-cell embryo ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a two-cell embryo." [ISBN-13:9780781733908]
+synonym: "two-cell embryo ribonucleic acid level" EXACT []
+xref: GSE163620
+xref: PMID:34818044
+is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2024-04-16T13:43:40Z
+
+[Term]
+id: CMO:0003989
+name: 4-cell embryo ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a four-cell embryo." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+synonym: "four-cell embryo ribonucleic acid level" EXACT []
+xref: GSE163620
+xref: PMID:34818044
+is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2024-04-16T13:46:53Z
+
+[Term]
+id: CMO:0003990
+name: blastocyst ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a blastocyst, a hollow ball of cells in an early-stage embryo containing two cell types, the inner cell mass and the trophectoderm." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+synonym: "blastula ribonucleic acid level" RELATED []
+xref: GSE163620
+xref: PMID:34818044
+is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2024-04-16T13:53:53Z
+
+[Term]
+id: CMO:0003991
+name: 8-cell embryo ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a eight-cell embryo." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
+synonym: "eight-cell embryo ribonucleic acid level" EXACT []
+xref: GSE163620
+xref: PMID:34818044
+is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2024-04-16T13:59:57Z
+
+[Term]
+id: CMO:0003992
+name: oocyte ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a female germ cell(s) that has entered meiosis." [CL:0000023, ISBN-13:9780781733908]
+synonym: "female gametocyte ribonucleic acid level" EXACT []
+xref: GSE163620
+xref: PMID:34818044
+is_a: CMO:0003918 ! isolated cell ribonucleic acid composition measurement
+created_by: slaulederkind
+creation_date: 2024-04-16T14:10:20Z
 
 [Typedef]
 id: part_of
