@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.210
-date: 04:05:2024 20:13
+data-version: 2.208
+date: 20:04:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -36841,11 +36841,10 @@ creation_date: 2023-04-03T17:02:38Z
 
 [Term]
 id: CMO:0003916
-name: cell ribonucleic acid level
+name: cell ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
 synonym: "cell RNA composition measurement" EXACT []
 synonym: "Not4Curation" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003915 ! cell molecular composition measurement
 created_by: slaulede
 creation_date: 2023-04-03T17:06:23Z
@@ -36855,7 +36854,7 @@ id: CMO:0003917
 name: native cell ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment)." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
 synonym: "native cell RNA composition measurement" EXACT []
-is_a: CMO:0003916 ! cell ribonucleic acid level
+is_a: CMO:0003916 ! cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-04-03T17:16:36Z
 
@@ -37653,48 +37652,6 @@ xref: PMID:34818044
 is_a: CMO:0003918 ! isolated cell ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-04-16T14:10:20Z
-
-[Term]
-id: CMO:0003993
-name: inferior alveolar nerve ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the inferior alveolar nerve is formed or composed. The inferior alveolar nerve is the branch of the mandibular nerve responsible for sensory innervation to the gingivae of the lower jaw." [https://ncbi.nlm.nih.gov/books/NBK546712/, ISBN-13:9780781733908]
-synonym: "inferior alveolar nerve RNA level" EXACT []
-xref: PMID:37946211
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
-created_by: slaulederkind
-creation_date: 2024-04-22T17:21:07Z
-
-[Term]
-id: CMO:0003994
-name: joint molecular composition measurement
-def: "This is any quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of a specified skeletal joint, one of the articulations between bones which may be immovable, slightly movable or freely movable." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "skeletal joint molecular composition measurement" EXACT []
-xref: PMID:36354073
-xref: UBERON:0000982
-is_a: CMO:0002146 ! joint morphological measurement
-created_by: slaulederkind
-creation_date: 2024-04-23T17:42:16Z
-
-[Term]
-id: CMO:0003995
-name: knee joint ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the knee joint, the joint that joins the thigh with the leg and consists of two articulations: one between the femur and tibia, and one between the femur and patella." [https://www.merriam-webster.com/, UBERON:0001485]
-synonym: "knee joint RNA level" EXACT []
-xref: PMID:36354073
-is_a: CMO:0003994 ! joint molecular composition measurement
-created_by: slaulederkind
-creation_date: 2024-04-23T17:50:08Z
-
-[Term]
-id: CMO:0003996
-name: articular chondrocyte ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in chondrocytes isolated from articular cartilage. Articular cartilage is a thin layer of cartilage, usually hyaline cartilage, on the articular surface of bones in synovial joints." [CHEBI:33697, UBERON:0010996]
-synonym: "articular chondrocyte RNA level" EXACT []
-xref: PMID:32778777
-is_a: CMO:0003916 ! cell ribonucleic acid level
-relationship: part_of CMO:0003346 ! cartilage ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-04-29T15:26:05Z
 
 [Typedef]
 id: part_of
