@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.210
-date: 04:05:2024 20:13
+data-version: 2.211
+date: 18:05:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -32026,7 +32026,7 @@ id: CMO:0003445
 name: interstitial nephritis foci count
 def: "The total number of microscopic instances of inflammation of the interstitial tissue of the kidney. The term interstitial tissue of the kidney is generally used for primary inflammation of kidney tubules and/or surrounding interstitium." [MESH:D009395]
 synonym: "foci of tubulointerstitial nephritis" EXACT []
-xref: D009395
+xref: MESH:D009395
 is_a: CMO:0001131 ! kidney non-tumorous lesion measurement
 created_by: slaulede
 creation_date: 2020-06-11T14:37:11Z
@@ -32682,10 +32682,10 @@ creation_date: 2020-08-14T10:08:08Z
 id: CMO:0003512
 name: calculated blood corticosterone level
 def: "Measurement of the amount of corticosterone in a specified volume of blood, which has been normalized, adjusted or derived by a mathematical process or computation." [ISBN:9780618824359]
-synonym: "11&#946;,21-dihydroxyprogesterone" EXACT []
+synonym: "11β,21-dihydroxyprogesterone" EXACT []
 synonym: "17-deoxycortisol" EXACT []
 xref: CHEBI:16827
-xref: D003345
+xref: MESH:D003345
 is_a: CMO:0001172 ! blood corticosterone level
 created_by: slaulede
 creation_date: 2020-08-14T10:12:08Z
@@ -32694,10 +32694,10 @@ creation_date: 2020-08-14T10:12:08Z
 id: CMO:0003513
 name: calculated plasma corticosterone level
 def: "Measurement of the amount of corticosterone in a specified volume of plasma, which has been normalized, adjusted or derived by a mathematical process or computation." [ISBN:9780618824359]
-synonym: "calculated plasma 11&#946;,21-dihydroxyprogesterone level" EXACT []
+synonym: "calculated plasma 11β,21-dihydroxyprogesterone level" EXACT []
 synonym: "calculated plasma 17-deoxycortisol level" EXACT []
 xref: CHEBI:16827
-xref: D003345
+xref: MESH:D003345
 is_a: CMO:0003512 ! calculated blood corticosterone level
 created_by: slaulede
 creation_date: 2020-08-14T10:43:04Z
@@ -32706,10 +32706,10 @@ creation_date: 2020-08-14T10:43:04Z
 id: CMO:0003514
 name: plasma corticosterone level to 11-dehydrocorticosterone level ratio
 def: "A calculated measurement in which the amount of corticosterone in a sample of plasma is divided by the amount of 11-dehydrocorticosterone in that sample and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the 11-dehydrocorticosterone level." [ISBN:9780618824359]
-synonym: "plasma corticosterone level to 11&#946;,21-dihydroxyprogesterone level ratio" EXACT []
+synonym: "plasma corticosterone level to 11β,21-dihydroxyprogesterone level ratio" EXACT []
 synonym: "plasma corticosterone level to 17-deoxycortisol level ratio" EXACT []
 xref: CHEBI:16827
-xref: D003345
+xref: MESH:D003345
 is_a: CMO:0003513 ! calculated plasma corticosterone level
 created_by: slaulede
 creation_date: 2020-08-14T10:52:10Z
@@ -33169,7 +33169,7 @@ creation_date: 2020-10-02T17:06:34Z
 id: CMO:0003568
 name: liver adult Schistosoma mansoni worm count
 def: "Measurement of the total number of adult, that is, fully developed, Schistosoma mansoni trematode worms recovered from a specified sample or perfusate of liver from an infected subject." [MESH:D012552]
-xref: D012552
+xref: MESH:D012552
 xref: PMID:1719096
 is_a: CMO:0002542 ! adult parasite count
 created_by: slaulede
@@ -37581,7 +37581,7 @@ id: CMO:0003986
 name: embryonic cell/tissue ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in embryonic cells or tissue." [https://www.merriam-webster.com/]
 synonym: "embryo ribonucleic acid level" EXACT []
-xref: GSE163620
+xref: GEO:GSE163620
 xref: PMID:34818044
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
@@ -37593,7 +37593,7 @@ name: 1-cell embryo ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a one-cell embryo (zygote)." [ISBN-13:978-1455756438]
 synonym: "one-cell embryo ribonucleic acid level" EXACT []
 synonym: "zygote ribonucleic acid level" EXACT []
-xref: GSE163620
+xref: GEO:GSE163620
 xref: PMID:34818044
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
@@ -37604,7 +37604,7 @@ id: CMO:0003988
 name: 2-cell embryo ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a two-cell embryo." [ISBN-13:9780781733908]
 synonym: "two-cell embryo ribonucleic acid level" EXACT []
-xref: GSE163620
+xref: GEO:GSE163620
 xref: PMID:34818044
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
@@ -37615,7 +37615,7 @@ id: CMO:0003989
 name: 4-cell embryo ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a four-cell embryo." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "four-cell embryo ribonucleic acid level" EXACT []
-xref: GSE163620
+xref: GEO:GSE163620
 xref: PMID:34818044
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
@@ -37626,7 +37626,7 @@ id: CMO:0003990
 name: blastocyst ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a blastocyst, a hollow ball of cells in an early-stage embryo containing two cell types, the inner cell mass and the trophectoderm." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "blastula ribonucleic acid level" RELATED []
-xref: GSE163620
+xref: GEO:GSE163620
 xref: PMID:34818044
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
@@ -37637,7 +37637,7 @@ id: CMO:0003991
 name: 8-cell embryo ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a eight-cell embryo." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "eight-cell embryo ribonucleic acid level" EXACT []
-xref: GSE163620
+xref: GEO:GSE163620
 xref: PMID:34818044
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
@@ -37648,7 +37648,7 @@ id: CMO:0003992
 name: oocyte ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a female germ cell(s) that has entered meiosis." [CL:0000023, ISBN-13:9780781733908]
 synonym: "female gametocyte ribonucleic acid level" EXACT []
-xref: GSE163620
+xref: GEO:GSE163620
 xref: PMID:34818044
 is_a: CMO:0003918 ! isolated cell ribonucleic acid composition measurement
 created_by: slaulederkind
