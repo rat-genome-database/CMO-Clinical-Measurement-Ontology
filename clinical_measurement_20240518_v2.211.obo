@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.214
-date: 15:06:2024 20:13
+data-version: 2.211
+date: 18:05:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -16,6 +16,7 @@ id: CMO:0000001
 name: cardiovascular measurement
 def: "Any value resulting from the quantification of a morphological or physiological parameter pertaining to the heart and/or blood vessels." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "cardiovascular event measurement" NARROW []
+synonym: "cardiovascular measurement" EXACT []
 xref: EFO:0004298
 xref: EFO:0006919
 is_a: CMO:0000000 ! clinical measurement
@@ -24,6 +25,7 @@ is_a: CMO:0000000 ! clinical measurement
 id: CMO:0000002
 name: heart rate
 def: "The number of contractions of the cardiac ventricles per unit of time." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "heart rate" EXACT []
 synonym: "resting heart rate" NARROW []
 xref: EFO:0004326
 xref: EFO:0004351
@@ -42,6 +44,7 @@ is_a: CMO:0000001 ! cardiovascular measurement
 id: CMO:0000004
 name: systolic blood pressure
 def: "The maximum arterial pressure within the cardiac cycle, i.e. at the point at which the heart is in its maximal state of contraction. This is the time when the blood is forced from the ventricles of the heart into the pulmonary artery and the aorta." [Berne_and_Levy:Berne_and_Levy_Physiology--6th_Ed, ISBN:978-0323073622, Mosby:Mosbys_Dental_Dictionary--2nd_Ed]
+synonym: "systolic blood pressure" EXACT []
 xref: EFO:0006335
 is_a: CMO:0000003 ! blood pressure measurement
 
@@ -49,6 +52,7 @@ is_a: CMO:0000003 ! blood pressure measurement
 id: CMO:0000005
 name: diastolic blood pressure
 def: "The minimum arterial pressure within the cardiac cycle, usually at the point at which the heart is in a state of relaxation and expansion. This is the time when the ventricles fill with blood." [Berne_and_Levy:Berne_and_Levy_Physiology--6th_Ed, ISBN:978-0323073622]
+synonym: "diastolic blood pressure" EXACT []
 xref: EFO:0006336
 is_a: CMO:0000003 ! blood pressure measurement
 
@@ -100,6 +104,7 @@ id: CMO:0000012
 name: body weight
 def: "The heaviness or degree to which an entire organism's body is drawn to the earth by gravity." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "body mass" RELATED []
+synonym: "body weight" EXACT []
 xref: EFO:0004338
 is_a: CMO:0000011 ! whole body morphological measurement
 
@@ -114,6 +119,7 @@ id: CMO:0000014
 name: hip circumference
 def: "Total distance around the body at the region of the body lateral to and including the hip joint or coxa." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "BMI-adjusted hip circumference" NARROW []
+synonym: "hip circumference" EXACT []
 synonym: "hip geometry" BROAD []
 synonym: "hip girth" RELATED []
 xref: EFO:0004685
@@ -238,6 +244,7 @@ relationship: part_of CMO:0000036 ! complete blood count and differential
 id: CMO:0000028
 name: blood protein measurement
 def: "Any measurement involving the amount, composition or type of protein, the complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, in blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "blood protein measurement" EXACT []
 synonym: "lipid or lipoprotein measurement" BROAD []
 synonym: "total blood protein measurement" EXACT []
 xref: EFO:0004536
@@ -249,6 +256,7 @@ is_a: CMO:0000023 ! blood chemistry measurement
 id: CMO:0000029
 name: platelet count
 def: "The number of platelets (thrombocytes) in a specified volume of blood, usually expressed as platelets per cubic millimeter of whole blood." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
+synonym: "platelet count" EXACT []
 xref: EFO:0004309
 is_a: CMO:0003100 ! platelet morphological measurement
 
@@ -321,6 +329,7 @@ id: CMO:0000037
 name: hematocrit
 def: "Percentage of total blood volume that is made up of red blood cells." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "Hct" RELATED []
+synonym: "hematocrit" EXACT []
 synonym: "packed cell volume" RELATED []
 synonym: "packed red blood cell volume" RELATED []
 xref: EFO:0004348
@@ -332,6 +341,7 @@ id: CMO:0000038
 name: mean corpuscular volume
 def: "A measure of the average volume or size of a single red blood cell. It is derived by dividing the total volume of packed red blood cells by the total red blood cell count." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "MCV" RELATED []
+synonym: "mean corpuscular volume" EXACT []
 synonym: "mean reticulocyte volume" EXACT []
 xref: EFO:0004526
 xref: EFO:0010701
@@ -865,6 +875,7 @@ is_a: CMO:0001196 ! calculated body weight measurement
 id: CMO:0000106
 name: body height
 def: "The vertical measurement of a body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "body height" EXACT []
 synonym: "body height at birth" NARROW []
 synonym: "height growth measurement" RELATED []
 synonym: "infant body height" NARROW []
@@ -1597,6 +1608,7 @@ creation_date: 2010-06-10T09:12:14Z
 id: CMO:0000183
 name: head circumference
 def: "Total distance around the head of an organism." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "head circumference" EXACT []
 xref: EFO:0005114
 is_a: CMO:0000182 ! head morphological measurement
 created_by: mshimoyama
@@ -2030,6 +2042,7 @@ id: CMO:0000232
 name: RR interval
 def: "Interval between an R wave and the next R wave of successive heart beats, inverse of the heart rate." [http://en.wikipedia.org/wiki/ECG "Wikipedia", RGD:MS]
 synonym: "RR_Interval" RELATED [ECGOntology:ECG_000000042]
+synonym: "RR interval" EXACT []
 xref: EFO:0004831
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: mshimoyama
@@ -2040,6 +2053,7 @@ id: CMO:0000233
 name: PR interval
 def: "Time between the beginning of the P wave to the beginning of the QRS complex, reflects the time the electrical impulse takes to travel from the sinus node through the AV node and entering the ventricles, used as an estimate of AV node function." [http://en.wikipedia.org/wiki/ECG "Wikipedia"]
 synonym: "PQ Interval" EXACT []
+synonym: "PR interval" EXACT []
 synonym: "PR segment" EXACT []
 xref: EFO:0004462
 xref: EFO:0005095
@@ -2061,6 +2075,7 @@ id: CMO:0000235
 name: QT interval
 def: "An interval measured from the onset of the QRS wave complex to the offset of the T wave." [http://en.wikipedia.org/wiki/ECG "Wikipedia", RGD:MS]
 synonym: "QT_Interval" RELATED [ECGOntology:ECG_000000682]
+synonym: "QT interval" EXACT []
 xref: EFO:0004682
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: mshimoyama
@@ -2127,6 +2142,7 @@ creation_date: 2010-12-16T01:02:33Z
 id: CMO:0000242
 name: waist circumference
 def: "Distance completely around the body in the area between the thorax and hips. In humans, this is commonly at the umbilicus." [RGD:MS]
+synonym: "waist circumference" EXACT []
 synonym: "waist girth" RELATED []
 xref: EFO:0004342
 is_a: CMO:0000296 ! abdominal morphological measurement
@@ -2231,6 +2247,7 @@ creation_date: 2010-06-17T12:19:05Z
 id: CMO:0000254
 name: forced expiratory volume
 def: "Fraction of forced vital capacity that is exhaled in a specific number of seconds." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "forced expiratory volume" EXACT []
 xref: EFO:0004314
 is_a: CMO:0000094 ! respiratory system measurement
 created_by: mshimoyama
@@ -2319,6 +2336,7 @@ creation_date: 2010-06-17T12:38:44Z
 id: CMO:0000264
 name: P wave duration
 def: "The time from start to finish of the P wave , in the electrocardiograph illustrating the initial deflection of the cardiac cycle, representing the excitation of the atria." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "P wave duration" EXACT []
 xref: EFO:0005094
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: mshimoyama
@@ -2344,6 +2362,7 @@ creation_date: 2010-06-17T12:39:55Z
 id: CMO:0000267
 name: QRS duration
 def: "The time from start to finish of the QRS interval as calculated from a set of measurements taken from the beginning of the QRS complex to the end of the QRS complex representing the time it takes for ventricles to depolarize." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "QRS duration" EXACT []
 synonym: "ventricular rate measurement" RELATED []
 xref: EFO:0005055
 xref: EFO:0007928
@@ -2548,6 +2567,7 @@ alt_id: CMO:0000122
 def: "The average amount of hemoglobin per red blood cell caculated by dividing the total mass of hemoglobin by the number of red blood cells in a volume of blood." [http://en.wikipedia.org/wiki/Mean_corpuscular_hemoglobin "Wikipedia", ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "MCH" EXACT []
 synonym: "mean corpuscular haemoglobin level" EXACT []
+synonym: "mean corpuscular hemoglobin" EXACT []
 synonym: "mean corpuscular hemoglobin level" EXACT []
 xref: EFO:0004527
 is_a: CMO:0002900 ! calculated blood hemoglobin level
@@ -2560,6 +2580,7 @@ id: CMO:0000291
 name: mean corpuscular hemoglobin concentration
 def: "This is a measure of the concentration of hemoglobin in a given volume of packed red blood cells." [http://en.wikipedia.org "Wikipedia"]
 synonym: "MCHC" EXACT []
+synonym: "mean corpuscular hemoglobin concentration" EXACT []
 xref: EFO:0004528
 is_a: CMO:0003614 ! red blood cell molecular composition measurement
 created_by: mshimoyama
@@ -2652,6 +2673,7 @@ creation_date: 2010-08-04T02:17:57Z
 [Term]
 id: CMO:0000302
 name: body fat percentage
+synonym: "body fat percentage" EXACT []
 xref: EFO:0007800
 is_a: CMO:0003945 ! total body fat mass to total body mass ratio
 created_by: mshimoyama
@@ -2763,6 +2785,7 @@ creation_date: 2010-08-05T10:18:39Z
 id: CMO:0000315
 name: arm span
 def: "Distance between the tips of the longest fingers with the arms maximally outstretched laterally." [Anton_and_Snodgrass:Bones_and_Behavior_Working_Group_2009]
+synonym: "arm span" EXACT []
 xref: EFO:0005108
 is_a: CMO:0000021 ! body morphological measurement
 created_by: mshimoyama
@@ -4302,6 +4325,7 @@ synonym: "Calculated GFR" NARROW []
 synonym: "cGFR" NARROW []
 synonym: "eGFR" NARROW []
 synonym: "estimated glomerular filtration rate" NARROW []
+synonym: "glomerular filtration rate" EXACT []
 xref: EFO:0005208
 is_a: CMO:0000023 ! blood chemistry measurement
 is_a: CMO:0003420 ! calculated kidney physiological measurement
@@ -4464,6 +4488,7 @@ name: hemoglobin measurement
 def: "A measure of the oxygen carrying pigment of erythrocytes." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "haemoglobin measurement" EXACT []
 synonym: "hemoglobin A2 measurement" NARROW []
+synonym: "hemoglobin measurement" EXACT []
 xref: EFO:0004509
 xref: EFO:0005845
 is_a: CMO:0000028 ! blood protein measurement
@@ -8053,6 +8078,7 @@ creation_date: 2012-07-11T11:07:42Z
 id: CMO:0000911
 name: brain measurement
 def: "Any measurement of all or part of the brain, the portion of the central nervous system enclosed within the cranium which is composed of gray matter and white matter and is the primary center for the regulation and control of bodily activities, receiving and interpreting sensory impulses, and transmitting information to the muscles and body organs." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
+synonym: "brain measurement" EXACT []
 synonym: "cingulate cortex measurement" NARROW []
 synonym: "Not4Curation" RELATED []
 xref: EFO:0004464
@@ -8143,6 +8169,7 @@ creation_date: 2012-07-12T11:47:19Z
 id: CMO:0000921
 name: platelet measurement
 def: "Any measurement of platelets, the disk-shaped structures found in the blood of mammals which play a vital role in blood coagulation. Platelets lack nuclei and DNA but contain active enzymes and mitochondria." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "platelet measurement" EXACT []
 xref: EFO:0005036
 is_a: CMO:0000035 ! blood measurement
 created_by: JSmith
@@ -8765,6 +8792,7 @@ def: "The thickness or depth of the septal wall of the heart ventricles. The sep
 synonym: "antero-septal wall thickness" RELATED []
 synonym: "heart interventricular septum thickness" RELATED []
 synonym: "heart intraventricular wall thickness" RELATED []
+synonym: "heart ventricle septal wall thickness" EXACT []
 synonym: "heart ventricle septum thickness" RELATED []
 synonym: "heart ventricular septal wall thickness" RELATED []
 synonym: "SWT" RELATED []
@@ -8813,6 +8841,7 @@ creation_date: 2012-07-30T10:31:58Z
 [Term]
 id: CMO:0000992
 name: heart relative wall thickness
+synonym: "heart relative wall thickness" EXACT []
 xref: EFO:0009286
 is_a: CMO:0000991 ! calculated heart wall thickness measurement
 created_by: JSmith
@@ -9678,6 +9707,7 @@ name: mammary gland morphological measurement
 alt_id: CMO:0000414
 def: "Measurement of the physical form or structure of the mammary gland, the specialized exocrine gland of the skin of female mammals, which secretes milk for nourishment of the young." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "breast size" NARROW []
+synonym: "mammary gland morphological measurement" EXACT []
 xref: EFO:0004884
 is_a: CMO:0000068 ! organ morphological measurement
 is_a: CMO:0000786 ! mammary gland measurement
@@ -9934,6 +9964,7 @@ creation_date: 2012-09-13T11:55:56Z
 id: CMO:0001110
 name: disease progression measurement
 def: "Any measurement related to the course of a disease, for example, a series of stages or a succession of states in the disease process." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+synonym: "disease progression measurement" EXACT []
 xref: EFO:0008336
 is_a: CMO:0001107 ! disease process measurement
 created_by: JSmith
@@ -10421,6 +10452,7 @@ creation_date: 2012-10-11T05:36:07Z
 id: CMO:0001158
 name: muscle measurement
 def: "Any measurement, morphological or physiological of a muscle or a group of muscles. Muscles are organs or tissues composed of bundles of fibers that have the power to contract and hence to produce movement." [Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+synonym: "muscle measurement" EXACT []
 xref: EFO:0004515
 is_a: CMO:0000916 ! musculoskeletal system measurement
 created_by: JSmith
@@ -10710,12 +10742,8 @@ creation_date: 2012-10-23T10:06:14Z
 
 [Term]
 id: CMO:0001190
-name: resting tone of middle cerebral artery
-def: "This is a calculated measurement of the relative difference in the middle cerebral artery inner diameter between a treated, fully relaxed state and a control resting state, expressed as a percentage. This calculated value is given by this equation: [(Dmax - Drest) /Dmax] x 100." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "active resting tone of middle cerebral artery" EXACT []
-synonym: "active tone of MCA" EXACT []
-synonym: "spontaneous resting tone of MCA" EXACT []
-synonym: "tone of middle cerebral artery" EXACT []
+name: percent change in middle cerebral artery inner diameter
+def: "A calculated measurement of the relative difference in the middle cerebral artery inner diameter between a treated state and a control state or between two points in time, expressed as a percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, RGD:JRS]
 is_a: CMO:0001189 ! calculated middle cerebral artery inner diameter measurement
 created_by: JSmith
 creation_date: 2012-10-23T10:09:32Z
@@ -11510,6 +11538,7 @@ creation_date: 2013-01-08T18:12:45Z
 id: CMO:0001276
 name: serum immunoglobulin measurement
 def: "Any measurement related to immunoglobulin, any of several classes of proteins produced by plasma cells and lymphocytes which play essential roles in the immune system, for example, attaching to foreign substances in an effort to destroy them, in serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "serum immunoglobulin measurement" EXACT []
 xref: EFO:0010127
 is_a: CMO:0001531 ! blood immunoglobulin measurement
 created_by: JSmith
@@ -12141,6 +12170,7 @@ creation_date: 2013-01-10T16:07:10Z
 id: CMO:0001348
 name: mean platelet volume
 def: "Measurement of the average size of the three dimensional space occupied by a blood platelet, a minute, irregularly shaped, disklike, non-nucleated cytoplasmic body found in blood that functions to promote blood clotting." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
+synonym: "mean platelet volume" EXACT []
 xref: EFO:0004584
 is_a: CMO:0003100 ! platelet morphological measurement
 created_by: JSmith
@@ -12610,6 +12640,7 @@ creation_date: 2013-01-14T11:36:29Z
 id: CMO:0001399
 name: body weight loss
 def: "A calculated measurement of the absolute, relative or proportional decrease in total body weight of an individual over time." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+synonym: "body weight loss" EXACT []
 xref: EFO:0005245
 is_a: CMO:0002045 ! change in body weight
 created_by: JSmith
@@ -13278,6 +13309,7 @@ id: CMO:0001468
 name: liver volume
 def: "Measurement of the size of the three dimensional space occupied by the liver, the large, dark-red organ located in the cranial portion of the abdomen of vertebrates, just behind or below the diaphragm, the functions of which include storage and filtration of blood; secretion of bile; detoxification of noxious substances; conversion of sugars into glycogen; synthesis and breakdown of fats and temporary storage of fatty acids; and synthesis of serum proteins." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "liver lobe volume" NARROW []
+synonym: "liver volume" EXACT []
 xref: EFO:0600048
 xref: PMID:32156510
 is_a: CMO:0001469 ! liver size measurement
@@ -14037,6 +14069,7 @@ creation_date: 2013-03-19T16:53:46Z
 id: CMO:0001550
 name: bone measurement
 def: "A value resulting from the quantification of a morphological or physiological parameter of bone, the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "bone measurement" EXACT []
 xref: EFO:0004512
 is_a: CMO:0001159 ! skeletal system measurement
 created_by: JSmith
@@ -14065,6 +14098,7 @@ name: volumetric bone mineral density
 def: "Measurement of the mineral mass per unit volume of bone, the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
 synonym: "vBMD" RELATED []
 synonym: "volumetric BMD" RELATED []
+synonym: "volumetric bone mineral density" EXACT []
 xref: EFO:0007620
 is_a: CMO:0001552 ! bone mineral morphological measurement
 created_by: JSmith
@@ -17213,6 +17247,7 @@ creation_date: 2013-11-05T18:17:04Z
 id: CMO:0001861
 name: antibody measurement
 def: "Any quantification related to an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen, a substance introduced into an organism which initiates an immune response including the production of the very antibodies which bind to it in an effort to destroy it." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+synonym: "antibody measurement" EXACT []
 xref: EFO:0004556
 is_a: CMO:0001833 ! immunoglobulin measurement
 created_by: JSmith
@@ -19644,6 +19679,7 @@ id: CMO:0002106
 name: autoantibody measurement
 def: "Any measurement of the properties of one or more autoantibodies. An antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen, a substance introduced into an organism which initiates an immune response including the production of the very antibodies which bind to it in an effort to destroy it. An autoantibody is an antibody that attacks the cells, tissues, native proteins, or other endogenous molecules of the organism in which it was formed." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "anti-self antibody measurement" EXACT []
+synonym: "autoantibody measurement" EXACT []
 xref: EFO:0004866
 is_a: CMO:0001861 ! antibody measurement
 created_by: JSmith
@@ -22348,6 +22384,7 @@ creation_date: 2014-05-27T16:27:09Z
 id: CMO:0002381
 name: offspring mortality measurement
 def: "Any quantitative measurement of death, mortality or fatality occuring in the direct progeny of a parent or parents. Death is defined as the cessation of all vital functions of the body. Death of the offspring during embryonic/fetal development may result in resorption, mummification or discharge to the exterior." [Gale:Gale_Encyclopedia_of_Medicine_2008, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+synonym: "offspring mortality measurement" EXACT []
 xref: EFO:0009437
 is_a: CMO:0001022 ! mortality measurement
 is_a: CMO:0001373 ! offspring measurement
@@ -26693,6 +26730,7 @@ creation_date: 2018-11-16T14:28:18Z
 id: CMO:0002831
 name: calculated neuron mitochondrion area measurement
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the neuron mitochondrion area." []
+synonym: "calculated neuron mitochondrion area measurement" EXACT []
 is_a: CMO:0002830 ! neuron mitochondrion area
 created_by: sjwang
 creation_date: 2018-11-16T14:31:17Z
@@ -27075,6 +27113,7 @@ creation_date: 2018-11-26T15:13:54Z
 id: CMO:0002873
 name: E' wave velocity
 def: "E' wave velocity is the peak velocity of early mitral annular diastolic motion." []
+synonym: "e' wave velocity" EXACT []
 is_a: CMO:0002502 ! heart blood flow measurement
 created_by: sjwang
 creation_date: 2018-11-26T15:20:51Z
@@ -27083,6 +27122,7 @@ creation_date: 2018-11-26T15:20:51Z
 id: CMO:0002874
 name: A' wave velocity
 def: "A' wave velocity (A') is the peak velocity of late (atrial) diastolic mitral annular motion." []
+synonym: "a' wave velocity" EXACT []
 is_a: CMO:0002502 ! heart blood flow measurement
 created_by: sjwang
 creation_date: 2018-11-26T15:23:27Z
@@ -27605,6 +27645,7 @@ id: CMO:0002933
 name: heart ribonucleic acid composition measurement
 alt_id: CMO:0002796
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart is formed or composed." []
+synonym: "heart ribonucleic acid composition measurement" EXACT []
 synonym: "heart RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0002932 ! heart nucleic acid measurement
@@ -28891,6 +28932,7 @@ creation_date: 2019-03-18T16:11:29Z
 [Term]
 id: CMO:0003079
 name: eye measurement
+synonym: "eye measurement" EXACT []
 xref: EFO:0004731
 is_a: CMO:0000669 ! organ measurement
 created_by: sjwang
@@ -30872,6 +30914,7 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003319
 name: occipital cortex ribonucleic acid composition measurement
 alt_id: CMO:0003382
+synonym: "occipital cortex ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0016540
 relationship: part_of CMO:0003309 ! occipital lobe ribonucleic acid composition measurement
 created_by: hsnalabolu
@@ -31427,6 +31470,7 @@ id: CMO:0003392
 name: serum anti-SARS-CoV antibody level
 def: "Measurement of the amount of anti-SARS-CoV antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-SARS-CoV antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV betacoronavirus." [ISBN:978-1455756438, MESH:D045473]
 synonym: "serum anti-SARS-Cov-1 antibody level" EXACT []
+synonym: "serum anti-SARS-Cov antibody level" EXACT []
 synonym: "serum anti-severe acute respiratory syndrome coronavirus antibody level" EXACT []
 xref: MESH:D045473
 is_a: CMO:0003398 ! serum anti-betacoronavirus antibody level
@@ -31437,6 +31481,7 @@ creation_date: 2020-04-20T15:33:04Z
 id: CMO:0003393
 name: serum anti-MERS-CoV antibody level
 def: "Measurement of the amount of anti-MERS-Cov antibodies in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. An anti-MERS-Cov antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a MERS-Cov betacoronavirus." [ISBN:978-1455756438, MESH:D065207]
+synonym: "serum anti-MERS-Cov antibody level" EXACT []
 synonym: "serum anti-Middle East Respiratory Syndrome Coronavirus antibody level" EXACT []
 xref: MESH:D065207
 is_a: CMO:0003398 ! serum anti-betacoronavirus antibody level
@@ -31467,6 +31512,7 @@ id: CMO:0003396
 name: plasma anti-SARS-CoV antibody level
 def: "Measurement of the amount of anti-SARS-CoV antibodies in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended. An anti-SARS-CoV antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in a SARS-CoV betacoronavirus." [MESH:D045473]
 synonym: "plasma anti-SARS-CoV-1 antibody level" EXACT []
+synonym: "plasma anti-SARS-CoV antibody level" EXACT []
 synonym: "plasma anti-severe acute respiratory syndrome coronavirus antibody level" EXACT []
 xref: MESH:D045473
 is_a: CMO:0003399 ! plasma anti-betacoronavirus antibody level
@@ -32576,6 +32622,7 @@ creation_date: 2020-07-27T17:16:15Z
 id: CMO:0003506
 name: blood proANF 31-67 peptide level
 def: "This is a measurement of the amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of blood." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
+synonym: "blood ProANF 31-67 peptide level" EXACT []
 is_a: CMO:0003505 ! blood pro-A-type natriuretic peptide level
 created_by: slaulede
 creation_date: 2020-07-27T17:27:13Z
@@ -32584,6 +32631,7 @@ creation_date: 2020-07-27T17:27:13Z
 id: CMO:0003507
 name: plasma proANF 31-67 peptide level
 def: "This is a measurement of the amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of plasma." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
+synonym: "plasma ProANF 31-67 peptide level" EXACT []
 is_a: CMO:0003506 ! blood proANF 31-67 peptide level
 created_by: slaulede
 creation_date: 2020-07-27T17:35:14Z
@@ -32592,6 +32640,7 @@ creation_date: 2020-07-27T17:35:14Z
 id: CMO:0003508
 name: serum proANF 31-67 peptide level
 def: "This is a measurement of the amount of proANF 31-67 (a.a 31-67 of the amino terminal of pro hormone ANP (Nppa)) in a specified volume of serum." [https://rgd.mcw.edu/rgdweb/report/gene/main.html?id=3193, PMID:1372667]
+synonym: "serum ProANF 31-67 peptide level" EXACT []
 is_a: CMO:0003506 ! blood proANF 31-67 peptide level
 created_by: slaulede
 creation_date: 2020-07-27T17:35:34Z
@@ -33178,6 +33227,7 @@ creation_date: 2020-10-06T18:20:22Z
 id: CMO:0003574
 name: liver iron measurement
 def: "Any measurement of iron, a heavy metal element that is vital to many biological processes, in liver, the large, dark-red organ located in the cranial portion of the abdomen of vertebrates, just behind or below the diaphragm, the functions of which include storage and filtration of blood, secretion of bile, detoxification of noxious substances, conversion of sugars into glycogen, synthesis and breakdown of fats, and synthesis of serum proteins." [https://www.merriam-webster.com/, ISBN-13:978-1416062578]
+synonym: "liver iron measurement" EXACT []
 xref: EFO:0010056
 is_a: CMO:0001505 ! liver mineral measurement
 created_by: slaulede
@@ -34460,6 +34510,7 @@ creation_date: 2021-04-30T11:58:53Z
 id: CMO:0003699
 name: blood metabolite measurement
 def: "A quantification of a parameter of a substance in the blood essential to the metabolism of a particular organism or to a particular metabolic process. In biochemistry, a metabolite is an intermediate or end product of metabolism. The term metabolite is usually used for small molecules." [https://en.wikipedia.org/wiki/Metabolite, https://www.merriam-webster.com]
+synonym: "blood metabolite measurement" EXACT []
 xref: EFO:0005664
 is_a: CMO:0000023 ! blood chemistry measurement
 created_by: slaulede
@@ -35013,7 +35064,7 @@ creation_date: 2021-06-29T13:30:36Z
 [Term]
 id: CMO:0003748
 name: glomerular volume per podocyte
-def: "A calculated measurement in which the average volume of kidney glomeruli is divided by the average number of podocytes in a glomerulus. It represents the reciprocal value of 'number of podocytes to glomerular volume ratio (CMO:0002955)." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+def: "A calculated measurement in which the average volume of kidney glomeruli is divided by the average number of podocytes in a glomerulus. It represents the reciprocal value of \"number of podocytes to glomerular volume ratio (CMO:0002955)." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 xref: PMID:18199599
 is_a: CMO:0003711 ! calculated kidney glomerular podocyte measurement
 created_by: slaulede
@@ -35618,6 +35669,7 @@ name: time to first stretched-attend posture movement within an experimental app
 def: "A measurement of the latency period spent by an subject in the initial occupied space of an experimental apparatus before starting any stretched-attend posture movement." [https://www.merriam-webster.com/, PMID:28341233]
 synonym: "SAP latency" EXACT []
 synonym: "stretched-attend posture movement latency" EXACT []
+synonym: "time to first stretched-attend posture movement within an experimental apparatus" EXACT []
 xref: PMID:28341233
 is_a: CMO:0001038 ! stretched-attend posture measurement
 created_by: slaulede
@@ -36052,6 +36104,7 @@ name: hepatic extraction fraction
 alt_id: CMO:0003842
 def: "This is the fraction of a drug entering the liver from the blood which is irreversibly removed (extracted) during one pass of the blood through the liver. The hepatic extraction fraction (HEF) depends on the hepatic blood flow, uptake into hepatocytes, and enzyme metabolism. HEF can be calculated using deconvolution analysis of the liver using scintigraphic data." [https://derangedphysiology.com, https://en.wikipedia.org/wiki/Extraction_ratio, PMID:8429339]
 synonym: "HEF" EXACT []
+synonym: "hepatic extraction fraction" EXACT []
 synonym: "hepatic extraction ratio" EXACT []
 xref: PMID:30208622
 is_a: CMO:0003132 ! blood xenobiotic metabolism measurement
@@ -36245,6 +36298,7 @@ creation_date: 2021-11-02T17:44:15Z
 id: CMO:0003863
 name: rate constant of red blood cell sodium/potassium passive permeability
 def: "A measurement which has been derived by computation of the net effect of blocking both the Na/K pump and Na-K-Cl cotransporters in red blood cells. It is essentially a measurement of the level of ouabain-resistant, bumetanide-sensitive ion flux in the erythrocyte cell membrane." [http://hyperphysics.phy-astr.gsu.edu/hbase/Biology/nakpump.html, PMID:1390856]
+synonym: "rate constant of red blood cell sodium/potassium passive permeability" EXACT []
 xref: PMID:1390856
 is_a: CMO:0003862 ! calculated red blood cell sodium/potassium passive permeability
 created_by: slaulede
@@ -36749,6 +36803,7 @@ id: CMO:0003912
 name: kidney ribonucleic acid composition measurement
 alt_id: CMO:0002797
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) that reside in the kidney. Ribonucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose sugar, and a phosphate group. They are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
+synonym: "kidney ribonucleic acid composition measurement" EXACT []
 synonym: "kidney RNA composition measurement" EXACT []
 synonym: "renal ribonucleic acid measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -36876,6 +36931,7 @@ id: CMO:0003925
 name: peripheral nervous system ribonucleic acid composition measurement
 alt_id: CMO:0003359
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the peripheral nervous system is formed or composed." [https://www.merriam-webster.com, UBERON:0000010]
+synonym: "peripheral nervous system ribonucleic acid composition measurement" EXACT []
 synonym: "PNS ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003924 ! peripheral nervous system molecular composition measurement
@@ -37639,40 +37695,6 @@ is_a: CMO:0003916 ! cell ribonucleic acid level
 relationship: part_of CMO:0003346 ! cartilage ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-29T15:26:05Z
-
-[Term]
-id: CMO:0003997
-name: maximim inner diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free saline
-def: "This is an ex vivo measurement of the length of a line which crosses a transverse view of a calcium-free physiological salt solution (PSS)-perfused (80 mmHg equilibrium pressure) middle cerebral artery, passing through its center and ending on either side at the inner surface of the blood vessel wall. The middle cerebral arteries are the largest of the cerebral arteries and supply blood to the lateral cerebral cortex, anterior temporal lobes and insular cortices of the brain." [PMID:26637559]
-synonym: "Dmax" EXACT []
-synonym: "maximim diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free saline" BROAD []
-synonym: "maximim lumen diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free PSS" EXACT []
-synonym: "maximum inner diameter of MCA perfused in calcium-free PSS" EXACT []
-is_a: CMO:0001128 ! middle cerebral artery inner diameter
-created_by: slaulederkind
-creation_date: 2024-06-04T11:15:45Z
-
-[Term]
-id: CMO:0003998
-name: resting inner diameter of middle cerebral artery perfused in bicarbonate-buffered, normal saline
-def: "This is an ex vivo measurement of the length of a line which crosses a transverse view of a saline-perfused (80 mmHg equilibrium pressure) middle cerebral artery, passing through its center and ending on either side at the inner surface of the blood vessel wall. The middle cerebral arteries are the largest of the cerebral arteries and supply blood to the lateral cerebral cortex, anterior temporal lobes and insular cortices of the brain." [PMID:26637559]
-synonym: "Drest" EXACT []
-synonym: "lumen diameter of middle cerebral artery perfused in bicarbonate-buffered, normal saline" EXACT []
-synonym: "resting diameter of middle cerebral artery perfused in bicarbonate-buffered, normal physiological salt solution" EXACT []
-synonym: "resting inner diameter of MCA perfused in normal PSS" EXACT []
-is_a: CMO:0001128 ! middle cerebral artery inner diameter
-created_by: slaulederkind
-creation_date: 2024-06-04T12:15:20Z
-
-[Term]
-id: CMO:0003999
-name: fracture hematoma ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a fracture hematoma, the first stage of healing for a bone fracture. The hematoma formation involves platelet aggregation, activation of the compliment cascade, and local hypoxia following the disruption of vasculature. The area is then invaded by a number of undifferentiated and committed cells resulting in the organisation of hematoma and the formation of granulation tissue." [https://www.merriam-webster.com/, PMID:29047220]
-synonym: "broken bone hematoma ribonucleic acid level" EXACT []
-synonym: "fracture hematoma RNA level" EXACT []
-xref: PMID:35882120
-created_by: slaulederkind
-creation_date: 2024-06-07T14:52:51Z
 
 [Typedef]
 id: part_of

@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.214
-date: 15:06:2024 20:13
+data-version: 2.212
+date: 01:06:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -10710,12 +10710,8 @@ creation_date: 2012-10-23T10:06:14Z
 
 [Term]
 id: CMO:0001190
-name: resting tone of middle cerebral artery
-def: "This is a calculated measurement of the relative difference in the middle cerebral artery inner diameter between a treated, fully relaxed state and a control resting state, expressed as a percentage. This calculated value is given by this equation: [(Dmax - Drest) /Dmax] x 100." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "active resting tone of middle cerebral artery" EXACT []
-synonym: "active tone of MCA" EXACT []
-synonym: "spontaneous resting tone of MCA" EXACT []
-synonym: "tone of middle cerebral artery" EXACT []
+name: percent change in middle cerebral artery inner diameter
+def: "A calculated measurement of the relative difference in the middle cerebral artery inner diameter between a treated state and a control state or between two points in time, expressed as a percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, RGD:JRS]
 is_a: CMO:0001189 ! calculated middle cerebral artery inner diameter measurement
 created_by: JSmith
 creation_date: 2012-10-23T10:09:32Z
@@ -37639,40 +37635,6 @@ is_a: CMO:0003916 ! cell ribonucleic acid level
 relationship: part_of CMO:0003346 ! cartilage ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-29T15:26:05Z
-
-[Term]
-id: CMO:0003997
-name: maximim inner diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free saline
-def: "This is an ex vivo measurement of the length of a line which crosses a transverse view of a calcium-free physiological salt solution (PSS)-perfused (80 mmHg equilibrium pressure) middle cerebral artery, passing through its center and ending on either side at the inner surface of the blood vessel wall. The middle cerebral arteries are the largest of the cerebral arteries and supply blood to the lateral cerebral cortex, anterior temporal lobes and insular cortices of the brain." [PMID:26637559]
-synonym: "Dmax" EXACT []
-synonym: "maximim diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free saline" BROAD []
-synonym: "maximim lumen diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free PSS" EXACT []
-synonym: "maximum inner diameter of MCA perfused in calcium-free PSS" EXACT []
-is_a: CMO:0001128 ! middle cerebral artery inner diameter
-created_by: slaulederkind
-creation_date: 2024-06-04T11:15:45Z
-
-[Term]
-id: CMO:0003998
-name: resting inner diameter of middle cerebral artery perfused in bicarbonate-buffered, normal saline
-def: "This is an ex vivo measurement of the length of a line which crosses a transverse view of a saline-perfused (80 mmHg equilibrium pressure) middle cerebral artery, passing through its center and ending on either side at the inner surface of the blood vessel wall. The middle cerebral arteries are the largest of the cerebral arteries and supply blood to the lateral cerebral cortex, anterior temporal lobes and insular cortices of the brain." [PMID:26637559]
-synonym: "Drest" EXACT []
-synonym: "lumen diameter of middle cerebral artery perfused in bicarbonate-buffered, normal saline" EXACT []
-synonym: "resting diameter of middle cerebral artery perfused in bicarbonate-buffered, normal physiological salt solution" EXACT []
-synonym: "resting inner diameter of MCA perfused in normal PSS" EXACT []
-is_a: CMO:0001128 ! middle cerebral artery inner diameter
-created_by: slaulederkind
-creation_date: 2024-06-04T12:15:20Z
-
-[Term]
-id: CMO:0003999
-name: fracture hematoma ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a fracture hematoma, the first stage of healing for a bone fracture. The hematoma formation involves platelet aggregation, activation of the compliment cascade, and local hypoxia following the disruption of vasculature. The area is then invaded by a number of undifferentiated and committed cells resulting in the organisation of hematoma and the formation of granulation tissue." [https://www.merriam-webster.com/, PMID:29047220]
-synonym: "broken bone hematoma ribonucleic acid level" EXACT []
-synonym: "fracture hematoma RNA level" EXACT []
-xref: PMID:35882120
-created_by: slaulederkind
-creation_date: 2024-06-07T14:52:51Z
 
 [Typedef]
 id: part_of
