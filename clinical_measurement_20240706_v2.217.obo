@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.218
-date: 13:07:2024 20:13
+data-version: 2.217
+date: 06:07:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -10711,9 +10711,10 @@ creation_date: 2012-10-23T10:06:14Z
 [Term]
 id: CMO:0001190
 name: resting tone of middle cerebral artery
-def: "This is a calculated measurement of the relative difference in the middle cerebral artery inner diameter between a treated, fully relaxed state and a control resting state, expressed as a percentage. This calculated value is given by this equation: [(Dmax - Drest) /Dmax] x 100." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "This is a calculated measurement of the relative difference in the inner diameter of a middle cerebral artery (excised) between a maximally dilated state and a control resting state, expressed as a percentage. Active resting tone (%) = [(Dmax - Drest )/Dmax ] x 100 where Dmax is the maximum diameter in calcium-free PSS and Drest is the diameter at the 80 mmHg equilibration pressure in normal saline." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "active resting tone of middle cerebral artery" EXACT []
 synonym: "active tone of MCA" EXACT []
+synonym: "percent change in middle cerebral artery inner diameter" RELATED []
 synonym: "spontaneous resting tone of MCA" EXACT []
 synonym: "tone of middle cerebral artery" EXACT []
 is_a: CMO:0001189 ! calculated middle cerebral artery inner diameter measurement
@@ -30356,17 +30357,19 @@ creation_date: 2019-10-03T16:12:58Z
 
 [Term]
 id: CMO:0003251
-name: skeletal muscle ribonucleic acid composition measurement
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
+name: skeletal muscle ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
+synonym: "skeletal muscle ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0003194 ! skeletal muscle molecular composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:09:06Z
 
 [Term]
 id: CMO:0003252
-name: gastrocnemius ribonucleic acid composition measurement
+name: gastrocnemius ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of gastrocnemius, the most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." []
-is_a: CMO:0003251 ! skeletal muscle ribonucleic acid composition measurement
+synonym: "gastrocnemius ribonucleic acid composition measurement" EXACT []
+is_a: CMO:0003251 ! skeletal muscle ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-10-17T16:13:44Z
 
@@ -30657,7 +30660,7 @@ creation_date: 2019-12-20T11:25:47Z
 [Term]
 id: CMO:0003289
 name: right renal cortex ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003912 ! kidney ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30671,7 +30674,7 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003291
 name: right renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30691,8 +30694,9 @@ creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003294
-name: skeletal muscle of trunk ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+name: skeletal muscle of trunk ribonucleic acid level
+synonym: "skeletal muscle of trunk ribonucleic acid composition measurement" EXACT []
+is_a: CMO:0003251 ! skeletal muscle ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30706,14 +30710,14 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003296
 name: renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003912 ! kidney ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003297
 name: left renal pelvis ribonucleic acid composition measurement
-relationship: part_of CMO:0003912 ! kidney ribonucleic acid composition measurement
+is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -36420,7 +36424,7 @@ creation_date: 2022-02-28T17:05:40Z
 [Term]
 id: CMO:0003880
 name: meconium ileus incidence/prevalence measurement
-def: "Any measurement in which the number of individuals in a study population that display meconium ileuss at a point in time or develop meconium ileus within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
+def: "Any measurement in which the number of individuals in a study population that display meconium ileuss at a point in time or develop meconium ileus within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, MIM:614665]
 synonym: "meconium ileus incidence/prevalence" EXACT []
 is_a: CMO:0002363 ! alimentary/gastrointestinal disease incidence/prevalence measurement
 created_by: slaulede
@@ -36429,7 +36433,7 @@ creation_date: 2022-02-28T17:40:25Z
 [Term]
 id: CMO:0003881
 name: percentage of study population developing meconium ileus during a period of time
-def: "This is the number of new cases of meconium ileus appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
+def: "This is the number of new cases of meconium ileus appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, MIM:614665]
 synonym: "incidence of meconium ileus" EXACT []
 synonym: "meconium ileus incidence" EXACT []
 xref: PMID:32084371
@@ -36746,9 +36750,10 @@ creation_date: 2023-03-13T17:03:59Z
 
 [Term]
 id: CMO:0003912
-name: kidney ribonucleic acid composition measurement
+name: kidney ribonucleic acid level
 alt_id: CMO:0002797
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) that reside in the kidney. Ribonucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose sugar, and a phosphate group. They are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
+synonym: "kidney ribonucleic acid composition measurement" EXACT []
 synonym: "kidney RNA composition measurement" EXACT []
 synonym: "renal ribonucleic acid measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -36763,7 +36768,7 @@ def: "This is the measurement of the amount of messenger ribonucleic acid (mRNA)
 synonym: "kidney messenger ribonucleic acid level" EXACT []
 synonym: "kidney messenger RNA level" EXACT []
 synonym: "renal mRNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
+is_a: CMO:0003912 ! kidney ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-03-13T17:18:54Z
 
@@ -37671,6 +37676,7 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "broken bone hematoma ribonucleic acid level" EXACT []
 synonym: "fracture hematoma RNA level" EXACT []
 xref: PMID:35882120
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-06-07T14:52:51Z
 
