@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.219
-date: 20:07:2024 20:13
+data-version: 2.218
+date: 13:07:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -10711,10 +10711,9 @@ creation_date: 2012-10-23T10:06:14Z
 [Term]
 id: CMO:0001190
 name: resting tone of middle cerebral artery
-def: "This is a calculated measurement of the relative difference in the inner diameter of a middle cerebral artery (excised) between a maximally dilated state and a control resting state, expressed as a percentage. Active resting tone (%) = [(Dmax - Drest )/Dmax ] x 100 where Dmax is the maximum diameter in calcium-free PSS and Drest is the diameter at the 80 mmHg equilibration pressure in normal saline." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "This is a calculated measurement of the relative difference in the middle cerebral artery inner diameter between a treated, fully relaxed state and a control resting state, expressed as a percentage. This calculated value is given by this equation: [(Dmax - Drest) /Dmax] x 100." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "active resting tone of middle cerebral artery" EXACT []
 synonym: "active tone of MCA" EXACT []
-synonym: "percent change in middle cerebral artery inner diameter" RELATED []
 synonym: "spontaneous resting tone of MCA" EXACT []
 synonym: "tone of middle cerebral artery" EXACT []
 is_a: CMO:0001189 ! calculated middle cerebral artery inner diameter measurement
@@ -26370,9 +26369,8 @@ creation_date: 2018-09-28T17:35:30Z
 
 [Term]
 id: CMO:0002794
-name: adrenal gland ribonucleic acid level
+name: adrenal gland ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNA) of which the tissue of the adrenal gland is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "adrenal gland ribonucleic acid composition measurement" EXACT []
 synonym: "adrenal gland RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
@@ -26409,21 +26407,18 @@ creation_date: 2018-09-28T17:56:04Z
 
 [Term]
 id: CMO:0002798
-name: lung ribonucleic acid level
+name: lung ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the lung is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "lung ribonucleic acid composition measurement" EXACT []
-synonym: "lung RNA level" EXACT []
+synonym: "lung RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T17:58:33Z
 
 [Term]
 id: CMO:0002799
-name: muscle ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in muscle tissue." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "muscle ribonucleic acid composition measurement" EXACT []
+name: muscle ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which muscle tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "muscle RNA composition measurement" EXACT []
-synonym: "Not4Curation" RELATED []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T18:00:11Z
@@ -26457,12 +26452,9 @@ creation_date: 2018-09-28T18:05:11Z
 
 [Term]
 id: CMO:0002803
-name: uterus ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the uterus, the muscular, female organ of gestation in which the developing embryo or fetus is nourished until birth." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, UBERON:0000995]
-synonym: "uterine ribonucleic acid level" EXACT []
-synonym: "uterus ribonucleic acid composition measurement" EXACT []
+name: uterus ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the uterus is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "uterus RNA composition measurement" EXACT []
-synonym: "uterus RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T18:06:48Z
@@ -30364,19 +30356,17 @@ creation_date: 2019-10-03T16:12:58Z
 
 [Term]
 id: CMO:0003251
-name: skeletal muscle ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
-synonym: "skeletal muscle ribonucleic acid composition measurement" EXACT []
+name: skeletal muscle ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
 is_a: CMO:0003194 ! skeletal muscle molecular composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:09:06Z
 
 [Term]
 id: CMO:0003252
-name: gastrocnemius ribonucleic acid level
+name: gastrocnemius ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of gastrocnemius, the most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." []
-synonym: "gastrocnemius ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003251 ! skeletal muscle ribonucleic acid level
+is_a: CMO:0003251 ! skeletal muscle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:13:44Z
 
@@ -30390,11 +30380,9 @@ creation_date: 2019-10-17T16:16:27Z
 
 [Term]
 id: CMO:0003254
-name: colon ribonucleic acid level
+name: colon ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which colon tissue is formed or composed." []
-synonym: "colon ribonucleic acid composition measurement" EXACT []
-synonym: "colon RNA level" EXACT []
-is_a: CMO:0003290 ! large intestine ribonucleic acid level
+is_a: CMO:0003290 ! large intestine ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:18:33Z
 
@@ -30411,10 +30399,7 @@ creation_date: 2019-11-19T12:00:23Z
 
 [Term]
 id: CMO:0003256
-name: appendix ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vermiform appendix, a blind-ended tube connected to the cecum, from which it develops embryologically." [UBERON:0001154]
-synonym: "appendix ribonucleic acid composition measurement" EXACT []
-synonym: "vermiform appendix ribonucleic acid level" EXACT []
+name: appendix ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:04:48Z
@@ -30443,10 +30428,8 @@ creation_date: 2019-11-19T12:15:01Z
 
 [Term]
 id: CMO:0003260
-name: smooth muscle ribonucleic acid level
-synonym: "smooth muscle ribonucleic acid composition measurement" EXACT []
-synonym: "smooth muscle RNA level" EXACT []
-is_a: CMO:0002799 ! muscle ribonucleic acid level
+name: smooth muscle ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:21:49Z
 
@@ -30480,9 +30463,7 @@ creation_date: 2019-11-19T12:39:24Z
 
 [Term]
 id: CMO:0003265
-name: placenta ribonucleic acid level
-synonym: "placenta ribonucleic acid composition measurement" EXACT []
-synonym: "placenta RNA level" EXACT []
+name: placenta ribonucleic acid composition measurement
 is_a: CMO:0002086 ! placenta morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -30526,8 +30507,7 @@ creation_date: 2019-11-19T13:02:13Z
 
 [Term]
 id: CMO:0003271
-name: bone marrow ribonucleic acid level
-synonym: "bone marrow ribonucleic acid composition measurement" EXACT []
+name: bone marrow ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:13:09Z
@@ -30548,17 +30528,16 @@ creation_date: 2019-11-19T13:19:13Z
 
 [Term]
 id: CMO:0003274
-name: white blood cell ribonucleic acid level
-synonym: "white blood cell ribonucleic acid composition measurement" EXACT []
+name: white blood cell ribonucleic acid composition measurement
 is_a: CMO:0002341 ! white blood cell measurement
-relationship: part_of CMO:0003337 ! blood ribonucleic acid level
+is_a: CMO:0003337 ! blood ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:23:57Z
 
 [Term]
 id: CMO:0003275
 name: mammary organ ribonucleic acid composition measurement
-is_obsolete: true
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:29:32Z
 
@@ -30678,15 +30657,13 @@ creation_date: 2019-12-20T11:25:47Z
 [Term]
 id: CMO:0003289
 name: right renal cortex ribonucleic acid composition measurement
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003290
-name: large intestine ribonucleic acid level
-synonym: "large intestine ribonucleic acid composition measurement" EXACT []
-synonym: "large intestine RNA level" EXACT []
+name: large intestine ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
@@ -30694,37 +30671,28 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003291
 name: right renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003292
-name: arm muscle ribonucleic acid level
-synonym: "arm muscle RNA level" EXACT []
-synonym: "forelimb muscle ribonucleic acid level" EXACT []
-synonym: "muscle of arm ribonucleic acid composition measurement" EXACT []
-synonym: "upper limb skeletal muscle ribonucleic acid level" EXACT []
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
+name: muscle of arm ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003293
-name: leg muscle ribonucleic acid level
-synonym: "hindlimb muscle ribonucleic acid level" EXACT []
-synonym: "lower extremity muscle ribonucleic acid level" EXACT []
-synonym: "muscle of leg ribonucleic acid composition measurement" EXACT []
-synonym: "muscle of leg ribonucleic acid level" EXACT []
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
+name: muscle of leg ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003294
-name: skeletal muscle of trunk ribonucleic acid level
-synonym: "skeletal muscle of trunk ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003251 ! skeletal muscle ribonucleic acid level
+name: skeletal muscle of trunk ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30738,14 +30706,14 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003296
 name: renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003297
 name: left renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
+relationship: part_of CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30935,10 +30903,8 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003323
-name: globus pallidus ribonucleic acid level
-synonym: "globus pallidus ribonucleic acid composition measurement" EXACT []
-synonym: "globus pallidus RNA level" EXACT []
-is_a: CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+name: globus pallidus ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30954,10 +30920,8 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003325
-name: locus ceruleus ribonucleic acid level
-synonym: "locus ceruleus ribonucleic acid composition measurement" EXACT []
-synonym: "locus ceruleus RNA level" EXACT []
-relationship: part_of CMO:0003373 ! hindbrain without cerebellum ribonucleic acid composition measurement
+name: locus ceruleus ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30991,12 +30955,8 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003330
-name: uterine cervix ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the uterine cervix, the lower, narrow portion of the uterus where it joins with the top end of the vagina." [https://www.merriam-webster.com, UBERON:0000002]
-synonym: "uterine cervical RNA level" EXACT []
-synonym: "uterine cervix ribonucleic acid composition measurement" EXACT []
-synonym: "uterine cervix RNA level" EXACT []
-is_a: CMO:0002803 ! uterus ribonucleic acid level
+name: uterine cervix ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31044,8 +31004,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003337
-name: blood ribonucleic acid level
-synonym: "blood ribonucleic acid composition measurement" EXACT []
+name: blood ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T10:59:26Z
@@ -31121,8 +31080,7 @@ creation_date: 2020-01-15T10:42:18Z
 
 [Term]
 id: CMO:0003347
-name: chordate pharynx ribonucleic acid level
-synonym: "chordate pharynx ribonucleic acid composition measurement" EXACT []
+name: chordate pharynx ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
@@ -31143,8 +31101,7 @@ creation_date: 2020-01-15T10:43:10Z
 
 [Term]
 id: CMO:0003350
-name: bone tissue ribonucleic acid level
-synonym: "bone tissue ribonucleic acid composition measurement" EXACT []
+name: bone tissue ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
@@ -31158,10 +31115,7 @@ creation_date: 2020-01-15T15:26:31Z
 
 [Term]
 id: CMO:0003353
-name: cecum ribonucleic acid level
-synonym: "caecum ribonucleic acid composition measurement" EXACT []
-synonym: "caecum ribonucleic acid level" EXACT []
-synonym: "cecum ribonucleic acid composition measurement" EXACT []
+name: caecum ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:40:22Z
@@ -31182,9 +31136,7 @@ creation_date: 2020-01-16T08:03:38Z
 
 [Term]
 id: CMO:0003356
-name: connective tissue ribonucleic acid level
-synonym: "connective tissue ribonucleic acid composition measurement" EXACT []
-synonym: "connective tissue RNA level" EXACT []
+name: connective tissue ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:04:10Z
@@ -31198,8 +31150,7 @@ creation_date: 2020-01-16T08:04:35Z
 
 [Term]
 id: CMO:0003358
-name: bile duct ribonucleic acid level
-synonym: "bile duct ribonucleic acid composition measurement" EXACT []
+name: bile duct ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:05:00Z
@@ -31227,13 +31178,8 @@ creation_date: 2020-01-17T07:53:22Z
 
 [Term]
 id: CMO:0003362
-name: skeletal muscle ribonucleic acid level
-synonym: "musculature ribonucleic acid composition measurement" EXACT []
-synonym: "musculature RNA level" EXACT []
-synonym: "Not4Curation" RELATED []
-synonym: "skeletal muscle RNA level" EXACT []
-synonym: "skeletal muscle tissue RNA level" EXACT []
-is_a: CMO:0002799 ! muscle ribonucleic acid level
+name: musculature ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T08:19:34Z
 
@@ -31246,9 +31192,7 @@ creation_date: 2020-01-17T09:01:21Z
 
 [Term]
 id: CMO:0003364
-name: basal ganglion ribonucleic acid level
-synonym: "basal ganglion ribonucleic acid composition measurement" EXACT []
-synonym: "basal ganglion RNA level" EXACT []
+name: basal ganglion ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:01:49Z
@@ -31321,10 +31265,8 @@ creation_date: 2020-01-17T09:06:07Z
 
 [Term]
 id: CMO:0003374
-name: venous blood ribonucleic acid level
-synonym: "venous blood ribonucleic acid composition measurement" EXACT []
-synonym: "venous blood RNA level" EXACT []
-is_a: CMO:0003337 ! blood ribonucleic acid level
+name: venous blood ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T12:28:10Z
 
@@ -31377,7 +31319,7 @@ id: CMO:0003380
 name: lung alveolus ribonucleic acid composition measurement
 synonym: "alveolus of lung ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0002299
-is_a: CMO:0002798 ! lung ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:18:50Z
 
@@ -36478,7 +36420,7 @@ creation_date: 2022-02-28T17:05:40Z
 [Term]
 id: CMO:0003880
 name: meconium ileus incidence/prevalence measurement
-def: "Any measurement in which the number of individuals in a study population that display meconium ileuss at a point in time or develop meconium ileus within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, MIM:614665]
+def: "Any measurement in which the number of individuals in a study population that display meconium ileuss at a point in time or develop meconium ileus within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
 synonym: "meconium ileus incidence/prevalence" EXACT []
 is_a: CMO:0002363 ! alimentary/gastrointestinal disease incidence/prevalence measurement
 created_by: slaulede
@@ -36487,7 +36429,7 @@ creation_date: 2022-02-28T17:40:25Z
 [Term]
 id: CMO:0003881
 name: percentage of study population developing meconium ileus during a period of time
-def: "This is the number of new cases of meconium ileus appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, MIM:614665]
+def: "This is the number of new cases of meconium ileus appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
 synonym: "incidence of meconium ileus" EXACT []
 synonym: "meconium ileus incidence" EXACT []
 xref: PMID:32084371
@@ -36804,10 +36746,9 @@ creation_date: 2023-03-13T17:03:59Z
 
 [Term]
 id: CMO:0003912
-name: kidney ribonucleic acid level
+name: kidney ribonucleic acid composition measurement
 alt_id: CMO:0002797
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) that reside in the kidney. Ribonucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose sugar, and a phosphate group. They are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
-synonym: "kidney ribonucleic acid composition measurement" EXACT []
 synonym: "kidney RNA composition measurement" EXACT []
 synonym: "renal ribonucleic acid measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -36822,7 +36763,7 @@ def: "This is the measurement of the amount of messenger ribonucleic acid (mRNA)
 synonym: "kidney messenger ribonucleic acid level" EXACT []
 synonym: "kidney messenger RNA level" EXACT []
 synonym: "renal mRNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-03-13T17:18:54Z
 
@@ -36849,8 +36790,8 @@ name: cell ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
 synonym: "cell RNA composition measurement" EXACT []
 synonym: "Not4Curation" EXACT []
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003915 ! cell molecular composition measurement
-relationship: part_of CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-04-03T17:06:23Z
 
@@ -37322,11 +37263,10 @@ creation_date: 2023-09-29T15:17:14Z
 
 [Term]
 id: CMO:0003963
-name: CD4+ lymphocyte ribonucleic acid level
+name: CD4+ lymphocyte ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in CD4+ lymphocytes. CD4 is a membrane glycoprotein found primarily on T lymphocytes, but also can be expressed on B cells, macrophages, and granulocytes. On T cells it is a co-receptor for the T cell receptor (TCR), interacts with MHC class II antigens, and functions to initiate or augment the early phase of T-cell activation." [http://en.wikipedia.org/wiki/CD4]
-synonym: "CD4(+) lymphocyte ribonucleic acid composition measurement" EXACT []
-synonym: "CD4+ lymphocyte ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003274 ! white blood cell ribonucleic acid level
+synonym: "CD4(+) llymphocyte ribonucleic acid composition measurement" EXACT []
+is_a: CMO:0003274 ! white blood cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-10-03T12:41:58Z
 
@@ -37394,7 +37334,7 @@ creation_date: 2023-11-07T12:56:25Z
 [Term]
 id: CMO:0003969
 name: trigeminal ganglion ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of the trigeminal ganglion, the cranial ganglion that is associated with and extends fibers into the trigeminal nerve." [ISBN-13:9780781733908, UBERON:0001675]
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the trigeminal ganglion is composed." [ISBN-13:9780781733908, UBERON:0001675]
 synonym: "trigeminal ganglion RNA level" EXACT []
 is_a: CMO:0001232 ! nervous system measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -37439,7 +37379,7 @@ name: tendon ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in tendon, the fibrous bands or cords of connective tissue at the ends of muscle fibers that attach muscles to bones and other structures." [ISBN-13:978-1455756438, MESH:D013710]
 xref: PMID:37021050
 xref: UBERON:0000043
-is_a: CMO:0003356 ! connective tissue ribonucleic acid level
+is_a: CMO:0003356 ! connective tissue ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2023-11-14T17:28:42Z
 
@@ -37480,10 +37420,8 @@ creation_date: 2024-03-01T12:51:34Z
 [Term]
 id: CMO:0003977
 name: mammary gland ribonucleic acid level
-alt_id: CMO:0003275
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mammary gland, the specialized exocrine gland of the skin of female mammals, which secretes milk for nourishment of the young." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "mammary gland ribonucleic acid composition measurement" EXACT []
-synonym: "mammary organ ribonucleic acid composition measurement" BROAD []
 xref: PMID:36733943
 is_a: CMO:0001083 ! mammary gland morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -37733,105 +37671,8 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "broken bone hematoma ribonucleic acid level" EXACT []
 synonym: "fracture hematoma RNA level" EXACT []
 xref: PMID:35882120
-is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-06-07T14:52:51Z
-
-[Term]
-id: CMO:0004000
-name: neoplastic tissue ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified neoplastic tissue." [https://www.merriam-webster.com, ISBN-13:978-1455756438]
-synonym: "neoplasm ribonucleic acid level" EXACT []
-synonym: "Not4Curation" RELATED []
-synonym: "tumorous tissue ribonucleic acid level" EXACT []
-synonym: "tumor ribonucleic acid level" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-07-15T13:56:15Z
-
-[Term]
-id: CMO:0004001
-name: malignant, neoplastic tissue ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified malignant, neoplastic tissue." [https://www.merriam-webster.com, ISBN-13:978-1455756438]
-synonym: "cancerous neoplastic tissue ribonucleic acid level" EXACT []
-synonym: "cancerous tissue ribonucleic acid level" EXACT []
-synonym: "cancerous tumor ribonucleic acid level" EXACT []
-synonym: "cancer ribonucleic acid level" EXACT []
-synonym: "malignant neoplasm ribonucleic acid level" EXACT []
-synonym: "malignant, neoplastic tissue ribonucleic acid composition measurement" EXACT []
-synonym: "malignant tissue ribonucleic acid level" EXACT []
-synonym: "Not4Curation" RELATED []
-is_a: CMO:0004000 ! neoplastic tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-07-15T14:03:17Z
-
-[Term]
-id: CMO:0004002
-name: benign, neoplastic tissue ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified benign, neoplastic tissue." [https://www.merriam-webster.com, ISBN-13:978-1455756438]
-synonym: "benign neoplasm ribonucleic acid level" EXACT []
-synonym: "benign, neoplastic tissue ribonucleic acid composition measurement" EXACT []
-synonym: "benign tumor ribonucleic acid level" EXACT []
-synonym: "noncancerous, neoplastic tissue ribonucleic acid level" EXACT []
-synonym: "noncancerous tumor ribonucleic acid level" EXACT []
-synonym: "Not4Curation" RELATED []
-is_a: CMO:0004000 ! neoplastic tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-07-15T14:17:20Z
-
-[Term]
-id: CMO:0004003
-name: endometrium ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the endometrium, the glandular mucous membrane lining of the uterine cavity that is hormonally responsive during the estrous/menstrual cycle and during pregnancy." [https://www.merriam-webster.com, UBERON:0001295]
-synonym: "endometrial RNA level" EXACT []
-synonym: "endometrium ribonucleic acid level" EXACT []
-synonym: "endometrium RNA level" EXACT []
-synonym: "tunica mucosa RNA level" EXACT []
-synonym: "uterine endometrium RNA level" EXACT []
-is_a: CMO:0002803 ! uterus ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-07-16T13:04:28Z
-
-[Term]
-id: CMO:0004004
-name: endometrial cancer ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a malignant tumor of the endometrium, the glandular mucous membrane lining of the uterine cavity that is hormonally responsive during the estrous/menstrual cycle and during pregnancy." [DOID:1380, https://www.merriam-webster.com]
-synonym: "endometrial cancer RNA level" EXACT []
-synonym: "endometrial, malignant neoplasm ribonucleic acid level" EXACT []
-synonym: "endometrial, malignant, neoplastic tissue ribonucleic acid level" EXACT []
-synonym: "endometrial, malignant tumor ribonucleic acid level" EXACT []
-synonym: "endometrium cancer ribonucleic acid level" EXACT []
-is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
-is_a: CMO:0004003 ! endometrium ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-07-16T13:27:27Z
-
-[Term]
-id: CMO:0004005
-name: mammary gland ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mammary gland(s), a specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males." [https://www.merriam-webster.com, UBERON:0001911]
-synonym: "breast mammary gland" NARROW []
-synonym: "lactiferous gland" EXACT []
-synonym: "thoracic mammary gland" NARROW []
-is_a: CMO:0003255 ! skin ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-07-16T13:53:12Z
-
-[Term]
-id: CMO:0004006
-name: mammary gland cancer ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a malignant tumor of the mammary gland(s), a specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males." [https://www.merriam-webster.com, UBERON:0001911]
-synonym: "breast cancer ribonucleic acid level" NARROW []
-synonym: "malignant breast neoplasm RNA level" NARROW []
-synonym: "malignant breast tumor RNA level" NARROW []
-synonym: "mammary gland cancer RNA level" EXACT []
-synonym: "mammary gland malignant neoplasm RNA level" EXACT []
-synonym: "mammary gland malignant tumor RNA level" EXACT []
-synonym: "N-methyl-N-nitrosourea (MNU)-induced mammary tumor RNA level" NARROW []
-is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
-is_a: CMO:0004005 ! mammary gland ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-07-16T16:11:00Z
 
 [Typedef]
 id: part_of
