@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.221
-date: 03:08:2024 20:13
+data-version: 2.220
+date: 27:07:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -915,7 +915,6 @@ id: CMO:0000111
 name: blood granulocyte count
 def: "The number of granulocytes (polymorphonuclear leukocytes) in a specified volume of blood, usually 1 cubic millimeter." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "granulocyte count" EXACT []
-xref: EFO:0005090
 xref: EFO:0007987
 is_a: CMO:0000366 ! blood differential white blood cell count
 created_by: mshimoyama
@@ -2260,7 +2259,6 @@ id: CMO:0000257
 name: urine specific gravity
 def: "This calculated measurement is the ratio of the density of urine to the density of water at a given temperature and pressure." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "urine density" RELATED []
-xref: EFO:0010135
 is_a: CMO:0000256 ! urine measurement
 created_by: mshimoyama
 creation_date: 2010-06-17T12:27:01Z
@@ -2391,7 +2389,6 @@ creation_date: 2010-06-17T12:41:26Z
 id: CMO:0000272
 name: S wave amplitude
 def: "The magnitude of the S wave, the downward deflection of the QRS complex following the R wave representing late depolarization of the ventricles as illustrated in an electrocardiograph." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-xref: EFO:0007740
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: mshimoyama
 creation_date: 2010-06-17T12:41:54Z
@@ -2440,7 +2437,6 @@ id: CMO:0000278
 name: PP interval
 def: "An interval measured from the onset of the P wave in one PQRST wave complex to the onset of the P wave in the following PQRST wave complex." [http://en.wikipedia.org/wiki/ECG "Wikipedia"]
 synonym: "PP_Interval" RELATED [ECGOntology:ECG_000000011]
-xref: EFO:0600085
 is_a: CMO:0000230 ! heart electrical conduction measurement
 created_by: mshimoyama
 creation_date: 2010-06-17T03:09:47Z
@@ -5967,7 +5963,7 @@ creation_date: 2012-02-15T05:25:02Z
 [Term]
 id: CMO:0000677
 name: organ lesion measurement
-def: "Measurement of a lesion in an organ. A lesion is a localized pathological change in the structure of an organ or tissue due to injury or disease; especially one that is circumscribed and well defined." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, RGD:JRS]
+def: "Measurement of a lesion in an organ. A lesion is a localized pathological change in structure of an organ or tissue due to injury or disease; especially one that is circumscribed and well defined." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, RGD:JRS]
 synonym: "tissue damage measurement" RELATED []
 is_a: CMO:0000669 ! organ measurement
 created_by: JSmith
@@ -7563,7 +7559,7 @@ creation_date: 2012-06-26T10:36:43Z
 [Term]
 id: CMO:0000859
 name: organ tumorous lesion measurement
-def: "Measurement of an organ lesion which is a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "This is a measurement of an organ lesion which is a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "Not4Curation" RELATED []
 synonym: "organ tumor measurement" EXACT []
 is_a: CMO:0000677 ! organ lesion measurement
@@ -8081,7 +8077,7 @@ creation_date: 2012-07-11T11:20:13Z
 [Term]
 id: CMO:0000913
 name: brain tumorous lesion measurement
-def: "Measurement of a brain lesion which is a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "This is a measurement of a tumor in or on the brain, that is a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive." [https://www.merriam-webster.com "Multiple_Dictionaries", ISBN-13:978-1455756438]
 synonym: "brain tumor measurement" EXACT []
 is_a: CMO:0000859 ! organ tumorous lesion measurement
 is_a: CMO:0000910 ! brain lesion measurement
@@ -10170,7 +10166,7 @@ synonym: "calculated kidney glomerulosclerosis measurement" RELATED []
 synonym: "calculated renal glomerulosclerosis measurement" RELATED []
 synonym: "calculated renal glomerulosclerotic lesion measurement" RELATED []
 is_a: CMO:0001133 ! kidney glomerulosclerotic lesion measurement
-is_a: CMO:0001257 ! calculated kidney fibrotic lesion area measurement
+is_a: CMO:0002378 ! calculated kidney non-tumorous lesion measurement
 created_by: JSmith
 creation_date: 2012-10-08T03:43:25Z
 
@@ -10718,10 +10714,9 @@ creation_date: 2012-10-23T10:06:14Z
 [Term]
 id: CMO:0001190
 name: resting tone of middle cerebral artery
-def: "This is a calculated measurement of the relative difference in the inner diameter of a middle cerebral artery (excised) between a maximally dilated state and a control resting state, expressed as a percentage. Active resting tone (%) = [(Dmax - Drest )/Dmax ] x 100 where Dmax is the maximum diameter in calcium-free PSS and Drest is the diameter at the 80 mmHg equilibration pressure in normal saline." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "This is a calculated measurement of the relative difference in the middle cerebral artery inner diameter between a treated, fully relaxed state and a control resting state, expressed as a percentage. This calculated value is given by this equation: [(Dmax - Drest) /Dmax] x 100." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "active resting tone of middle cerebral artery" EXACT []
 synonym: "active tone of MCA" EXACT []
-synonym: "percent change in middle cerebral artery inner diameter" RELATED []
 synonym: "spontaneous resting tone of MCA" EXACT []
 synonym: "tone of middle cerebral artery" EXACT []
 is_a: CMO:0001189 ! calculated middle cerebral artery inner diameter measurement
@@ -11349,9 +11344,9 @@ creation_date: 2013-01-08T15:17:52Z
 
 [Term]
 id: CMO:0001258
-name: kidney fibrotic lesion cross-sectional area to total kidney cross-sectional area ratio
-def: "This is a calculated value in which the extent of the cross-sectional, two-dimensional area occupied by fibrotic lesions in the kidney is divided by the total extent of the cross-sectional, two-dimensional area of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the whole kidney. These measurements come from representative microscopic images." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-is_obsolete: true
+name: kidney fibrotic lesion area to total kidney area ratio
+def: "A calculated value in which the extent of the two-dimensional surface occupied by fibrotic lesions is divided by the total extent of the two-dimensional surface of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: CMO:0001257 ! calculated kidney fibrotic lesion area measurement
 created_by: JSmith
 creation_date: 2013-01-08T15:20:55Z
 
@@ -11402,7 +11397,7 @@ creation_date: 2013-01-08T15:46:07Z
 [Term]
 id: CMO:0001264
 name: percentage of study population developing bilateral testis tumors during a period of time
-def: "The number of new cases of individuals developing tumors in both testes appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "The number of new cases of individuals developing tumors in both testes in a study population during a certain period of time compared to the total number of individuals in the study population, expressed as a percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "bilateral testis tumor incidence" RELATED []
 is_a: CMO:0001261 ! percentage of study population developing testis tumors during a period of time
 is_a: CMO:0001263 ! bilateral testis tumor incidence/prevalence measurement
@@ -15506,7 +15501,7 @@ creation_date: 2013-07-09T17:41:58Z
 [Term]
 id: CMO:0001694
 name: calculated femur cross-sectional area
-def: "This is any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the extent of a plane through, that is, perpendicular to the longest axis of, the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the extent of a plane through, that is, perpendicular to the longest axis of, the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: CMO:0001661 ! femur cross-sectional area
 is_a: CMO:0001682 ! calculated bone cross-sectional area measurement
 created_by: JSmith
@@ -15542,7 +15537,7 @@ creation_date: 2013-07-10T12:51:05Z
 [Term]
 id: CMO:0001698
 name: calculated femoral neck cross-sectional area
-def: "This is any measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the extent of a plane through, that is, perpendicular to the longest axis of the femoral neck, a flattened pyramidal process of bone, connecting the femoral head with the femoral shaft. The femur is the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [http://en.wikipedia.org/wiki/Femur_neck "Wikipedia", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the extent of a plane through, that is, perpendicular to the longest axis of, the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [http://en.wikipedia.org/wiki/Femur_neck "Wikipedia", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: CMO:0001694 ! calculated femur cross-sectional area
 is_a: CMO:0001697 ! femoral neck cross-sectional area
 created_by: JSmith
@@ -16878,7 +16873,7 @@ creation_date: 2013-10-15T14:50:35Z
 [Term]
 id: CMO:0001826
 name: parasitic infection severity measurement
-def: "This is any measurement of the degree to which infection by or the presence of a parasite has caused pain or damage, or of the degree to which a parasite has established lesions or infectious colonies, and/or taken over or interfered with the normal functioning of the body as a whole, or of one or more organs, tissues, cells or subcellular mechanisms of an organism. An infection is invasion and multiplication of invasive organisms (e.g., bacteria, viruses, or parasites) in body tissues, especially that causing local cellular injury due to competitive metabolism, toxins, intracellular replication, or antigen-antibody response. A parasite is an organism that grows, feeds, and is sheltered on or in a different organism while contributing nothing to the survival of its host and possibly causing damage to that host." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
+def: "This is any measurement of the degree to which infection by or the presence of a parasite has caused pain or damage, or of the degree to which a parasite has established lesions or infectious colonies, and/or taken over or interfered with the normal functioning of the body as a whole, or of one or more organs, tissues, cells or subcellular mechanisms of an organism. A parasitic infection is the invasion and colonization of one or more tissues in the body by a parasite, an organism that grows, feeds, and is sheltered on or in a different organism while contributing nothing to the survival of its host and possibly causing damage to that host." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 is_a: CMO:0001825 ! infection severity measurement
 created_by: JSmith
 creation_date: 2013-10-15T14:57:27Z
@@ -20142,7 +20137,7 @@ creation_date: 2014-01-31T13:50:53Z
 [Term]
 id: CMO:0002159
 name: urine potassium excretion rate to body weight ratio
-def: "This is a calculated measurement in which urine potassium excretion rate is divided by the total weight of the body, i.e., the heaviness or the degree to which the body of the organism is drawn toward the earth by gravity, and presented as a ratio, fraction, quotient or percentage. Urine potassium excretion rate is the amount of potassium, the chemical element with atomic number 19, discharged in the urine, the fluid waste product separated and discharged by the kidneys, per unit time." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A calculated measurement in which urine sodium excretion rate is divided by the total weight of the body, i.e., the heaviness or the degree to which the body of the organism is drawn toward the earth by gravity, and presented as a ratio, fraction, quotient or percentage. Urine sodium excretion rate is the amount of sodium, the chemical element with atomic number 11, discharged in the urine, the fluid waste product separated and discharged by the kidneys, per unit time." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: CMO:0000761 ! urine potassium excretion rate
 is_a: CMO:0002160 ! calculated urine electrolyte excretion rate
 created_by: JSmith
@@ -22532,7 +22527,6 @@ creation_date: 2014-05-28T12:04:48Z
 [Term]
 id: CMO:0002399
 name: serum globulin level
-alt_id: CMO:0000660
 def: "Measurement of the amount of globulins, a broad category of plasma proteins, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "serum non-albumin protein measurement" EXACT []
 xref: EFO:0004568
@@ -22551,7 +22545,6 @@ creation_date: 2014-05-28T12:08:40Z
 [Term]
 id: CMO:0002401
 name: plasma globulin level
-alt_id: CMO:0000055
 def: "Measurement of the amount of globulins, a broad category of plasma proteins, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_a: CMO:0002398 ! blood globulin level
 created_by: JSmith
@@ -26379,9 +26372,8 @@ creation_date: 2018-09-28T17:35:30Z
 
 [Term]
 id: CMO:0002794
-name: adrenal gland ribonucleic acid level
+name: adrenal gland ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNA) of which the tissue of the adrenal gland is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "adrenal gland ribonucleic acid composition measurement" EXACT []
 synonym: "adrenal gland RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
@@ -26418,9 +26410,9 @@ creation_date: 2018-09-28T17:56:04Z
 
 [Term]
 id: CMO:0002798
-name: lung ribonucleic acid level
+name: lung ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the lung is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "lung ribonucleic acid composition measurement" EXACT []
+synonym: "lung RNA composition measurement" EXACT []
 synonym: "lung RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
@@ -26428,9 +26420,8 @@ creation_date: 2018-09-28T17:58:33Z
 
 [Term]
 id: CMO:0002799
-name: muscle ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in muscle tissue." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "muscle ribonucleic acid composition measurement" EXACT []
+name: muscle ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which muscle tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "muscle RNA composition measurement" EXACT []
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -26466,10 +26457,9 @@ creation_date: 2018-09-28T18:05:11Z
 
 [Term]
 id: CMO:0002803
-name: uterus ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the uterus, the muscular, female organ of gestation in which the developing embryo or fetus is nourished until birth." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, UBERON:0000995]
+name: uterus ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the uterus is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "uterine ribonucleic acid level" EXACT []
-synonym: "uterus ribonucleic acid composition measurement" EXACT []
 synonym: "uterus RNA composition measurement" EXACT []
 synonym: "uterus RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -29652,8 +29642,8 @@ creation_date: 2019-05-22T11:44:04Z
 
 [Term]
 id: CMO:0003170
-name: apparent influx permeability of verapamil in brain
-def: "This is a measurement of the apparent rate at which verapamil leaves plasma and crosses into the brain. Commonly, it is determined as volume per unit time per mass of brain tissue." [https://ncit.nci.nih.gov/ncitbrowser/pages/message.jsf "NCI Thesaurus"]
+name: verapamil apparent influx permeability clearance in brain
+def: "A fractional rate by which tracer leaves plasma and is trapped in brain. Commonly it is obtained from the slope of a Patlak plot, where it is the increase in tissue activity concentration normalized by plasma activity concentration that occurs in a unit of time." [https://ncit.nci.nih.gov/ncitbrowser/pages/message.jsf "NCI Thesaurus"]
 synonym: "influx rate constant, brain" BROAD []
 synonym: "Kin, brain" BROAD []
 xref: PMID:24985475
@@ -29692,28 +29682,30 @@ creation_date: 2019-05-22T15:23:45Z
 
 [Term]
 id: CMO:0003174
-name: distribution volume of verapamil in brain
-def: "This is the apparent volume in the brain occupied by exogenously delivered verapamil at the time point when the compound reaches steady state levels." [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus"]
-synonym: "brain Vi of verapamil" EXACT []
+name: verapamil equilibrated distribution volume in brain
+def: "The apparent volume occupied by an exogenous compound during the time point when the plasma concentration of the compound reaches steady state levels in the brain" [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus"]
+synonym: "Steady State Volume of Distribution" EXACT []
+synonym: "Vt" RELATED []
 is_a: CMO:0003171 ! blood verapamil metabolism measurement
 created_by: sjwang
 creation_date: 2019-05-22T15:46:03Z
 
 [Term]
 id: CMO:0003175
-name: distribution volume of verapamil in retina
-def: "This is a measurement of the apparent volume in the retina occupied by exogenously delivered verapamil at the time point when the compound reaches steady state levels." [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus"]
-synonym: "retinal Vi of verapamil" EXACT []
-synonym: "retina Vi of verapamil" EXACT []
+name: verapamil equilibrated distribution volume  in retina
+def: "The apparent volume occupied by an exogenous compound during the time point when the plasma concentration of the compound reaches steady state levels in the retina." [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus"]
+synonym: "Steady State Volume of Distribution" EXACT []
+synonym: "Vt" RELATED []
 is_a: CMO:0003171 ! blood verapamil metabolism measurement
 created_by: sjwang
 creation_date: 2019-05-22T15:50:17Z
 
 [Term]
 id: CMO:0003176
-name: distribution volume of verapamil in aqueous humor
-def: "This is a measurement of the apparent volume in aqueous humor occupied by exogenously delivered verapamil at the time point when the compound reaches steady state levels." [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus"]
-synonym: "aqueous humor Vi of verapamil" RELATED []
+name: verapamil equilibrated distribution volume in aqueous humor
+def: "The apparent volume occupied by an exogenous compound during the time point when the plasma concentration of the compound reaches steady state levels in the aqueous humor." [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus"]
+synonym: "Steady State Volume of Distribution" EXACT []
+synonym: "Vt" RELATED []
 is_a: CMO:0003171 ! blood verapamil metabolism measurement
 created_by: sjwang
 creation_date: 2019-05-22T15:52:42Z
@@ -29912,19 +29904,19 @@ creation_date: 2019-07-17T09:56:11Z
 id: CMO:0003198
 name: blood reactive oxygen metabolite level
 def: "Reactive oxygen metabolites are hydroperoxides measured as derivatives in a DROM spectrophotometric test." [PMID:25630910]
-is_a: CMO:0000023 ! blood chemistry measurement
+is_obsolete: true
 created_by: sjwang
 creation_date: 2019-07-17T09:57:40Z
 
 [Term]
 id: CMO:0003199
-name: serum reactive oxygen metabolite level
+name: serum derivatives of reactive oxygen metabolites level
 alt_id: CMO:0003198
-def: "Reactive oxygen metabolites are hydroperoxides measured as derivatives in a DROM spectrophotometric test." [PMID:25630910]
+def: "This is a measure of derivatives of reactive oxidative metabolites (dROMs) in serum. Derivatives of reactive oxidative metabolites are an indicator of the level of reactive oxygen species (ROS) production." [https://en.wikipedia.org/wiki/Reactive_oxygen_species, PMID:25630910]
 synonym: "serum derivatives of reactive oxidative metabolite level" EXACT []
 synonym: "serum DROM" EXACT []
 synonym: "serum dROMs" EXACT []
-is_a: CMO:0003198 ! blood reactive oxygen metabolite level
+is_a: CMO:0000023 ! blood chemistry measurement
 created_by: sjwang
 creation_date: 2019-07-17T10:00:13Z
 
@@ -30160,7 +30152,7 @@ creation_date: 2019-07-30T15:51:00Z
 [Term]
 id: CMO:0003226
 name: calculated serum calcium level
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation of the amount of calcium in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." []
+def: "This is a measurement which has been normalized, adjusted or derived by a mathematical process or computation of the amount of calcium in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [https://www.merriam-webster.com]
 xref: PMID:28111129
 is_a: CMO:0000503 ! serum calcium level
 created_by: sjwang
@@ -30169,17 +30161,15 @@ creation_date: 2019-08-01T11:08:05Z
 [Term]
 id: CMO:0003227
 name: serum calcium to serum phosphate ratio
-def: "This is a measure of calcium in serum divided by the inorganic phosphate in serum from a specified sample of serum, presented as a ratio, fraction, quotient or percentage. Serum is the clear liquid that separates from coagulated blood after solids have been removed." []
+def: "This is a measure of calcium in serum divided by the inorganic phosphate in serum from a specified sample of serum, presented as a ratio, fraction, quotient or percentage. Serum is the clear liquid that separates from coagulated blood after solids have been removed." [PMID:28111129]
 is_a: CMO:0003226 ! calculated serum calcium level
-is_a: CMO:0003230 ! calculated serum phosphate level
 created_by: sjwang
 creation_date: 2019-08-01T11:24:17Z
 
 [Term]
 id: CMO:0003228
-name: serum pyrophosphate level
-def: "Pyrophosphates are phosphorus oxyanions that contain two phosphorus atoms in a P-O-P linkage." []
-synonym: "CHEBI:18361" RELATED []
+name: plasma pyrophosphate level
+def: "This is a measure of pyrophosphates in plasma, the clear liquid that separates from blood after the cells and platelets have been removed. Pyrophosphates are phosphorus oxyanions that contain two phosphorus atoms in a P-O-P linkage with the formula O7P2." [CHEBI:18361]
 synonym: "plasma diphosphate" EXACT []
 synonym: "plasma diphosphate(4-)" EXACT []
 synonym: "plasma phosphonato phosphate" EXACT []
@@ -30192,8 +30182,7 @@ creation_date: 2019-08-01T11:37:45Z
 [Term]
 id: CMO:0003229
 name: blood pyrophosphate level
-def: "Pyrophosphates are phosphorus oxyanions that contain two phosphorus atoms in a P-O-P linkage." []
-synonym: "CHEBI:18361" RELATED []
+def: "This is a measure of pyrophosphates in a given volume of blood. Pyrophosphates are phosphorus oxyanions that contain two phosphorus atoms in a P-O-P linkage with the formula O7P2." [CHEBI:18361]
 synonym: "Not4Curation" RELATED []
 xref: PMID:28111129
 is_a: CMO:0000063 ! blood electrolyte measurement
@@ -30210,12 +30199,11 @@ creation_date: 2019-08-01T11:46:18Z
 
 [Term]
 id: CMO:0003231
-name: serum phosphate level to serum pyrophosphate ratio
-def: "This is a measure of inorganic phosphate in serum in plasma divided by the inorganic pyrophosphate from the same individual subject, presented as a ratio, fraction, quotient or percentage. Pyrophosphates are phosphorus oxyanions that contain two phosphorus atoms in a P-O-P linkage with the formula O7P2 and inorganic phosphorus is any phosphate not associated with carbon atoms." []
+name: serum phosphate level to plasma pyrophosphate level ratio
+def: "This is a measure of inorganic phosphate in serum in plasma divided by the inorganic pyrophosphate from the same individual subject, presented as a ratio, fraction, quotient or percentage. Pyrophosphates are phosphorus oxyanions that contain two phosphorus atoms in a P-O-P linkage with the formula O7P2 and inorganic phosphorus is any phosphate not associated with carbon atoms." [CHEBI:24838, PMID:28111129]
 synonym: "Pi/PPi" EXACT []
 synonym: "Pi to PPi ratio" EXACT []
 synonym: "serum inorganic phosphate level to plasma inorganic pyrophosphate level ratio" EXACT []
-is_a: CMO:0003228 ! serum pyrophosphate level
 is_a: CMO:0003230 ! calculated serum phosphate level
 created_by: sjwang
 creation_date: 2019-08-01T11:48:30Z
@@ -30388,19 +30376,17 @@ creation_date: 2019-10-03T16:12:58Z
 
 [Term]
 id: CMO:0003251
-name: skeletal muscle ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
-synonym: "skeletal muscle ribonucleic acid composition measurement" EXACT []
+name: skeletal muscle ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
 is_a: CMO:0003194 ! skeletal muscle molecular composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:09:06Z
 
 [Term]
 id: CMO:0003252
-name: gastrocnemius ribonucleic acid level
+name: gastrocnemius ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of gastrocnemius, the most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." []
-synonym: "gastrocnemius ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003251 ! skeletal muscle ribonucleic acid level
+is_a: CMO:0003251 ! skeletal muscle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:13:44Z
 
@@ -30414,11 +30400,10 @@ creation_date: 2019-10-17T16:16:27Z
 
 [Term]
 id: CMO:0003254
-name: colon ribonucleic acid level
+name: colon ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which colon tissue is formed or composed." []
-synonym: "colon ribonucleic acid composition measurement" EXACT []
 synonym: "colon RNA level" EXACT []
-is_a: CMO:0003290 ! large intestine ribonucleic acid level
+is_a: CMO:0003290 ! large intestine ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:18:33Z
 
@@ -30435,9 +30420,8 @@ creation_date: 2019-11-19T12:00:23Z
 
 [Term]
 id: CMO:0003256
-name: appendix ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vermiform appendix, a blind-ended tube connected to the cecum, from which it develops embryologically." [UBERON:0001154]
-synonym: "appendix ribonucleic acid composition measurement" EXACT []
+name: appendix ribonucleic acid composition measurement
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vermiform appendix, a blind-ended tube connected to the cecum, from which it develops embryologically." []
 synonym: "vermiform appendix ribonucleic acid level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -30467,10 +30451,9 @@ creation_date: 2019-11-19T12:15:01Z
 
 [Term]
 id: CMO:0003260
-name: smooth muscle ribonucleic acid level
-synonym: "smooth muscle ribonucleic acid composition measurement" EXACT []
+name: smooth muscle ribonucleic acid composition measurement
 synonym: "smooth muscle RNA level" EXACT []
-is_a: CMO:0002799 ! muscle ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:21:49Z
 
@@ -30504,8 +30487,7 @@ creation_date: 2019-11-19T12:39:24Z
 
 [Term]
 id: CMO:0003265
-name: placenta ribonucleic acid level
-synonym: "placenta ribonucleic acid composition measurement" EXACT []
+name: placenta ribonucleic acid composition measurement
 synonym: "placenta RNA level" EXACT []
 is_a: CMO:0002086 ! placenta morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -30550,8 +30532,7 @@ creation_date: 2019-11-19T13:02:13Z
 
 [Term]
 id: CMO:0003271
-name: bone marrow ribonucleic acid level
-synonym: "bone marrow ribonucleic acid composition measurement" EXACT []
+name: bone marrow ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:13:09Z
@@ -30572,17 +30553,16 @@ creation_date: 2019-11-19T13:19:13Z
 
 [Term]
 id: CMO:0003274
-name: white blood cell ribonucleic acid level
-synonym: "white blood cell ribonucleic acid composition measurement" EXACT []
+name: white blood cell ribonucleic acid composition measurement
 is_a: CMO:0002341 ! white blood cell measurement
-relationship: part_of CMO:0003337 ! blood ribonucleic acid level
+is_a: CMO:0003337 ! blood ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:23:57Z
 
 [Term]
 id: CMO:0003275
 name: mammary organ ribonucleic acid composition measurement
-is_obsolete: true
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:29:32Z
 
@@ -30702,14 +30682,13 @@ creation_date: 2019-12-20T11:25:47Z
 [Term]
 id: CMO:0003289
 name: right renal cortex ribonucleic acid composition measurement
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003290
-name: large intestine ribonucleic acid level
-synonym: "large intestine ribonucleic acid composition measurement" EXACT []
+name: large intestine ribonucleic acid composition measurement
 synonym: "large intestine RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
@@ -30718,37 +30697,34 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003291
 name: right renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003292
-name: arm muscle ribonucleic acid level
+name: muscle of arm ribonucleic acid composition measurement
 synonym: "arm muscle RNA level" EXACT []
 synonym: "forelimb muscle ribonucleic acid level" EXACT []
-synonym: "muscle of arm ribonucleic acid composition measurement" EXACT []
 synonym: "upper limb skeletal muscle ribonucleic acid level" EXACT []
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003293
-name: leg muscle ribonucleic acid level
+name: muscle of leg ribonucleic acid composition measurement
 synonym: "hindlimb muscle ribonucleic acid level" EXACT []
 synonym: "lower extremity muscle ribonucleic acid level" EXACT []
-synonym: "muscle of leg ribonucleic acid composition measurement" EXACT []
 synonym: "muscle of leg ribonucleic acid level" EXACT []
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003294
-name: skeletal muscle of trunk ribonucleic acid level
-synonym: "skeletal muscle of trunk ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003251 ! skeletal muscle ribonucleic acid level
+name: skeletal muscle of trunk ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30762,14 +30738,14 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003296
 name: renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003297
 name: left renal pelvis ribonucleic acid composition measurement
-is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
+relationship: part_of CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30959,10 +30935,9 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003323
-name: globus pallidus ribonucleic acid level
-synonym: "globus pallidus ribonucleic acid composition measurement" EXACT []
+name: globus pallidus ribonucleic acid composition measurement
 synonym: "globus pallidus RNA level" EXACT []
-is_a: CMO:0003270 ! cerebrum ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30978,10 +30953,9 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003325
-name: locus ceruleus ribonucleic acid level
-synonym: "locus ceruleus ribonucleic acid composition measurement" EXACT []
+name: locus ceruleus ribonucleic acid composition measurement
 synonym: "locus ceruleus RNA level" EXACT []
-relationship: part_of CMO:0003373 ! hindbrain without cerebellum ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31015,12 +30989,11 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003330
-name: uterine cervix ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the uterine cervix, the lower, narrow portion of the uterus where it joins with the top end of the vagina." [https://www.merriam-webster.com, UBERON:0000002]
+name: uterine cervix ribonucleic acid composition measurement
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the uterine cervix, the lower, narrow portion of the uterus where it joins with the top end of the vagina." []
 synonym: "uterine cervical RNA level" EXACT []
-synonym: "uterine cervix ribonucleic acid composition measurement" EXACT []
 synonym: "uterine cervix RNA level" EXACT []
-is_a: CMO:0002803 ! uterus ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31068,8 +31041,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003337
-name: blood ribonucleic acid level
-synonym: "blood ribonucleic acid composition measurement" EXACT []
+name: blood ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T10:59:26Z
@@ -31145,8 +31117,7 @@ creation_date: 2020-01-15T10:42:18Z
 
 [Term]
 id: CMO:0003347
-name: chordate pharynx ribonucleic acid level
-synonym: "chordate pharynx ribonucleic acid composition measurement" EXACT []
+name: chordate pharynx ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
@@ -31167,8 +31138,7 @@ creation_date: 2020-01-15T10:43:10Z
 
 [Term]
 id: CMO:0003350
-name: bone tissue ribonucleic acid level
-synonym: "bone tissue ribonucleic acid composition measurement" EXACT []
+name: bone tissue ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
@@ -31182,8 +31152,7 @@ creation_date: 2020-01-15T15:26:31Z
 
 [Term]
 id: CMO:0003353
-name: cecum ribonucleic acid level
-synonym: "caecum ribonucleic acid composition measurement" EXACT []
+name: caecum ribonucleic acid composition measurement
 synonym: "caecum ribonucleic acid level" EXACT []
 synonym: "cecum ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -31206,8 +31175,7 @@ creation_date: 2020-01-16T08:03:38Z
 
 [Term]
 id: CMO:0003356
-name: connective tissue ribonucleic acid level
-synonym: "connective tissue ribonucleic acid composition measurement" EXACT []
+name: connective tissue ribonucleic acid composition measurement
 synonym: "connective tissue RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
@@ -31222,8 +31190,7 @@ creation_date: 2020-01-16T08:04:35Z
 
 [Term]
 id: CMO:0003358
-name: bile duct ribonucleic acid level
-synonym: "bile duct ribonucleic acid composition measurement" EXACT []
+name: bile duct ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:05:00Z
@@ -31251,13 +31218,12 @@ creation_date: 2020-01-17T07:53:22Z
 
 [Term]
 id: CMO:0003362
-name: skeletal muscle ribonucleic acid level
-synonym: "musculature ribonucleic acid composition measurement" EXACT []
+name: musculature ribonucleic acid composition measurement
 synonym: "musculature RNA level" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "skeletal muscle RNA level" EXACT []
 synonym: "skeletal muscle tissue RNA level" EXACT []
-is_a: CMO:0002799 ! muscle ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T08:19:34Z
 
@@ -31270,8 +31236,7 @@ creation_date: 2020-01-17T09:01:21Z
 
 [Term]
 id: CMO:0003364
-name: basal ganglion ribonucleic acid level
-synonym: "basal ganglion ribonucleic acid composition measurement" EXACT []
+name: basal ganglion ribonucleic acid composition measurement
 synonym: "basal ganglion RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
@@ -31345,10 +31310,9 @@ creation_date: 2020-01-17T09:06:07Z
 
 [Term]
 id: CMO:0003374
-name: venous blood ribonucleic acid level
-synonym: "venous blood ribonucleic acid composition measurement" EXACT []
+name: venous blood ribonucleic acid composition measurement
 synonym: "venous blood RNA level" EXACT []
-is_a: CMO:0003337 ! blood ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T12:28:10Z
 
@@ -31401,7 +31365,7 @@ id: CMO:0003380
 name: lung alveolus ribonucleic acid composition measurement
 synonym: "alveolus of lung ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0002299
-is_a: CMO:0002798 ! lung ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:18:50Z
 
@@ -31458,7 +31422,7 @@ creation_date: 2020-04-02T17:17:50Z
 [Term]
 id: CMO:0003387
 name: percentage of study population developing subcutaneous tumors during a period of time
-def: "The number of new cases of individuals developing tumors in both testes appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
+def: "The number of new cases of individuals developing subcutaneous tumors in a study population during a certain period of time compared to the total number of individuals in the study population, expressed as a percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed]
 synonym: "percentage of study population developing hypodermis tumors during a period of time" EXACT []
 synonym: "subcutaneous tumor incidence" EXACT []
 is_a: CMO:0003388 ! subcutaneous tumor incidence/prevalence measurement
@@ -33354,7 +33318,7 @@ creation_date: 2020-10-13T13:48:12Z
 [Term]
 id: CMO:0003585
 name: parasitic infection population measurement
-def: "This is any measurement which deals with parasitic infections in terms of population, geography or demographics. A parasite is an organism that grows, feeds, and is sheltered on or in a different organism while contributing nothing to the survival of its host and possibly causing damage to that host." [https://www.merriam-webster.com/, ISBN-13:978-1416062578]
+def: "This is any measurement which deals with parasitic infections in terms of population, geography or demographics." [https://www.merriam-webster.com/, ISBN-13:978-1416062578]
 is_a: CMO:0001149 ! disease population measurement
 created_by: slaulede
 creation_date: 2020-10-13T14:41:09Z
@@ -34681,7 +34645,7 @@ creation_date: 2021-05-11T16:47:47Z
 [Term]
 id: CMO:0003713
 name: podocyte slit width
-def: "This is an average value derived from the measurements of podocytes from computerized analysis of electron micrographs." [ISBN-13:978-1455756438, PMID:7894005]
+def: "This is an average value for the gap distance between interdigitating foot processes of podocytes in kidney glomeruli. The value is derived from the measurements of podocytes during computerized analysis of electron micrographs." [ISBN-13:978-1455756438, PMID:7894005]
 synonym: "glomerular podocyte slit width" EXACT []
 synonym: "glomerular visceral epithelial cell slit width" EXACT []
 xref: PMID:7894005
@@ -34707,7 +34671,7 @@ creation_date: 2021-05-11T17:17:55Z
 [Term]
 id: CMO:0003715
 name: podocyte foot process height
-def: "This is an average value derived from the measurements of podocytes from computerized analysis of electron micrographs." [ISBN-13:978-1455756438, PMID:7894005]
+def: "This is an average value of the distance between the basal side of the podocyte contacting the basement membrane and the apical side of the podocyte projecting into the urinary space. The value is derived from the measurements of podocytes during computerized analysis of electron micrographs." [ISBN-13:978-1455756438, PMID:7894005]
 synonym: "glomerular podocyte foot process height" EXACT []
 synonym: "glomerular visceral epithelial cell foot process height" EXACT []
 synonym: "podocyte pedicel height" EXACT []
@@ -34947,7 +34911,6 @@ synonym: "blood SDMA level" EXACT []
 synonym: "blood symmetrical dimethylarginines level" EXACT []
 synonym: "blood symmetric dimethylarginines level" EXACT []
 synonym: "symmetrical dimethylarginine measurement" EXACT []
-xref: EFO:0006523
 xref: PMID:19420905
 is_a: CMO:0003731 ! blood arginine level
 created_by: slaulede
@@ -35087,12 +35050,10 @@ creation_date: 2021-06-29T13:13:15Z
 
 [Term]
 id: CMO:0003747
-name: kidney interstitial fibrotic lesion area to total kidney interstitial area ratio
-alt_id: CMO:0001258
-def: "This is a calculated value in which the extent of the cross-sectional, two-dimensional area occupied by interstitial fibrotic lesions in the kidney is divided by the total extent of the cross-sectional, two-dimensional interstitial area of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the whole kidney. These measurements come from representative microscopic images." [https://www.merriam-webster.com/, ISBN:978-1416049982]
-synonym: "kidney fibrotic lesion cross-sectional area to total kidney cross-sectional area ratio" EXACT []
+name: kidney interstitial fibrotic lesion area to total kidney area ratio
+def: "A calculated value in which the extent of the two-dimensional surface occupied by fibrotic lesions is divided by the total extent of the two-dimensional surface of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 xref: PMID:20864942
-is_a: CMO:0001257 ! calculated kidney fibrotic lesion area measurement
+is_a: CMO:0001258 ! kidney fibrotic lesion area to total kidney area ratio
 created_by: slaulede
 creation_date: 2021-06-29T13:30:36Z
 
@@ -36506,7 +36467,7 @@ creation_date: 2022-02-28T17:05:40Z
 [Term]
 id: CMO:0003880
 name: meconium ileus incidence/prevalence measurement
-def: "Any measurement in which the number of individuals in a study population that display meconium ileuss at a point in time or develop meconium ileus within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, MIM:614665]
+def: "Any measurement in which the number of individuals in a study population that display meconium ileuss at a point in time or develop meconium ileus within a determined period of time are compared to the total number of individuals in the study population. Often expressed as a percentage but could be expressed as a ratio. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
 synonym: "meconium ileus incidence/prevalence" EXACT []
 is_a: CMO:0002363 ! alimentary/gastrointestinal disease incidence/prevalence measurement
 created_by: slaulede
@@ -36515,7 +36476,7 @@ creation_date: 2022-02-28T17:40:25Z
 [Term]
 id: CMO:0003881
 name: percentage of study population developing meconium ileus during a period of time
-def: "This is the number of new cases of meconium ileus appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, MIM:614665]
+def: "This is the number of new cases of meconium ileus appearing in a study population during a certain period compared to the total number of individuals in the study population, expressed as a percentage. Meconium ileus is intestinal obstruction due to inspissated meconium in the distal ileum and cecum, which develops in utero and presents shortly after birth as a failure to pass meconium." [https://www.merriam-webster.com, OMIM:614665]
 synonym: "incidence of meconium ileus" EXACT []
 synonym: "meconium ileus incidence" EXACT []
 xref: PMID:32084371
@@ -36832,10 +36793,9 @@ creation_date: 2023-03-13T17:03:59Z
 
 [Term]
 id: CMO:0003912
-name: kidney ribonucleic acid level
+name: kidney ribonucleic acid composition measurement
 alt_id: CMO:0002797
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) that reside in the kidney. Ribonucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose sugar, and a phosphate group. They are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
-synonym: "kidney ribonucleic acid composition measurement" EXACT []
 synonym: "kidney RNA composition measurement" EXACT []
 synonym: "renal ribonucleic acid measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -36850,7 +36810,7 @@ def: "This is the measurement of the amount of messenger ribonucleic acid (mRNA)
 synonym: "kidney messenger ribonucleic acid level" EXACT []
 synonym: "kidney messenger RNA level" EXACT []
 synonym: "renal mRNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-03-13T17:18:54Z
 
@@ -36877,8 +36837,8 @@ name: cell ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
 synonym: "cell RNA composition measurement" EXACT []
 synonym: "Not4Curation" EXACT []
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003915 ! cell molecular composition measurement
-relationship: part_of CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-04-03T17:06:23Z
 
@@ -37350,11 +37310,11 @@ creation_date: 2023-09-29T15:17:14Z
 
 [Term]
 id: CMO:0003963
-name: CD4+ lymphocyte ribonucleic acid level
+name: CD4+ lymphocyte ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in CD4+ lymphocytes. CD4 is a membrane glycoprotein found primarily on T lymphocytes, but also can be expressed on B cells, macrophages, and granulocytes. On T cells it is a co-receptor for the T cell receptor (TCR), interacts with MHC class II antigens, and functions to initiate or augment the early phase of T-cell activation." [http://en.wikipedia.org/wiki/CD4]
+synonym: "CD4(+) llymphocyte ribonucleic acid composition measurement" EXACT []
 synonym: "CD4(+) lymphocyte ribonucleic acid composition measurement" EXACT []
-synonym: "CD4+ lymphocyte ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003274 ! white blood cell ribonucleic acid level
+is_a: CMO:0003274 ! white blood cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-10-03T12:41:58Z
 
@@ -37422,7 +37382,7 @@ creation_date: 2023-11-07T12:56:25Z
 [Term]
 id: CMO:0003969
 name: trigeminal ganglion ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of the trigeminal ganglion, the cranial ganglion that is associated with and extends fibers into the trigeminal nerve." [ISBN-13:9780781733908, UBERON:0001675]
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the trigeminal ganglion is composed." [ISBN-13:9780781733908, UBERON:0001675]
 synonym: "trigeminal ganglion RNA level" EXACT []
 is_a: CMO:0001232 ! nervous system measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -37467,7 +37427,7 @@ name: tendon ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in tendon, the fibrous bands or cords of connective tissue at the ends of muscle fibers that attach muscles to bones and other structures." [ISBN-13:978-1455756438, MESH:D013710]
 xref: PMID:37021050
 xref: UBERON:0000043
-is_a: CMO:0003356 ! connective tissue ribonucleic acid level
+is_a: CMO:0003356 ! connective tissue ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2023-11-14T17:28:42Z
 
@@ -37761,7 +37721,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "broken bone hematoma ribonucleic acid level" EXACT []
 synonym: "fracture hematoma RNA level" EXACT []
 xref: PMID:35882120
-is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-06-07T14:52:51Z
 
@@ -37773,7 +37732,6 @@ synonym: "neoplasm ribonucleic acid level" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "tumorous tissue ribonucleic acid level" EXACT []
 synonym: "tumor ribonucleic acid level" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-15T13:56:15Z
 
@@ -37789,7 +37747,6 @@ synonym: "malignant neoplasm ribonucleic acid level" EXACT []
 synonym: "malignant, neoplastic tissue ribonucleic acid composition measurement" EXACT []
 synonym: "malignant tissue ribonucleic acid level" EXACT []
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0004000 ! neoplastic tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-15T14:03:17Z
 
@@ -37803,7 +37760,6 @@ synonym: "benign tumor ribonucleic acid level" EXACT []
 synonym: "noncancerous, neoplastic tissue ribonucleic acid level" EXACT []
 synonym: "noncancerous tumor ribonucleic acid level" EXACT []
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0004000 ! neoplastic tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-15T14:17:20Z
 
@@ -37812,10 +37768,10 @@ id: CMO:0004003
 name: endometrium ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the endometrium, the glandular mucous membrane lining of the uterine cavity that is hormonally responsive during the estrous/menstrual cycle and during pregnancy." [https://www.merriam-webster.com, UBERON:0001295]
 synonym: "endometrial RNA level" EXACT []
+synonym: "endometrium ribonucleic acid level" EXACT []
 synonym: "endometrium RNA level" EXACT []
 synonym: "tunica mucosa RNA level" EXACT []
 synonym: "uterine endometrium RNA level" EXACT []
-is_a: CMO:0002803 ! uterus ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T13:04:28Z
 
@@ -37828,8 +37784,6 @@ synonym: "endometrial, malignant neoplasm ribonucleic acid level" EXACT []
 synonym: "endometrial, malignant, neoplastic tissue ribonucleic acid level" EXACT []
 synonym: "endometrial, malignant tumor ribonucleic acid level" EXACT []
 synonym: "endometrium cancer ribonucleic acid level" EXACT []
-is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
-is_a: CMO:0004003 ! endometrium ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T13:27:27Z
 
@@ -37840,7 +37794,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "breast mammary gland" NARROW []
 synonym: "lactiferous gland" EXACT []
 synonym: "thoracic mammary gland" NARROW []
-is_a: CMO:0003255 ! skin ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T13:53:12Z
 
@@ -37855,8 +37808,6 @@ synonym: "mammary gland cancer RNA level" EXACT []
 synonym: "mammary gland malignant neoplasm RNA level" EXACT []
 synonym: "mammary gland malignant tumor RNA level" EXACT []
 synonym: "N-methyl-N-nitrosourea (MNU)-induced mammary tumor RNA level" NARROW []
-is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
-is_a: CMO:0004005 ! mammary gland ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T16:11:00Z
 
@@ -37867,151 +37818,9 @@ def: "This is a measurement which has been normalized, adjusted or derived by a 
 synonym: "calculated plasma inorganic pyrophosphate level" EXACT []
 synonym: "Not4Curation" RELATED []
 xref: PMID:28111129
+is_a: CMO:0003228 ! plasma pyrophosphate level
 created_by: slaulederkind
 creation_date: 2024-07-26T13:44:15Z
-
-[Term]
-id: CMO:0004008
-name: total number of entries into the arms of an elevated plus maze
-def: "The count of movements of an experimental subject into any arm of an elevated plus maze, including entries into both open and enclosed arms." [PMID:38488865]
-synonym: "total number of entries into an arm of an EPM" EXACT []
-synonym: "total number of entries into any arm of an elevated plus maze" EXACT []
-is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T16:50:20Z
-
-[Term]
-id: CMO:0004009
-name: number of entries into an enclosed arm of an elevated plus maze
-def: "The count of movements from the center of the elevated plus maze into either of the two arms of the maze that are enclosed by walls sufficiently high to prevent the escape of an experimental subject. The walls of the enclosed arms may be opaque to prevent the experimental subject from seeing anything outside the maze." [PMID:38488865]
-synonym: "number of entries into a closed arm of an elevated plus maze" EXACT []
-synonym: "number of entries into an enclosed arm of an EPM" EXACT []
-is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T16:57:12Z
-
-[Term]
-id: CMO:0004010
-name: number of entries into an open arm of an elevated plus maze
-def: "The count of movements of an experimental subject into either of the two arms of an elevated plus maze that do not have walls to prevent the experimental subject from escaping or from seeing anything outside the maze." [PMID:38488865]
-synonym: "number of entries into an open arm of an EPM" RELATED []
-synonym: "number of entries into any open arm of an elevated plus maze" EXACT []
-is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T17:04:17Z
-
-[Term]
-id: CMO:0004011
-name: amount of experiment time spent in a discrete space in an elevated plus maze
-def: "The total amount of time during an experiment that an organism or experimental subject spends in a distinct and specified area of an elevated plus maze (EPM). An EPM is an apparatus with an open center area, two open arms without enclosing walls and two enclosed arms with walls to prevent the experimental subject from escaping or from seeing anything outside the maze. The apparatus is raised a specified distance above the floor and is used to measure movement, behavior, learning, memory, etc., generally in rodents." [PMID:1683415, PMID:7762079]
-synonym: "amount of experiment time spent in a discrete space in an EPM" RELATED []
-is_a: CMO:0000958 ! amount of experiment time spent in a discrete space in an experimental apparatus
-is_a: CMO:0004021 ! measurement of voluntary locomotion in an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T17:09:50Z
-
-[Term]
-id: CMO:0004012
-name: total amount of experiment time spent in an enclosed arm of an elevated plus maze
-def: "The cumulative amount of time during an experiment that an organism or experimental subject spends in either of the two arms of an elevated plus maze that are enclosed by opaque walls to prevent the experimental subject from escaping and from seeing anything outside the maze." [PMID:1683415, PMID:7762079]
-synonym: "amount of experiment time spent in an enclosed arm of an EPM" RELATED []
-is_a: CMO:0004011 ! amount of experiment time spent in a discrete space in an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T17:19:59Z
-
-[Term]
-id: CMO:0004013
-name: total amount of experiment time spent in any open area of an elevated plus maze
-def: "The cumulative amount of time during an experiment that an organism or experimental subject spends in any of the unenclosed areas of an elevated plus maze including the open center of the maze and/or the open arms of the maze." [PMID:1683415, PMID:7762079]
-synonym: "amount of experiment time spent in an open area of an EPM" RELATED []
-synonym: "time spent in the open arms and center of an elevated plus maze" EXACT []
-synonym: "total time spent in theopen areas of an elevated plus maze apparatus" EXACT []
-is_a: CMO:0004011 ! amount of experiment time spent in a discrete space in an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T17:23:24Z
-
-[Term]
-id: CMO:0004014
-name: total amount of experiment time spent in an open arm of an elevated plus maze
-def: "The cumulative amount of time during an experiment that an organism or experimental subject spends specifically in either of the two arms of the maze that do not have walls to prevent the experimental subject from seeing anything outside the maze." [PMID:1683415, PMID:7762079]
-synonym: "amount of experiment time spent in an open arm of an EPM" RELATED []
-synonym: "time spent in an open arm of an elevated plus maze apparatus" EXACT []
-is_a: CMO:0004013 ! total amount of experiment time spent in any open area of an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T17:30:05Z
-
-[Term]
-id: CMO:0004015
-name: number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
-def: "A measurement of the distance traveled in an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment. An open field apparatus is an arena, often but not always circular and brightly lit, enclosed in walls of sufficient height to prevent the escape of the experimental subject." [PMID:12600700]
-is_a: CMO:0001514 ! number of 20 x 20 cm floor squares crossed into, out of or within a discrete space in an experimental apparatus
-is_a: CMO:0004020 ! measurement of voluntary locomotion in an open field apparatus
-created_by: jrsjrs
-creation_date: 2024-08-01T17:41:32Z
-
-[Term]
-id: CMO:0004016
-name: number of 20 x 20 cm floor squares crossed on the periphery of an open field apparatus
-def: "A measurement of the distance traveled within the region at the outer edge of an open field apparatus adjacent to the enclosing wall, measured as a count of the segments of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
-created_by: jrsjrs
-creation_date: 2024-08-01T17:47:06Z
-
-[Term]
-id: CMO:0004017
-name: number of 20 x 20 cm floor squares crossed in the center of an open field apparatus
-def: "A measurement of the distance traveled within the open central region of an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
-created_by: jrsjrs
-creation_date: 2024-08-01T17:50:07Z
-
-[Term]
-id: CMO:0004018
-name: defecation rate by count
-def: "Measurement of the number of boli of fecal matter excreted within a specified period of time determined by counting the number of individual pellets deposited by the experimental subject." [PMID:12600700]
-synonym: "total number of fecal boli deposited during a period of time" EXACT []
-synonym: "total number of fecal boluses deposited during a period of time" EXACT []
-is_a: CMO:0000998 ! defecation rate
-created_by: jrsjrs
-creation_date: 2024-08-01T17:54:34Z
-
-[Term]
-id: CMO:0004019
-name: number of lines crossed in the center of an open field apparatus
-def: "A measurement of the distance traveled within the region in the center of an open field apparatus, measured as a count of the grid lines, marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-comment: This term should only be used when the measurement is "lines crossed" without information about the size or spacing of the lines or squares in the grid.
-synonym: "number of inner line crossings" RELATED []
-is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
-is_a: CMO:0004020 ! measurement of voluntary locomotion in an open field apparatus
-created_by: jrsjrs
-creation_date: 2024-08-01T17:59:49Z
-
-[Term]
-id: CMO:0004020
-name: measurement of voluntary locomotion in an open field apparatus
-def: "Any measurement of the movement of an organism from one place to another in an open field apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An open field apparatus is an arena, often but not always circular and brightly lit, enclosed in walls of sufficient height to prevent the escape of the experimental subject." [PMID:12600700]
-is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
-created_by: jrsjrs
-creation_date: 2024-08-01T18:09:55Z
-
-[Term]
-id: CMO:0004021
-name: measurement of voluntary locomotion in an elevated plus maze
-def: "Any measurement of the movement of an organism from one place to another in an elevated plus maze apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An elevated plus maze (EPM) is an apparatus with an open center area, two open arms without enclosing walls and two enclosed arms with walls to prevent the experimental subject from escaping or from seeing anything outside the maze. The apparatus is raised a specified distance above the floor and is used to measure movement, behavior, learning, memory, etc., generally in rodents." [PMID:1683415, PMID:7762079]
-synonym: "measurement of voluntary locomotion in an EPM" RELATED []
-is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
-created_by: jrsjrs
-creation_date: 2024-08-01T18:21:06Z
-
-[Term]
-id: CMO:0004022
-name: number of entries into a discrete space in an elevated plus maze
-def: "A count of the number of times during an experiment that an organism or experimental subject moves into a distinct and specified area of an elevated plus maze (EPM). An EPM is an apparatus with an open center area, two open arms and two enclosed arms raised a specified distance above the floor. It is used to measure movement, behavior, learning, and memory, generally in rodents." [PMID:38488865]
-synonym: "number of entries into a discrete space in an EPM" RELATED []
-is_a: CMO:0000960 ! number of entries into a discrete space in an experimental apparatus
-is_a: CMO:0004021 ! measurement of voluntary locomotion in an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-08-01T18:32:22Z
 
 [Typedef]
 id: part_of
