@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.223
-date: 17:08:2024 20:13
+data-version: 2.222
+date: 10:08:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -312,7 +312,7 @@ synonym: "CBC" RELATED []
 synonym: "CBC blood test" EXACT []
 synonym: "CBC, differential" EXACT []
 synonym: "CMO:0000364" EXACT []
-synonym: "Not4curation" RELATED []
+synonym: "Not4curation" EXACT []
 is_a: CMO:0000035 ! blood measurement
 is_a: CMO:0000227 ! cell measurement
 
@@ -10170,7 +10170,6 @@ synonym: "calculated kidney glomerulosclerosis measurement" RELATED []
 synonym: "calculated renal glomerulosclerosis measurement" RELATED []
 synonym: "calculated renal glomerulosclerotic lesion measurement" RELATED []
 is_a: CMO:0001133 ! kidney glomerulosclerotic lesion measurement
-is_a: CMO:0001257 ! calculated kidney fibrotic lesion area measurement
 is_a: CMO:0002378 ! calculated kidney non-tumorous lesion measurement
 created_by: JSmith
 creation_date: 2012-10-08T03:43:25Z
@@ -11351,6 +11350,7 @@ creation_date: 2013-01-08T15:17:52Z
 id: CMO:0001258
 name: kidney fibrotic lesion area to total kidney area ratio
 def: "A calculated value in which the extent of the two-dimensional surface occupied by fibrotic lesions is divided by the total extent of the two-dimensional surface of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_a: CMO:0001257 ! calculated kidney fibrotic lesion area measurement
 created_by: JSmith
 creation_date: 2013-01-08T15:20:55Z
 
@@ -15541,7 +15541,7 @@ creation_date: 2013-07-10T12:51:05Z
 [Term]
 id: CMO:0001698
 name: calculated femoral neck cross-sectional area
-def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the extent of a plane perpendicularly through thelong axis of femoral neck, the portion of the femur adjacent to the femoral head." [http://en.wikipedia.org/wiki/Femur_neck "Wikipedia", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the extent of a plane through, that is, perpendicular to the longest axis of, the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [http://en.wikipedia.org/wiki/Femur_neck "Wikipedia", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 is_a: CMO:0001694 ! calculated femur cross-sectional area
 is_a: CMO:0001697 ! femoral neck cross-sectional area
 created_by: JSmith
@@ -20141,7 +20141,7 @@ creation_date: 2014-01-31T13:50:53Z
 [Term]
 id: CMO:0002159
 name: urine potassium excretion rate to body weight ratio
-def: "This measurement is a calculated measurement in which urine potassium excretion rate is divided by the total weight of the body, i.e., the heaviness or the degree to which the body of the organism is drawn toward the earth by gravity, and presented as a ratio, fraction, quotient or percentage. Urine potassium excretion rate is the amount of potassium, the chemical element with atomic number 19, discharged in the urine, the fluid waste product separated and discharged by the kidneys, per unit time." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "A calculated measurement in which urine sodium excretion rate is divided by the total weight of the body, i.e., the heaviness or the degree to which the body of the organism is drawn toward the earth by gravity, and presented as a ratio, fraction, quotient or percentage. Urine sodium excretion rate is the amount of sodium, the chemical element with atomic number 11, discharged in the urine, the fluid waste product separated and discharged by the kidneys, per unit time." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: CMO:0000761 ! urine potassium excretion rate
 is_a: CMO:0002160 ! calculated urine electrolyte excretion rate
 created_by: JSmith
@@ -20438,7 +20438,7 @@ creation_date: 2014-03-06T15:34:20Z
 id: CMO:0002191
 name: calculated liver volume
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the size of the three dimensional space occupied by the liver, the large, dark-red organ located in the cranial portion of the abdomen of vertebrates, just behind or below the diaphragm, the functions of which include storage and filtration of blood; secretion of bile; detoxification of noxious substances; conversion of sugars into glycogen; synthesis and breakdown of fats and temporary storage of fatty acids; and synthesis of serum proteins." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "Not4Curation" RELATED []
+synonym: "Not4Curation" EXACT []
 is_a: CMO:0001468 ! liver volume
 created_by: JSmith
 creation_date: 2014-03-06T15:35:22Z
@@ -27752,7 +27752,7 @@ id: CMO:0002948
 name: renal tubulointerstitial score
 def: "A semiquantitative evaluation of the renal interstitium using a grading system with a score of 0 to 4+, which assesses the tubules and the interstitium for the presence of (1) tubular atrophy, (2) tubular dilatation, (3) interstitial inflammatory cell infiltrates, and (4) interstitial fibrosis. A score of 0 indicates no lesion (normal kidney), 1+ indicates a single, small focal lesion with very minimal tubular alterations and interstitial inflammatory cell infiltration, and 2+ to 4+ indicated increasing severity of tubular lesions, interstitial inflammatory cell infiltration, and/or fibrosis. A score of 4+ indicates involvement of approximately 50% or more of the renal parenchyma or interstitium." [PMID:9369281]
 synonym: "kidney tubulointerstitial score" EXACT []
-synonym: "Not4Curation" RELATED []
+synonym: "Not4Curation" EXACT []
 is_a: CMO:0002947 ! calculated kidney morphological measurement
 created_by: sjwang
 creation_date: 2018-12-07T15:16:47Z
@@ -29691,8 +29691,8 @@ id: CMO:0003174
 name: rapidly equilibrated distribution volume of verapamil in brain
 def: "This measurement is the apparent volume in brain occupied by verapamil at a specified time point after injection of verapamil into the carotid artery. It is the ratio of the verapamil concentration in brain to verapamil concentration in plasma at a given time and roughly equivalent to the extracellular space of the brain." [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus", https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/volume-of-distribution]
 synonym: "brain Vi of verapamil" EXACT []
-synonym: "Vd in brain" RELATED []
-synonym: "Volume of Distribution in brain" RELATED []
+synonym: "Vd" RELATED []
+synonym: "Volume of Distribution" RELATED []
 is_a: CMO:0003171 ! blood verapamil metabolism measurement
 created_by: sjwang
 creation_date: 2019-05-22T15:46:03Z
@@ -29702,9 +29702,9 @@ id: CMO:0003175
 name: rapidly equilibrated distribution volume of verapamil in retina
 def: "This measurement is the apparent volume in retina occupied by verapamil at a specified time point after injection of verapamil into the carotid artery. It is the ratio of the verapamil concentration in retina to verapamil concentration in plasma at a given time and roughly equivalent to the extracellular space of the retina." [https://en.wikipedia.org/wiki/Volume_of_distribution, https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus"]
 synonym: "retinal Vi of verapamil" EXACT []
-synonym: "retinal Volume of Distribution" RELATED []
 synonym: "retina Vi of verapamil" EXACT []
-synonym: "Vd in retina" RELATED []
+synonym: "Vd" RELATED []
+synonym: "Volume of Distribution" RELATED []
 is_a: CMO:0003171 ! blood verapamil metabolism measurement
 created_by: sjwang
 creation_date: 2019-05-22T15:50:17Z
@@ -29714,8 +29714,8 @@ id: CMO:0003176
 name: rapidly equilibrated distribution volume of verapamil in aqueous humor
 def: "This measurement is the apparent volume in aqueous humor occupied by verapamil at a specified time point after injection of verapamil into the carotid artery. It is the ratio of the verapamil concentration in aqueous humor to verapamil concentration in plasma at a given time and roughly equivalent to the extracellular space of the aqueous humor." [https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=19.04f&ns=ncit&code=C85538&key=1864625640&b=1&n=null "NCI Thesaurus", https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/volume-of-distribution]
 synonym: "aqueous humor Vi of verapamil" RELATED []
-synonym: "Vd in aqueous humor" RELATED []
-synonym: "Volume of Distribution in aqueous humor" RELATED []
+synonym: "Vd" RELATED []
+synonym: "Volume of Distribution" RELATED []
 is_a: CMO:0003171 ! blood verapamil metabolism measurement
 created_by: sjwang
 creation_date: 2019-05-22T15:52:42Z
@@ -29922,23 +29922,20 @@ creation_date: 2019-07-17T09:56:11Z
 [Term]
 id: CMO:0003198
 name: blood reactive oxygen metabolite level
-def: "This is a measure of derivatives of reactive oxidative metabolites (dROMs) in blood. Derivatives of reactive oxidative metabolites are an indicator of the level of reactive oxygen species (ROS) production." [https://en.wikipedia.org/wiki/Reactive_oxygen_species, PMID:25630910]
-synonym: "blood derivatives of reactive oxidative metabolite level" EXACT []
-synonym: "blood DROM" EXACT []
-synonym: "blood dROMs" EXACT []
-is_a: CMO:0000023 ! blood chemistry measurement
+def: "Reactive oxygen metabolites are hydroperoxides measured as derivatives in a DROM spectrophotometric test." [PMID:25630910]
+is_obsolete: true
 created_by: sjwang
 creation_date: 2019-07-17T09:57:40Z
 
 [Term]
 id: CMO:0003199
 name: serum derivatives of reactive oxygen metabolites level
+alt_id: CMO:0003198
 def: "This is a measure of derivatives of reactive oxidative metabolites (dROMs) in serum. Derivatives of reactive oxidative metabolites are an indicator of the level of reactive oxygen species (ROS) production." [https://en.wikipedia.org/wiki/Reactive_oxygen_species, PMID:25630910]
 synonym: "serum derivatives of reactive oxidative metabolite level" EXACT []
 synonym: "serum DROM" EXACT []
 synonym: "serum dROMs" EXACT []
 is_a: CMO:0000023 ! blood chemistry measurement
-is_a: CMO:0003198 ! blood reactive oxygen metabolite level
 created_by: sjwang
 creation_date: 2019-07-17T10:00:13Z
 
@@ -30227,7 +30224,6 @@ def: "This is a measure of inorganic phosphate in serum in plasma divided by the
 synonym: "Pi/PPi" EXACT []
 synonym: "Pi to PPi ratio" EXACT []
 synonym: "serum inorganic phosphate level to plasma inorganic pyrophosphate level ratio" EXACT []
-is_a: CMO:0003228 ! plasma pyrophosphate level
 is_a: CMO:0003230 ! calculated serum phosphate level
 created_by: sjwang
 creation_date: 2019-08-01T11:48:30Z
@@ -30321,7 +30317,7 @@ creation_date: 2019-08-19T13:43:04Z
 [Term]
 id: CMO:0003242
 name: calculated heart infarction area
-synonym: "Not4Curation" RELATED []
+synonym: "Not4Curation" EXACT []
 is_a: CMO:0000690 ! heart infarction area
 created_by: sjwang
 creation_date: 2019-08-19T13:49:30Z
@@ -30478,7 +30474,6 @@ id: CMO:0003260
 name: smooth muscle ribonucleic acid composition measurement
 synonym: "smooth muscle RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0002799 ! muscle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:21:49Z
 
@@ -30708,7 +30703,6 @@ creation_date: 2019-12-20T11:25:47Z
 id: CMO:0003289
 name: right renal cortex ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30724,7 +30718,6 @@ creation_date: 2020-01-10T15:31:08Z
 id: CMO:0003291
 name: right renal pelvis ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30735,7 +30728,6 @@ synonym: "arm muscle RNA level" EXACT []
 synonym: "forelimb muscle ribonucleic acid level" EXACT []
 synonym: "upper limb skeletal muscle ribonucleic acid level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0003362 ! musculature ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30754,7 +30746,6 @@ creation_date: 2020-01-10T15:31:08Z
 id: CMO:0003294
 name: skeletal muscle of trunk ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0003251 ! skeletal muscle ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -31349,7 +31340,6 @@ id: CMO:0003374
 name: venous blood ribonucleic acid composition measurement
 synonym: "venous blood RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0003337 ! blood ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T12:28:10Z
 
@@ -31403,7 +31393,6 @@ name: lung alveolus ribonucleic acid composition measurement
 synonym: "alveolus of lung ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0002299
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0002798 ! lung ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:18:50Z
 
@@ -32707,8 +32696,8 @@ creation_date: 2020-08-13T18:31:47Z
 id: CMO:0003511
 name: serum 11-dehydrocorticosterone level
 def: "The amount of 11-dehydrocorticosterone, an 11-oxo steroid that is corticosterone in which the hydroxy substituent at the 11beta position has been oxidized to give the corresponding ketone, found in a specific volume of serum." [CHEBI:78600, ISBN:9780618824359]
-synonym: "serum 11-DHC level" EXACT []
-synonym: "serum dehydrocorticosterone level" EXACT []
+synonym: "plasma 11-DHC level" EXACT []
+synonym: "plasma dehydrocorticosterone level" EXACT []
 xref: CHEBI:78600
 is_a: CMO:0003509 ! blood 11-dehydrocorticosterone level
 created_by: slaulede
@@ -33814,7 +33803,6 @@ creation_date: 2021-01-07T13:50:01Z
 id: CMO:0003629
 name: renal perfusion index
 def: "An index which describes the uptake of contrast agent by the renal cortex. It is the time at which contrast concentration reaches its maximum." [https://radiopaedia.org, PMID:14561850]
-synonym: "Not4Curation" RELATED []
 synonym: "time to peak cortical uptake" EXACT []
 synonym: "TTP cortical uptake" EXACT []
 xref: PMID:14561850
@@ -35092,10 +35080,10 @@ creation_date: 2021-06-29T13:13:15Z
 id: CMO:0003747
 name: kidney interstitial fibrotic lesion area to total kidney area ratio
 alt_id: CMO:0001258
-def: "This measurement is a calculated value in which the extent of the two-dimensional area occupied by fibrotic lesions is divided by the total extent of the two-dimensional area of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney. The two-dimensional measurements are made on microscopic images." [https://www.merriam-webster.com/, ISBN:978-1416049982]
+def: "A calculated value in which the extent of the two-dimensional surface occupied by fibrotic lesions is divided by the total extent of the two-dimensional surface of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney." [https://www.merriam-webster.com/, ISBN:978-1416049982]
 synonym: "kidney fibrotic lesion cross-sectional area to total kidney cross-sectional area ratio" EXACT []
 xref: PMID:20864942
-is_a: CMO:0001257 ! calculated kidney fibrotic lesion area measurement
+is_a: CMO:0001258 ! kidney fibrotic lesion area to total kidney area ratio
 created_by: slaulede
 creation_date: 2021-06-29T13:30:36Z
 
@@ -35631,7 +35619,7 @@ name: calculated kidney glomerulus count
 def: "Any count that has been normalized, adjusted or derived by a mathematical process or computation, of the glomeruli of one or both kidneys, the paired organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes." [https://www.merriam-webster.com/, PMID:23241663]
 synonym: "calculated glomerulus count" EXACT []
 synonym: "calculated renal glomerulus count" EXACT []
-synonym: "Not4Curation" RELATED []
+synonym: "Not4Curation" EXACT []
 xref: PMID:23241663
 is_a: CMO:0000536 ! kidney glomerulus count
 is_a: CMO:0002817 ! calculated kidney glomerulus measurement
@@ -36323,7 +36311,7 @@ name: calculated red blood cell sodium/potassium passive permeability
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation of the red blood cell sodium and potassium ion flux into erythrocytes in the presence of a sodium-potassium pump inhibitor (ouabain) and a sodium-potassium-chloride cotransporter inhibitor (furosemide or bumetamide)." [PMID:1390856]
 synonym: "calculated erythrocyte sodium/potassium passive permeability" EXACT []
 synonym: "calculated ouabain- and bumetanide-resistant sodium/potassium flux" EXACT []
-synonym: "Not4Curation" RELATED []
+synonym: "Not4Curation" EXACT []
 xref: PMID:12887131
 xref: PMID:3611769
 is_a: CMO:0003774 ! red blood cell sodium/potassium passive permeability
@@ -36878,7 +36866,7 @@ id: CMO:0003916
 name: cell ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
 synonym: "cell RNA composition measurement" EXACT []
-synonym: "Not4Curation" RELATED []
+synonym: "Not4Curation" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003915 ! cell molecular composition measurement
 created_by: slaulede
@@ -36909,7 +36897,7 @@ id: CMO:0003919
 name: cultured cell ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells after in vitro cell culturing for a specified length of time. Cell culture refers to the growth of isolated cells from an animal or plant in a favorable artificial environment." [https://www.thermofisher.com, ISBN-13:978-0781733908]
 synonym: "cultured cell RNA composition measurement" EXACT []
-synonym: "Not4Curation" RELATED []
+synonym: "Not4Curation" EXACT []
 is_a: CMO:0003918 ! isolated cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-04-03T17:34:15Z
@@ -37791,7 +37779,6 @@ synonym: "malignant neoplasm ribonucleic acid level" EXACT []
 synonym: "malignant, neoplastic tissue ribonucleic acid composition measurement" EXACT []
 synonym: "malignant tissue ribonucleic acid level" EXACT []
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0004000 ! neoplastic tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-15T14:03:17Z
 
@@ -37805,7 +37792,6 @@ synonym: "benign tumor ribonucleic acid level" EXACT []
 synonym: "noncancerous, neoplastic tissue ribonucleic acid level" EXACT []
 synonym: "noncancerous tumor ribonucleic acid level" EXACT []
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0004000 ! neoplastic tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-15T14:17:20Z
 
@@ -37817,7 +37803,6 @@ synonym: "endometrial RNA level" EXACT []
 synonym: "endometrium RNA level" EXACT []
 synonym: "tunica mucosa RNA level" EXACT []
 synonym: "uterine endometrium RNA level" EXACT []
-is_a: CMO:0002803 ! uterus ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-07-16T13:04:28Z
 
@@ -37830,8 +37815,6 @@ synonym: "endometrial, malignant neoplasm ribonucleic acid level" EXACT []
 synonym: "endometrial, malignant, neoplastic tissue ribonucleic acid level" EXACT []
 synonym: "endometrial, malignant tumor ribonucleic acid level" EXACT []
 synonym: "endometrium cancer ribonucleic acid level" EXACT []
-is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
-is_a: CMO:0004003 ! endometrium ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T13:27:27Z
 
@@ -37842,7 +37825,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "breast mammary gland" NARROW []
 synonym: "lactiferous gland" EXACT []
 synonym: "thoracic mammary gland" NARROW []
-is_a: CMO:0003255 ! skin ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T13:53:12Z
 
@@ -37879,7 +37861,6 @@ name: total number of entries into the arms of an elevated plus maze
 def: "The count of movements of an experimental subject into any arm of an elevated plus maze, including entries into both open and enclosed arms." [PMID:38488865]
 synonym: "total number of entries into an arm of an EPM" EXACT []
 synonym: "total number of entries into any arm of an elevated plus maze" EXACT []
-is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T16:50:20Z
 
@@ -37889,7 +37870,6 @@ name: number of entries into an enclosed arm of an elevated plus maze
 def: "The count of movements from the center of the elevated plus maze into either of the two arms of the maze that are enclosed by walls sufficiently high to prevent the escape of an experimental subject. The walls of the enclosed arms may be opaque to prevent the experimental subject from seeing anything outside the maze." [PMID:38488865]
 synonym: "number of entries into a closed arm of an elevated plus maze" EXACT []
 synonym: "number of entries into an enclosed arm of an EPM" EXACT []
-is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T16:57:12Z
 
@@ -37899,7 +37879,6 @@ name: number of entries into an open arm of an elevated plus maze
 def: "The count of movements of an experimental subject into either of the two arms of an elevated plus maze that do not have walls to prevent the experimental subject from escaping or from seeing anything outside the maze." [PMID:38488865]
 synonym: "number of entries into an open arm of an EPM" RELATED []
 synonym: "number of entries into any open arm of an elevated plus maze" EXACT []
-is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:04:17Z
 
@@ -37908,8 +37887,6 @@ id: CMO:0004011
 name: amount of experiment time spent in a discrete space in an elevated plus maze
 def: "The total amount of time during an experiment that an organism or experimental subject spends in a distinct and specified area of an elevated plus maze (EPM). An EPM is an apparatus with an open center area, two open arms without enclosing walls and two enclosed arms with walls to prevent the experimental subject from escaping or from seeing anything outside the maze. The apparatus is raised a specified distance above the floor and is used to measure movement, behavior, learning, memory, etc., generally in rodents." [PMID:1683415, PMID:7762079]
 synonym: "amount of experiment time spent in a discrete space in an EPM" RELATED []
-is_a: CMO:0000958 ! amount of experiment time spent in a discrete space in an experimental apparatus
-is_a: CMO:0004021 ! measurement of voluntary locomotion in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:09:50Z
 
@@ -37918,7 +37895,6 @@ id: CMO:0004012
 name: total amount of experiment time spent in an enclosed arm of an elevated plus maze
 def: "The cumulative amount of time during an experiment that an organism or experimental subject spends in either of the two arms of an elevated plus maze that are enclosed by opaque walls to prevent the experimental subject from escaping and from seeing anything outside the maze." [PMID:1683415, PMID:7762079]
 synonym: "amount of experiment time spent in an enclosed arm of an EPM" RELATED []
-is_a: CMO:0004011 ! amount of experiment time spent in a discrete space in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:19:59Z
 
@@ -37929,7 +37905,6 @@ def: "The cumulative amount of time during an experiment that an organism or exp
 synonym: "amount of experiment time spent in an open area of an EPM" RELATED []
 synonym: "time spent in the open arms and center of an elevated plus maze" EXACT []
 synonym: "total time spent in theopen areas of an elevated plus maze apparatus" EXACT []
-is_a: CMO:0004011 ! amount of experiment time spent in a discrete space in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:23:24Z
 
@@ -37939,7 +37914,6 @@ name: total amount of experiment time spent in an open arm of an elevated plus m
 def: "The cumulative amount of time during an experiment that an organism or experimental subject spends specifically in either of the two arms of the maze that do not have walls to prevent the experimental subject from seeing anything outside the maze." [PMID:1683415, PMID:7762079]
 synonym: "amount of experiment time spent in an open arm of an EPM" RELATED []
 synonym: "time spent in an open arm of an elevated plus maze apparatus" EXACT []
-is_a: CMO:0004013 ! total amount of experiment time spent in any open area of an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:30:05Z
 
@@ -37947,8 +37921,6 @@ creation_date: 2024-08-01T17:30:05Z
 id: CMO:0004015
 name: number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
 def: "A measurement of the distance traveled in an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment. An open field apparatus is an arena, often but not always circular and brightly lit, enclosed in walls of sufficient height to prevent the escape of the experimental subject." [PMID:12600700]
-is_a: CMO:0001514 ! number of 20 x 20 cm floor squares crossed into, out of or within a discrete space in an experimental apparatus
-is_a: CMO:0004020 ! measurement of voluntary locomotion in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:41:32Z
 
@@ -37956,7 +37928,6 @@ creation_date: 2024-08-01T17:41:32Z
 id: CMO:0004016
 name: number of 20 x 20 cm floor squares crossed on the periphery of an open field apparatus
 def: "A measurement of the distance traveled within the region at the outer edge of an open field apparatus adjacent to the enclosing wall, measured as a count of the segments of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:47:06Z
 
@@ -37964,7 +37935,6 @@ creation_date: 2024-08-01T17:47:06Z
 id: CMO:0004017
 name: number of 20 x 20 cm floor squares crossed in the center of an open field apparatus
 def: "A measurement of the distance traveled within the open central region of an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:50:07Z
 
@@ -37974,7 +37944,6 @@ name: defecation rate by count
 def: "Measurement of the number of boli of fecal matter excreted within a specified period of time determined by counting the number of individual pellets deposited by the experimental subject." [PMID:12600700]
 synonym: "total number of fecal boli deposited during a period of time" EXACT []
 synonym: "total number of fecal boluses deposited during a period of time" EXACT []
-is_a: CMO:0000998 ! defecation rate
 created_by: jrsjrs
 creation_date: 2024-08-01T17:54:34Z
 
@@ -37984,8 +37953,6 @@ name: number of lines crossed in the center of an open field apparatus
 def: "A measurement of the distance traveled within the region in the center of an open field apparatus, measured as a count of the grid lines, marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
 comment: This term should only be used when the measurement is "lines crossed" without information about the size or spacing of the lines or squares in the grid.
 synonym: "number of inner line crossings" RELATED []
-is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
-is_a: CMO:0004020 ! measurement of voluntary locomotion in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:59:49Z
 
@@ -37993,7 +37960,6 @@ creation_date: 2024-08-01T17:59:49Z
 id: CMO:0004020
 name: measurement of voluntary locomotion in an open field apparatus
 def: "Any measurement of the movement of an organism from one place to another in an open field apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An open field apparatus is an arena, often but not always circular and brightly lit, enclosed in walls of sufficient height to prevent the escape of the experimental subject." [PMID:12600700]
-is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T18:09:55Z
 
@@ -38002,7 +37968,6 @@ id: CMO:0004021
 name: measurement of voluntary locomotion in an elevated plus maze
 def: "Any measurement of the movement of an organism from one place to another in an elevated plus maze apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An elevated plus maze (EPM) is an apparatus with an open center area, two open arms without enclosing walls and two enclosed arms with walls to prevent the experimental subject from escaping or from seeing anything outside the maze. The apparatus is raised a specified distance above the floor and is used to measure movement, behavior, learning, memory, etc., generally in rodents." [PMID:1683415, PMID:7762079]
 synonym: "measurement of voluntary locomotion in an EPM" RELATED []
-is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T18:21:06Z
 
@@ -38011,8 +37976,6 @@ id: CMO:0004022
 name: number of entries into a discrete space in an elevated plus maze
 def: "A count of the number of times during an experiment that an organism or experimental subject moves into a distinct and specified area of an elevated plus maze (EPM). An EPM is an apparatus with an open center area, two open arms and two enclosed arms raised a specified distance above the floor. It is used to measure movement, behavior, learning, and memory, generally in rodents." [PMID:38488865]
 synonym: "number of entries into a discrete space in an EPM" RELATED []
-is_a: CMO:0000960 ! number of entries into a discrete space in an experimental apparatus
-is_a: CMO:0004021 ! measurement of voluntary locomotion in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T18:32:22Z
 
