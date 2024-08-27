@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.224
-date: 24:08:2024 20:13
+data-version: 2.223
+date: 17:08:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -184,7 +184,6 @@ is_a: CMO:0000000 ! clinical measurement
 [Term]
 id: CMO:0000022
 name: calculated body morphological measurement
-def: "This is a measurement of the physical form or structure of an organism which has been normalized, adjusted or derived by a mathematical process or computation." []
 is_a: CMO:0000021 ! body morphological measurement
 
 [Term]
@@ -615,7 +614,6 @@ is_a: CMO:0000777 ! heart right ventricle weight
 [Term]
 id: CMO:0000073
 name: calculated heart weight
-def: "This is a measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the weight of the heart, that is, its heaviness or the degree to which it is drawn toward the earth by gravity." []
 is_a: CMO:0000017 ! heart weight
 
 [Term]
@@ -660,7 +658,6 @@ is_a: CMO:0000013 ! body length
 [Term]
 id: CMO:0000080
 name: renal/urinary measurement
-def: "This is any measurement, morphological or physiological, involving the kidney or any of the organs involved in the production or excretion of urine." []
 synonym: "renal system measurement" EXACT []
 xref: EFO:0004742
 is_a: CMO:0000000 ! clinical measurement
@@ -699,7 +696,6 @@ is_a: CMO:0000169 ! kidney wet weight
 [Term]
 id: CMO:0000086
 name: liver/biliary measurement
-def: "This is any measurement, morphological or physiological, involving the liver, the gall bladder, or the bile ducts." [UBERON:0002294, UBERON:0002423]
 is_a: CMO:0000000 ! clinical measurement
 
 [Term]
@@ -947,7 +943,6 @@ creation_date: 2009-12-17T09:07:12Z
 [Term]
 id: CMO:0000114
 name: ventilation measurement
-def: "This is any measurable or observable characteristic related to the total volume of gas inspired or expired. Ventilation rate is expressed as the volume of gas entering or leaving the lungs in a given amount of time and can be calculated by multiplying the volume of gas, either inhaled or exhaled, during a breath (the tidal volume) by the breathing rate." [https://www.analog.com/en/resources/technical-articles/introduction-to-ventilators-and-ventilation-rate-measurements.html, VT:0002338]
 is_a: CMO:0000094 ! respiratory system measurement
 created_by: mshimoyama
 creation_date: 2011-09-21T11:16:38Z
@@ -1519,7 +1514,6 @@ creation_date: 2010-05-26T08:55:19Z
 [Term]
 id: CMO:0000174
 name: single testis dry weight
-def: "This is the weight of one testis after desiccation. Testes are the paired, egg-shaped glands normally situated in the scrotum, in which the spermatozoa develop" [https://www.merriam-webster.com/]
 is_a: CMO:0000856 ! testis dry weight
 created_by: RNigam
 creation_date: 2010-05-26T08:55:31Z
@@ -1640,7 +1634,6 @@ creation_date: 2010-12-17T01:17:15Z
 [Term]
 id: CMO:0000187
 name: distal forelimb circumference
-def: "This is the distance around one of the paired front or upper limbs of a quadruped in the segment farthest from the body." []
 is_a: CMO:0000387 ! forelimb morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-17T01:18:12Z
@@ -1648,7 +1641,6 @@ creation_date: 2010-12-17T01:18:12Z
 [Term]
 id: CMO:0000188
 name: forelimb length
-def: "This is a measurement of the linear extent from end to end of an anterior appendage such as a foreleg or an arm. Typically this means the sum of the length of the humerus plus the length of the radius." []
 is_a: CMO:0000387 ! forelimb morphological measurement
 created_by: mshimoyama
 creation_date: 2010-06-10T09:28:41Z
@@ -1656,7 +1648,7 @@ creation_date: 2010-06-10T09:28:41Z
 [Term]
 id: CMO:0000189
 name: hind limb length
-def: "This is a measurement of the linear extent from end to end of a posterior appendage such as a leg. Typically this means the sum of the length of the femur plus the length of the tibia." [Collins:Collins_Online_English_Dictionary]
+def: "Measurement of the linear extent from end to end of a posterior appendage such as a leg." [Collins:Collins_Online_English_Dictionary]
 synonym: "back leg length" RELATED []
 synonym: "hind leg length" RELATED []
 is_a: CMO:0000388 ! hind limb morphological measurement
@@ -1760,8 +1752,7 @@ creation_date: 2010-06-24T01:24:52Z
 [Term]
 id: CMO:0000201
 name: vessel shear stress measurement
-def: "This is a measurement of the tangential force of the flowing blood on the endothelial surface of the blood vessel. The value is defined by the Hagen-Poiseuille equation (τ = 4μQ/πR3, where τ is the shear stress, μ is the blood viscosity, Q is the volumetric flow rate, and R is the lumen radius)." [https://www.sciencedirect.com/topics/nursing-and-health-professions/shear-stress, PMID:12577139]
-synonym: "blood vessel shear stress measurement" EXACT []
+def: "Movement of blood along the solid wall of a vessel, often represented by the Hagen-Poiseuille equation." [RGD:MS]
 is_a: CMO:0000195 ! circulation measurement
 created_by: mshimoyama
 creation_date: 2010-06-10T10:04:04Z
@@ -1769,8 +1760,6 @@ creation_date: 2010-06-10T10:04:04Z
 [Term]
 id: CMO:0000202
 name: in vitro vessel shear stress
-def: "This is a measurement of the tangential force of flowing blood on the endothelial surface of an in vitro blood vessel or other experimental support. The experimental set-up may use steady, nonpulsatile laminar shear stress, pulsatile laminar shear stress, or nonlaminar oscillatory shear stress." [PMID:12577139]
-synonym: "in vitro blood vessel shear stress" EXACT []
 is_a: CMO:0000201 ! vessel shear stress measurement
 created_by: mshimoyama
 creation_date: 2010-06-10T10:51:43Z
@@ -1778,8 +1767,6 @@ creation_date: 2010-06-10T10:51:43Z
 [Term]
 id: CMO:0000203
 name: in vivo vessel shear stress
-def: "This is a measurement of shear stress in a model organism by the experimental creation of an arteriovenous fistula, ligation of vessels, or transposition of a vein graft into the arterial circulation." [PMID:12577139]
-synonym: "in vivo blood vessel shear stress" EXACT []
 is_a: CMO:0000201 ! vessel shear stress measurement
 created_by: mshimoyama
 creation_date: 2010-06-10T10:52:06Z
@@ -2755,7 +2742,7 @@ creation_date: 2010-08-05T09:40:43Z
 [Term]
 id: CMO:0000312
 name: calculated body fat morphological measurement
-def: "This is a measurement of body adipose tissue which has been normalized, adjusted or derived by a mathematical process or computation." [RGD:MS]
+def: "A measurement of body adipose tissue which has been normalized, adjusted or derived by a mathematical process or computation." [RGD:MS]
 is_a: CMO:0000089 ! body fat morphological measurement
 created_by: mshimoyama
 creation_date: 2010-08-05T09:43:07Z
@@ -2796,7 +2783,7 @@ creation_date: 2010-08-05T10:26:16Z
 [Term]
 id: CMO:0000317
 name: proximal forelimb circumference
-def: "This is the distance around one of the paired front or upper limbs of a quadruped in the segment closest to the body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "The distance around one of the paired front or upper limbs of a quadruped in the region closest to the body." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: CMO:0000387 ! forelimb morphological measurement
 created_by: mshimoyama
 creation_date: 2010-08-05T10:33:30Z
@@ -7550,7 +7537,7 @@ creation_date: 2012-06-22T06:03:12Z
 [Term]
 id: CMO:0000856
 name: testis dry weight
-def: "This is the weight after desiccation of one or both of the testes, the paired egg-shaped glands normally situated in the scrotum, in which the spermatozoa develop." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+def: "The weight after desiccation of one or both of the testes, the paired egg-shaped glands normally situated in the scrotum, in which the spermatozoa develop." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_a: CMO:0000151 ! testis weight
 created_by: JSmith
 creation_date: 2012-06-22T06:06:14Z
@@ -7558,7 +7545,6 @@ creation_date: 2012-06-22T06:06:14Z
 [Term]
 id: CMO:0000857
 name: both testes dry weight
-def: "This is the weight of both testes after desiccation. Testes are the paired, egg-shaped glands normally situated in the scrotum, in which the spermatozoa develop." [https://www.merriam-webster.com/]
 is_a: CMO:0000856 ! testis dry weight
 created_by: JSmith
 creation_date: 2012-06-22T06:07:11Z
@@ -8025,7 +8011,7 @@ creation_date: 2012-07-11T10:19:31Z
 [Term]
 id: CMO:0000906
 name: kidney measurement
-def: "This is any measurement, morphological or physiological, involving the kidney or any part thereof." [RGD:JRS]
+def: "Any measurement, morphological or physiological, involving the kidney or any part thereof." [RGD:JRS]
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0000080 ! renal/urinary measurement
 is_a: CMO:0000669 ! organ measurement
@@ -14320,8 +14306,8 @@ creation_date: 2013-05-08T13:08:27Z
 [Term]
 id: CMO:0001574
 name: blood intermediate density lipoprotein phospholipid level
-def: "Measurement of the amount of phospholipid, any of various phosphorus-containing lipids that are composed mainly of fatty acids, a phosphate group, and a simple organic molecule such as glycerol, carried in intermediate-density lipoprotein (IDL) molecules in a specified volume of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them. IDL are relatively large lipoprotein particles (complex molecules that consist of a protein membrane surrounding a core of lipids) formed by degradation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins. The IDL class of lipoproteins is defined as having a density between 1.006 and 1.019 g/ml." [http://themedicalbiochemistrypage.org/lipoproteins.php "Website", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
-comment: Values for density ranges of the lipoprotein classes are approximate. The classes may be defined differently by different researchers, in part because class definitions depend on the number of subclasses into which the lipoprotein fractions are divided.
+def: "Measurement of the amount of phospholipid, any of various phosphorus-containing lipids that are composed mainly of fatty acids, a phosphate group, and a simple organic molecule such as glycerol, carried in intermediate-density lipoprotein (IDL) molecules in a specified volume of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them. IDL are relatively large lipoprotein particles (complex molecules that consist of a protein membrane surrounding a core of lipids) formed by degredation of very low density lipoproteins (VLDL) particles and thus having a size intermediate between those of VLDL and low density lipoproteins. The IDL class of lipoproteins is defined as having a density between 1.006 and 1.019 g/ml." [http://themedicalbiochemistrypage.org/lipoproteins.php "Website", http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
+comment: Values for density ranges of the lipoprotein classes are approximate.  The classes may be defined differently by different researchers, in part because class definitions depend on the number of subclasses into which the lipoprotein fractions are divided.
 synonym: "blood IDL phospholipid level" RELATED []
 synonym: "phospholipids in IDL measurement" BROAD []
 xref: EFO:0022164
@@ -22719,7 +22705,7 @@ creation_date: 2014-05-29T13:52:49Z
 [Term]
 id: CMO:0002417
 name: calculated uterus weight
-def: "This is a measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the weight of the uterus, that is, its heaviness or the degree to which it is drawn toward the earth by gravity." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
+def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the weight of the uterus, that is, its heaviness or the degree to which it is drawn toward the earth by gravity." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "calculated uterine weight" RELATED []
 is_a: CMO:0002416 ! uterus weight
 created_by: JSmith
