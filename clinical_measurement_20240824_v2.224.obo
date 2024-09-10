@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.225
-date: 07:09:2024 20:13
+data-version: 2.224
+date: 24:08:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -34952,7 +34952,7 @@ synonym: "blood asymmetrical dimethylarginine level" EXACT []
 synonym: "blood asymmetric dimethylarginines level" EXACT []
 xref: EFO:0010463
 xref: PMID:19420905
-relationship: has_component CMO:0003731 ! blood arginine level
+is_a: CMO:0003731 ! blood arginine level
 created_by: slaulede
 creation_date: 2021-06-25T13:47:58Z
 
@@ -34966,7 +34966,7 @@ synonym: "blood symmetric dimethylarginines level" EXACT []
 synonym: "symmetrical dimethylarginine measurement" EXACT []
 xref: EFO:0006523
 xref: PMID:19420905
-relationship: has_component CMO:0003731 ! blood arginine level
+is_a: CMO:0003731 ! blood arginine level
 created_by: slaulede
 creation_date: 2021-06-25T13:56:51Z
 
@@ -37970,7 +37970,6 @@ creation_date: 2024-08-01T17:41:32Z
 id: CMO:0004016
 name: number of 20 x 20 cm floor squares crossed on the periphery of an open field apparatus
 def: "A measurement of the distance traveled within the region at the outer edge of an open field apparatus adjacent to the enclosing wall, measured as a count of the segments of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-synonym: "open field outer locomotion" RELATED []
 is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:47:06Z
@@ -37979,7 +37978,6 @@ creation_date: 2024-08-01T17:47:06Z
 id: CMO:0004017
 name: number of 20 x 20 cm floor squares crossed in the center of an open field apparatus
 def: "A measurement of the distance traveled within the open central region of an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-synonym: "open field inner locomotion" RELATED []
 is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:50:07Z
@@ -38031,49 +38029,6 @@ is_a: CMO:0000960 ! number of entries into a discrete space in an experimental a
 is_a: CMO:0004021 ! measurement of voluntary locomotion in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T18:32:22Z
-
-[Term]
-id: CMO:0004023
-name: ratio of count of entries into an open arm of an elevated plus maze to total count of arm entries
-def: "The number of movements of an experimental subject into either of the two arms of an elevated plus maze that do not have walls to prevent the experimental subject from escaping or from seeing anything outside the maze divided by the total number of counts of the experimental subject entering any arm of the maze. Ratio may be expressed as a percentage." [PMID:38488865]
-synonym: "number of entries into an open arm of an elevated plus maze as percent of total arm entries" EXACT []
-synonym: "number of entries into an open arm of an elevated plus maze to count of total arm entries ratio" EXACT []
-is_a: CMO:0004010 ! number of entries into an open arm of an elevated plus maze
-created_by: jrsjrs
-creation_date: 2024-09-04T13:48:17Z
-
-[Term]
-id: CMO:0004024
-name: medial collateral ligament ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the medial collateral ligament, the tendon on the inner side of the knee joint that connects the femur and the tibia, thus helping to stabilize the joint." [https://www.merriam-webster.com]
-synonym: "MCL ribonucleic acid level" EXACT []
-synonym: "MCL RNA level" EXACT []
-xref: PMID:38597671
-is_a: CMO:0003995 ! knee joint ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-09-05T14:22:13Z
-
-[Term]
-id: CMO:0004025
-name: lateral collateral ligament ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the lateral collateral ligament, the tendon on the outer side of the knee joint that connects the femur and the fibula, thus helping to stabilize the joint." [https://www.merriam-webster.com]
-synonym: "LCL ribonucleic acid level" EXACT []
-synonym: "LCL RNA level" EXACT []
-xref: PMID:38597671
-is_a: CMO:0003995 ! knee joint ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-09-05T14:30:31Z
-
-[Term]
-id: CMO:0004026
-name: number of fecal boluses
-def: "A count of the instances of defecation indicated by the number of pieces of fecal matter collected." [PMID:9821556]
-synonym: "defecation count" RELATED []
-synonym: "fecal bolus count" EXACT []
-synonym: "total number of faecal boli" RELATED []
-is_a: CMO:0000997 ! defecation measurement
-created_by: jrsjrs
-creation_date: 2024-09-05T15:29:57Z
 
 [Typedef]
 id: part_of
