@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.227
-date: 28:09:2024 20:13
+data-version: 2.226
+date: 21:09:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -10787,7 +10787,7 @@ creation_date: 2012-11-15T15:23:10Z
 [Term]
 id: CMO:0001195
 name: epididymal plus perirenal white adipose tissue weight to body weight ratio
-def: "This measurement is a calculated value in which the sum of the weights of the white adipose tissue associated with the epididymis and that surrounding the kidneys is divided by the total weight of the body and presented as a ratio, fraction, quotient or percent, thus normalizing it to body weight." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/White_adipose_tissue "Wikipedia", ISBN:978-1416049982]
+def: "A calculated value in which the sum of the weights of the white adipose tissue associated with the epididymus and that surrounding the kidneys is divided by the total weight of the body and presented as a ratio, fraction, quotient or percent, thus normalizing it to body weight." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/White_adipose_tissue "Wikipedia", ISBN:978-1416049982]
 synonym: "sum of epididymal and perirenal white adipose tissue to body weight ratio" EXACT []
 is_a: CMO:0001194 ! white adipose tissue weight to body weight ratio
 created_by: JSmith
@@ -38077,19 +38077,6 @@ synonym: "total number of faecal boli" RELATED []
 is_a: CMO:0000997 ! defecation measurement
 created_by: jrsjrs
 creation_date: 2024-09-05T15:29:57Z
-
-[Term]
-id: CMO:0004027
-name: gonadal adipose ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the encapsulated adipose tissue surrounding the epididymis/testicle or ovary." [https://www.merriam-webster.com, ISBN-13:9780781733908]
-synonym: "epididymal fat pad ribonucleic acid level" NARROW []
-synonym: "gonadal adipose RNA level" EXACT []
-synonym: "ovarian fat pad ribonucleic acid level" NARROW []
-synonym: "perigonadal adipose ribonucleic acid amount" EXACT []
-synonym: "periovarian fat pad ribonucleic acid level" NARROW []
-is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-09-26T17:45:17Z
 
 [Typedef]
 id: part_of
