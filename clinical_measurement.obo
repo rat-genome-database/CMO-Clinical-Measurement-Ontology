@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.227
-date: 28:09:2024 20:13
+data-version: 2.228
+date: 19:10:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -11365,6 +11365,7 @@ creation_date: 2013-01-08T15:17:52Z
 id: CMO:0001258
 name: kidney fibrotic lesion area to total kidney area ratio
 def: "A calculated value in which the extent of the two-dimensional surface occupied by fibrotic lesions is divided by the total extent of the two-dimensional surface of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+is_obsolete: true
 created_by: JSmith
 creation_date: 2013-01-08T15:20:55Z
 
