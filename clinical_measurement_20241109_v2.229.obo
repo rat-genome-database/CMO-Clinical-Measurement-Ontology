@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.230
-date: 23:11:2024 20:13
+data-version: 2.229
+date: 09:11:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -37544,7 +37544,7 @@ def: "This is any quantification of the physical form or structure of the larges
 synonym: "caval vein morphological measurement" EXACT []
 synonym: "venae cavae morphological measurement" EXACT []
 xref: PMID:36733943
-is_a: CMO:0004031 ! vein morphological measurement
+is_a: CMO:0001997 ! blood vessel morphological measurement
 created_by: slaulederkind
 creation_date: 2024-03-05T14:21:38Z
 
@@ -38119,26 +38119,9 @@ synonym: "SCG ribonucleic acid level" EXACT []
 synonym: "SCG RNA level" EXACT []
 synonym: "superior cervical ganglion RNA level" EXACT []
 synonym: "superior sympathetic cervical ganglion RNA level" EXACT []
-xref: GEO:GSE267794
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-11-07T12:23:38Z
-
-[Term]
-id: CMO:0004031
-name: vein morphological measurement
-def: "This is any quantification of the physical form or structure of a vein, any of the tubular branching vessels that carry blood from the capillaries toward the heart." [UBERON:0001638]
-is_a: CMO:0001997 ! blood vessel morphological measurement
-created_by: slaulederkind
-creation_date: 2024-11-18T16:36:50Z
-
-[Term]
-id: CMO:0004032
-name: pulmonary vein morphological measurement
-def: "This is any quantification of the physical form or structure of a pulmonary vein, a blood vessel that transport bloods from the lungs to the heart" []
-is_a: CMO:0004031 ! vein morphological measurement
-created_by: slaulederkind
-creation_date: 2024-11-18T17:30:59Z
 
 [Typedef]
 id: part_of
