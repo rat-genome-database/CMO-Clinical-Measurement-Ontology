@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.232
-date: 14:12:2024 20:13
+data-version: 2.231
+date: 07:12:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -38177,27 +38177,6 @@ is_a: CMO:0004035 ! lymphatic vessel ribonucleic acid level
 relationship: part_of CMO:0003261 ! stomach ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-12-03T16:25:19Z
-
-[Term]
-id: CMO:0004037
-name: intervertebral disk ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in intervertebral disk , a pad of fibrocartilage between the articular surfaces of two successive vertebral centra which has nucleus pulposus at its core." [CHEBI:33697, UBERON:0001066]
-synonym: "intervertebral disc ribonucleic acid level" EXACT []
-synonym: "intervertebral disk RNA level" EXACT []
-synonym: "spinal disc ribonucleic acid level" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-12-12T15:49:24Z
-
-[Term]
-id: CMO:0004038
-name: nucleus pulposus ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in nucleus pulposus, the jelly-like substance in the middle of the vertebral disk which is a remnant of the notochord." [https://www.merriam-webster.com/, UBERON:0002242]
-synonym: "nucleus pulposus RNA level" EXACT []
-synonym: "RNA level in nucleus pulposus of intervertebral disk" EXACT []
-relationship: part_of CMO:0004037 ! intervertebral disk ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-12-12T15:59:51Z
 
 [Typedef]
 id: part_of
