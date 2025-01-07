@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.233
-date: 04:01:2025 20:13
+data-version: 2.232
+date: 14:12:2024 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -30834,8 +30834,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003303
-name: hippocampal formation ribonucleic acid level
-synonym: "hippocampal formation ribonucleic acid composition measurement" EXACT []
+name: hippocampal formation ribonucleic acid composition measurement
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31296,9 +31295,8 @@ creation_date: 2020-01-17T09:01:49Z
 
 [Term]
 id: CMO:0003365
-name: hippocampus proper ribonucleic acid level
-synonym: "hippocampus proper ribonucleic acid composition measurement" EXACT []
-relationship: part_of CMO:0003303 ! hippocampal formation ribonucleic acid level
+name: hippocampus proper ribonucleic acid composition measurement
+relationship: part_of CMO:0003303 ! hippocampal formation ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:02:13Z
 
@@ -38200,16 +38198,6 @@ synonym: "RNA level in nucleus pulposus of intervertebral disk" EXACT []
 relationship: part_of CMO:0004037 ! intervertebral disk ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-12-12T15:59:51Z
-
-[Term]
-id: CMO:0004039
-name: CA1 field of hippocampus ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the CA1 field of the hippocampus is formed or composed." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "CA1 field of hippocampus RNA level" EXACT []
-xref: PMID:32062370
-is_a: CMO:0003303 ! hippocampal formation ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2024-12-16T11:34:07Z
 
 [Typedef]
 id: part_of
