@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.234
-date: 11:01:2025 20:13
+data-version: 2.233
+date: 04:01:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -26382,7 +26382,6 @@ creation_date: 2018-05-15T17:13:43Z
 id: CMO:0002793
 name: tissue ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified tissue." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "Not4Curation" RELATED []
 synonym: "tissue ribonucleic acid composition measurement" EXACT []
 synonym: "tissue RNA composition measurement" EXACT []
 synonym: "tissue RNA level" EXACT []
@@ -30528,8 +30527,7 @@ creation_date: 2019-11-19T12:39:24Z
 
 [Term]
 id: CMO:0003265
-name: placenta ribonucleic acid level
-synonym: "placenta ribonucleic acid composition measurement" EXACT []
+name: placenta ribonucleic acid composition measurement
 synonym: "placenta RNA level" EXACT []
 is_a: CMO:0002086 ! placenta morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
