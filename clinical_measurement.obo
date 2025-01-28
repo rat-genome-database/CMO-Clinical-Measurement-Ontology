@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.234
-date: 11:01:2025 20:13
+data-version: 2.235
+date: 25:01:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -2273,7 +2273,6 @@ id: CMO:0000257
 name: urine specific gravity
 def: "This calculated measurement is the ratio of the density of urine to the density of water at a given temperature and pressure." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "urine density" RELATED []
-xref: EFO:0010135
 is_a: CMO:0000256 ! urine measurement
 created_by: mshimoyama
 creation_date: 2010-06-17T12:27:01Z
