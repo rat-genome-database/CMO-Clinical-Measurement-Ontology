@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.236
-date: 01:02:2025 20:13
+data-version: 2.235
+date: 25:01:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -580,8 +580,7 @@ is_a: CMO:0000063 ! blood electrolyte measurement
 id: CMO:0000068
 name: organ morphological measurement
 def: "A measurement of the physical form and structure of an organ." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, RGD:JRS]
-comment: This is the term which used to be just "organ measurement". Since it was under body morphological measurement, it clearly referred to a morphological measurement. Because a term for organ measurement was needed that was not morphological, and since this one already had annotations, I changed the term while keeping the ID and location in the ontology the same. JRS 2-15-2012.
-synonym: "Not4Curation" RELATED []
+comment: This is the term which used to be just "organ measurement". Since it was under body morphological measurement, it clearly referred to a morphological measurement. Because a term for organ measurement was needed that was not morphological, and since this one already had annotations, I changed the term while keeping the ID and location in the ontology the same.  JRS 2-15-2012.
 is_a: CMO:0000021 ! body morphological measurement
 is_a: CMO:0000669 ! organ measurement
 
@@ -30815,9 +30814,8 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003300
-name: dorsal thalamus ribonucleic acid level
-synonym: "dorsal thalamus ribonucleic acid composition measurement" EXACT []
-relationship: part_of CMO:0003369 ! forebrain ribonucleic acid level
+name: dorsal thalamus ribonucleic acid composition measurement
+relationship: part_of CMO:0003369 ! forebrain ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31325,15 +31323,14 @@ name: telencephalon ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the telencephalon is formed or composed. Together with the diencephalon the telencephalon is part of the the most anterior region of the brain, called the forebrain." []
 synonym: "endbrain ribonucleic acid level" EXACT []
 synonym: "telencephalon ribonucleic acid composition measurement" EXACT []
-relationship: part_of CMO:0003369 ! forebrain ribonucleic acid level
+relationship: part_of CMO:0003369 ! forebrain ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:01Z
 
 [Term]
 id: CMO:0003369
-name: forebrain ribonucleic acid level
+name: forebrain ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the forebrain is formed or composed. The forebrain is the most anterior region of the brain including both the telencephalon and diencephalon." []
-synonym: "forebrain ribonucleic acid composition measurement" EXACT []
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:39Z
@@ -31354,10 +31351,9 @@ creation_date: 2020-01-17T09:05:23Z
 
 [Term]
 id: CMO:0003372
-name: combined forebrain and midbrain ribonucleic acid level
-synonym: "combined forebrain and midbrain ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003369 ! forebrain ribonucleic acid level
-is_a: CMO:0003929 ! midbrain ribonucleic acid level
+name: combined forebrain and midbrain ribonucleic acid composition measurement
+is_a: CMO:0003369 ! forebrain ribonucleic acid composition measurement
+is_a: CMO:0003929 ! midbrain ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:45Z
 
@@ -37026,11 +37022,9 @@ creation_date: 2023-07-24T15:51:56Z
 
 [Term]
 id: CMO:0003929
-name: midbrain ribonucleic acid level
+name: midbrain ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the midbrain is formed or composed." [http://braininfo.rprc.washington.edu/Default.aspx]
 synonym: "mesencephalon ribonucleic acid composition measurement" EXACT []
-synonym: "midbrain ribonucleic acid composition measurement" EXACT []
-synonym: "midbrain RNA level" EXACT []
 xref: UBERON:0001891
 is_a: CMO:0002795 ! brain ribonucleic acid level
 created_by: slaulede
@@ -37038,11 +37032,10 @@ creation_date: 2023-07-24T16:03:01Z
 
 [Term]
 id: CMO:0003930
-name: hypothalamus ribonucleic acid level
+name: hypothalamus ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the hypothalamus is formed or composed." [http://braininfo.rprc.washington.edu/Default.aspx]
-synonym: "hypothalamus ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0001898
-is_a: CMO:0003369 ! forebrain ribonucleic acid level
+is_a: CMO:0003369 ! forebrain ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-07-24T16:18:48Z
 
@@ -38218,60 +38211,6 @@ xref: PMID:32062370
 is_a: CMO:0003303 ! hippocampal formation ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-12-16T11:34:07Z
-
-[Term]
-id: CMO:0004040
-name: larynx morphological measurement
-def: "This is a measurement related to the shape, structure, color, or pattern of the modified upper part of the trachea of air-breathing vertebrates that in humans, most other mammals, and some amphibians and reptiles contains the vocal cords." [https://www.merriam-webster.com]
-synonym: "voice box morphological measurement" EXACT []
-is_a: CMO:0000068 ! organ morphological measurement
-is_a: CMO:0000094 ! respiratory system measurement
-created_by: slaulederkind
-creation_date: 2025-01-30T14:16:22Z
-
-[Term]
-id: CMO:0004041
-name: larynx molecular composition measurement
-def: "This is any quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of the larynx, the modified upper part of the trachea of air-breathing vertebrates that in humans, most other mammals, and some amphibians and reptiles contains the vocal cords." [https://www.merriam-webster.com/]
-synonym: "voice box molecular composition measurement" EXACT []
-is_a: CMO:0002067 ! tissue molecular composition measurement
-is_a: CMO:0004040 ! larynx morphological measurement
-created_by: slaulederkind
-creation_date: 2025-01-30T14:30:25Z
-
-[Term]
-id: CMO:0004042
-name: larynx ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of the larynx." [https://www.merriam-webster.com]
-synonym: "voice box ribonucleic acid level" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0004041 ! larynx molecular composition measurement
-created_by: slaulederkind
-creation_date: 2025-01-30T14:47:23Z
-
-[Term]
-id: CMO:0004043
-name: thyroarytenoid muscle ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of the thyroarytenoid muscle, a broad, thin, muscle which lies parallel with and lateral to the vocal fold, and supports the wall of the ventricle and its appendix. The thyroarytenoid muscle functions in fine tonal control of the vocal cords.." [https://www.merriam-webster.com, UBERON:0008576]
-synonym: "thyro-arytenoid muscle ribonucleic acid level" EXACT []
-synonym: "thyro-arytenoid muscle RNA level" EXACT []
-synonym: "thyroarytenoid muscle RNA level" EXACT []
-is_a: CMO:0004042 ! larynx ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-01-30T16:49:47Z
-
-[Term]
-id: CMO:0004044
-name: central gray substance of midbrain ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the central gray substance of the midbrain is formed or composed." [https://www.merriam-webster.com, UBERON:0003040]
-synonym: "central gray ribonucleic acid level" EXACT []
-synonym: "central gray RNA level" EXACT []
-synonym: "central gray substance of midbrain RNA level" EXACT []
-synonym: "PAG RNA level" EXACT []
-synonym: "periaqueductal gray RNA level" EXACT []
-is_a: CMO:0003929 ! midbrain ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-01-30T17:33:28Z
 
 [Typedef]
 id: part_of
