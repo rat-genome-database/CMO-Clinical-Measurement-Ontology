@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.237
-date: 08:02:2025 20:13
+data-version: 2.236
+date: 01:02:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -404,8 +404,8 @@ name: blood glucose level
 def: "Measurement of the amount of glucose, the monosaccharide sugar, C6H12O6, occurring widely in plant and animal tissues which is one of the three dietary monosaccharides that are absorbed directly into the bloodstream during digestion, is the end product of carbohydrate metabolism, and is the chief source of energy for living organisms, in a specified volume of blood, the fluid that circulates through the heart, arteries, capillaries and veins carrying nutrients and oxygen to the body tissues and metabolites away from them." [http://www.thefreedictionary.com/ "Multiple_Dictionaries"]
 synonym: "fasting blood glucose measurement" NARROW []
 synonym: "glucose measurement" BROAD []
+xref: EFO:0004465
 xref: EFO:0004468
-xref: VT:0000188
 is_a: CMO:0000023 ! blood chemistry measurement
 created_by: mshimoyama
 creation_date: 2009-12-17T10:41:54Z
@@ -1614,9 +1614,9 @@ creation_date: 2010-06-10T09:12:29Z
 id: CMO:0000184
 name: skull volume
 def: "Total volume or capacity of the bony or cartilaginous framework of the head." [http://en.wikipedia.org "Wikipedia"]
-synonym: "cranial vault morphology measurement" NARROW []
+synonym: "cranial vault morphology measurement" RELATED []
 xref: EFO:0009278
-is_a: CMO:0004047 ! skull morphological measurement
+is_a: CMO:0000182 ! head morphological measurement
 created_by: mshimoyama
 creation_date: 2010-06-10T09:12:47Z
 
@@ -26517,7 +26517,7 @@ id: CMO:0002807
 name: calculated whole body visceral fat weight
 def: "Measurement of the whole body visceral fat which has been normalized, adjusted or derived by a mathematical process or computation." []
 synonym: "lean mass-adjusted fat body mass" NARROW []
-xref: OBA:0004528
+xref: EFO:0009890
 is_a: CMO:0000305 ! total body fat mass
 is_a: CMO:0000312 ! calculated body fat morphological measurement
 created_by: sjwang
@@ -29476,7 +29476,7 @@ creation_date: 2019-04-29T14:20:14Z
 id: CMO:0003147
 name: nose measurement
 synonym: "nose morphology measurement" NARROW []
-xref: VT:0002233
+xref: EFO:0007843
 is_a: CMO:0000094 ! respiratory system measurement
 created_by: sjwang
 creation_date: 2019-04-29T14:28:43Z
@@ -38272,51 +38272,6 @@ synonym: "periaqueductal gray RNA level" EXACT []
 is_a: CMO:0003929 ! midbrain ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-01-30T17:33:28Z
-
-[Term]
-id: CMO:0004045
-name: tibia molecular composition measurement
-def: "This is any any quantification of the amounts or proportions of proteins, lipids, minerals, nutrients, gases, or other substances in a specified sample of tibia." [https://www.merriam-webster.com]
-synonym: "tibial molecular composition measurement" EXACT []
-is_a: CMO:0001378 ! tibia morphological measurement
-created_by: slaulederkind
-creation_date: 2025-02-04T16:33:38Z
-
-[Term]
-id: CMO:0004046
-name: tibia ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tibia is formed or composed." [https://www.merriam-webster.com]
-synonym: "tibial ribonucleic acid level" EXACT []
-synonym: "tibial RNA level" EXACT []
-synonym: "tibia RNA level" EXACT []
-is_a: CMO:0004045 ! tibia molecular composition measurement
-created_by: slaulederkind
-creation_date: 2025-02-04T16:39:44Z
-
-[Term]
-id: CMO:0004047
-name: skull morphological measurement
-def: "This is a measurement of the structure or forms of the bony components of the head, consisting entirely of cranium and mandible." [https://www.merriam-webster.com, UBERON:0003129]
-is_a: CMO:0000182 ! head morphological measurement
-created_by: slaulederkind
-creation_date: 2025-02-06T15:05:55Z
-
-[Term]
-id: CMO:0004048
-name: cranium ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the cranium, the upper portion of the skull, excluding the mandible." [https://www.merriam-webster.com, UBERON:0003128]
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0004049 ! skull molecular composition measurement
-created_by: slaulederkind
-creation_date: 2025-02-06T15:21:40Z
-
-[Term]
-id: CMO:0004049
-name: skull molecular composition measurement
-def: "This is a quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of the bony components of the head, consisting entirely of cranium and mandible." [https://www.merriam-webster.com, UBERON:0003128]
-is_a: CMO:0004047 ! skull morphological measurement
-created_by: slaulederkind
-creation_date: 2025-02-06T15:54:13Z
 
 [Typedef]
 id: part_of
