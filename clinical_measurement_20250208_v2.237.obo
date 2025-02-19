@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.238
-date: 15:02:2025 20:13
+data-version: 2.237
+date: 08:02:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -10976,7 +10976,7 @@ def: "Any measurement pertaining to the secretion of insulin, the major fuel-reg
 synonym: "insulin measurement" BROAD []
 synonym: "insulin secretion measurement" EXACT []
 xref: EFO:0004467
-xref: VT:0003564
+xref: EFO:0008001
 is_a: CMO:0001215 ! pancreatic islet physiological measurement
 created_by: JSmith
 creation_date: 2012-12-17T13:47:28Z
@@ -26442,9 +26442,8 @@ creation_date: 2018-09-28T17:58:33Z
 
 [Term]
 id: CMO:0002799
-name: muscle ribonucleic acid level
+name: muscle ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which muscle tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "muscle ribonucleic acid composition measurement" EXACT []
 synonym: "muscle RNA composition measurement" EXACT []
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -30419,16 +30418,15 @@ creation_date: 2019-10-03T16:12:58Z
 id: CMO:0003251
 name: skeletal muscle ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
-is_obsolete: true
+is_a: CMO:0003194 ! skeletal muscle molecular composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:09:06Z
 
 [Term]
 id: CMO:0003252
-name: gastrocnemius ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the gastrocnemius, the most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." []
-synonym: "gastrocnemius ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
+name: gastrocnemius ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of gastrocnemius, the most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." []
+is_a: CMO:0003251 ! skeletal muscle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:13:44Z
 
@@ -30493,10 +30491,10 @@ creation_date: 2019-11-19T12:15:01Z
 
 [Term]
 id: CMO:0003260
-name: smooth muscle ribonucleic acid level
-synonym: "smooth muscle ribonucleic acid composition measurement" EXACT []
+name: smooth muscle ribonucleic acid composition measurement
 synonym: "smooth muscle RNA level" EXACT []
-is_a: CMO:0002799 ! muscle ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002799 ! muscle ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T12:21:49Z
 
@@ -30606,7 +30604,7 @@ creation_date: 2019-11-19T13:23:57Z
 [Term]
 id: CMO:0003275
 name: mammary organ ribonucleic acid composition measurement
-is_obsolete: true
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:29:32Z
 
@@ -30749,32 +30747,31 @@ creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003292
-name: muscle of arm ribonucleic acid level
+name: muscle of arm ribonucleic acid composition measurement
 synonym: "arm muscle RNA level" EXACT []
 synonym: "forelimb muscle ribonucleic acid level" EXACT []
-synonym: "muscle of arm ribonucleic acid composition measurement" EXACT []
 synonym: "upper limb skeletal muscle ribonucleic acid level" EXACT []
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003362 ! musculature ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003293
-name: muscle of leg ribonucleic acid level
+name: muscle of leg ribonucleic acid composition measurement
 synonym: "hindlimb muscle ribonucleic acid level" EXACT []
 synonym: "lower extremity muscle ribonucleic acid level" EXACT []
-synonym: "muscle of leg ribonucleic acid composition measurement" EXACT []
 synonym: "muscle of leg ribonucleic acid level" EXACT []
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003362 ! musculature ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003294
-name: skeletal muscle of trunk ribonucleic acid level
-synonym: "skeletal muscle of trunk ribonucleic acid composition measurement" EXACT []
-synonym: "skeletal muscle of trunk RNA level" EXACT []
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
+name: skeletal muscle of trunk ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003251 ! skeletal muscle ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -31275,17 +31272,13 @@ creation_date: 2020-01-17T07:53:22Z
 
 [Term]
 id: CMO:0003362
-name: skeletal muscle ribonucleic acid level
-alt_id: CMO:0003251
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
-synonym: "musculature ribonucleic acid composition measurement" EXACT []
+name: musculature ribonucleic acid composition measurement
 synonym: "musculature RNA level" EXACT []
 synonym: "Not4Curation" RELATED []
-synonym: "skeletal muscle ribonucleic acid composition measurement" EXACT []
 synonym: "skeletal muscle RNA level" EXACT []
 synonym: "skeletal muscle tissue RNA level" EXACT []
-is_a: CMO:0002799 ! muscle ribonucleic acid level
-is_a: CMO:0003194 ! skeletal muscle molecular composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0002799 ! muscle ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T08:19:34Z
 
@@ -37549,8 +37542,8 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "mammary gland ribonucleic acid composition measurement" EXACT []
 synonym: "mammary organ ribonucleic acid composition measurement" BROAD []
 xref: PMID:36733943
+is_a: CMO:0001083 ! mammary gland morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0004050 ! mammary gland molecular composition measurement
 created_by: slaulederkind
 creation_date: 2024-03-01T13:37:50Z
 
@@ -38324,28 +38317,6 @@ def: "This is a quantitation of the molecules, atoms and/or ions which constitut
 is_a: CMO:0004047 ! skull morphological measurement
 created_by: slaulederkind
 creation_date: 2025-02-06T15:54:13Z
-
-[Term]
-id: CMO:0004050
-name: mammary gland molecular composition measurement
-def: "This is any quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of the mammary gland, the specialized accessory gland of the skin of mammals that secretes milk." [https://www.merriam-webster.com]
-synonym: "breast molecular composition measurement" RELATED []
-synonym: "lactiferous gland molecular composition measurement" EXACT []
-is_a: CMO:0001083 ! mammary gland morphological measurement
-created_by: slaulederkind
-creation_date: 2025-02-11T16:36:26Z
-
-[Term]
-id: CMO:0004051
-name: triceps brachii ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the triceps brachii, the three headed muscle responsible for extension of the elbow joint." [https://www.merriam-webster.com, ISBN-13:978-1455756438]
-synonym: "triceps brachii muscle ribonucleic acid level" EXACT []
-synonym: "triceps brachii muscle RNA level" EXACT []
-synonym: "triceps brachii RNA level" EXACT []
-synonym: "triceps RNA level" EXACT []
-is_a: CMO:0003292 ! muscle of arm ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-02-11T17:05:13Z
 
 [Typedef]
 id: part_of
