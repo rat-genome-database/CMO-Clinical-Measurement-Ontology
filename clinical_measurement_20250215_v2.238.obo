@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.239
-date: 22:02:2025 20:13
+data-version: 2.238
+date: 15:02:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -38285,7 +38285,6 @@ id: CMO:0004045
 name: tibia molecular composition measurement
 def: "This is any any quantification of the amounts or proportions of proteins, lipids, minerals, nutrients, gases, or other substances in a specified sample of tibia." [https://www.merriam-webster.com]
 synonym: "tibial molecular composition measurement" EXACT []
-xref: GEO:GSE151971
 is_a: CMO:0001378 ! tibia morphological measurement
 created_by: slaulederkind
 creation_date: 2025-02-04T16:33:38Z
@@ -38297,7 +38296,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "tibial ribonucleic acid level" EXACT []
 synonym: "tibial RNA level" EXACT []
 synonym: "tibia RNA level" EXACT []
-xref: GEO:GSE151971
 is_a: CMO:0004045 ! tibia molecular composition measurement
 created_by: slaulederkind
 creation_date: 2025-02-04T16:39:44Z
@@ -38306,7 +38304,6 @@ creation_date: 2025-02-04T16:39:44Z
 id: CMO:0004047
 name: skull morphological measurement
 def: "This is a measurement of the structure or forms of the bony components of the head, consisting entirely of cranium and mandible." [https://www.merriam-webster.com, UBERON:0003129]
-xref: GEO:GSE151971
 is_a: CMO:0000182 ! head morphological measurement
 created_by: slaulederkind
 creation_date: 2025-02-06T15:05:55Z
@@ -38315,7 +38312,6 @@ creation_date: 2025-02-06T15:05:55Z
 id: CMO:0004048
 name: cranium ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the cranium, the upper portion of the skull, excluding the mandible." [https://www.merriam-webster.com, UBERON:0003128]
-xref: GEO:GSE151971
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0004049 ! skull molecular composition measurement
 created_by: slaulederkind
@@ -38325,7 +38321,6 @@ creation_date: 2025-02-06T15:21:40Z
 id: CMO:0004049
 name: skull molecular composition measurement
 def: "This is a quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of the bony components of the head, consisting entirely of cranium and mandible." [https://www.merriam-webster.com, UBERON:0003128]
-xref: GEO:GSE151971
 is_a: CMO:0004047 ! skull morphological measurement
 created_by: slaulederkind
 creation_date: 2025-02-06T15:54:13Z
