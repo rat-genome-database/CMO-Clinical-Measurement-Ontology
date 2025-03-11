@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.239
-date: 22:02:2025 20:13
+data-version: 2.240
+date: 08:03:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -9260,22 +9260,22 @@ creation_date: 2012-08-23T04:24:11Z
 
 [Term]
 id: CMO:0001038
-name: stretched-attend posture measurement
+name: stretched attend posture measurement
 def: "Any measurement of the movement of an experimental subject or organism during which the hind legs remain stationary while the body is stretched forward with head raised." [https://workspace.stanford.edu/sites/mousebehavior/Wiki%20Pages/Investigate%20-%20stretched%20attend.aspx "Website"]
 synonym: "Not4Curation" RELATED []
 synonym: "SAP measurement" RELATED []
-synonym: "stretch-attend posture measurement" EXACT []
+synonym: "stretch attend posture measurement" EXACT []
 is_a: CMO:0000954 ! voluntary body movement measurement
 created_by: jsmith
 creation_date: 2012-08-23T04:39:54Z
 
 [Term]
 id: CMO:0001039
-name: number of stretched-attend posture movements
+name: number of stretched attend posture movements
 def: "Measurement of the number of times an experimental subject or organism displays a stretched-attend posture movement during an experimental time period. The stretched-attend posture is one during which the hind legs remain stationary while the body is stretched forward with head raised." [https://workspace.stanford.edu/sites/mousebehavior/Wiki%20Pages/Investigate%20-%20stretched%20attend.aspx "Website"]
 synonym: "number of SAP movements" RELATED []
 synonym: "number of stretch-attend posture movements" EXACT []
-is_a: CMO:0001038 ! stretched-attend posture measurement
+is_a: CMO:0001038 ! stretched attend posture measurement
 created_by: jsmith
 creation_date: 2012-08-23T04:51:04Z
 
@@ -35723,24 +35723,26 @@ creation_date: 2021-07-23T17:23:59Z
 
 [Term]
 id: CMO:0003804
-name: amount of time spent making stretched-attend posture movements in an experimental apparatus
-def: "The total amount of time in an experiment that a quadrupedal subject spends in a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose, making stretched-attend posture movements, in which the hind legs remain stationary while the body is stretched forward with head raised." [https://www.merriam-webster.com/, PMID:28341233]
-synonym: "duration of stretched-attend postures" EXACT []
+name: amount of time spent making stretched attend posture movements in an experimental apparatus
+def: "This is a measurement of the total amount of time in an experiment that a quadrupedal subject spends in a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose, making stretched attend posture movements, in which the hind legs remain stationary while the body is stretched forward with head raised." [https://www.merriam-webster.com/, PMID:28341233]
+synonym: "amount of time spent making stretch attend posture movements in an experimental apparatus" EXACT []
+synonym: "duration of stretched attend postures" EXACT []
 synonym: "SAP duration" EXACT []
-synonym: "stretched-attend postures duration" EXACT []
+synonym: "stretched attend postures duration" EXACT []
 xref: PMID:28341233
-is_a: CMO:0001038 ! stretched-attend posture measurement
+is_a: CMO:0001038 ! stretched attend posture measurement
 created_by: slaulede
 creation_date: 2021-07-26T12:32:54Z
 
 [Term]
 id: CMO:0003805
-name: time to first stretched-attend posture movement within an experimental apparatus
+name: time to first stretched attend posture movement within an experimental apparatus
 def: "A measurement of the latency period spent by an subject in the initial occupied space of an experimental apparatus before starting any stretched-attend posture movement." [https://www.merriam-webster.com/, PMID:28341233]
 synonym: "SAP latency" EXACT []
-synonym: "stretched-attend posture movement latency" EXACT []
+synonym: "stretch-attend posture movement latency" EXACT []
+synonym: "stretched attend posture movement latency" EXACT []
 xref: PMID:28341233
-is_a: CMO:0001038 ! stretched-attend posture measurement
+is_a: CMO:0001038 ! stretched attend posture measurement
 created_by: slaulede
 creation_date: 2021-07-26T12:39:50Z
 
@@ -37989,8 +37991,8 @@ creation_date: 2024-08-01T17:41:32Z
 [Term]
 id: CMO:0004016
 name: number of 20 x 20 cm floor squares crossed on the periphery of an open field apparatus
-def: "A measurement of the distance traveled within the region at the outer edge of an open field apparatus adjacent to the enclosing wall, measured as a count of the segments of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-synonym: "open field outer locomotion" RELATED []
+def: "This is a measurement of the horizontal movement within the periphery of an open field apparatus, measured as a count of the 20 x 20 cm floor squares adjacent to the enclosing wall crossed by an experimental subject during an experiment." [PMID:12600700]
+synonym: "open field outer locomotion" BROAD []
 is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:47:06Z
@@ -37998,8 +38000,8 @@ creation_date: 2024-08-01T17:47:06Z
 [Term]
 id: CMO:0004017
 name: number of 20 x 20 cm floor squares crossed in the center of an open field apparatus
-def: "A measurement of the distance traveled within the open central region of an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
-synonym: "open field inner locomotion" RELATED []
+def: "This is a measurement of the horizontal movement within the center of an open field apparatus, measured as a count of the 20 x 20 cm floor squares not adjacent to the enclosing wall crossed by an experimental subject during an experiment." [PMID:12600700]
+synonym: "open field inner locomotion" BROAD []
 is_a: CMO:0004015 ! number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:50:07Z
@@ -38351,6 +38353,140 @@ synonym: "triceps RNA level" EXACT []
 is_a: CMO:0003292 ! muscle of arm ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-02-11T17:05:13Z
+
+[Term]
+id: CMO:0004052
+name: number of entries into opposite side of a two-way shuttle box during intertrial time
+def: "This is a measurement of the total number of times during an experiment that an organism or experimental subject enters into the opposite side of a two-way shuttle box during the time intervals between successive trials." [https://www.merriam-webster.com]
+synonym: "intertrial crossings" EXACT []
+xref: PMID:18971309
+is_a: CMO:0000960 ! number of entries into a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-03T16:47:55Z
+
+[Term]
+id: CMO:0004053
+name: time to first movement outside a discrete space in a two-way shuttle box after start of conditioned stimulus
+def: "This is a measurement of the time it takes to move away from a conditioned stimulus or conditioned/unconditioned stimulus combination after the stimulus is initiated." [https://www.merriam-webster.com]
+synonym: "response latency in a two-way shuttle box after start of conditioned stimulus" EXACT []
+xref: PMID:18971309
+is_a: CMO:0001037 ! time to first movement outside a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-03T17:14:25Z
+
+[Term]
+id: CMO:0004054
+name: amount of time spent in voluntary immobility after start of conditioned stimulus in a two-way shuttle box
+def: "This is a measurement of the total amount of experiment time that an organism or experimental subject spends frozen, that is, not moving from one place or position to another after a conditioned stimulus has been initiated." []
+created_by: slaulederkind
+creation_date: 2025-03-04T11:54:44Z
+
+[Term]
+id: CMO:0004055
+name: amount of time spent in voluntary immobility after start of conditioned stimulus in a two-way shuttle box
+def: "This is a measurement of the total amount of experiment time that an organism or experimental subject spends frozen, that is, not moving from one place or position to another after the conditioned stimulus is initiated." [https://www.merriam-webster.com]
+synonym: "amount of time spent stationary after start of conditioned stimulus in a two-way shuttle box" EXACT []
+xref: PMID:18971309
+is_a: CMO:0001043 ! amount of time spent in voluntary immobility
+created_by: slaulederkind
+creation_date: 2025-03-04T12:04:24Z
+
+[Term]
+id: CMO:0004056
+name: number of entries into opposite side of a two-way shuttle box during conditioned stimulus
+def: "This is a measurement of the total number of times during an experiment that an organism or experimental subject enters into the opposite side of a two-way shuttle box during the conditioned stimulus." [https://www.merriam-webster.com]
+synonym: "number of avoidances in a two-way shuttle box" EXACT []
+xref: PMID:18971309
+is_a: CMO:0000960 ! number of entries into a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-04T12:29:03Z
+
+[Term]
+id: CMO:0004057
+name: number of stretched attend posture movements during experiment time in elevated zero maze
+def: "This is a measurement of the number of times an experimental subject or organism displays a stretched-attend posture movement during an experimental time period in the elevated zero maze. The stretched-attend posture is one during which the hind legs remain stationary while the body is stretched forward with head raised." [https://www.merriam-webster.com]
+synonym: "number of stretch-attend postures in elevated zero maze" EXACT []
+synonym: "number of stretched attend postures in elevated zero maze" EXACT []
+xref: PMID:18971309
+is_a: CMO:0001039 ! number of stretched attend posture movements
+created_by: slaulederkind
+creation_date: 2025-03-04T13:27:18Z
+
+[Term]
+id: CMO:0004058
+name: number of fecal boluses during experiment time in elevated zero maze
+def: "This is a measurement of the number of boluses of fecal matter excreted within a specified period of time determined by counting the number of individual pellets deposited by the experimental subject in the elevated zero maze." [https://www.merriam-webster.com]
+synonym: "number of defecation boluses during experiment time in elevated zero maze" EXACT []
+synonym: "number of fecal boluses during trial time in elevated zero maze" EXACT []
+xref: PMID:18971309
+is_a: CMO:0004018 ! defecation rate by count
+created_by: slaulederkind
+creation_date: 2025-03-04T13:54:47Z
+
+[Term]
+id: CMO:0004059
+name: time to first movement into an open section in elevated zero maze
+def: "This is a measurement of the latency period spent by an organism or experimental subject in the initial closed section before moving to an open section of an elevated zero maze." [https://www.merriam-webster.com]
+synonym: "latency before first movement into an open section in elevated zero maze" EXACT []
+synonym: "time to first movement outside of initail closed section of elevated zero maze" EXACT []
+xref: PMID:18971309
+is_a: CMO:0001037 ! time to first movement outside a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-04T14:14:17Z
+
+[Term]
+id: CMO:0004060
+name: total amount of experiment time spent in open sections of an elevated zero maze
+def: "This is a measurement of the cumulative amount of time during an experiment that an organism or experimental subject spends in any of the unenclosed areas of an elevated zero maze." [https://www.merriam-webster.com]
+synonym: "time spent in open sections of an elevated zero maze" EXACT []
+xref: PMID:18971309
+is_a: CMO:0000958 ! amount of experiment time spent in a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-04T14:35:36Z
+
+[Term]
+id: CMO:0004061
+name: total horizontal distance resulting from voluntary locomotion during habituated time in a novel cage
+def: "This is a measurement of the voluntary movement of an organism or experimental subject along a plane parallel to the horizon in a novel cage at the end of the experiment, during the habituated time in the apparatus." [https://www.merriam-webster.com]
+synonym: "habituated open field-like locomotion" EXACT []
+synonym: "horizontal distance moved during habituated time in novel cage" EXACT []
+xref: PMID:18971309
+is_a: CMO:0001443 ! total horizontal distance resulting from voluntary locomotion in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-04T15:22:49Z
+
+[Term]
+id: CMO:0004062
+name: total horizontal distance resulting from voluntary locomotion during initial exposure in a novel cage
+def: "This is a measurement of the voluntary movement of an organism or experimental subject along a plane parallel to the horizon in a novel cage during the initial exposure to the apparatus." [https://www.merriam-webster.com/]
+synonym: "horizontal distance moved during initial time in novel cage" EXACT []
+synonym: "novelty-induced open field-like locomotion" EXACT []
+xref: PMID:18971309
+is_a: CMO:0001443 ! total horizontal distance resulting from voluntary locomotion in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-04T16:04:39Z
+
+[Term]
+id: CMO:0004063
+name: total number of entries into an open section of an elevated zero maze during experiment
+def: "This is a measurement of the number of times an experimental subject entered into an open section of an elevated zero maze. An elevated zero maze is an elevated ring-shaped runway. Open sections of an elevated zero maze have no walls." [https://maze.conductscience.com/portfolio/zero-maze/, https://www.merriam-webster.com/]
+synonym: "number of entries into any open section of an elevated zero maze during experiment" EXACT []
+synonym: "number of entries into any open section of an elevated zero maze during trial" EXACT []
+xref: PMID:18971309
+is_a: CMO:0000960 ! number of entries into a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-04T16:43:33Z
+
+[Term]
+id: CMO:0004064
+name: number of fecal boluses during experiment time in open field apparatus
+def: "This is a measurement of the number of boluses of fecal matter excreted within a specified period of time determined by counting the number of individual pellets deposited by the experimental subject in the experimental open field apparatus." [https://www.merriam-webster.com]
+synonym: "number of defecation boluses during experiment time in open field apparatus" EXACT []
+synonym: "number of fecal boluses during trial time in open field apparatus" EXACT []
+xref: PMID:9821556
+is_a: CMO:0004018 ! defecation rate by count
+created_by: slaulederkind
+creation_date: 2025-03-06T16:06:32Z
 
 [Typedef]
 id: part_of
