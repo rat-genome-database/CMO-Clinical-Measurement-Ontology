@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.241
-date: 15:03:2025 20:13
+data-version: 2.240
+date: 08:03:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -334,8 +334,8 @@ name: mean corpuscular volume
 def: "A measure of the average volume or size of a single red blood cell. It is derived by dividing the total volume of packed red blood cells by the total red blood cell count." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "MCV" RELATED []
 synonym: "mean reticulocyte volume" EXACT []
+xref: EFO:0004526
 xref: EFO:0010701
-xref: OBA:0003460
 is_a: CMO:0003102 ! red blood cell morphological measurement
 
 [Term]
@@ -1197,7 +1197,7 @@ id: CMO:0000137
 name: brain weight
 def: "The weight of the brain, that is, its heaviness or the degree to which it is drawn toward the earth by gravity. The brain is the portion of the central nervous system enclosed within the cranium. It is composed of gray matter and white matter and is the primary center for the regulation and control of bodily activities, receiving and interpreting sensory impulses, and transmitting information to the muscles and body organs." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "putamen volume" NARROW []
-xref: OBA:2050016
+xref: EFO:0006932
 is_a: CMO:0000136 ! brain morphological measurement
 created_by: RNigam
 creation_date: 2010-05-17T01:27:51Z
@@ -1207,7 +1207,7 @@ id: CMO:0000138
 name: calculated brain weight
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of the weight of the brain, that is, its heaviness or the degree to which it is drawn toward the earth by gravity." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed]
 synonym: "pallidum volume" NARROW []
-xref: OBA:2050027
+xref: EFO:0006933
 is_a: CMO:0000137 ! brain weight
 created_by: RNigam
 creation_date: 2010-05-17T01:28:11Z
@@ -4542,8 +4542,8 @@ name: blood cortisol level
 def: "The amount of cortisol, the major natural glucocorticoid synthesized in the adrenal cortex and which affects the metabolism of glucose, protein and fats, in a specific volume of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "cortisol measurement" BROAD []
 synonym: "cortisol secretion measurement" EXACT []
+xref: EFO:0004642
 xref: EFO:0005843
-xref: OBA:2045286
 is_a: CMO:0000040 ! blood glucocorticoid level
 created_by: mshimoyama
 creation_date: 2011-01-05T10:02:46Z
@@ -12163,7 +12163,7 @@ creation_date: 2013-01-10T16:07:10Z
 id: CMO:0001348
 name: mean platelet volume
 def: "Measurement of the average size of the three dimensional space occupied by a blood platelet, a minute, irregularly shaped, disklike, non-nucleated cytoplasmic body found in blood that functions to promote blood clotting." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
-xref: OBA:0003277
+xref: EFO:0004584
 is_a: CMO:0003100 ! platelet morphological measurement
 created_by: JSmith
 creation_date: 2013-01-10T16:09:55Z
@@ -12215,7 +12215,7 @@ id: CMO:0001353
 name: semen measurement
 def: "Any measurement of the viscous secretion of the male reproductive organs, typically containing spermatazoa and secretions of the testes, seminal vesicles, prostate, and bulbourethral glands." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "seminal fluid measurement" EXACT []
-xref: OBA:2050201
+xref: EFO:0010745
 is_a: CMO:0000389 ! reproduction measurement
 created_by: JSmith
 creation_date: 2013-01-10T17:13:53Z
@@ -15787,13 +15787,13 @@ creation_date: 2013-07-29T11:30:31Z
 [Term]
 id: CMO:0001721
 name: tibia-fibula cortical bone total cross-sectional area
-def: "Measurement of the entire cross-sectional area of the tibia-fibula cortical bone, that is, the extent of a plane perpendicular to the longest axis of the tibia-fibula cortical bone and bounded by the periosteum, the thick fibrous membrane covering the entire surface of a bone except its articular cartilage and serving as an attachment for muscles and tendons. The tibia-fibula is the portion of the two bones (tibia, the medial and larger bone, and fibula, the lateral and smaller bone) of the lower leg of bipeds or hindlimb of quadrupeds which are fused to form a single bone, e.g. the distal third of the rodent tibia and fibula. Cortical or compact bone is the relatively solid type of bone tissue found in the middle of long bones which is a hierarchical composite material consisting of a ollagen-hydroxyapatite composite at the lowest level forming a complex network of cylindrical units of laminated bone at the highest level." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, http://biomech2.me.berkeley.edu/cortical.html "Website", PMID:20699128, PMID:857566]
+def: "Measurement of the entire cross-sectional area of the tibia-fibula cortical bone, that is, the extent of a plane perpendicular to the longest axis of the tibia-fibula cortical bone and bounded by the periosteum, the thick fibrous membrane covering the entire surface of a bone except its articular cartilage and serving as an attachment for muscles and tendons.  The tibia-fibula is the portion of the two bones (tibia, the medial and larger bone, and fibula, the lateral and smaller bone) of the lower leg of bipeds or hindlimb of quadrupeds which are fused to form a single bone, e.g. the distal third of the rodent tibia and fibula. Cortical or compact bone is the relatively solid type of bone tissue found in the middle of long bones which is a hierarchical composite material consisting of a ollagen-hydroxyapatite composite at the lowest level forming a complex network of cylindrical units of laminated bone at the highest level." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, http://biomech2.me.berkeley.edu/cortical.html "Website", PMID:20699128, PMID:857566]
 synonym: "cortical surface area measurement" BROAD []
 synonym: "tibia/fibula cortical bone total cross-sectional area" EXACT []
 synonym: "tibia-fibula cortical bone periosteal cross-sectional area" RELATED []
 synonym: "tibio-fibular complex cortical bone total cross-sectional area" RELATED []
 synonym: "tibiofibular fusion cortical bone total cross-sectional area" RELATED []
-xref: OBA:2045267
+xref: EFO:0010736
 is_a: CMO:0001718 ! tibia-fibula cross-sectional area
 created_by: JSmith
 creation_date: 2013-07-29T12:43:11Z
@@ -17235,7 +17235,7 @@ creation_date: 2013-11-05T18:17:04Z
 id: CMO:0001861
 name: antibody measurement
 def: "Any quantification related to an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen, a substance introduced into an organism which initiates an immune response including the production of the very antibodies which bind to it in an effort to destroy it." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-xref: VT:0002460
+xref: EFO:0004556
 is_a: CMO:0001833 ! immunoglobulin measurement
 created_by: JSmith
 creation_date: 2013-11-05T18:53:03Z
@@ -23844,7 +23844,7 @@ id: CMO:0002534
 name: skeletal muscle fiber morphological measurement
 def: "Any measurementof the physical form or structure of a skeletal muscle fiber, a cylindrical multinucleate cell of skeletal muscle tissue containing contracting myofibrils and across which run transverse striations." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "muscle fiber cross-sectional area measurement" NARROW []
-xref: OBA:2045268
+xref: EFO:0600036
 is_a: CMO:0001147 ! skeletal muscle morphological measurement
 is_a: CMO:0002533 ! muscle fiber morphological measurement
 created_by: JSMITH
@@ -25432,7 +25432,7 @@ name: blood very low density lipoprotein particle diameter
 def: "The diameter, that is the distance between two specified opposite points on the periphery of blood-derived very low-density lipoprotein (VLDL) particles. VLDL constitute a class of large (e.g. approximately 30-80 nm in diameter) lipoprotein particles, complex molecules that consist of a protein membrane surrounding a core of lipids. The VLDL class of lipoproteins has a density between 0.95 and 1.006 g/ml." [Gale:Gale_Encyclopedia_of_Medicine_2008, http://themedicalbiochemistrypage.org/lipoproteins.php "Website", Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "blood VLDL particle diameter" RELATED []
 synonym: "very low density lipoprotein particle size measurement" EXACT []
-xref: OBA:2050114
+xref: EFO:0008594
 is_a: CMO:0002691 ! blood lipoprotein particle diameter
 created_by: jesmith
 creation_date: 2015-12-03T15:27:06Z
@@ -32317,8 +32317,8 @@ synonym: "serum CERP level" EXACT []
 synonym: "serum ceruloplasmin measurement" EXACT []
 synonym: "serum CP level" EXACT []
 synonym: "serum ferroxidase level" EXACT []
+xref: EFO:0005139
 xref: ISBN:978-1416049982
-xref: OBA:2050073
 xref: RGD:2387
 is_a: CMO:0003466 ! blood ceruloplasmin level
 created_by: slaulede
@@ -36516,7 +36516,7 @@ name: serum urea level
 def: "This is the level of urea in blood serum, i.e. blood plasma from which clotting factors have been removed. This value can be determined by converting urea nitrogen to urea concentration by multiplying urea nitrogen concentration by 60/28 or 2.14. Urea is the chief nitrogenous end product of protein metabolism in whole blood. Urea is formed in the liver from amino acids and from ammonia compounds and can be found in urine, blood, and lymph." [https://www.merriam-webster.com/, ISBN-13:978-0781733908]
 synonym: "serum urea concentration" EXACT []
 synonym: "serum urea measurement" EXACT []
-xref: OBA:2050065
+xref: EFO:0009795
 is_a: CMO:0003876 ! blood urea level
 created_by: slaulede
 creation_date: 2022-02-25T09:49:54Z
