@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.241
-date: 15:03:2025 20:13
+data-version: 2.242
+date: 29:03:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -8470,8 +8470,8 @@ creation_date: 2012-07-19T05:25:31Z
 
 [Term]
 id: CMO:0000954
-name: voluntary body movement measurement
-def: "Measurement of a movement of all or part of the body which originated, or was undertaken, controlled, or accomplished as a result of an organism's free will or choice." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+name: voluntary body mobility/immobility measurement
+def: "This is any measurement of mobility or immobility of all or part of the body which originated, or was undertaken, controlled, or accomplished as a result of an organism's free will or choice." [https://www.merriam-webster.com]
 synonym: "Not4Curation" RELATED []
 synonym: "physical activity measurement" EXACT []
 xref: EFO:0008002
@@ -8484,7 +8484,7 @@ id: CMO:0000955
 name: voluntary locomotion measurement
 def: "Any measurement of the movement of an organism from one place or position to another (especially such a movement accomplished by the action of appendages such as flagella, limbs, or wings) which originated with or was undertaken, controlled, or accomplished as a result of that organism's free will or choice." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2012-07-23T07:06:29Z
 
@@ -8510,7 +8510,7 @@ creation_date: 2012-07-24T01:33:53Z
 id: CMO:0000958
 name: amount of experiment time spent in a discrete space in an experimental apparatus
 def: "The total amount of time in an experiment that an organism or experimental subject spends in a distinct and specified area of an experimental apparatus." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, RGD:JRS]
-is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2012-07-24T01:35:22Z
 
@@ -9265,7 +9265,7 @@ def: "Any measurement of the movement of an experimental subject or organism dur
 synonym: "Not4Curation" RELATED []
 synonym: "SAP measurement" RELATED []
 synonym: "stretch attend posture measurement" EXACT []
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: jsmith
 creation_date: 2012-08-23T04:39:54Z
 
@@ -9302,7 +9302,7 @@ def: "Any measurement of a movement or quantifiable behavior which does not invo
 synonym: "measurement of freeze behavior" RELATED []
 synonym: "measurement of freezing behavior" RELATED []
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: jsmith
 creation_date: 2012-08-27T10:19:00Z
 
@@ -13714,8 +13714,10 @@ creation_date: 2013-01-29T12:35:11Z
 
 [Term]
 id: CMO:0001514
-name: number of 20 x 20 cm floor squares crossed into, out of or within a discrete space in an experimental apparatus
-def: "The number of equilateral right-angled grid elements measuring 20 centimeters on a side traversed by an experimental subject into, out of or within a distinct and specified area of an experimental apparatus (especially such a movement accomplished by the action of appendages such as flagella, limbs, or wings) originated, undertaken, controlled, or accomplished as a result of free will or choice." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+name: measurement of voluntary locomotion into, out of, or within a discrete space in an open field apparatus
+def: "This is any measurement of the movement of an organism from one place to another into, out of, or within a distinct and specified area of an open field apparatus (especially such a movement accomplished by the action of appendages such as flagella, limbs, or wings) originated, undertaken, controlled, or accomplished as a result of free will or choice." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, https://en.wikipedia.org/wiki/Open_field_(animal_test)]
+synonym: "measurement of voluntary locomotion into, out of or within a discrete space in an OF apparatus" EXACT []
+xref: PMID:28341233
 is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
 created_by: JSmith
 creation_date: 2013-01-29T12:47:14Z
@@ -13725,7 +13727,7 @@ id: CMO:0001515
 name: rearing measurement
 def: "Any measurement of a movement in which a quadrupedal subject rises up on its back legs." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2013-01-29T13:31:02Z
 
@@ -16111,7 +16113,7 @@ id: CMO:0001748
 name: grooming measurement
 def: "Any measurement related to the activity of one or more organisms cleaning themselves or one another." [Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
 synonym: "displacement activity reaction measurement" RELATED []
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2013-07-31T15:46:42Z
 
@@ -16161,7 +16163,7 @@ id: CMO:0001754
 name: time to first movement in an experimental apparatus
 def: "The amount of time between putting an experimental subject in a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose, and the point of first voluntary locomotion of the subject." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "latency period before voluntary movement in an experimental apparatus" RELATED []
-is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
+is_a: CMO:0000958 ! amount of experiment time spent in a discrete space in an experimental apparatus
 is_a: CMO:0001042 ! measurement of voluntary immobility
 created_by: JSmith
 creation_date: 2013-08-01T13:24:43Z
@@ -18188,7 +18190,7 @@ creation_date: 2013-11-27T15:05:17Z
 id: CMO:0001959
 name: defensive burying measurement
 def: "Any measurement of the action of defensive burying, the typical rodent behavior of displacing bedding material with vigorous treading-like movements of their forepaws and shoveling movements of their heads directed towards a noxious stimulus that appears to pose a near and immediate threat." [PMID:12600707]
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2013-11-27T15:17:55Z
 
@@ -19921,7 +19923,7 @@ creation_date: 2014-01-28T11:40:29Z
 id: CMO:0002133
 name: calculated voluntary body movement measurement
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of a movement of all or part of the body which originated with, or was undertaken, controlled, or accomplished as a result of an organism's free will or choice." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2014-01-28T12:48:58Z
 
@@ -21399,7 +21401,7 @@ synonym: "body righting reflex measurement" EXACT []
 synonym: "labyrinthine righting reflex measurement" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "righting response measurement" EXACT []
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2014-03-25T12:41:29Z
 
@@ -25248,7 +25250,7 @@ name: voluntary social interaction measurement
 def: "Any measurement of interplay, contact, communication or interchange between two or more organisms originated, undertaken, controlled, or accomplished as a result of free will or choice on the part of one or more participants." [Farlex:WordNet_3.0_Farlex]
 synonym: "social interaction measurement" EXACT []
 xref: EFO:0009592
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: jesmith
 creation_date: 2015-12-03T13:23:21Z
 
@@ -26572,17 +26574,20 @@ creation_date: 2018-11-13T15:12:25Z
 
 [Term]
 id: CMO:0002813
-name: horizontal distance covered resulting from voluntary locomotion in proximity to the target  in an experimental apparatus to total horizontal distance covered ratio
-def: "The ratio of the sum of the horizontal distance of an experimental subject made in proximity to the target to the total horizontal distance made within an apparatus. These movements are the results of voluntary locomotion of the experimental subject." []
-is_a: CMO:0002675 ! total horizontal distance covered resulting from voluntary locomotion in proximity to the target  in an experimental apparatus
+name: ratio of horizontal distance covered in proximity of the target to total horizontal distance covered in an experimental apparatus
+def: "This is the ratio of the total horizontal distance of an experimental subject made in proximity to the target to the total horizontal distance made within an apparatus. These movements are the result of voluntary locomotion of the experimental subject." []
+synonym: "horizontal distance covered resulting from voluntary locomotion in proximity to the target in an experimental apparatus to total horizontal distance covered ratio" EXACT []
+synonym: "Not4Curation" RELATED []
 is_a: CMO:0002814 ! calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
+relationship: has_component CMO:0002675 ! total horizontal distance covered resulting from voluntary locomotion in proximity to the target  in an experimental apparatus
 created_by: sjwang
 creation_date: 2018-11-13T15:18:32Z
 
 [Term]
 id: CMO:0002814
 name: calculated horizontal distance resulting from voluntary locomotion in an experimental apparatus
-is_a: CMO:0001442 ! measurement of voluntary horizontal locomotion in an experimental apparatus
+synonym: "Not4Curation" RELATED []
+is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
 created_by: sjwang
 creation_date: 2018-11-14T10:26:31Z
 
@@ -28995,7 +29000,7 @@ creation_date: 2019-03-19T16:40:31Z
 id: CMO:0003087
 name: stress-related movement measurement
 def: "Any measurable or observable characteristic of actions or reactions related to how the body reacts to a stressor (a stimulus that causes stress), real or imagined." [VT:0010451]
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: sjwang
 creation_date: 2019-03-28T15:59:44Z
 
@@ -35552,6 +35557,8 @@ name: percentage of 13 cm2 floor sectors crossed into, out of or within a discre
 def: "The percentage of equilateral right-angled grid elements measuring 3.6 centimeters on a side traversed by an experimental subject into, out of or within a distinct and specified area of an experimental apparatus (especially such a movement accomplished by the action of appendages such as flagella, limbs, or wings) originated, undertaken, controlled, or accomplished as a result of free will or choice." [https://www.merriam-webster.com/]
 synonym: "% of whole arena area explored" EXACT []
 synonym: "explored area" RELATED []
+synonym: "Not4Curation" RELATED []
+synonym: "ratio of 13 cm2 floor sectors crossed into, out of, to count of all 13 cm2 floor sectors within a discrete space in an experimental apparatus" EXACT []
 xref: PMID:28341233
 is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
 created_by: slaulede
@@ -35595,7 +35602,7 @@ name: head movement measurement
 def: "Any measurable or observable characteristic related to the motion of the head which originated, or was undertaken, controlled, or accomplished as a result of an organism's free will or choice." [https://www.merriam-webster.com/, PMID:28341233]
 synonym: "head motion measurement" EXACT []
 xref: PMID:28341233
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: slaulede
 creation_date: 2021-07-22T13:20:25Z
 
@@ -35751,7 +35758,7 @@ id: CMO:0003806
 name: exploratory movement measurement
 def: "A measurement of time, movement type, or location of a subject's exploration of an object, location, or other entity." [https://www.merriam-webster.com/]
 xref: PMID:28341233
-is_a: CMO:0000954 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: slaulede
 creation_date: 2021-07-26T13:49:51Z
 
@@ -37945,7 +37952,6 @@ name: amount of experiment time spent in a discrete space in an elevated plus ma
 def: "The total amount of time during an experiment that an organism or experimental subject spends in a distinct and specified area of an elevated plus maze (EPM). An EPM is an apparatus with an open center area, two open arms without enclosing walls and two enclosed arms with walls to prevent the experimental subject from escaping or from seeing anything outside the maze. The apparatus is raised a specified distance above the floor and is used to measure movement, behavior, learning, memory, etc., generally in rodents." [PMID:1683415, PMID:7762079]
 synonym: "amount of experiment time spent in a discrete space in an EPM" RELATED []
 is_a: CMO:0000958 ! amount of experiment time spent in a discrete space in an experimental apparatus
-is_a: CMO:0004021 ! measurement of voluntary locomotion in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:09:50Z
 
@@ -37982,8 +37988,8 @@ creation_date: 2024-08-01T17:30:05Z
 [Term]
 id: CMO:0004015
 name: number of 20 x 20 cm floor squares crossed into, out of, or within a discrete space in an open field apparatus
-def: "A measurement of the distance traveled in an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment. An open field apparatus is an arena, often but not always circular and brightly lit, enclosed in walls of sufficient height to prevent the escape of the experimental subject." [PMID:12600700]
-is_a: CMO:0001514 ! number of 20 x 20 cm floor squares crossed into, out of or within a discrete space in an experimental apparatus
+def: "This is a measurement of the distance traveled in an open field apparatus, measured as a count of the squares of a 20 cm square grid marked on the floor of the apparatus, crossed by an experimental subject during an experiment. An open field apparatus is a circular or square arena with enclosing walls of sufficient height to prevent the escape of the experimental subject." [PMID:12600700]
+is_a: CMO:0001514 ! measurement of voluntary locomotion into, out of, or within a discrete space in an open field apparatus
 is_a: CMO:0004020 ! measurement of voluntary locomotion in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:41:32Z
@@ -38031,6 +38037,7 @@ creation_date: 2024-08-01T17:59:49Z
 id: CMO:0004020
 name: measurement of voluntary locomotion in an open field apparatus
 def: "Any measurement of the movement of an organism from one place to another in an open field apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An open field apparatus is an arena, often but not always circular and brightly lit, enclosed in walls of sufficient height to prevent the escape of the experimental subject." [PMID:12600700]
+synonym: "OF apparatus" EXACT []
 is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T18:09:55Z
@@ -38039,7 +38046,7 @@ creation_date: 2024-08-01T18:09:55Z
 id: CMO:0004021
 name: measurement of voluntary locomotion in an elevated plus maze
 def: "Any measurement of the movement of an organism from one place to another in an elevated plus maze apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An elevated plus maze (EPM) is an apparatus with an open center area, two open arms without enclosing walls and two enclosed arms with walls to prevent the experimental subject from escaping or from seeing anything outside the maze. The apparatus is raised a specified distance above the floor and is used to measure movement, behavior, learning, memory, etc., generally in rodents." [PMID:1683415, PMID:7762079]
-synonym: "measurement of voluntary locomotion in an EPM" RELATED []
+synonym: "measurement of voluntary locomotion in an EPM" EXACT []
 is_a: CMO:0000956 ! measurement of voluntary locomotion in an experimental apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T18:21:06Z
@@ -38056,11 +38063,14 @@ creation_date: 2024-08-01T18:32:22Z
 
 [Term]
 id: CMO:0004023
-name: ratio of count of entries into an open arm of an elevated plus maze to total count of arm entries
+name: ratio of count of open arm entries to total count of arm entries in an elevated plus maze apparatus
 def: "The number of movements of an experimental subject into either of the two arms of an elevated plus maze that do not have walls to prevent the experimental subject from escaping or from seeing anything outside the maze divided by the total number of counts of the experimental subject entering any arm of the maze. Ratio may be expressed as a percentage." [PMID:38488865]
 synonym: "number of entries into an open arm of an elevated plus maze as percent of total arm entries" EXACT []
 synonym: "number of entries into an open arm of an elevated plus maze to count of total arm entries ratio" EXACT []
-is_a: CMO:0004010 ! number of entries into an open arm of an elevated plus maze
+synonym: "ratio of count of entries into an open arm of an elevated plus maze to total count of arm entries" EXACT []
+synonym: "ratio of count of entries into an open arm to total count of arm entries in an elevated plus maze" EXACT []
+synonym: "ratio of count of open arm entries to total count of arm entries in an EPM" EXACT []
+relationship: has_component CMO:0004010 ! number of entries into an open arm of an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-09-04T13:48:17Z
 
@@ -38487,6 +38497,47 @@ xref: PMID:9821556
 is_a: CMO:0004018 ! defecation rate by count
 created_by: slaulederkind
 creation_date: 2025-03-06T16:06:32Z
+
+[Term]
+id: CMO:0004065
+name: total horizontal distance resulting from voluntary locomotion in an elevated plus maze
+def: "This is a measurement of the horizontal movement of an organism from one place to another in an elevated plus maze apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An elevated plus maze (EPM) is an apparatus with an open center area, two open arms without enclosing walls and two enclosed arms with walls to prevent the experimental subject from escaping or from seeing anything outside the maze. The apparatus is raised a specified distance above the floor and is used to measure movement, behavior, learning, memory, etc., generally in rodents." [https://en.wikipedia.org/wiki/Elevated_plus_maze]
+synonym: "total horizontal distance resulting from voluntary locomotion in an elevated plus maze apparatus" EXACT []
+synonym: "total horizontal distance resulting from voluntary locomotion in an EPM" EXACT []
+synonym: "total horizontal distance resulting from voluntary locomotion in an EPM apparatus" EXACT []
+is_a: CMO:0001443 ! total horizontal distance resulting from voluntary locomotion in an experimental apparatus
+is_a: CMO:0004021 ! measurement of voluntary locomotion in an elevated plus maze
+created_by: slaulederkind
+creation_date: 2025-03-27T13:07:36Z
+
+[Term]
+id: CMO:0004066
+name: total horizontal distance resulting from voluntary locomotion in an open field apparatus
+def: "This is a measurement of the horizontal movement of an organism from one place to another in an open field apparatus when that movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice. An open field (OF) apparatus is a circular or square apparatus with enclosing walls to prevent the experimental subject from escaping or from seeing anything outside the apparatus." [https://en.wikipedia.org/wiki/Open_field_(animal_test), PMID:_25742564]
+synonym: "total horizontal distance resulting from voluntary locomotion in an OF apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0004020 ! measurement of voluntary locomotion in an open field apparatus
+created_by: slaulederkind
+creation_date: 2025-03-27T13:50:01Z
+
+[Term]
+id: CMO:0004067
+name: ratio of time spent in center to total test time in open field apparatus
+def: "This is the amount of time an experimental subject spends in the center of an open field apparatus divided by the total amount of time spent by the experimental subject in the open field appartatus. This measurement may be presented as a fraction, quotient or percentage." [https://en.wikipedia.org/wiki/Open_field_(animal_test), https://www.merriam-webster.com]
+synonym: "percentage of experiment time spent in center of OF apparatus" NARROW []
+synonym: "ratio of time spent in center to total test time in OF apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0000958 ! amount of experiment time spent in a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-27T14:57:51Z
+
+[Term]
+id: CMO:0004068
+name: ratio of 13 cm2 floor sectors crossed into or out of, to total 13 cm2 floor sectors within an open field apparatus
+def: "This is a count of 13 cm2 floor sectors crossed into or out of by an experimental subject, divided by the total number of 13 cm2 floor sectors in an open field apparatus. This measurement may be presented as a fraction, quotient or percentage." [https://en.wikipedia.org/wiki/Open_field_(animal_test), https://www.merriam-webster.com]
+is_a: CMO:0001514 ! measurement of voluntary locomotion into, out of, or within a discrete space in an open field apparatus
+created_by: slaulederkind
+creation_date: 2025-03-27T15:59:54Z
 
 [Typedef]
 id: part_of
