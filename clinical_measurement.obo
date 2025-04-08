@@ -1,6 +1,6 @@
 format-version: 1.2
 data-version: 2.242
-date: 29:03:2025 20:13
+date: 05:04:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -16119,8 +16119,10 @@ creation_date: 2013-07-31T15:46:42Z
 
 [Term]
 id: CMO:0001749
-name: duration of grooming in an experimental apparatus
+name: total accumulated grooming time in an experimental apparatus
 def: "The total amount of time during an experiment in which an animal is maintained in a piece of technical equipment or machinery, or in an appliance or device designed for a particular purpose, that the animal spends cleaning itself or cleaning another animal." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
+synonym: "duration of grooming in an experimental apparatus" EXACT []
+synonym: "total accumulated grooming time during a trial in an experimental apparatus" EXACT []
 is_a: CMO:0001748 ! grooming measurement
 created_by: JSmith
 creation_date: 2013-08-01T11:06:28Z
@@ -16129,7 +16131,7 @@ creation_date: 2013-08-01T11:06:28Z
 id: CMO:0001750
 name: duration of grooming in a discrete space in an experimental apparatus
 def: "The total amount of time that the animal spends in a distinct and specified area of an experimental apparatus cleaning itself or cleaning another animal. An experimental apparatus is a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
-is_a: CMO:0001749 ! duration of grooming in an experimental apparatus
+is_a: CMO:0001749 ! total accumulated grooming time in an experimental apparatus
 created_by: JSmith
 creation_date: 2013-08-01T12:14:06Z
 
@@ -16137,7 +16139,8 @@ creation_date: 2013-08-01T12:14:06Z
 id: CMO:0001751
 name: number of periods of grooming in an experimental apparatus
 def: "A value or quantity determined by count of distinct, separable periods of time during which an animal in a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose is cleaning itself or another animal." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
-synonym: "number of grooming acts in an experimental apparatus" RELATED []
+synonym: "number of grooming acts in an experimental apparatus" EXACT []
+synonym: "number of instances of grooming in an experimental apparatus" EXACT []
 is_a: CMO:0001748 ! grooming measurement
 created_by: JSmith
 creation_date: 2013-08-01T12:23:37Z
@@ -31346,7 +31349,7 @@ id: CMO:0003369
 name: forebrain ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the forebrain is formed or composed. The forebrain is the most anterior region of the brain including both the telencephalon and diencephalon." []
 synonym: "forebrain ribonucleic acid composition measurement" EXACT []
-relationship: part_of CMO:0002795 ! brain ribonucleic acid level
+relationship: part_of CMO:0003372 ! combined forebrain and midbrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:39Z
 
@@ -31360,7 +31363,7 @@ creation_date: 2020-01-17T09:05:05Z
 [Term]
 id: CMO:0003371
 name: combined diencephalon and midbrain ribonucleic acid composition measurement
-relationship: part_of CMO:0002795 ! brain ribonucleic acid level
+relationship: part_of CMO:0003372 ! combined forebrain and midbrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:23Z
 
@@ -31368,8 +31371,7 @@ creation_date: 2020-01-17T09:05:23Z
 id: CMO:0003372
 name: combined forebrain and midbrain ribonucleic acid level
 synonym: "combined forebrain and midbrain ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003369 ! forebrain ribonucleic acid level
-is_a: CMO:0003929 ! midbrain ribonucleic acid level
+is_a: CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:45Z
 
@@ -35553,22 +35555,21 @@ creation_date: 2021-07-19T16:37:08Z
 
 [Term]
 id: CMO:0003788
-name: percentage of 13 cm2 floor sectors crossed into, out of or within a discrete space in an experimental apparatus
-def: "The percentage of equilateral right-angled grid elements measuring 3.6 centimeters on a side traversed by an experimental subject into, out of or within a distinct and specified area of an experimental apparatus (especially such a movement accomplished by the action of appendages such as flagella, limbs, or wings) originated, undertaken, controlled, or accomplished as a result of free will or choice." [https://www.merriam-webster.com/]
-synonym: "% of whole arena area explored" EXACT []
-synonym: "explored area" RELATED []
-synonym: "Not4Curation" RELATED []
-synonym: "ratio of 13 cm2 floor sectors crossed into, out of, to count of all 13 cm2 floor sectors within a discrete space in an experimental apparatus" EXACT []
+name: amount of time spent making head dipping movements during experiment in an elevated plus maze
+def: "This is a measure of the total amount of time during an experiment in an elevated plus maze that a subject spends making intentional downward movements of its head." [https://www.merriam-webster.com/]
+synonym: "amount of time spent making head dipping movements during experiment in an EPM" EXACT []
+synonym: "total amount of time spent making head dipping movements during experiment in an elevated plus maze" EXACT []
+synonym: "total amount of time spent making head dipping movements during experiment in an EPM" EXACT []
 xref: PMID:28341233
-is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
+is_a: CMO:0003796 ! amount of time spent making head dipping movements in an experimental apparatus
 created_by: slaulede
 creation_date: 2021-07-20T18:29:23Z
 
 [Term]
 id: CMO:0003789
 name: time to first grooming within an experimental apparatus
-def: "A measurement of the latency period spent by an organism or experimental subject in the initial occupied space before starting any activity of self-cleaning or cleaning another subject." [https://www.merriam-webster.com/, PMID:28341233]
-synonym: "grooming latency" EXACT []
+def: "A measurement of the latency period spent by an organism or experimental subject in an experimental apparatus before starting any activity of self-cleaning or cleaning another subject." [https://www.merriam-webster.com/, PMID:28341233]
+synonym: "grooming latency within an experimental apparatus" EXACT []
 xref: PMID:28341233
 is_a: CMO:0001748 ! grooming measurement
 created_by: slaulede
@@ -35632,10 +35633,10 @@ creation_date: 2021-07-22T13:37:42Z
 [Term]
 id: CMO:0003795
 name: time to first head dip within an experimental apparatus
-def: "A measurement of the latency period spent by an subject in the initial occupied space before starting any intentional downward motion of the head." [https://www.merriam-webster.com/, PMID:28341233]
-synonym: "head dip latency" EXACT []
-synonym: "head dipping latency" EXACT []
-synonym: "head dips latency" EXACT []
+def: "This is a measurement of the latency period spent by an subject in an experimental apparatus before starting any intentional downward motion of the head." [https://www.merriam-webster.com/, PMID:28341233]
+synonym: "head dip latency" BROAD []
+synonym: "head dipping latency" BROAD []
+synonym: "head dips latency" BROAD []
 synonym: "time to first head dips within an experimental apparatus" EXACT []
 xref: PMID:28341233
 is_a: CMO:0003793 ! head dip measurement
@@ -37048,7 +37049,7 @@ synonym: "mesencephalon ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain RNA level" EXACT []
 xref: UBERON:0001891
-is_a: CMO:0002795 ! brain ribonucleic acid level
+relationship: part_of CMO:0003371 ! combined diencephalon and midbrain ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-07-24T16:03:01Z
 
@@ -37919,7 +37920,7 @@ creation_date: 2024-07-26T13:44:15Z
 [Term]
 id: CMO:0004008
 name: total number of entries into the arms of an elevated plus maze
-def: "The count of movements of an experimental subject into any arm of an elevated plus maze, including entries into both open and enclosed arms." [PMID:38488865]
+def: "This is a count of entries of an experimental subject into any arm of an elevated plus maze, including entries into both open and enclosed arms." [PMID:38488865]
 synonym: "total number of entries into an arm of an EPM" EXACT []
 synonym: "total number of entries into any arm of an elevated plus maze" EXACT []
 is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
@@ -38064,12 +38065,14 @@ creation_date: 2024-08-01T18:32:22Z
 [Term]
 id: CMO:0004023
 name: ratio of count of open arm entries to total count of arm entries in an elevated plus maze apparatus
-def: "The number of movements of an experimental subject into either of the two arms of an elevated plus maze that do not have walls to prevent the experimental subject from escaping or from seeing anything outside the maze divided by the total number of counts of the experimental subject entering any arm of the maze. Ratio may be expressed as a percentage." [PMID:38488865]
+def: "The number of movements of an experimental subject into either of the two arms of an elevated plus maze that do not have walls to prevent the experimental subject from escaping or from seeing anything outside the maze divided by the total number of counts of the experimental subject entering any arm of the maze. Ratio may be expressed as a fraction, quotient, or percentage." [PMID:38488865]
 synonym: "number of entries into an open arm of an elevated plus maze as percent of total arm entries" EXACT []
 synonym: "number of entries into an open arm of an elevated plus maze to count of total arm entries ratio" EXACT []
 synonym: "ratio of count of entries into an open arm of an elevated plus maze to total count of arm entries" EXACT []
 synonym: "ratio of count of entries into an open arm to total count of arm entries in an elevated plus maze" EXACT []
 synonym: "ratio of count of open arm entries to total count of arm entries in an EPM" EXACT []
+synonym: "ratio of entries into open arms to total arm entries in an elevated plus maze" EXACT []
+synonym: "ratio of entries into open arms to total arm entries in an EPM" EXACT []
 relationship: has_component CMO:0004010 ! number of entries into an open arm of an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-09-04T13:48:17Z
@@ -38535,9 +38538,113 @@ creation_date: 2025-03-27T14:57:51Z
 id: CMO:0004068
 name: ratio of 13 cm2 floor sectors crossed into or out of, to total 13 cm2 floor sectors within an open field apparatus
 def: "This is a count of 13 cm2 floor sectors crossed into or out of by an experimental subject, divided by the total number of 13 cm2 floor sectors in an open field apparatus. This measurement may be presented as a fraction, quotient or percentage." [https://en.wikipedia.org/wiki/Open_field_(animal_test), https://www.merriam-webster.com]
+xref: PMID:28341233
 is_a: CMO:0001514 ! measurement of voluntary locomotion into, out of, or within a discrete space in an open field apparatus
 created_by: slaulederkind
 creation_date: 2025-03-27T15:59:54Z
+
+[Term]
+id: CMO:0004069
+name: striatum ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the striatum is formed or composed. The striatum is a region of the forebrain that consists of the caudate nucleus, putamen and fundus striati." [http://braininfo.rprc.washington.edu/Default.aspx, UBERON:0002435]
+synonym: "striatum RNA level" EXACT []
+xref: PMID:39369937
+is_a: CMO:0003369 ! forebrain ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-03-31T13:30:18Z
+
+[Term]
+id: CMO:0004070
+name: amount of time spent exploring a novel object in an open field apparatus
+def: "This is a measure of the total amount of experiment time that a subject spends exploring a novel object in an open field apparatus." [https://www.merriam-webster.com]
+synonym: "amount of time spent exploring a novel object in an OF apparatus" EXACT []
+synonym: "duration of novel object exploration in an OF apparatus" EXACT []
+synonym: "duration of novel object exploration in an open field apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0003807 ! amount of time spent exploring a novel object in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-31T15:39:49Z
+
+[Term]
+id: CMO:0004071
+name: amount of time spent exploring a familiar object in an open field apparatus
+def: "This is a measure of the total amount of experiment time that a subject spends exploring a familiar object in an open field apparatus." [https://www.merriam-webster.com]
+synonym: "amount of time spent exploring a familiar object in an OF apparatus" EXACT []
+synonym: "duration of familiar object exploration in an OF apparatus" EXACT []
+synonym: "duration of familiar object exploration in an open field apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0003808 ! amount of time spent exploring a familiar object in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-31T16:28:54Z
+
+[Term]
+id: CMO:0004072
+name: time to first grooming within an open field apparatus
+def: "This is a measurement of the latency period spent by an organism or experimental subject in an open field apparatus before starting any activity of self-cleaning or cleaning another subject." [https://www.merriam-webster.com]
+synonym: "grooming latency within an OF apparatus" EXACT []
+synonym: "grooming latency within an open field apparatus" EXACT []
+synonym: "time to first grooming within an OF apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0003789 ! time to first grooming within an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-31T16:54:10Z
+
+[Term]
+id: CMO:0004073
+name: number of periods of grooming in an open field apparatus
+def: "A value or quantity determined by count of distinct, separable periods of time during which an animal in an open field apparatus is cleaning itself or another animal." [https://www.merriam-webster.com/]
+synonym: "number of bouts of grooming in an OF apparatus" EXACT []
+synonym: "number of bouts of grooming in an open field apparatus" EXACT []
+synonym: "number of instances of grooming in an open field apparatus" EXACT []
+synonym: "number of periods of grooming in an OF apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0001751 ! number of periods of grooming in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-31T17:13:37Z
+
+[Term]
+id: CMO:0004074
+name: total accumulated grooming time in an open field apparatus
+def: "This is a measure of the total amount of time during an experiment in an open field apparatus that an animal spends cleaning itself or cleaning another animal." [https://www.merriam-webster.com]
+synonym: "total accumulated grooming time during a trial in an OF apparatus" EXACT []
+synonym: "total accumulated grooming time during a trial in an open field apparatus" EXACT []
+synonym: "total accumulated grooming time in an OF apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0001749 ! total accumulated grooming time in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-03-31T17:29:32Z
+
+[Term]
+id: CMO:0004075
+name: ratio of time spent in the open arms to total test time in an elevated plus maze
+def: "This is a measure of the proportion of time spent in the open arms to total test time that an organism or experimental subject spends in an elevated plus maze. This ratio is presented as a fraction, quotient, or percentage." [PMID:1683415, PMID:7762079]
+synonym: "ratio of time spent in the open arms to total test time in an EPM" EXACT []
+xref: PMID:28341233
+is_a: CMO:0000959 ! percentage of experiment time spent in a discrete space in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-04-01T12:43:52Z
+
+[Term]
+id: CMO:0004076
+name: number of head dipping movements in an elevated plus maze
+def: "This is a measure of the number of times that a quadrupedal subject moves its head purposefully in a downward motion during experiment time in an elevated plus maze." [PMID:1683415, PMID:7762079]
+synonym: "number of head dipping movements in an EPM" EXACT []
+xref: PMID:28341233
+is_a: CMO:0003794 ! number of head dipping movements in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-04-01T13:28:11Z
+
+[Term]
+id: CMO:0004077
+name: time to first head dip within an elevated plus maze
+def: "This is a measurement of the latency period spent by an subject in an elevated plus maze before starting any intentional downward motion of the head." [https://www.merriam-webster.com, PMID:28341233]
+synonym: "head dip latency in an elevated plus maze" EXACT []
+synonym: "head dip latency in an EPM" EXACT []
+synonym: "head dipping latency in an elevated plus maze" EXACT []
+synonym: "time to first head dips within an elevated plus maze" EXACT []
+is_a: CMO:0003795 ! time to first head dip within an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-04-01T14:15:27Z
 
 [Typedef]
 id: part_of
