@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.244
-date: 10:05:2025 20:13
+data-version: 2.243
+date: 19:04:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -17813,9 +17813,8 @@ creation_date: 2013-11-22T16:08:59Z
 
 [Term]
 id: CMO:0001919
-name: liver ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the liver is formed or composed." [CHEBI:33697, CHEBI:33699, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "liver ribonucleic acid composition measurement" EXACT []
+name: liver ribonucleic acid composition measurement
+def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the liver is formed or composed." [CHEBI:33697, CHEBI:33699, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "liver RNA composition measurement" EXACT []
 is_a: CMO:0001918 ! liver nucleic acid measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -17827,7 +17826,7 @@ id: CMO:0001920
 name: liver glutathione S-transferase-placental form mRNA level
 def: "Measurement of the amount of messenger ribonucleic acids (mRNA) which specifically codes for the amino acid sequence of the enzyme glutathione S-transferase-placental form (GST-P) in a specified sample of liver. GST-P is one of a family of enzymes that play an important role in detoxification by catalyzing the conjugation of many hydrophobic and electrophilic compounds with reduced glutathione." [Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed, RGD:732257]
 synonym: "liver GST-P mRNA level" RELATED []
-is_a: CMO:0001919 ! liver ribonucleic acid level
+is_a: CMO:0001919 ! liver ribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-11-22T16:11:04Z
 
@@ -17838,7 +17837,7 @@ def: "Measurement of the amount of messenger ribonucleic acid (mRNA) which speci
 synonym: "liver gamma-glutamyltranspeptidase mRNA level" EXACT []
 synonym: "liver GGTP mRNA level" EXACT []
 xref: BRENDA:EC2.3.2.2
-is_a: CMO:0001919 ! liver ribonucleic acid level
+is_a: CMO:0001919 ! liver ribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-11-22T16:12:03Z
 
@@ -17847,7 +17846,7 @@ id: CMO:0001922
 name: liver O-6-methylguanine-DNA methyltransferase mRNA level
 def: "Measurement of the amount of messenger ribonucleic acids (mRNA) which specifically codes for the amino acid sequence of the enzyme O-6-methylguanine-DNA methyltransferase (MGMT) in a specified sample of liver. MGMT is an enzyme that repairs the naturally occurring mutagenic DNA lesion O6-methylguanine back to guanine to prevent mismatch and error during DNA replication and transcription." [http://en.wikipedia.org/wiki/O-6-methylguanine-DNA_methyltransferase "Wikipedia", Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 synonym: "liver MGMT mRNA level" RELATED []
-is_a: CMO:0001919 ! liver ribonucleic acid level
+is_a: CMO:0001919 ! liver ribonucleic acid composition measurement
 created_by: JSmith
 creation_date: 2013-11-22T16:12:06Z
 
@@ -26400,9 +26399,8 @@ creation_date: 2018-09-28T17:35:30Z
 
 [Term]
 id: CMO:0002794
-name: adrenal gland ribonucleic acid level
+name: adrenal gland ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNA) of which the tissue of the adrenal gland is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "adrenal gland ribonucleic acid composition measurement" EXACT []
 synonym: "adrenal gland RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
@@ -30473,10 +30471,8 @@ creation_date: 2019-11-19T12:00:23Z
 
 [Term]
 id: CMO:0003256
-name: appendix ribonucleic acid level
+name: appendix ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vermiform appendix, a blind-ended tube connected to the cecum, from which it develops embryologically." []
-synonym: "appendix ribonucleic acid composition measurement" EXACT []
-synonym: "appendix RNA level" EXACT []
 synonym: "vermiform appendix ribonucleic acid level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -30498,9 +30494,7 @@ creation_date: 2019-11-19T12:11:40Z
 
 [Term]
 id: CMO:0003259
-name: thyroid gland ribonucleic acid level
-synonym: "thyroid gland ribonucleic acid composition measurement" EXACT []
-synonym: "thyroid gland RNA level" EXACT []
+name: thyroid gland ribonucleic acid composition measurement
 is_a: CMO:0002389 ! thyroid gland morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -30591,20 +30585,14 @@ creation_date: 2019-11-19T13:02:13Z
 
 [Term]
 id: CMO:0003271
-name: bone marrow ribonucleic acid level
-synonym: "bone marrow ribonucleic acid composition measurement" EXACT []
+name: bone marrow ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:13:09Z
 
 [Term]
 id: CMO:0003272
-name: prostate gland ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the prostate gland is composed." []
-synonym: "prostate gland ribonucleic acid composition measurement" EXACT []
-synonym: "prostate gland RNA level" EXACT []
-synonym: "prostate ribonucleic acid level" EXACT []
-synonym: "prostate RNA level" EXACT []
+name: prostate gland ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:16:43Z
@@ -30986,9 +30974,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003320
-name: parotid gland ribonucleic acid level
-synonym: "parotid gland ribonucleic acid composition measurement" EXACT []
-synonym: "parotid gland RNA level" EXACT []
+name: parotid gland ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31218,8 +31204,7 @@ creation_date: 2020-01-15T10:43:10Z
 
 [Term]
 id: CMO:0003350
-name: bone tissue ribonucleic acid level
-synonym: "bone tissue ribonucleic acid composition measurement" EXACT []
+name: bone tissue ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
@@ -36938,63 +36923,56 @@ name: cell ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
 synonym: "cell RNA composition measurement" EXACT []
 synonym: "Not4Curation" RELATED []
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003915 ! cell molecular composition measurement
-relationship: part_of CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-04-03T17:06:23Z
 
 [Term]
 id: CMO:0003917
-name: native cell ribonucleic acid level
+name: native cell ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells found in a natural setting, which includes multicellular organism cells 'in vivo' (i.e. part of an organism), and unicellular organisms 'in environment' (i.e. part of a natural environment)." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "native cell ribonucleic acid composition measurement" EXACT []
 synonym: "native cell RNA composition measurement" EXACT []
-synonym: "native cell RNA level" EXACT []
 is_a: CMO:0003916 ! cell ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-04-03T17:16:36Z
 
 [Term]
 id: CMO:0003918
-name: isolated cell ribonucleic acid level
+name: isolated cell ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells isolated from an organism before the occurance of any in vitro culturing." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
 synonym: "extracted cell RNA composition measurement" EXACT []
-synonym: "isolated cell ribonucleic acid composition measurement" EXACT []
 synonym: "isolated cell RNA composition measurement" EXACT []
-synonym: "isolated cell RNA level" EXACT []
 synonym: "purified cell RNA composition measurement" EXACT []
-is_a: CMO:0003917 ! native cell ribonucleic acid level
+is_a: CMO:0003917 ! native cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-04-03T17:25:06Z
 
 [Term]
 id: CMO:0003919
-name: cultured cell ribonucleic acid level
+name: cultured cell ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells after in vitro cell culturing for a specified length of time. Cell culture refers to the growth of isolated cells from an animal or plant in a favorable artificial environment." [https://www.thermofisher.com, ISBN-13:978-0781733908]
-synonym: "cultured cell ribonucleic acid composition measurement" EXACT []
-synonym: "cultured cell RNA level" EXACT []
+synonym: "cultured cell RNA composition measurement" EXACT []
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0003918 ! isolated cell ribonucleic acid level
+is_a: CMO:0003918 ! isolated cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-04-03T17:34:15Z
 
 [Term]
 id: CMO:0003920
-name: primary cultured cell ribonucleic acid level
+name: primary cultured cell ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified type of cell or set of cells after in vitro cell culturing for a specified length of time without the benefit of cell passage (harvesting and reseeding/splitting into multiple daughter cultures) . Cell culture refers to the growth of isolated cells from an animal or plant in a favorable artificial environment." [https://www.culturecollections.org.uk/, ISBN-13:978-0781733908]
 synonym: "primary cultured cell RNA composition measurement" EXACT []
-synonym: "primary cultured cell RNA level" EXACT []
-is_a: CMO:0003919 ! cultured cell ribonucleic acid level
+is_a: CMO:0003919 ! cultured cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-04-03T17:47:29Z
 
 [Term]
 id: CMO:0003921
-name: cell line ribonucleic acid level
+name: cell line ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell line after in vitro cell culturing for a specified number of passages (harvesting and reseeding/splitting into multiple daughter cultures). A cell linerefers to a defined population of cells that can be maintained in culture for an extended period of time, retaining stability of certain phenotypes and functions. Cell lines are usually clonal, meaning that the entire population originated from a single common ancestor cell." [https://www.sciencedirect.com, ISBN-13:978-0781733908]
-synonym: "cell line ribonucleic acid composition measurement" EXACT []
 synonym: "cell line RNA measurement" EXACT []
-is_a: CMO:0003919 ! cultured cell ribonucleic acid level
+is_a: CMO:0003919 ! cultured cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-04-03T17:54:54Z
 
@@ -37752,10 +37730,9 @@ id: CMO:0003992
 name: oocyte ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a female germ cell(s) that has entered meiosis." [CL:0000023, ISBN-13:9780781733908]
 synonym: "female gametocyte ribonucleic acid level" EXACT []
-synonym: "oocyte RNA level" EXACT []
 xref: GEO:GSE163620
 xref: PMID:34818044
-is_a: CMO:0003918 ! isolated cell ribonucleic acid level
+is_a: CMO:0003918 ! isolated cell ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-04-16T14:10:20Z
 
@@ -38670,60 +38647,6 @@ synonym: "time to first head dips within an elevated plus maze" EXACT []
 is_a: CMO:0003795 ! time to first head dip within an experimental apparatus
 created_by: slaulederkind
 creation_date: 2025-04-01T14:15:27Z
-
-[Term]
-id: CMO:0004078
-name: swim speed in a Morris water maze apparatus
-def: "This is a measurement of the linear equivalent of the extent of forward progress attained via the movement of an individual during a specified period of time into, out of, or within a distinct and specified area of a Morris water maze apparatus when such movement originated and/or was undertaken, controlled, or accomplished as a result of free will or choice." [https://www.merriam-webster.com/]
-synonym: "distance moved per unit of time into, out of or within a discrete space in a Morris water maze apparatus apparatus" EXACT []
-xref: PMID:14665699
-is_a: CMO:0004079 ! measurement of voluntary locomotion into, out of, or within a discrete space in a Morris water maze apparatus
-created_by: slaulederkind
-creation_date: 2025-04-28T16:41:49Z
-
-[Term]
-id: CMO:0004079
-name: measurement of voluntary locomotion into, out of, or within a discrete space in a Morris water maze apparatus
-def: "This is any measurement of the movement of an organism from one place to another into, out of, or within a distinct and specified area of a Morris watyer maze apparatus (especially such a movement accomplished by the action of appendages such as flagella, limbs, or wings) originated, undertaken, controlled, or accomplished as a result of free will or choice." [https://www.merriam-webster.com/]
-synonym: "measurement of voluntary locomotion into, out of, or within a discrete space in a MWM apparatus" EXACT []
-xref: PMID:14665699
-is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
-created_by: slaulederkind
-creation_date: 2025-04-28T16:50:05Z
-
-[Term]
-id: CMO:0004080
-name: ratio of the distance swam in the target area of a Morris water maze hidden platform during a probe trial to the total distance swam during the probe trial
-def: "This is the ratio of the total horizontal distance of an experimental subject made in proximity to the target in a Morris water maze apparatus to the total horizontal distance made within the Morris water maze apparatus during a certain period of time. The measurement ratio is presented as a fraction, quotient, or percentage." [https://www.merriam-webster.com/]
-synonym: "ratio of the distance swam in the target area of a MWM hidden platform during a probe trial to the total distance swam during the probe trial" EXACT []
-xref: PMID:14665699
-is_a: CMO:0002813 ! ratio of horizontal distance covered in proximity of the target to total horizontal distance covered in an experimental apparatus
-is_a: CMO:0004079 ! measurement of voluntary locomotion into, out of, or within a discrete space in a Morris water maze apparatus
-created_by: slaulederkind
-creation_date: 2025-04-28T17:09:32Z
-
-[Term]
-id: CMO:0004081
-name: sperm ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in sperm, the cells that play an important role in the process of fertilization, where they fuse with a female gamete or egg cell (ovum) to form a zygote." [CL:0000019, https://www.merriam-webster.com/]
-synonym: "male gamete RNA level" EXACT []
-synonym: "spermatozoon RNA level" EXACT []
-synonym: "sperm RNA level" EXACT []
-xref: CHEBI:33697
-xref: PMID:27628216
-is_a: CMO:0003918 ! isolated cell ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-04-29T17:37:19Z
-
-[Term]
-id: CMO:0004082
-name: parathyroid gland ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the parathyroid gland, usually found as a pair, embedded in the connective tissue capsule on the posterior surface of the thyroid gland" [UBERON:0001132]
-synonym: "parathyroid gland RNA level" EXACT []
-synonym: "parathyroid RNA level" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-05-02T12:24:15Z
 
 [Typedef]
 id: part_of
