@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.244
-date: 10:05:2025 20:13
+data-version: 2.245
+date: 07:06:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -35607,7 +35607,7 @@ creation_date: 2021-07-22T12:52:51Z
 [Term]
 id: CMO:0003791
 name: time to first rearing within an experimental apparatus
-def: "A measurement of the latency period spent by an organism or experimental subject in the initial occupied space before a quadrupedal subject begins rising up on its back legs." [https://www.merriam-webster.com/, PMID:28341233]
+def: "This is a measurement of the latency period spent by an experimental, quadrupedal subject in an experimental apparatus before rising up on its back legs." [https://www.merriam-webster.com/, PMID:28341233]
 synonym: "rearing latency" EXACT []
 xref: PMID:28341233
 is_a: CMO:0001515 ! rearing measurement
@@ -35761,11 +35761,12 @@ creation_date: 2021-07-26T12:32:54Z
 
 [Term]
 id: CMO:0003805
-name: time to first stretched attend posture movement within an experimental apparatus
-def: "A measurement of the latency period spent by an subject in the initial occupied space of an experimental apparatus before starting any stretched-attend posture movement." [https://www.merriam-webster.com/, PMID:28341233]
+name: time to first stretched attend posture movement in an experimental apparatus
+def: "This is a measurement of the latency period spent by an subject in an experimental apparatus before starting any stretched-attend posture movement." [https://www.merriam-webster.com/, PMID:28341233]
 synonym: "SAP latency" EXACT []
 synonym: "stretch-attend posture movement latency" EXACT []
 synonym: "stretched attend posture movement latency" EXACT []
+synonym: "time to first stretched attend posture movement within an experimental apparatus" EXACT []
 xref: PMID:28341233
 is_a: CMO:0001038 ! stretched attend posture measurement
 created_by: slaulede
@@ -38153,6 +38154,7 @@ id: CMO:0004028
 name: common carotid artery ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in either of the bilaterally paired branched arteries that originate from the aortic arch and divide into and include as parts the internal and external carotid arteries." [UBERON:0001530]
 synonym: "carotid artery ribonucleic acid level" EXACT []
+synonym: "carotid artery RNA level" EXACT []
 synonym: "external carotid artery ribonucleic acid level" NARROW []
 synonym: "internal carotid artery ribonucleic acid level" NARROW []
 is_a: CMO:0003316 ! artery ribonucleic acid level
@@ -38441,10 +38443,10 @@ creation_date: 2025-03-04T12:29:03Z
 
 [Term]
 id: CMO:0004057
-name: number of stretched attend posture movements during experiment time in elevated zero maze
+name: number of stretched attend postures in elevated zero maze
 def: "This is a measurement of the number of times an experimental subject or organism displays a stretched-attend posture movement during an experimental time period in the elevated zero maze. The stretched-attend posture is one during which the hind legs remain stationary while the body is stretched forward with head raised." [https://www.merriam-webster.com]
 synonym: "number of stretch-attend postures in elevated zero maze" EXACT []
-synonym: "number of stretched attend postures in elevated zero maze" EXACT []
+synonym: "number of stretched attend posture movements during experiment time in elevated zero maze" EXACT []
 xref: PMID:18971309
 is_a: CMO:0001039 ! number of stretched attend posture movements
 created_by: slaulederkind
@@ -38724,6 +38726,74 @@ synonym: "parathyroid RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-05-02T12:24:15Z
+
+[Term]
+id: CMO:0004083
+name: cerebral artery ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in any of the bilaterally paired main cerebral arteries (anterior, middle, and posterior cerebral arteries) that are interconnected to form the circle of Willis, a crucial system for ensuring adequate blood flow to the brain." [https://en.wikipedia.org/wiki/Cerebral_arteries]
+synonym: "anterior cerebral artery ribonucleic acid level" NARROW []
+synonym: "cerebral artery RNA level" EXACT []
+synonym: "middle cerebral artery ribonucleic acid level" NARROW []
+synonym: "posterior cerebral artery ribonucleic acid level" NARROW []
+xref: PMID:38326494
+is_a: CMO:0003316 ! artery ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-06-05T13:33:56Z
+
+[Term]
+id: CMO:0004084
+name: number of rearing movements in an open field apparatus
+def: "This is a measurement of how many times a quadrupedal subject in an open field apparatus rises up on its back legs during a testing period." [https://www.merriam-webster.com/]
+xref: PMID:28341233
+is_a: CMO:0001752 ! number of rearing movements in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-06-06T14:51:27Z
+
+[Term]
+id: CMO:0004085
+name: amount of time spent making rearing movements in an open field apparatus
+def: "This is a measurement of the total amount of time that a quadrupedal subject spends in an open field apparatus rising up on its back legs during an experiment ." [https://www.merriam-webster.com/]
+xref: PMID:28341233
+is_a: CMO:0003790 ! amount of time spent making rearing movements in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-06-06T15:01:07Z
+
+[Term]
+id: CMO:0004086
+name: time to first rearing within an open field apparatus
+def: "This is a measurement of the latency period spent by an experimental, quadrupedal subject in an open field apparatus before rising up on its back legs." [https://www.merriam-webster.com/]
+synonym: "rearing latency in an open field apparatus" EXACT []
+xref: PMID:28341233
+is_a: CMO:0003791 ! time to first rearing within an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-06-06T15:15:41Z
+
+[Term]
+id: CMO:0004087
+name: amount of time spent making stretched attend posture movements in an elevated plus maze
+def: "This is a measurement of the total amount of time a subject or organism displays a stretched-attend posture movement during an experimental time period in an elevated zero maze. The stretched-attend posture is one during which the hind legs remain stationary while the body is stretched forward with head raised." [PMID:28341233]
+synonym: "amount of time spent making stretch attend posture movements in an elevated plus maze" EXACT []
+synonym: "amount of time spent making stretched attend posture movements during an experiment in an elevated plus maze" EXACT []
+synonym: "amount of time spent making stretched attend posture movements during experiment time in elevated plus maze" EXACT []
+synonym: "duration of stretched attend postures in an elevated plus maze" EXACT []
+synonym: "SAP duration in an elevated plus maze" EXACT []
+xref: PMID:18971309
+is_a: CMO:0003804 ! amount of time spent making stretched attend posture movements in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-06-06T16:38:18Z
+
+[Term]
+id: CMO:0004088
+name: time to first stretched attend posture movement in an elevated plus maze
+def: "This is a measurement of the latency period spent by an experimental subject in an elevated plus maze before starting any stretched-attend posture movement." [https://www.merriam-webster.com/]
+synonym: "SAP latency in an elevated plus maze" EXACT []
+synonym: "stretch-attend posture movement latency in an elevated plus maze" EXACT []
+synonym: "stretched attend posture movement latency in an elevated plus maze" EXACT []
+synonym: "time to first stretched attend posture movement during an experiment in an elevated plus maze" EXACT []
+xref: PMID:18971309
+is_a: CMO:0003805 ! time to first stretched attend posture movement in an experimental apparatus
+created_by: slaulederkind
+creation_date: 2025-06-06T16:52:41Z
 
 [Typedef]
 id: part_of
