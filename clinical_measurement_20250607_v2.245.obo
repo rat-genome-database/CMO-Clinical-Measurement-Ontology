@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.246
-date: 14:06:2025 20:13
+data-version: 2.245
+date: 07:06:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -8484,7 +8484,7 @@ id: CMO:0000955
 name: voluntary locomotion measurement
 def: "Any measurement of the movement of an organism from one place or position to another (especially such a movement accomplished by the action of appendages such as flagella, limbs, or wings) which originated with or was undertaken, controlled, or accomplished as a result of that organism's free will or choice." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2012-07-23T07:06:29Z
 
@@ -9265,7 +9265,7 @@ def: "Any measurement of the movement of an experimental subject or organism dur
 synonym: "Not4Curation" RELATED []
 synonym: "SAP measurement" RELATED []
 synonym: "stretch attend posture measurement" EXACT []
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: jsmith
 creation_date: 2012-08-23T04:39:54Z
 
@@ -13727,7 +13727,7 @@ id: CMO:0001515
 name: rearing measurement
 def: "Any measurement of a movement in which a quadrupedal subject rises up on its back legs." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 synonym: "Not4Curation" RELATED []
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2013-01-29T13:31:02Z
 
@@ -16113,7 +16113,7 @@ id: CMO:0001748
 name: grooming measurement
 def: "Any measurement related to the activity of one or more organisms cleaning themselves or one another." [Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
 synonym: "displacement activity reaction measurement" RELATED []
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2013-07-31T15:46:42Z
 
@@ -18194,7 +18194,7 @@ creation_date: 2013-11-27T15:05:17Z
 id: CMO:0001959
 name: defensive burying measurement
 def: "Any measurement of the action of defensive burying, the typical rodent behavior of displacing bedding material with vigorous treading-like movements of their forepaws and shoveling movements of their heads directed towards a noxious stimulus that appears to pose a near and immediate threat." [PMID:12600707]
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2013-11-27T15:17:55Z
 
@@ -19927,7 +19927,7 @@ creation_date: 2014-01-28T11:40:29Z
 id: CMO:0002133
 name: calculated voluntary body movement measurement
 def: "A measurement which has been normalized, adjusted or derived by a mathematical process or computation, of a movement of all or part of the body which originated with, or was undertaken, controlled, or accomplished as a result of an organism's free will or choice." [Merriam-Webster:Merriam-Websters_Online_Dictionary--11th_Ed, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-relationship: has_component CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: JSmith
 creation_date: 2014-01-28T12:48:58Z
 
@@ -26389,8 +26389,8 @@ id: CMO:0002793
 name: tissue ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified tissue." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "Not4Curation" RELATED []
-synonym: "tissue ribonucleic acid composition measurement" BROAD []
-synonym: "tissue RNA composition measurement" BROAD []
+synonym: "tissue ribonucleic acid composition measurement" EXACT []
+synonym: "tissue RNA composition measurement" EXACT []
 synonym: "tissue RNA level" EXACT []
 synonym: "transcriptome measurement" NARROW []
 xref: EFO:0009865
@@ -26402,8 +26402,8 @@ creation_date: 2018-09-28T17:35:30Z
 id: CMO:0002794
 name: adrenal gland ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNA) of which the tissue of the adrenal gland is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "adrenal gland ribonucleic acid composition measurement" BROAD []
-synonym: "adrenal gland RNA composition measurement" BROAD []
+synonym: "adrenal gland ribonucleic acid composition measurement" EXACT []
+synonym: "adrenal gland RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T17:48:52Z
@@ -26412,7 +26412,7 @@ creation_date: 2018-09-28T17:48:52Z
 id: CMO:0002795
 name: brain ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the brain is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "brain RNA composition measurement" BROAD []
+synonym: "brain RNA composition measurement" EXACT []
 synonym: "brain RNA level" EXACT []
 is_a: CMO:0002066 ! brain molecular composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -29006,6 +29006,7 @@ creation_date: 2019-03-19T16:40:31Z
 id: CMO:0003087
 name: stress-related movement measurement
 def: "Any measurable or observable characteristic of actions or reactions related to how the body reacts to a stressor (a stimulus that causes stress), real or imagined." [VT:0010451]
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: sjwang
 creation_date: 2019-03-28T15:59:44Z
 
@@ -29015,7 +29016,7 @@ name: duration of  lower body licking events
 def: "A measurement of the time subjects spend licking the abdomen during a period of time." [PMID:11376906, PMID:24388923]
 synonym: "duration of abdomen licking" EXACT []
 synonym: "duration of abdominal licking behaviour" EXACT []
-is_a: CMO:0001748 ! grooming measurement
+is_a: CMO:0003087 ! stress-related movement measurement
 created_by: sjwang
 creation_date: 2019-03-28T16:04:15Z
 
@@ -29025,6 +29026,7 @@ name: number of lower body licking events
 def: "Measurement of the number of times an experimental subject or organism performs a lower body licking event on itself during an experimental time period. A lower body licking event usually involves licking of the abdomen." [PMID:11376906, PMID:24388923]
 synonym: "number of abdomen licking events" EXACT []
 is_a: CMO:0001748 ! grooming measurement
+is_a: CMO:0003087 ! stress-related movement measurement
 created_by: sjwang
 creation_date: 2019-03-28T16:07:45Z
 
@@ -29032,7 +29034,7 @@ creation_date: 2019-03-28T16:07:45Z
 id: CMO:0003090
 name: number of abdominal retractions
 def: "The number of abdominal retractions performed in a specified period by an experimental subject. An abdominal retraction is the contraction of the abdominal wall such that an `arched' posture is observed for a couple seconds." [PMID:11376906]
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0003087 ! stress-related movement measurement
 created_by: sjwang
 creation_date: 2019-03-28T16:32:33Z
 
@@ -30473,7 +30475,7 @@ creation_date: 2019-11-19T12:00:23Z
 id: CMO:0003256
 name: appendix ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vermiform appendix, a blind-ended tube connected to the cecum, from which it develops embryologically." []
-synonym: "appendix ribonucleic acid composition measurement" BROAD []
+synonym: "appendix ribonucleic acid composition measurement" EXACT []
 synonym: "appendix RNA level" EXACT []
 synonym: "vermiform appendix ribonucleic acid level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -30590,8 +30592,7 @@ creation_date: 2019-11-19T13:02:13Z
 [Term]
 id: CMO:0003271
 name: bone marrow ribonucleic acid level
-synonym: "bone marrow ribonucleic acid composition measurement" BROAD []
-synonym: "bone marrow RNA level" EXACT []
+synonym: "bone marrow ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:13:09Z
@@ -30617,10 +30618,9 @@ creation_date: 2019-11-19T13:19:13Z
 
 [Term]
 id: CMO:0003274
-name: white blood cell ribonucleic acid level
-synonym: "white blood cell ribonucleic acid composition measurement" EXACT []
-synonym: "white blood cell RNA level" EXACT []
+name: white blood cell ribonucleic acid composition measurement
 is_a: CMO:0002341 ! white blood cell measurement
+is_a: CMO:0003337 ! blood ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:23:57Z
 
@@ -30635,7 +30635,7 @@ creation_date: 2019-11-19T13:29:32Z
 id: CMO:0003276
 name: adipose tissue ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in adipose tissue, the portion of connective tissue composed of adipocytes enmeshed in areolar tissue." [UBERON:0001013]
-synonym: "adipose tissue ribonucleic acid composition measurement" BROAD []
+synonym: "adipose tissue ribonucleic acid composition measurement" EXACT []
 synonym: "adipose tissue RNA level" EXACT []
 synonym: "fat tissue RNA level" EXACT []
 synonym: "RNA level of fat tissue" EXACT []
@@ -30897,9 +30897,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003308
-name: diaphragm ribonucleic acid level
-synonym: "diaphragm ribonucleic acid composition measurement" BROAD []
-synonym: "diaphragm RNA level" EXACT []
+name: diaphragm ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -30956,7 +30954,7 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003316
 name: artery ribonucleic acid level
-synonym: "artery ribonucleic acid composition measurement" BROAD []
+synonym: "artery ribonucleic acid composition measurement" EXACT []
 synonym: "artery RNA composition measurement" EXACT []
 synonym: "artery RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
@@ -30997,9 +30995,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003321
-name: penis ribonucleic acid level
-synonym: "penis ribonucleic acid composition measurement" BROAD []
-synonym: "penis RNA level" EXACT []
+name: penis ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31125,10 +31121,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003337
-name: blood ribonucleic acid level
-synonym: "blood ribonucleic acid composition measurement" BROAD []
-synonym: "blood RNA level" EXACT []
-is_a: CMO:0000023 ! blood chemistry measurement
+name: blood ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T10:59:26Z
@@ -31180,9 +31173,7 @@ creation_date: 2019-12-09T08:13:13Z
 
 [Term]
 id: CMO:0003344
-name: distal gut ribonucleic acid level
-synonym: "distal gut ribonucleic acid composition measurement" EXACT []
-synonym: "distal gut RNA level" EXACT []
+name: distal gut ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2019-12-09T08:12:39Z
@@ -31197,18 +31188,16 @@ creation_date: 2020-01-15T10:42:18Z
 [Term]
 id: CMO:0003346
 name: cartilage ribonucleic acid level
-synonym: "cartilage ribonucleic acid composition measurement" BROAD []
+synonym: "cartilage ribonucleic acid composition measurement" EXACT []
 synonym: "cartilage RNA level" EXACT []
-synonym: "cartilage tissue ribonucleic acid composition measurement" BROAD []
+synonym: "cartilage tissue ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
 
 [Term]
 id: CMO:0003347
-name: chordate pharynx ribonucleic acid level
-synonym: "chordate pharynx ribonucleic acid composition measurement" BROAD []
-synonym: "chordate pharynx RNA level" EXACT []
+name: chordate pharynx ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
@@ -31230,8 +31219,7 @@ creation_date: 2020-01-15T10:43:10Z
 [Term]
 id: CMO:0003350
 name: bone tissue ribonucleic acid level
-synonym: "bone tissue ribonucleic acid composition measurement" BROAD []
-synonym: "bone tissue RNA level" EXACT []
+synonym: "bone tissue ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
@@ -31245,10 +31233,9 @@ creation_date: 2020-01-15T15:26:31Z
 
 [Term]
 id: CMO:0003353
-name: cecum ribonucleic acid level
+name: cecum ribonucleic acid composition measurement
 synonym: "caecum ribonucleic acid level" EXACT []
-synonym: "cecum ribonucleic acid composition measurement" BROAD []
-synonym: "cecum RNA level" EXACT []
+synonym: "cecum ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:40:22Z
@@ -31269,8 +31256,7 @@ creation_date: 2020-01-16T08:03:38Z
 
 [Term]
 id: CMO:0003356
-name: connective tissue ribonucleic acid level
-synonym: "connective tissue ribonucleic acid composition measurement" BROAD []
+name: connective tissue ribonucleic acid composition measurement
 synonym: "connective tissue RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
@@ -31285,9 +31271,7 @@ creation_date: 2020-01-16T08:04:35Z
 
 [Term]
 id: CMO:0003358
-name: bile duct ribonucleic acid level
-synonym: "bile duct ribonucleic acid composition measurement" BROAD []
-synonym: "bile duct RNA level" EXACT []
+name: bile duct ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:05:00Z
@@ -31338,8 +31322,7 @@ creation_date: 2020-01-17T09:01:21Z
 
 [Term]
 id: CMO:0003364
-name: basal ganglion ribonucleic acid level
-synonym: "basal ganglion ribonucleic acid composition measurement" BROAD []
+name: basal ganglion ribonucleic acid composition measurement
 synonym: "basal ganglion RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
@@ -31418,10 +31401,10 @@ creation_date: 2020-01-17T09:06:07Z
 
 [Term]
 id: CMO:0003374
-name: venous blood ribonucleic acid level
-synonym: "venous blood ribonucleic acid composition measurement" EXACT []
+name: venous blood ribonucleic acid composition measurement
 synonym: "venous blood RNA level" EXACT []
-is_a: CMO:0003337 ! blood ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003337 ! blood ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T12:28:10Z
 
@@ -34066,7 +34049,7 @@ id: CMO:0003644
 name: number of spontaneous locomotor movements per unit time
 def: "Measurement of spontaneous locomotor activity, that is any locomotor movements during a period of time." [https://www.merriam-webster.com/]
 xref: PMID:25903955
-is_a: CMO:0000955 ! voluntary locomotion measurement
+is_a: CMO:0000953 ! body movement measurement
 created_by: slaulede
 creation_date: 2021-02-02T14:00:56Z
 
@@ -35637,7 +35620,7 @@ name: head movement measurement
 def: "Any measurable or observable characteristic related to the motion of the head which originated, or was undertaken, controlled, or accomplished as a result of an organism's free will or choice." [https://www.merriam-webster.com/, PMID:28341233]
 synonym: "head motion measurement" EXACT []
 xref: PMID:28341233
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: slaulede
 creation_date: 2021-07-22T13:20:25Z
 
@@ -35794,7 +35777,7 @@ id: CMO:0003806
 name: exploratory movement measurement
 def: "A measurement of time, movement type, or location of a subject's exploration of an object, location, or other entity." [https://www.merriam-webster.com/]
 xref: PMID:28341233
-is_a: CMO:0004091 ! voluntary body movement measurement
+is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
 created_by: slaulede
 creation_date: 2021-07-26T13:49:51Z
 
@@ -36954,7 +36937,7 @@ creation_date: 2023-04-03T17:02:38Z
 id: CMO:0003916
 name: cell ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a specified cell or set of cells." [https://www.merriam-webster.com, ISBN-13:978-0781733908]
-synonym: "cell RNA composition measurement" BROAD []
+synonym: "cell RNA composition measurement" EXACT []
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0003915 ! cell molecular composition measurement
 relationship: part_of CMO:0002793 ! tissue ribonucleic acid level
@@ -37442,7 +37425,7 @@ name: CD4+ lymphocyte ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in CD4+ lymphocytes. CD4 is a membrane glycoprotein found primarily on T lymphocytes, but also can be expressed on B cells, macrophages, and granulocytes. On T cells it is a co-receptor for the T cell receptor (TCR), interacts with MHC class II antigens, and functions to initiate or augment the early phase of T-cell activation." [http://en.wikipedia.org/wiki/CD4]
 synonym: "CD4(+) llymphocyte ribonucleic acid composition measurement" EXACT []
 synonym: "CD4(+) lymphocyte ribonucleic acid composition measurement" EXACT []
-is_a: CMO:0003274 ! white blood cell ribonucleic acid level
+is_a: CMO:0003274 ! white blood cell ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-10-03T12:41:58Z
 
@@ -37553,10 +37536,9 @@ creation_date: 2023-11-13T15:13:42Z
 id: CMO:0003973
 name: tendon ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in tendon, the fibrous bands or cords of connective tissue at the ends of muscle fibers that attach muscles to bones and other structures." [ISBN-13:978-1455756438, MESH:D013710]
-synonym: "tendon RNA level" EXACT []
 xref: PMID:37021050
 xref: UBERON:0000043
-is_a: CMO:0003356 ! connective tissue ribonucleic acid level
+is_a: CMO:0003356 ! connective tissue ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2023-11-14T17:28:42Z
 
@@ -37658,8 +37640,8 @@ creation_date: 2024-03-07T13:01:12Z
 id: CMO:0003982
 name: aorta ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the great artery arising from the left ventricle from which the systemic arterial system proceeds." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "aorta ribonucleic acid composition measurement" BROAD []
-synonym: "aorta RNA composition measurement" BROAD []
+synonym: "aorta ribonucleic acid composition measurement" EXACT []
+synonym: "aorta RNA composition measurement" EXACT []
 synonym: "aorta RNA level" EXACT []
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: slaulederkind
@@ -38073,6 +38055,7 @@ name: number of lines crossed in the center of an open field apparatus
 def: "A measurement of the distance traveled within the region in the center of an open field apparatus, measured as a count of the grid lines, marked on the floor of the apparatus, crossed by an experimental subject during an experiment." [PMID:12600700]
 comment: This term should only be used when the measurement is "lines crossed" without information about the size or spacing of the lines or squares in the grid.
 synonym: "number of inner line crossings" RELATED []
+is_a: CMO:0000957 ! measurement of voluntary locomotion into, out of or within a discrete space in an experimental apparatus
 is_a: CMO:0004020 ! measurement of voluntary locomotion in an open field apparatus
 created_by: jrsjrs
 creation_date: 2024-08-01T17:59:49Z
@@ -38374,7 +38357,7 @@ creation_date: 2025-02-06T15:05:55Z
 id: CMO:0004048
 name: cranium ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the cranium, the upper portion of the skull, excluding the mandible." [https://www.merriam-webster.com, UBERON:0003128]
-synonym: "cranium RNA level" EXACT []
+xref: GEO:GSE151971
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0004049 ! skull molecular composition measurement
 created_by: slaulederkind
@@ -38811,47 +38794,6 @@ xref: PMID:18971309
 is_a: CMO:0003805 ! time to first stretched attend posture movement in an experimental apparatus
 created_by: slaulederkind
 creation_date: 2025-06-06T16:52:41Z
-
-[Term]
-id: CMO:0004089
-name: mesenteric artery ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in one or more of the mesenteric arteries, which arise from the abdominal aorta and distribute to most of the intestines." [UBERON:0005616]
-synonym: "mesenteric artery RNA level" EXACT []
-xref: PMID:40097492
-is_a: CMO:0003316 ! artery ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-06-09T16:39:19Z
-
-[Term]
-id: CMO:0004090
-name: number of photobeam interrupting movements in an open field apparatus with 2.5 cm beam spacing
-def: "This is a measurement of both horizontal and vertical movements in an open field apparatus equipped with infrared beams/detectors and computerized data recording." [https://omnitech-usa.com/product/superflex-open-field/]
-synonym: "number of photobeam interruptions in an open field apparatus with 2.5 cm beam spacin" EXACT []
-synonym: "number of recordable movements in an open field apparatus" EXACT []
-xref: PMID:20200994
-is_a: CMO:0004091 ! voluntary body movement measurement
-created_by: slaulederkind
-creation_date: 2025-06-10T17:01:11Z
-
-[Term]
-id: CMO:0004091
-name: voluntary body movement measurement
-def: "This is any measurement of mobility of all or part of the body which originated, or was undertaken, controlled, or accomplished as a result of an organism's free will or choice." [https://www.merriam-webster.com/]
-synonym: "voluntary body mobility measurement" EXACT []
-xref: PMID:20200994
-is_a: CMO:0000954 ! voluntary body mobility/immobility measurement
-created_by: slaulederkind
-creation_date: 2025-06-10T17:39:12Z
-
-[Term]
-id: CMO:0004092
-name: corpus cavernosum penis ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the corpus cavernosum of the penis. The corpus cavernosum is one of the columns of erectile tissue forming the dorsum and sides of the penis." [https://www.merriam-webster.com/, UBERON:0004713]
-synonym: "corpus cavernosum penis RNA level" EXACT []
-xref: PMID:39877365
-is_a: CMO:0003321 ! penis ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-06-12T13:52:57Z
 
 [Typedef]
 id: part_of
