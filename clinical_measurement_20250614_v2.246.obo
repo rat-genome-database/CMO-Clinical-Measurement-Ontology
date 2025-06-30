@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.248
-date: 28:06:2025 20:13
+data-version: 2.246
+date: 14:06:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -12703,13 +12703,10 @@ creation_date: 2013-01-14T14:54:34Z
 
 [Term]
 id: CMO:0001406
-name: longest distance run on treadmill
-def: "This is a measurement of the greatest reached or recorded linear equivalent of the extent of forward progress attained while running on a treadmill, a piece of equipment consisting of a continuously moving belt which allows the action of walking or running without the entire body moving forward. This measurement refers to the longest distance run before the subject experienced exhaustion." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Collins:Collins_Online_English_Dictionary]
-synonym: "aerobic running capacity (ARC)" BROAD []
-synonym: "longest distance run until exhaustion on treadmill" EXACT []
-synonym: "maximum distance run until exhaustion on treadmill" EXACT []
-xref: PMID:16033863
-relationship: part_of CMO:0004095 ! average maximal distance run on treadmill
+name: maximum distance run on treadmill
+def: "Measurement of the greatest reached or recorded linear equivalent of the extent of forward progress attained while running on a treadmill, a piece of equipment consisting of a continuously moving belt which allows the action of walking or running without the entire body moving forward." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Collins:Collins_Online_English_Dictionary]
+synonym: "aerobic running capacity (ARC)" RELATED []
+is_a: CMO:0001405 ! distance run on treadmill
 created_by: JSmith
 creation_date: 2013-01-14T15:35:07Z
 
@@ -21590,10 +21587,9 @@ creation_date: 2014-03-28T17:51:25Z
 
 [Term]
 id: CMO:0002306
-name: maximum time run on treadmill
-def: "This is a measurement of the amount of time a subject spends running on a treadmill, a piece of equipment consisting of a continuously moving belt which allows the action of walking or running without the entire body moving forward, before exhaustion, that is, privation of energy with consequent inability to respond to stimuli." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "maximum time spent running to exhaustion on treadmill" EXACT []
-synonym: "time spent running maximum distance on treadmill" EXACT []
+name: maximum time spent running to exhaustion on treadmill
+def: "A measurement of the amount of time a subject spends running on a treadmill, a piece of equipment consisting of a continuously moving belt which allows the action of walking or running without the entire body moving forward, before exhaustion, that is, privation of energy with consequent inability to respond to stimuli." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+synonym: "time spent running maximum distance on treadmill" RELATED []
 is_a: CMO:0002305 ! time spent running on treadmill
 created_by: JSmith
 creation_date: 2014-03-28T17:56:40Z
@@ -25272,9 +25268,8 @@ creation_date: 2015-12-03T13:38:32Z
 
 [Term]
 id: CMO:0002678
-name: difference between duration of physical contact or close proximity of test subject and social stimulus during sample phase and test phase
+name: difference between time of physical contact/close proximity of test subject and social stimulus during sample phase and test phase
 def: "The difference in time spent in direct social interaction (that is, the amount of time within a specified period during which a test subject touches or voluntarily moves or remains close to, for example within one centimeter of, a social stimulus such as another animal of the same species) between the first introduction of a social stimulus and a subsequent reintroduction of the same stimulus." [Collins:Collins_Online_English_Dictionary, Farlex:WordNet_3.0_Farlex, PMID:16837653]
-synonym: "difference between time of physical contact/close proximity of test subject and social stimulus during sample phase and test phase" EXACT []
 is_a: CMO:0002676 ! voluntary social interaction measurement
 created_by: jesmith
 creation_date: 2015-12-03T13:41:08Z
@@ -26457,8 +26452,8 @@ creation_date: 2018-09-28T17:58:33Z
 id: CMO:0002799
 name: muscle ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which muscle tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "muscle ribonucleic acid composition measurement" BROAD []
-synonym: "muscle RNA composition measurement" BROAD []
+synonym: "muscle ribonucleic acid composition measurement" EXACT []
+synonym: "muscle RNA composition measurement" EXACT []
 synonym: "Not4Curation" RELATED []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
@@ -30441,7 +30436,7 @@ creation_date: 2019-10-17T16:09:06Z
 id: CMO:0003252
 name: gastrocnemius ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the gastrocnemius, the most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." []
-synonym: "gastrocnemius ribonucleic acid composition measurement" BROAD []
+synonym: "gastrocnemius ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-10-17T16:13:44Z
@@ -30512,7 +30507,7 @@ creation_date: 2019-11-19T12:15:01Z
 [Term]
 id: CMO:0003260
 name: smooth muscle ribonucleic acid level
-synonym: "smooth muscle ribonucleic acid composition measurement" BROAD []
+synonym: "smooth muscle ribonucleic acid composition measurement" EXACT []
 synonym: "smooth muscle RNA level" EXACT []
 is_a: CMO:0002799 ! muscle ribonucleic acid level
 created_by: sjwang
@@ -30534,9 +30529,7 @@ creation_date: 2019-11-19T12:32:03Z
 
 [Term]
 id: CMO:0003263
-name: salivary gland ribonucleic acid level
-synonym: "salivary gland ribonucleic acid composition measurement" BROAD []
-synonym: "salivary gland RNA level" EXACT []
+name: salivary gland ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:36:38Z
@@ -30589,8 +30582,7 @@ creation_date: 2019-11-19T12:54:02Z
 
 [Term]
 id: CMO:0003270
-name: cerebrum ribonucleic acid level
-synonym: "cerebrum ribonucleic acid composition measurement" BROAD []
+name: cerebrum ribonucleic acid composition measurement
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:02:13Z
@@ -30618,9 +30610,7 @@ creation_date: 2019-11-19T13:16:43Z
 
 [Term]
 id: CMO:0003273
-name: lymph node ribonucleic acid level
-synonym: "lymph node ribonucleic acid composition measurement" BROAD []
-synonym: "lymph node RNA level" EXACT []
+name: lymph node ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:19:13Z
@@ -30756,10 +30746,9 @@ creation_date: 2019-12-20T11:25:47Z
 
 [Term]
 id: CMO:0003289
-name: right renal cortex ribonucleic acid level
-synonym: "right renal cortex ribonucleic acid composition measurement" BROAD []
-synonym: "right renal cortex RNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+name: right renal cortex ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30773,10 +30762,9 @@ creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003291
-name: right renal pelvis ribonucleic acid level
-synonym: "right renal pelvis ribonucleic acid composition measurement" BROAD []
-synonym: "right renal pelvis RNA level" EXACT []
-is_a: CMO:0003296 ! renal pelvis ribonucleic acid level
+name: right renal pelvis ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30785,7 +30773,7 @@ id: CMO:0003292
 name: muscle of arm ribonucleic acid level
 synonym: "arm muscle RNA level" EXACT []
 synonym: "forelimb muscle ribonucleic acid level" EXACT []
-synonym: "muscle of arm ribonucleic acid composition measurement" BROAD []
+synonym: "muscle of arm ribonucleic acid composition measurement" EXACT []
 synonym: "upper limb skeletal muscle ribonucleic acid level" EXACT []
 is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
 created_by: hsnalabolu
@@ -30796,7 +30784,7 @@ id: CMO:0003293
 name: muscle of leg ribonucleic acid level
 synonym: "hindlimb muscle ribonucleic acid level" EXACT []
 synonym: "lower extremity muscle ribonucleic acid level" EXACT []
-synonym: "muscle of leg ribonucleic acid composition measurement" BROAD []
+synonym: "muscle of leg ribonucleic acid composition measurement" EXACT []
 synonym: "muscle of leg ribonucleic acid level" EXACT []
 is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
 created_by: hsnalabolu
@@ -30805,7 +30793,7 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003294
 name: skeletal muscle of trunk ribonucleic acid level
-synonym: "skeletal muscle of trunk ribonucleic acid composition measurement" BROAD []
+synonym: "skeletal muscle of trunk ribonucleic acid composition measurement" EXACT []
 synonym: "skeletal muscle of trunk RNA level" EXACT []
 is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
 created_by: hsnalabolu
@@ -30820,19 +30808,17 @@ creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003296
-name: renal pelvis ribonucleic acid level
-synonym: "renal pelvis ribonucleic acid composition measurement" BROAD []
-synonym: "renal pelvis RNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+name: renal pelvis ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003297
-name: left renal pelvis ribonucleic acid level
-synonym: "left renal pelvis ribonucleic acid composition measurement" BROAD []
-synonym: "left renal pelvis RNA level" EXACT []
-is_a: CMO:0003296 ! renal pelvis ribonucleic acid level
+name: left renal pelvis ribonucleic acid composition measurement
+is_a: CMO:0003296 ! renal pelvis ribonucleic acid composition measurement
+relationship: part_of CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -30868,12 +30854,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003302
-name: dura mater ribonucleic acid level
-synonym: "dura mater ribonucleic acid composition measurement" BROAD []
-synonym: "dura mater RNA level" EXACT []
-synonym: "pachymeninges RNA level" EXACT []
-synonym: "pachymeninx ribonucleic acid level" EXACT []
-synonym: "pachymeninx RNA level" EXACT []
+name: dura mater ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -30888,17 +30869,15 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003304
-name: pituitary gland ribonucleic acid level
-synonym: "pituitary gland ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid level
+name: pituitary gland ribonucleic acid composition measurement
+relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003305
-name: parietal lobe ribonucleic acid level
-synonym: "parietal lobe ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
+name: parietal lobe ribonucleic acid composition measurement
+relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30911,9 +30890,8 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003307
-name: pineal body ribonucleic acid level
-synonym: "pineal body ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid level
+name: pineal body ribonucleic acid composition measurement
+relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -30928,16 +30906,14 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003309
-name: occipital lobe ribonucleic acid level
-synonym: "occipital lobe ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
+name: occipital lobe ribonucleic acid composition measurement
+relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003310
-name: brain meninx ribonucleic acid level
-synonym: "brain meninx ribonucleic acid composition measurement" BROAD []
+name: brain meninx ribonucleic acid composition measurement
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -30965,17 +30941,14 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003314
-name: minor salivary gland ribonucleic acid level
-synonym: "minor salivary gland ribonucleic acid composition measurement" BROAD []
-synonym: "minor salivary gland RNA level" EXACT []
-is_a: CMO:0003263 ! salivary gland ribonucleic acid level
+name: minor salivary gland ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003315
-name: amygdala ribonucleic acid level
-synonym: "amygdala ribonucleic acid composition measurement" BROAD []
+name: amygdala ribonucleic acid composition measurement
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -30992,27 +30965,24 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003317
-name: caudate nucleus ribonucleic acid level
-synonym: "caudate nucleus ribonucleic acid composition measurement" BROAD []
+name: caudate nucleus ribonucleic acid composition measurement
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003318
-name: diencephalon ribonucleic acid level
-synonym: "diencephalon ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003370 ! combined pituitary and diencephalon ribonucleic acid level
+name: diencephalon ribonucleic acid composition measurement
+relationship: part_of CMO:0003370 ! combined pituitary and diencephalon ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003319
-name: occipital cortex ribonucleic acid level
+name: occipital cortex ribonucleic acid composition measurement
 alt_id: CMO:0003382
-synonym: "occipital cortex ribonucleic acid composition measurement" BROAD []
 xref: UBERON:0016540
-relationship: part_of CMO:0003309 ! occipital lobe ribonucleic acid level
+relationship: part_of CMO:0003309 ! occipital lobe ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31046,10 +31016,10 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003323
-name: globus pallidus ribonucleic acid level
-synonym: "globus pallidus ribonucleic acid composition measurement" BROAD []
+name: globus pallidus ribonucleic acid composition measurement
 synonym: "globus pallidus RNA level" EXACT []
-is_a: CMO:0003364 ! basal ganglion ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+is_a: CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31065,18 +31035,17 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003325
-name: locus ceruleus ribonucleic acid level
-synonym: "locus ceruleus ribonucleic acid composition measurement" BROAD []
+name: locus ceruleus ribonucleic acid composition measurement
 synonym: "locus ceruleus RNA level" EXACT []
-relationship: part_of CMO:0003373 ! hindbrain without cerebellum ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
+relationship: part_of CMO:0003373 ! hindbrain without cerebellum ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003326
-name: medulla oblongata ribonucleic acid level
-synonym: "medulla oblongata ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003383 ! brainstem ribonucleic acid level
+name: medulla oblongata ribonucleic acid composition measurement
+relationship: part_of CMO:0003383 ! brainstem ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31089,10 +31058,8 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003328
-name: submandibular gland ribonucleic acid level
-synonym: "submandibular gland ribonucleic acid composition measurement" BROAD []
-synonym: "submandibular gland RNA level" EXACT []
-is_a: CMO:0003263 ! salivary gland ribonucleic acid level
+name: submandibular gland ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31116,18 +31083,14 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003331
-name: substantia nigra ribonucleic acid level
-synonym: "substantia nigra ribonucleic acid composition measurement" BROAD []
-synonym: "substantia nigra RNA level" EXACT []
-is_a: CMO:0003929 ! midbrain ribonucleic acid level
+name: substantia nigra ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003332
-name: epididymis ribonucleic acid level
-synonym: "epididymis ribonucleic acid composition measurement" BROAD []
-synonym: "epididymis RNA level" EXACT []
+name: epididymis ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31141,25 +31104,22 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003334
-name: middle frontal gyrus ribonucleic acid level
-synonym: "middle frontal gyrus ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003384 ! frontal cortex ribonucleic acid level
+name: middle frontal gyrus ribonucleic acid composition measurement
+relationship: part_of CMO:0003384 ! frontal cortex ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003335
-name: middle temporal gyrus ribonucleic acid level
-synonym: "middle temporal gyrus ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
+name: middle temporal gyrus ribonucleic acid composition measurement
+relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003336
-name: putamen ribonucleic acid level
-synonym: "putamen ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
+name: putamen ribonucleic acid composition measurement
+relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31192,18 +31152,15 @@ creation_date: 2020-01-13T12:28:22Z
 
 [Term]
 id: CMO:0003340
-name: seminal vesicle ribonucleic acid level
-synonym: "seminal vesicle ribonucleic acid composition measurement" BROAD []
-synonym: "seminal vesicle RNA level" EXACT []
+name: seminal vesicle  ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:34:30Z
 
 [Term]
 id: CMO:0003341
-name: cerebral cortex ribonucleic acid level
-synonym: "cerebral cortex ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
+name: cerebral cortex ribonucleic acid composition measurement
+relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:38:29Z
 
@@ -31281,10 +31238,8 @@ creation_date: 2020-01-15T10:43:10Z
 
 [Term]
 id: CMO:0003351
-name: epithelium of bronchus ribonucleic acid level
-synonym: "epithelium of bronchus ribonucleic acid composition measurement" BROAD []
-synonym: "epithelium of bronchus RNA level" EXACT []
-is_a: CMO:0002798 ! lung ribonucleic acid level
+name: epithelium of bronchus ribonucleic acid composition measurement
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:26:31Z
 
@@ -31307,8 +31262,7 @@ creation_date: 2020-01-15T15:42:55Z
 
 [Term]
 id: CMO:0003355
-name: mucosa ribonucleic acid level
-synonym: "mucosa ribonucleic acid composition measurement" BROAD []
+name: mucosa ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:03:38Z
@@ -31364,10 +31318,10 @@ id: CMO:0003362
 name: skeletal muscle ribonucleic acid level
 alt_id: CMO:0003251
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
-synonym: "musculature ribonucleic acid composition measurement" BROAD []
+synonym: "musculature ribonucleic acid composition measurement" EXACT []
 synonym: "musculature RNA level" EXACT []
 synonym: "Not4Curation" RELATED []
-synonym: "skeletal muscle ribonucleic acid composition measurement" BROAD []
+synonym: "skeletal muscle ribonucleic acid composition measurement" EXACT []
 synonym: "skeletal muscle RNA level" EXACT []
 synonym: "skeletal muscle tissue RNA level" EXACT []
 is_a: CMO:0002799 ! muscle ribonucleic acid level
@@ -31377,9 +31331,7 @@ creation_date: 2020-01-17T08:19:34Z
 
 [Term]
 id: CMO:0003363
-name: hindbrain ribonucleic acid level
-synonym: "hindbrain ribonucleic acid composition measurement" BROAD []
-synonym: "hindbrain RNA level" EXACT []
+name: hindbrain ribonucleic acid composition measurement
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:01:21Z
@@ -31389,7 +31341,7 @@ id: CMO:0003364
 name: basal ganglion ribonucleic acid level
 synonym: "basal ganglion ribonucleic acid composition measurement" BROAD []
 synonym: "basal ganglion RNA level" EXACT []
-is_a: CMO:0003372 ! combined forebrain and midbrain ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:01:49Z
 
@@ -31403,16 +31355,14 @@ creation_date: 2020-01-17T09:02:13Z
 
 [Term]
 id: CMO:0003366
-name: pons ribonucleic acid level
-synonym: "pons ribonucleic acid composition measurement" BROAD []
-relationship: part_of CMO:0003383 ! brainstem ribonucleic acid level
+name: pons ribonucleic acid composition measurement
+relationship: part_of CMO:0003383 ! brainstem ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:02:35Z
 
 [Term]
 id: CMO:0003367
-name: choroid plexus ribonucleic acid level
-synonym: "choroid plexus ribonucleic acid composition measurement" BROAD []
+name: choroid plexus ribonucleic acid composition measurement
 is_a: CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:03:16Z
@@ -31438,18 +31388,15 @@ creation_date: 2020-01-17T09:04:39Z
 
 [Term]
 id: CMO:0003370
-name: combined pituitary and diencephalon ribonucleic acid level
-synonym: "combined pituitary and diencephalon ribonucleic acid composition measurement" BROAD []
+name: combined pituitary and diencephalon ribonucleic acid composition measurement
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:05Z
 
 [Term]
 id: CMO:0003371
-name: combined diencephalon and midbrain ribonucleic acid level
-synonym: "combined diencephalon and midbrain ribonucleic acid composition measurement" BROAD []
-synonym: "combined diencephalon and midbrain RNA level" EXACT []
-is_a: CMO:0003372 ! combined forebrain and midbrain ribonucleic acid level
+name: combined diencephalon and midbrain ribonucleic acid composition measurement
+relationship: part_of CMO:0003372 ! combined forebrain and midbrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:05:23Z
 
@@ -31463,10 +31410,9 @@ creation_date: 2020-01-17T09:05:45Z
 
 [Term]
 id: CMO:0003373
-name: hindbrain without cerebellum ribonucleic acid level
-synonym: "combined hindbrain without cerebellum ribonucleic acid composition measurement" BROAD []
-synonym: "hindbrain without cerebellum RNA level" EXACT []
-relationship: part_of CMO:0003363 ! hindbrain ribonucleic acid level
+name: hindbrain without cerebellum ribonucleic acid composition measurement
+synonym: "combined hindbrain without cerebellum ribonucleic acid composition measurement" EXACT []
+relationship: part_of CMO:0003363 ! hindbrain ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:06:07Z
 
@@ -31519,7 +31465,7 @@ creation_date: 2020-02-17T12:02:08Z
 id: CMO:0003379
 name: mesenteric lymph node ribonucleic acid composition measurement
 xref: UBERON:0002509
-is_a: CMO:0003273 ! lymph node ribonucleic acid level
+is_a: CMO:0003273 ! lymph node ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:16:53Z
 
@@ -31536,8 +31482,7 @@ creation_date: 2020-02-17T13:18:50Z
 
 [Term]
 id: CMO:0003381
-name: corpus callosum ribonucleic acid level
-synonym: "corpus callosum ribonucleic acid composition measurement" BROAD []
+name: corpus callosum ribonucleic acid composition measurement
 xref: UBERON:0002336
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: jrsmith
@@ -31553,8 +31498,7 @@ creation_date: 2020-02-17T13:21:43Z
 
 [Term]
 id: CMO:0003383
-name: brainstem ribonucleic acid level
-synonym: "brainstem ribonucleic acid composition measurement" BROAD []
+name: brainstem ribonucleic acid composition measurement
 xref: UBERON:0002298
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: jrsmith
@@ -31562,17 +31506,15 @@ creation_date: 2020-02-17T13:22:47Z
 
 [Term]
 id: CMO:0003384
-name: frontal cortex ribonucleic acid level
-synonym: "frontal cortex ribonucleic acid composition measurement" BROAD []
+name: frontal cortex ribonucleic acid composition measurement
 xref: UBERON:0001870
-relationship: part_of CMO:0003341 ! cerebral cortex ribonucleic acid level
+relationship: part_of CMO:0003341 ! cerebral cortex ribonucleic acid composition measurement
 created_by: jrsmith
 creation_date: 2020-02-17T13:23:46Z
 
 [Term]
 id: CMO:0003385
-name: combined dorsal plus ventral thalamus ribonucleic acid level
-synonym: "combined dorsal plus ventral thalamus ribonucleic acid composition measurement" BROAD []
+name: combined dorsal plus ventral thalamus ribonucleic acid composition measurement
 xref: UBERON:0001897
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: jrsmith
@@ -36970,13 +36912,11 @@ creation_date: 2023-03-13T17:03:59Z
 
 [Term]
 id: CMO:0003912
-name: kidney ribonucleic acid level
+name: kidney ribonucleic acid composition measurement
 alt_id: CMO:0002797
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) that reside in the kidney. Ribonucleic acids are high-molecular-weight polymeric compounds composed of nucleotides, each consisting of a purine or pyrimidine base, a ribose sugar, and a phosphate group. They are involved in the determination and transmission of genetic characteristics." [ISBN-13:978-0781733908]
-synonym: "kidney ribonucleic acid composition measurement" BROAD []
-synonym: "kidney RNA composition measurement" BROAD []
-synonym: "renal ribonucleic acid level" EXACT []
-synonym: "renal RNA level" EXACT []
+synonym: "kidney RNA composition measurement" EXACT []
+synonym: "renal ribonucleic acid measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003911 ! kidney nucleic acid measurement
 created_by: slaulede
@@ -36989,7 +36929,7 @@ def: "This is the measurement of the amount of messenger ribonucleic acid (mRNA)
 synonym: "kidney messenger ribonucleic acid level" EXACT []
 synonym: "kidney messenger RNA level" EXACT []
 synonym: "renal mRNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0003912 ! kidney ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-03-13T17:18:54Z
 
@@ -37135,10 +37075,9 @@ creation_date: 2023-07-07T13:46:11Z
 
 [Term]
 id: CMO:0003928
-name: cerebellum ribonucleic acid level
+name: cerebellum ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the cerebellum is formed or composed." [ISBN:978-1455756438]
-synonym: "cerebellum ribonucleic acid composition measurement" BROAD []
-synonym: "epencephalon ribonucleic acid composition measurement" BROAD []
+synonym: "epencephalon-1 ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0002037
 is_a: CMO:0002795 ! brain ribonucleic acid level
 created_by: slaulede
@@ -37152,7 +37091,7 @@ synonym: "mesencephalon ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain RNA level" EXACT []
 xref: UBERON:0001891
-relationship: part_of CMO:0003371 ! combined diencephalon and midbrain ribonucleic acid level
+relationship: part_of CMO:0003371 ! combined diencephalon and midbrain ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-07-24T16:03:01Z
 
@@ -37627,7 +37566,7 @@ name: temporal lobe ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the temporal lobe of one or both cerebral hemisphere(s) is formed or composed." [https://www.merriam-webster.com, ISBN-13:978-1455756438]
 synonym: "temporal lobe RNA level" EXACT []
 xref: PMID:35897746
-relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
+relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-02-23T14:11:10Z
 
@@ -38436,7 +38375,6 @@ id: CMO:0004048
 name: cranium ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the cranium, the upper portion of the skull, excluding the mandible." [https://www.merriam-webster.com, UBERON:0003128]
 synonym: "cranium RNA level" EXACT []
-xref: GEO:GSE151971
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0004049 ! skull molecular composition measurement
 created_by: slaulederkind
@@ -38816,7 +38754,6 @@ synonym: "middle cerebral artery ribonucleic acid level" NARROW []
 synonym: "posterior cerebral artery ribonucleic acid level" NARROW []
 xref: PMID:38326494
 is_a: CMO:0003316 ! artery ribonucleic acid level
-relationship: part_of CMO:0004094 ! Circle of Willis ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-05T13:33:56Z
 
@@ -38880,7 +38817,6 @@ id: CMO:0004089
 name: mesenteric artery ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in one or more of the mesenteric arteries, which arise from the abdominal aorta and distribute to most of the intestines." [UBERON:0005616]
 synonym: "mesenteric artery RNA level" EXACT []
-xref: GEO:GSE290103
 xref: PMID:40097492
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: slaulederkind
@@ -38912,120 +38848,10 @@ id: CMO:0004092
 name: corpus cavernosum penis ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the corpus cavernosum of the penis. The corpus cavernosum is one of the columns of erectile tissue forming the dorsum and sides of the penis." [https://www.merriam-webster.com/, UBERON:0004713]
 synonym: "corpus cavernosum penis RNA level" EXACT []
-xref: GEO:GSE285267
 xref: PMID:39877365
 is_a: CMO:0003321 ! penis ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-12T13:52:57Z
-
-[Term]
-id: CMO:0004093
-name: arterial aneurysm ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in an aneurysmic lesion of an artery." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "arterial aneurysmic lesion ribonucleic acid level" EXACT []
-synonym: "artery aneurysm ribonucleic acid level" EXACT []
-xref: GEO:GSE161044
-xref: PMID:38326494
-is_a: CMO:0003316 ! artery ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-06-16T12:27:54Z
-
-[Term]
-id: CMO:0004094
-name: Circle of Willis ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the Circle of Willis, a junction of arteries in the base of the brain that supply blood to the brain. The Circle of Willis includes parts of the internal carotid arteries, parts of the cerebral arteries, the communicating arteries, and part of the basilar artery." [UBERON:0003709]
-synonym: "arterial circle of Willis RNA level" EXACT []
-synonym: "cerebral arterial circle RNA level" EXACT []
-synonym: "Circle of Willis RNA level" EXACT []
-xref: GEO:GSE161044
-xref: PMID:33203959
-xref: PMID:38326494
-is_a: CMO:0003316 ! artery ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-06-16T14:13:58Z
-
-[Term]
-id: CMO:0004095
-name: average maximal distance run on treadmill
-def: "This is a measurement of the average distance achieved while running on a treadmill before exhaustion was reached over the course of multiple trials. This measurement may refer to one subject or a group." [PMID:17179209]
-synonym: "average distance run on treadmill uhtil exhaustion" EXACT []
-is_a: CMO:0001405 ! distance run on treadmill
-created_by: slaulederkind
-creation_date: 2025-06-20T13:58:07Z
-
-[Term]
-id: CMO:0004096
-name: number of rearing movements in a defensive burying apparatus
-def: "This is a measurement of how many times a quadrupedal subject in a defensive burying apparatus rises up on its back legs during a testing period." [https://www.merriam-webster.com]
-synonym: "number of rearing movements in a defensive burying chamber" EXACT []
-xref: PMID:16490266
-is_a: CMO:0001752 ! number of rearing movements in an experimental apparatus
-created_by: slaulederkind
-creation_date: 2025-06-20T16:23:45Z
-
-[Term]
-id: CMO:0004097
-name: total accumulated grooming time in a defensive burying apparatus
-def: "This is a measure of the total amount of time during an experiment in a defensive burying apparatus that an animal spends cleaning itself or cleaning another animal." [https://www.merriam-webster.com/]
-synonym: "duration of grooming in a defensive burying apparatus" EXACT []
-synonym: "total accumulated grooming time during a trial in a defensive burying apparatus" EXACT []
-xref: PMID:16490266
-is_a: CMO:0001749 ! total accumulated grooming time in an experimental apparatus
-created_by: slaulederkind
-creation_date: 2025-06-23T16:31:35Z
-
-[Term]
-id: CMO:0004098
-name: number of lines crossed in the seven-section, 50 cm diameter center of a circular open field apparatus
-def: "This is a measurement of the distance traveled within the region in the center of a circular open field apparatus, measured as a count of the grid lines, marked on the floor of the apparatus, crossed by an experimental subject during an experiment. The diameter of the whole apparatus is 82 cm, which is divided into 19 sections." [PMID:16490266]
-synonym: "number of lines crossed in the 50 cm diameter center of a circular, 82 cm diameter open field apparatus" EXACT []
-is_a: CMO:0004019 ! number of lines crossed in the center of an open field apparatus
-created_by: slaulederkind
-creation_date: 2025-06-23T16:58:39Z
-
-[Term]
-id: CMO:0004099
-name: average horizontal distance between subject and target during voluntary locomotion in a Morris water maze apparatus
-def: "This is a calculation of the arithmetic mean of all measured horizontal distances between a test subject and a specific target such as a submerged platform as the subject searches for the target. Horizontal distance is the length of a line between two points within a single plane parallel to the ground." [https://www.merriam-webster.com/]
-xref: PMID:16837653
-is_a: CMO:0002674 ! average horizontal distance between subject and target during voluntary locomotion in an experimental apparatus
-is_a: CMO:0004079 ! measurement of voluntary locomotion into, out of, or within a discrete space in a Morris water maze apparatus
-created_by: slaulederkind
-creation_date: 2025-06-24T17:41:17Z
-
-[Term]
-id: CMO:0004100
-name: total horizontal distance resulting from voluntary locomotion in pursuit of a target in a Morris water maze apparatus
-def: "This is a measurement of the linear equivalent of the extent of forward progress attained via the movement of an individual along a plane parallel to the plane of the horizon in pursuit of a target in a Morris water maze apparatus undertaken, controlled, or accomplished as a result of free will or choice." [https://www.merriam-webster.com/]
-synonym: "total horizontal distance resulting from voluntary aquatic locomotion in pursuit of a target in a Morris water maze apparatus" EXACT []
-synonym: "total horizontal distance resulting from voluntary swimming in pursuit of a target in a Morris water maze apparatus" EXACT []
-xref: PMID:16837653
-is_a: CMO:0003839 ! total horizontal distance resulting from voluntary locomotion in pursuit of a target in an experimental apparatus
-is_a: CMO:0004079 ! measurement of voluntary locomotion into, out of, or within a discrete space in a Morris water maze apparatus
-created_by: slaulederkind
-creation_date: 2025-06-24T18:00:31Z
-
-[Term]
-id: CMO:0004101
-name: gastric mucosa ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which gastric mucosa is formed or composed. Gastric mucosa is made up of three layers: an inner epithelium, a middle lamina propria, and an outer muscularis mucosae." [MESH:D005753]
-synonym: "gastric mucosa RNA level" EXACT []
-synonym: "mucosa of stomach ribonucleic acid level" EXACT []
-synonym: "mucosa of stomach RNA level" EXACT []
-is_a: CMO:0003261 ! stomach ribonucleic acid composition measurement
-is_a: CMO:0003355 ! mucosa ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-06-26T16:24:06Z
-
-[Term]
-id: CMO:0004102
-name: nucleus accumbens ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the nucleus accumbens, a region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen (caudoputamen in rodent) and continuous with these structures. Together with the neostriatum (caudate nucleus and putamen), the nucleus accumbens forms the striatum." [UBERON:0001882]
-synonym: "nucleus accumbens RNA level" EXACT []
-xref: PMID:40133300
-is_a: CMO:0004069 ! striatum ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-06-27T17:11:11Z
 
 [Typedef]
 id: part_of
