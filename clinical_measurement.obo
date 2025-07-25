@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.248
-date: 28:06:2025 20:13
+data-version: 2.249
+date: 19:07:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -39026,6 +39026,49 @@ xref: PMID:40133300
 is_a: CMO:0004069 ! striatum ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-27T17:11:11Z
+
+[Term]
+id: CMO:0004103
+name: vertebra ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the ossified form of a vertebral element, a skeletal element that forms around the notochord and is part of the vertebral column." [ISBN-13:978-1455756438, UBERON:0002412]
+synonym: "vertebra bone ribonucleic acid level" EXACT []
+synonym: "vertebra bone RNA level" EXACT []
+synonym: "vertebra RNA level" EXACT []
+xref: PMID:40445441
+is_a: CMO:0003350 ! bone tissue ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-07-17T09:05:58Z
+
+[Term]
+id: CMO:0004104
+name: lumbar vertebra ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the bony segments of the spinal column located anterior/superior to the sacral vertebrae and posterior/inferior to the thoracic vertebrae." [ISBN-13:978-1455756438]
+synonym: "lumbar vertebra RNA level" EXACT []
+xref: MESH:D008159
+xref: PMID:40445441
+is_a: CMO:0004103 ! vertebra ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-07-17T09:13:35Z
+
+[Term]
+id: CMO:0004105
+name: CA1 stratum radiatum ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the part of the stratum radiatum hippocampal layer lying in area CA1, superficial to the CA1 pyramidal cell layer and deep to the CA1 stratum lucidum-moleculare, continuous with the stratum radiatum of CA2 and bounded by the subiculum." [https://www.merriam-webster.com, UBERON:0014554]
+synonym: "CA1 stratum radiatum RNA level" EXACT []
+xref: PMID:34107264
+is_a: CMO:0004039 ! CA1 field of hippocampus ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-07-17T10:00:31Z
+
+[Term]
+id: CMO:0004106
+name: CA1 stratum oriens ribonucleic acid level 
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the part of the stratum oriens hippocampal layer lying in area CA1, superficial to the alveus of CA1 and deep to the pyramidal cell layer of CA1. It is continuous with the stratum oriens of CA2 and bounded by the subiculum." [https://www.merriam-webster.com, UBERON:0014552]
+synonym: "CA1 stratum oriens RNA level" EXACT []
+xref: PMID:34107264
+is_a: CMO:0004039 ! CA1 field of hippocampus ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-07-17T10:05:17Z
 
 [Typedef]
 id: part_of
