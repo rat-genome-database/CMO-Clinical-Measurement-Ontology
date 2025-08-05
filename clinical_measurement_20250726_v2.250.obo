@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.251
-date: 02:08:2025 20:13
+data-version: 2.250
+date: 26:07:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -38038,7 +38038,7 @@ name: number of entries into an enclosed arm of an elevated plus maze
 def: "The count of movements from the center of the elevated plus maze into either of the two arms of the maze that are enclosed by walls sufficiently high to prevent the escape of an experimental subject. The walls of the enclosed arms may be opaque to prevent the experimental subject from seeing anything outside the maze." [PMID:38488865]
 synonym: "number of entries into a closed arm of an elevated plus maze" EXACT []
 synonym: "number of entries into an enclosed arm of an EPM" EXACT []
-relationship: part_of CMO:0004008 ! total number of entries into the arms of an elevated plus maze
+is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T16:57:12Z
 
@@ -38048,7 +38048,7 @@ name: number of entries into an open arm of an elevated plus maze
 def: "The count of movements of an experimental subject into either of the two arms of an elevated plus maze that do not have walls to prevent the experimental subject from escaping or from seeing anything outside the maze." [PMID:38488865]
 synonym: "number of entries into an open arm of an EPM" RELATED []
 synonym: "number of entries into any open arm of an elevated plus maze" EXACT []
-relationship: part_of CMO:0004008 ! total number of entries into the arms of an elevated plus maze
+is_a: CMO:0004022 ! number of entries into a discrete space in an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:04:17Z
 
@@ -38083,10 +38083,10 @@ creation_date: 2024-08-01T17:23:24Z
 
 [Term]
 id: CMO:0004014
-name: total amount of experiment time spent in the open arms of an elevated plus maze
+name: total amount of experiment time spent in an open arm of an elevated plus maze
 def: "The cumulative amount of time during an experiment that an organism or experimental subject spends specifically in either of the two arms of the maze that do not have walls to prevent the experimental subject from seeing anything outside the maze." [PMID:1683415, PMID:7762079]
-synonym: "amount of experiment time spent in the open arms of an EPM" EXACT []
-synonym: "time spent in the open arms of an elevated plus maze apparatus" EXACT []
+synonym: "amount of experiment time spent in an open arm of an EPM" RELATED []
+synonym: "time spent in an open arm of an elevated plus maze apparatus" EXACT []
 is_a: CMO:0004013 ! total amount of experiment time spent in any open area of an elevated plus maze
 created_by: jrsjrs
 creation_date: 2024-08-01T17:30:05Z
@@ -39082,25 +39082,6 @@ xref: PMID:27188340
 is_a: CMO:0002736 ! time to locate a hidden target platform in an experimental apparatus
 created_by: slaulederkind
 creation_date: 2025-07-24T18:08:01Z
-
-[Term]
-id: CMO:0004108
-name: total number of arm changes during experiment time in an elevated plus maze
-def: "This is a measurement of the number of times that a subject moved from a closed arm to an open arm or the reverse during an experiment in an elevated plus maze." [PMID:27188340]
-synonym: "total number of arm changes during an experiment in an elevated plus maze" EXACT []
-relationship: part_of CMO:0004008 ! total number of entries into the arms of an elevated plus maze
-created_by: slaulederkind
-creation_date: 2025-07-28T14:40:58Z
-
-[Term]
-id: CMO:0004109
-name: time to first movement into the dark chamber of a passive avoidance apparatus
-def: "This is a measurement of the time it takes for a subject in a passive avoidance apparatus to move away from the lighted (safe) chamber to the dark (aversive) chamber after training with a noxious stimulus in the dark chamber. The passive avoidance test is a behavioral assay aiming at measuring long-term memory and emotional learning in rodents. The latency time it takes before the subject visits the dark chamber serves as an index of emotional memory." [https://scantox.com/services/discovery/behavioral-tests/cognitive-tests/passive-avoidance-test/, PMID:3420007]
-synonym: "latency in a passive avoidance apparatus" EXACT []
-synonym: "time to first movement from the lighted chamber to the dark chamber of a passive avoidance apparatus" EXACT []
-is_a: CMO:0001037 ! time to first movement outside a discrete space in an experimental apparatus
-created_by: slaulederkind
-creation_date: 2025-07-29T12:05:06Z
 
 [Typedef]
 id: part_of
