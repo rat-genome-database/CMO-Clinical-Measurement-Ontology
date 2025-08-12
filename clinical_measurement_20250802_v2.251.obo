@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.252
-date: 09:08:2025 20:13
+data-version: 2.251
+date: 02:08:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -39034,7 +39034,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "vertebra bone ribonucleic acid level" EXACT []
 synonym: "vertebra bone RNA level" EXACT []
 synonym: "vertebra RNA level" EXACT []
-xref: GEO:GSE297538
 xref: PMID:40445441
 is_a: CMO:0003350 ! bone tissue ribonucleic acid level
 created_by: slaulederkind
