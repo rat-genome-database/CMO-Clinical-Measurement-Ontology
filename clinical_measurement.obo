@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.252
-date: 09:08:2025 20:13
+data-version: 2.253
+date: 11:10:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -29011,6 +29011,7 @@ creation_date: 2019-03-19T16:40:31Z
 id: CMO:0003087
 name: stress-related movement measurement
 def: "Any measurable or observable characteristic of actions or reactions related to how the body reacts to a stressor (a stimulus that causes stress), real or imagined." [VT:0010451]
+is_a: CMO:0000953 ! body movement measurement
 created_by: sjwang
 creation_date: 2019-03-28T15:59:44Z
 
@@ -38497,13 +38498,16 @@ creation_date: 2025-03-03T17:14:25Z
 id: CMO:0004054
 name: amount of time spent in voluntary immobility after start of conditioned stimulus in a two-way shuttle box
 def: "This is a measurement of the total amount of experiment time that an organism or experimental subject spends frozen, that is, not moving from one place or position to another after a conditioned stimulus has been initiated." []
+is_obsolete: true
 created_by: slaulederkind
 creation_date: 2025-03-04T11:54:44Z
 
 [Term]
 id: CMO:0004055
 name: amount of time spent in voluntary immobility after start of conditioned stimulus in a two-way shuttle box
+alt_id: CMO:0004054
 def: "This is a measurement of the total amount of experiment time that an organism or experimental subject spends frozen, that is, not moving from one place or position to another after the conditioned stimulus is initiated." [https://www.merriam-webster.com]
+synonym: "amount of time spent in voluntary immobility after start of conditioned stimulus in a two-way shuttle box" EXACT []
 synonym: "amount of time spent stationary after start of conditioned stimulus in a two-way shuttle box" EXACT []
 xref: PMID:18971309
 is_a: CMO:0001043 ! amount of time spent in voluntary immobility
