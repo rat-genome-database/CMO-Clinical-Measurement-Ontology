@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.253
-date: 11:10:2025 20:13
+data-version: 2.254
+date: 25:10:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -20472,7 +20472,7 @@ id: CMO:0002192
 name: renal fat pad morphological measurement
 def: "Any measurement of the physical form or structure of the encapsulated adipose tissue associated with the kidney." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, UBERON:0014464]
 synonym: "perirenal fat pad morphological measurement" RELATED []
-is_a: CMO:0000224 ! body region fat morphological measurement
+is_a: CMO:0000311 ! abdominal fat morphological measurement
 created_by: JSmith
 creation_date: 2014-03-06T15:39:47Z
 
@@ -30488,7 +30488,8 @@ creation_date: 2019-11-19T12:04:48Z
 
 [Term]
 id: CMO:0003257
-name: urinary bladder ribonucleic acid composition measurement
+name: urinary bladder ribonucleic acid level
+synonym: "urinary bladder ribonucleic acid composition measurement" BROAD []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:08:22Z
@@ -31118,8 +31119,12 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003331
 name: substantia nigra ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the substantia nigra, a predominantly gray matter midbrain structure lying dorsal to the crus cerebri and ventral to the midbrain tegmentum. It is divided into a dorsal, cellularly compact region known as the pars compacta and a more ventrally located, containing more loosely packed cells, the pars reticulata. The most lateral region of the reticulata is identified as the pars lateralis." [https://www.merriam-webster.com, UBERON:0002038]
+synonym: "SN ribonucleic acid level" EXACT []
+synonym: "SN RNA level" EXACT []
 synonym: "substantia nigra ribonucleic acid composition measurement" BROAD []
 synonym: "substantia nigra RNA level" EXACT []
+xref: PMID:40707475
 is_a: CMO:0003929 ! midbrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -39106,6 +39111,59 @@ synonym: "time to first movement from the lighted chamber to the dark chamber of
 is_a: CMO:0001037 ! time to first movement outside a discrete space in an experimental apparatus
 created_by: slaulederkind
 creation_date: 2025-07-29T12:05:06Z
+
+[Term]
+id: CMO:0004110
+name: parametrial fat pad weight
+def: "This is a measurement of the weight of the parametrial fat pad, the encapsulated adipose tissue associated with the extension of the subserous coat of the uterus laterally between the layers of the broad ligament." [ISBN-13:978-1455756438, UBERON:0010413]
+synonym: "parametrial adipose tissue pad weight" EXACT []
+synonym: "parametrial visceral fat pad weight" EXACT []
+synonym: "PMID: 32860487" EXACT []
+xref: PMID:32860487
+is_a: CMO:0000311 ! abdominal fat morphological measurement
+created_by: slaulederkind
+creation_date: 2025-10-21T15:03:16Z
+
+[Term]
+id: CMO:0004111
+name: detrusor ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the detrusor, the smooth muscle fibers forming the muscular wall of the urinary bladder, which are arranged in a longitudinal and a circular layer and, on contraction, serve to expel urine." [https://www.merriam-webster.com, UBERON:0000381]
+synonym: "detrusor muscle of bladder ribonucleic acid level" EXACT []
+synonym: "detrusor muscle ribonucleic acid level" EXACT []
+synonym: "detrusor RNA level" EXACT []
+synonym: "muscularis propria of the urinary bladder ribonucleic acid level" EXACT []
+synonym: "urinary bladder detrusor smooth muscle ribonucleic acid level" EXACT []
+xref: PMID:40338665
+is_a: CMO:0003257 ! urinary bladder ribonucleic acid level
+is_a: CMO:0003260 ! smooth muscle ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-10-23T09:34:32Z
+
+[Term]
+id: CMO:0004112
+name: mucosa of urinary bladder ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mucosa of the urinary bladder, the mucous membrane lining the urinary bladder. The mucosa of the urinary bladder is comprised of the urothelium and underlying lamina propria." [PMID:40338665, UBERON:0001259]
+synonym: "bladder mucosa ribonucleic acid level" EXACT []
+synonym: "bladder mucous membrane ribonucleic acid level" EXACT []
+synonym: "mucosa of urinary bladder RNA level" EXACT []
+synonym: "mucous membrane of urinary bladder ribonucleic acid level" EXACT []
+synonym: "urinary bladder mucosa ribonucleic acid level" EXACT []
+is_a: CMO:0003257 ! urinary bladder ribonucleic acid level
+is_a: CMO:0003355 ! mucosa ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-10-23T09:44:21Z
+
+[Term]
+id: CMO:0004113
+name: primary motor cortex ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the primary motor cortex, the part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord. The primary motor cortex, or M1, is located on the precentral gyrus and on the anterior paracentral lobule on the medial surface of the brain." [https://www.merriam-webster.com, UBERON:0001384]
+synonym: "motor cortex ribonucleic acid level" EXACT []
+synonym: "motor cortex RNA level" EXACT []
+synonym: "primary motor cortex RNA level" EXACT []
+xref: PMID:40707475
+is_a: CMO:0003384 ! frontal cortex ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2025-10-23T14:17:32Z
 
 [Typedef]
 id: part_of
