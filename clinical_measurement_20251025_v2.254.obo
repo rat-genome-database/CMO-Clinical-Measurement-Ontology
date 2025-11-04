@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.255
-date: 01:11:2025 20:13
+data-version: 2.254
+date: 25:10:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -37112,14 +37112,10 @@ creation_date: 2023-06-22T16:22:26Z
 
 [Term]
 id: CMO:0003925
-name: peripheral nervous system ribonucleic acid level
+name: peripheral nervous system ribonucleic acid composition measurement
 alt_id: CMO:0003359
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the peripheral nervous system is formed or composed." [https://www.merriam-webster.com, UBERON:0000010]
-synonym: "peripheral nervous system ribonucleic acid composition measurement" BROAD []
-synonym: "peripheral nervous system RNA level" EXACT []
-synonym: "PNS ribonucleic acid composition measurement" BROAD []
-synonym: "PNS ribonucleic acid level" EXACT []
-synonym: "PNS RNA level" EXACT []
+synonym: "PNS ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0003924 ! peripheral nervous system molecular composition measurement
 created_by: slaulede
 creation_date: 2023-06-22T16:39:26Z
@@ -37129,10 +37125,8 @@ id: CMO:0003926
 name: dorsal root ganglion ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the dorsal root ganglion is formed or composed." [https://www.merriam-webster.com]
 synonym: "dorsal root ganglion RNA level" EXACT []
-synonym: "spinal ganglion ribonucleic acid level" EXACT []
-synonym: "spinal ganglion RNA level" EXACT []
 xref: MA:0000230
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
+is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-06-22T16:53:18Z
 
@@ -37141,7 +37135,7 @@ id: CMO:0003927
 name: sciatic nerve ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the sciatic nerve is formed or composed." [https://www.merriam-webster.com, UBERON:0001322]
 synonym: "sciatic nerve RNA level" EXACT []
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
+is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
 created_by: slaulede
 creation_date: 2023-07-07T13:46:11Z
 
@@ -37857,7 +37851,7 @@ name: inferior alveolar nerve ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the inferior alveolar nerve is formed or composed. The inferior alveolar nerve is the branch of the mandibular nerve responsible for sensory innervation to the gingivae of the lower jaw." [https://ncbi.nlm.nih.gov/books/NBK546712/, ISBN-13:9780781733908]
 synonym: "inferior alveolar nerve RNA level" EXACT []
 xref: PMID:37946211
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
+is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-04-22T17:21:07Z
 
@@ -37889,7 +37883,7 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "articular chondrocyte RNA level" EXACT []
 xref: PMID:32778777
 is_a: CMO:0003916 ! cell ribonucleic acid level
-is_a: CMO:0004114 ! articular cartilage of joint ribonucleic acid level
+relationship: part_of CMO:0003346 ! cartilage ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-29T15:26:05Z
 
@@ -38269,7 +38263,7 @@ synonym: "SCG RNA level" EXACT []
 synonym: "superior cervical ganglion RNA level" EXACT []
 synonym: "superior sympathetic cervical ganglion RNA level" EXACT []
 xref: GEO:GSE267794
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
+is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid composition measurement
 created_by: slaulederkind
 creation_date: 2024-11-07T12:23:38Z
 
@@ -39170,100 +39164,6 @@ xref: PMID:40707475
 is_a: CMO:0003384 ! frontal cortex ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-10-23T14:17:32Z
-
-[Term]
-id: CMO:0004114
-name: articular cartilage of joint ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a thin layer of cartilage, usually hyaline cartilage, on the articular surface of bones in synovial joints." [UBERON:0010996]
-synonym: "articular cartilage of joint RNA level" EXACT []
-xref: PMID:40727099
-is_a: CMO:0003346 ! cartilage ribonucleic acid level
-is_a: CMO:0003994 ! joint molecular composition measurement
-created_by: slaulederkind
-creation_date: 2025-10-28T16:25:32Z
-
-[Term]
-id: CMO:0004115
-name: external carotid artery ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in either of the external carotid arteries." [UBERON:0001070]
-synonym: "external carotid artery RNA level" EXACT []
-synonym: "external carotid ribonucleic acid level" EXACT []
-synonym: "external carotid RNA level" EXACT []
-is_a: CMO:0004028 ! common carotid artery ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-10-30T10:21:07Z
-
-[Term]
-id: CMO:0004116
-name: tibialis anterior ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the muscle that originates in the upper two-thirds of the lateral surface of the tibia and inserts into the medial cuneiform and first metatarsal bones of the foot. Its acts to invert the foot. It is situated on the lateral side of the tibia; it is thick and fleshy above, tendinous below. This muscle overlaps the anterior tibial vessels and deep peroneal nerve in the upper part of the leg." [UBERON:0001385]
-synonym: "tibialis anterior RNA level" EXACT []
-is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
-created_by: caripark
-creation_date: 2025-10-31T07:39:48Z
-
-[Term]
-id: CMO:0004117
-name: fourth lumbar dorsal root ganglion ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the group of nerve cell bodies located on the dorsal spinal roots within the vertebral column at the level of the fourth lumbar vertebra." [ISBN-13:978-1455756438, UBERON:0003943]
-synonym: "fourth lumbar dorsal root ganglion RNA level" EXACT []
-synonym: "fourth lumbar spinal ganglion ribonucleic acid level" EXACT []
-synonym: "fourth lumbar spinal ganglion RNA level" EXACT []
-xref: PMID:18316160
-xref: PMID:40786564
-is_a: CMO:0003926 ! dorsal root ganglion ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-10-31T12:51:44Z
-
-[Term]
-id: CMO:0004118
-name: fifth lumbar dorsal root ganglion ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the group of nerve cell bodies located on the dorsal spinal roots within the vertebral column at the level of the fifth lumbar vertebra." [ISBN-13:978-1455756438, UBERON:0002859]
-synonym: "fifth lumbar dorsal root ganglion RNA level" EXACT []
-synonym: "fifth lumbar spinal ganglion ribonucleic acid level" EXACT []
-synonym: "fifth lumbar spinal ganglion RNA level" EXACT []
-synonym: "L5 dorsal root ganglion ribonucleic acid  level" EXACT []
-xref: PMID:18316160
-xref: PMID:40786564
-is_a: CMO:0003926 ! dorsal root ganglion ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-10-31T13:04:19Z
-
-[Term]
-id: CMO:0004119
-name: sixth lumbar dorsal root ganglion ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the group of nerve cell bodies located on the dorsal spinal roots within the vertebral column at the level of the sixth lumbar vertebra." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
-synonym: "sixth lumbar dorsal root ganglion RNA level" EXACT []
-synonym: "sixth lumbar spinal ganglion ribonucleic acid level" EXACT []
-synonym: "sixth lumbar spinal ganglion RNA level" EXACT []
-xref: PMID:18316160
-xref: PMID:40786564
-is_a: CMO:0003926 ! dorsal root ganglion ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-10-31T13:09:27Z
-
-[Term]
-id: CMO:0004120
-name: femoral nerve ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the femoral nerve is formed or composed." [https://www.merriam-webster.com/]
-synonym: "femoral nerve RNA level" EXACT []
-xref: PMID:18316160
-xref: PMID:40786564
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-10-31T13:36:43Z
-
-[Term]
-id: CMO:0004121
-name: stellate ganglion ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mass of nerve cell bodies formed by the fusion of the inferior cervical and first thoracic ganglia." [UBERON:0002441]
-synonym: "cervicothoracic ganglion ribonucleic acid level" EXACT []
-synonym: "cervicothoracic ganglion RNA level" EXACT []
-synonym: "stellate ganglion RNA level" EXACT []
-xref: VT:0011019
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
-created_by: caripark
-creation_date: 2025-10-31T15:31:43Z
 
 [Typedef]
 id: part_of
