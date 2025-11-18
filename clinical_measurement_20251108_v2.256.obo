@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.257
-date: 15:11:2025 20:13
+data-version: 2.256
+date: 08:11:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -40554,43 +40554,9 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "islet of Langerhans ribonucleic acid level" EXACT []
 synonym: "islet of Langerhans RNA level" EXACT []
 synonym: "pancreatic islet RNA level" EXACT []
-xref: GEO:GSE116663
-xref: VT:0011240
 is_a: CMO:0001856 ! pancreatic islet molecular composition measurement
 created_by: caripark
 creation_date: 2025-11-07T10:02:30Z
-
-[Term]
-id: CMO:0004123
-name: basilar artery ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a major artery that supplies the hindbrain and runs along the ventral keel of the hindbrain." [UBERON:0001633]
-synonym: "basilar artery RNA level" EXACT []
-xref: PMID:33083107
-is_a: CMO:0003316 ! artery ribonucleic acid level
-created_by: caripark
-creation_date: 2025-11-14T11:24:40Z
-
-[Term]
-id: CMO:0004124
-name: thoracic aorta ribonucleic acid level
-def: "The proportion, quantity, or volume of ribonucleic acid in the part of the aorta that extends from the origin at the heart to the diaphragm, and from which arises numerous branches that supply oxygenated blood to the chest cage and the organs within the chest." [UBERON:0001515]
-synonym: "thoracic aorta RNA level" EXACT []
-xref: VT:0011044
-is_a: CMO:0003982 ! aorta ribonucleic acid level
-created_by: caripark
-creation_date: 2025-11-14T11:29:16Z
-
-[Term]
-id: CMO:0004125
-name: foot pad ribonucleic acid level
-def: "The proportion, quantity, or volume of ribonucleic acid in the thick, spongy layer of tissue located under the metacarpal and metatarsal joints of the autopod." [UBERON:0008838]
-synonym: "foot pad RNA amount" EXACT []
-synonym: "metapodial pad ribonucleic acid amount" EXACT []
-synonym: "metapodial pad RNA amount" EXACT []
-xref: VT:0011020
-is_a: CMO:0003255 ! skin ribonucleic acid level
-created_by: caripark
-creation_date: 2025-11-14T15:28:44Z
 
 [Typedef]
 id: part_of
