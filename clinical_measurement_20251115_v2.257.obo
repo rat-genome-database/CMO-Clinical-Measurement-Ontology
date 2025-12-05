@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.259
-date: 29:11:2025 20:13
+data-version: 2.257
+date: 15:11:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -28532,8 +28532,7 @@ id: CMO:0002935
 name: heart left ventricle ribonucleic acid level
 alt_id: CMO:0003333
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart left ventricle is formed or composed." []
-synonym: "heart left ventricle ribonucleic acid composition measurement" BROAD []
-synonym: "heart left ventricle RNA level" EXACT []
+synonym: "heart left ventricle ribonucleic acid composition measurement" EXACT []
 is_a: CMO:0002164 ! heart left ventricle molecular composition measurement
 is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
 created_by: sjwang
@@ -31498,11 +31497,10 @@ creation_date: 2019-10-17T16:16:27Z
 
 [Term]
 id: CMO:0003254
-name: colon ribonucleic acid level
+name: colon ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which colon tissue is formed or composed." []
-synonym: "colon ribonucleic acid composition measurement" BROAD []
 synonym: "colon RNA level" EXACT []
-is_a: CMO:0003290 ! large intestine ribonucleic acid level
+is_a: CMO:0003290 ! large intestine ribonucleic acid composition measurement
 created_by: sjwang
 creation_date: 2019-10-17T16:18:33Z
 
@@ -31626,9 +31624,7 @@ creation_date: 2019-11-19T12:51:17Z
 
 [Term]
 id: CMO:0003269
-name: esophagus ribonucleic acid level
-synonym: "esophagus ribonucleic acid composition measurement" BROAD []
-synonym: "esophagus RNA level" EXACT []
+name: esophagus ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:54:02Z
@@ -31818,8 +31814,7 @@ creation_date: 2020-01-10T15:31:08Z
 
 [Term]
 id: CMO:0003290
-name: large intestine ribonucleic acid level
-synonym: "large intestine ribonucleic acid composition measurement" BROAD []
+name: large intestine ribonucleic acid composition measurement
 synonym: "large intestine RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
@@ -40560,7 +40555,6 @@ synonym: "islet of Langerhans ribonucleic acid level" EXACT []
 synonym: "islet of Langerhans RNA level" EXACT []
 synonym: "pancreatic islet RNA level" EXACT []
 xref: GEO:GSE116663
-xref: PMID:31237608
 xref: VT:0011240
 is_a: CMO:0001856 ! pancreatic islet molecular composition measurement
 created_by: caripark
@@ -40571,7 +40565,6 @@ id: CMO:0004123
 name: basilar artery ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a major artery that supplies the hindbrain and runs along the ventral keel of the hindbrain." [UBERON:0001633]
 synonym: "basilar artery RNA level" EXACT []
-xref: GEO:GSE147945
 xref: PMID:33083107
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: caripark
@@ -40582,8 +40575,6 @@ id: CMO:0004124
 name: thoracic aorta ribonucleic acid level
 def: "The proportion, quantity, or volume of ribonucleic acid in the part of the aorta that extends from the origin at the heart to the diaphragm, and from which arises numerous branches that supply oxygenated blood to the chest cage and the organs within the chest." [UBERON:0001515]
 synonym: "thoracic aorta RNA level" EXACT []
-xref: GEO:GSE147335
-xref: GEO:GSE163665
 xref: VT:0011044
 is_a: CMO:0003982 ! aorta ribonucleic acid level
 created_by: caripark
@@ -40596,49 +40587,10 @@ def: "The proportion, quantity, or volume of ribonucleic acid in the thick, spon
 synonym: "foot pad RNA amount" EXACT []
 synonym: "metapodial pad ribonucleic acid amount" EXACT []
 synonym: "metapodial pad RNA amount" EXACT []
-xref: GEO:GSE81907
 xref: VT:0011020
 is_a: CMO:0003255 ! skin ribonucleic acid level
 created_by: caripark
 creation_date: 2025-11-14T15:28:44Z
-
-[Term]
-id: CMO:0004126
-name: temporomandibular joint ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a synovial joint of the jaw that connects the mandible to the temporal bone." [UBERON:0003700]
-synonym: "temporomandibular joint RNA level" EXACT []
-synonym: "TMJ ribonucleic acid level" EXACT []
-synonym: "TMJ RNA level" EXACT []
-xref: GEO:GSE207461
-xref: GEO:GSE207463
-xref: VT:0011064
-is_a: CMO:0003994 ! joint molecular composition measurement
-created_by: caripark
-creation_date: 2025-11-17T14:42:52Z
-
-[Term]
-id: CMO:0004127
-name: white adipose tissue ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in white adipose tissue, connective tissue consisting of fat-storing cells and arranged in lobular groups or along minor blood vessels." [UBERON:0001013]
-synonym: "white adipose tissue RNA level" EXACT []
-synonym: "white fat ribonucleic acid level" EXACT []
-synonym: "white fat RNA level" EXACT []
-is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
-created_by: slaulederkind
-creation_date: 2025-11-21T14:09:28Z
-
-[Term]
-id: CMO:0004128
-name: proximal tubule ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a nephron tubule that connects the glomerular capsule to the loop of Henle. It has a brush border epithelial morphology." [UBERON:0004134]
-synonym: "kidney proximal tubule ribonucleic acid level" EXACT []
-synonym: "kidney proximal tubule RNA level" EXACT []
-synonym: "proximal tubule RNA level" EXACT []
-synonym: "renal proximal tubule ribonucleic acid level" EXACT []
-synonym: "renal proximal tubule RNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid level
-created_by: caripark
-creation_date: 2025-11-24T11:37:21Z
 
 [Typedef]
 id: part_of
