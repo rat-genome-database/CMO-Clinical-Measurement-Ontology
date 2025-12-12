@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.260
-date: 06:12:2025 20:13
+data-version: 2.259
+date: 29:11:2025 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -40636,7 +40636,6 @@ synonym: "kidney proximal tubule RNA level" EXACT []
 synonym: "proximal tubule RNA level" EXACT []
 synonym: "renal proximal tubule ribonucleic acid level" EXACT []
 synonym: "renal proximal tubule RNA level" EXACT []
-xref: GEO:GSE194236
 is_a: CMO:0003912 ! kidney ribonucleic acid level
 created_by: caripark
 creation_date: 2025-11-24T11:37:21Z
