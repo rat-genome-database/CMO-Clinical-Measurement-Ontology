@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.260
-date: 06:12:2025 20:13
+data-version: 2.261
+date: 10:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -27298,10 +27298,11 @@ creation_date: 2018-09-28T18:05:11Z
 
 [Term]
 id: CMO:0002803
-name: uterus ribonucleic acid composition measurement
+name: uterus ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the uterus is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "uterine ribonucleic acid level" EXACT []
-synonym: "uterus RNA composition measurement" EXACT []
+synonym: "uterus ribonucleic acid composition measurement" BROAD []
+synonym: "uterus RNA composition measurement" BROAD []
 synonym: "uterus RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
@@ -28509,10 +28510,12 @@ creation_date: 2018-12-07T11:57:13Z
 
 [Term]
 id: CMO:0002933
-name: heart ribonucleic acid composition measurement
+name: heart ribonucleic acid level
 alt_id: CMO:0002796
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart is formed or composed." []
-synonym: "heart RNA composition measurement" EXACT []
+synonym: "heart ribonucleic acid composition measurement" BROAD []
+synonym: "heart RNA composition measurement" BROAD []
+synonym: "heart RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0002932 ! heart nucleic acid measurement
 created_by: sjwang
@@ -28523,7 +28526,7 @@ id: CMO:0002934
 name: heart insulin-like growth factor 1 mRNA level
 synonym: "heart Igf1 mRNA level" EXACT []
 xref: VT:0010951
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: sjwang
 creation_date: 2018-12-07T12:04:28Z
 
@@ -28535,7 +28538,7 @@ def: "Any measurement of the absolute or relative amount(s) of one or more of th
 synonym: "heart left ventricle ribonucleic acid composition measurement" BROAD []
 synonym: "heart left ventricle RNA level" EXACT []
 is_a: CMO:0002164 ! heart left ventricle molecular composition measurement
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: sjwang
 creation_date: 2018-12-07T12:09:49Z
 
@@ -28553,7 +28556,7 @@ name: heart right ventricle ribonucleic acid level
 def: "This is a measurement of the amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil, extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." []
 synonym: "heart right ventricle ribonucleic acid composition measurement" EXACT []
 synonym: "heart right ventricle RNA level" EXACT []
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002933 ! heart ribonucleic acid level
 is_a: CMO:0002938 ! heart right ventricle molecular composition measurement
 created_by: sjwang
 creation_date: 2018-12-07T12:28:34Z
@@ -28579,7 +28582,7 @@ id: CMO:0002940
 name: heart insulin-like growth factor 1 receptor mRNA level
 synonym: "heart Igf1r mRNA level" EXACT []
 xref: VT:0010561
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: sjwang
 creation_date: 2018-12-07T12:44:11Z
 
@@ -31915,8 +31918,10 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003301
-name: mitral valve ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+name: mitral valve ribonucleic acid level
+synonym: "mitral valve ribonucleic acid composition measurement" BROAD []
+synonym: "mitral valve RNA level" EXACT []
+is_a: CMO:0003324 ! heart left atrium ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -31998,7 +32003,9 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003311
-name: vas deferens ribonucleic acid composition measurement
+name: vas deferens ribonucleic acid level
+synonym: "vas deferens ribonucleic acid composition measurement" BROAD []
+synonym: "vas deferens RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32012,7 +32019,9 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003313
-name: umbilical cord ribonucleic acid composition measurement
+name: umbilical cord ribonucleic acid level
+synonym: "umbilical cord ribonucleic acid composition measurement" BROAD []
+synonym: "umbilical cord RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32113,7 +32122,7 @@ name: heart left atrium ribonucleic acid level
 synonym: "heart left atrium ribonucleic acid composition measurement" EXACT []
 synonym: "left cardiac atrium ribonucleic acid composition measurement" EXACT []
 synonym: "left cardiac atrium ribonucleic acid level" EXACT []
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -32152,19 +32161,21 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003329
-name: tricuspid valve ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+name: tricuspid valve ribonucleic acid level
+synonym: "tricuspid valve ribonucleic acid composition measurement" BROAD []
+synonym: "tricuspid valve RNA level" EXACT []
+is_a: CMO:0003984 ! heart right atrium ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003330
-name: uterine cervix ribonucleic acid composition measurement
+name: uterine cervix ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the uterine cervix, the lower, narrow portion of the uterus where it joins with the top end of the vagina." []
 synonym: "uterine cervical RNA level" EXACT []
+synonym: "uterine cervix ribonucleic acid composition measurement" BROAD []
 synonym: "uterine cervix RNA level" EXACT []
-is_a: CMO:0002793 ! tissue ribonucleic acid level
-is_a: CMO:0002803 ! uterus ribonucleic acid composition measurement
+is_a: CMO:0002803 ! uterus ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
@@ -32383,7 +32394,9 @@ creation_date: 2020-01-16T08:04:10Z
 
 [Term]
 id: CMO:0003357
-name: vulva ribonucleic acid composition measurement
+name: vulva ribonucleic acid level
+synonym: "vulva ribonucleic acid composition measurement" BROAD []
+synonym: "vulva RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:04:35Z
@@ -32406,14 +32419,18 @@ creation_date: 2020-01-16T08:05:24Z
 
 [Term]
 id: CMO:0003360
-name: umbilical cord blood ribonucleic acid composition measurement
-is_a: CMO:0002793 ! tissue ribonucleic acid level
+name: umbilical cord blood ribonucleic acid level
+synonym: "umbilical cord blood ribonucleic acid composition measurement" BROAD []
+synonym: "umbilical cord blood RNA level" EXACT []
+relationship: part_of CMO:0003313 ! umbilical cord ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T10:38:12Z
 
 [Term]
 id: CMO:0003361
-name: hematopoietic system ribonucleic acid composition measurement
+name: hematopoietic system ribonucleic acid level
+synonym: "hematopoietic system ribonucleic acid composition measurement" BROAD []
+synonym: "hematopoietic system RNA level" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T07:53:22Z
@@ -38985,7 +39002,7 @@ synonym: "heart right atrium ribonucleic acid amount" EXACT []
 synonym: "heart right atrium RNA level" EXACT []
 synonym: "right cardiac atrium ribonucleic acid amount" EXACT []
 synonym: "right cardiac atrium RNA level" EXACT []
-is_a: CMO:0002933 ! heart ribonucleic acid composition measurement
+is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-02T13:51:49Z
 
@@ -39205,7 +39222,7 @@ synonym: "endometrial RNA level" EXACT []
 synonym: "endometrium RNA level" EXACT []
 synonym: "tunica mucosa RNA level" EXACT []
 synonym: "uterine endometrium RNA level" EXACT []
-is_a: CMO:0002803 ! uterus ribonucleic acid composition measurement
+is_a: CMO:0002803 ! uterus ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T13:04:28Z
 
@@ -40640,6 +40657,59 @@ xref: GEO:GSE194236
 is_a: CMO:0003912 ! kidney ribonucleic acid level
 created_by: caripark
 creation_date: 2025-11-24T11:37:21Z
+
+[Term]
+id: CMO:0004129
+name: inner ear ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the inner ear, the essential organ of hearing and equilibrium that is located in the temporal bone, is innervated by the auditory nerve, and includes the vestibule, the semicircular canals, and the cochlea." [https://www.merriam-webster.com/]
+synonym: "inner ear RNA level" EXACT []
+synonym: "internal ear ribonucleic acid level" EXACT []
+synonym: "internal ear RNA level" EXACT []
+xref: MA:0000237
+xref: PMID:40908485
+xref: UBERON:0001846
+is_a: CMO:0003975 ! ear ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2026-01-06T10:35:12Z
+
+[Term]
+id: CMO:0004130
+name: vestibular epithelium ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vestibular epithelium, the specialized sensory tissue in the inner ear vestibular labyrinth (utricle, saccule, and semicircular canals) containing hair cells that detect head movements and gravity, converting these mechanical signals into neural impulses to control balance, posture, and eye movements." [PMID:_35401109, PMID:35401109]
+synonym: "vestibular epithelium RNA level" EXACT []
+synonym: "vestibular sensory epithelium ribonucleic acid level" EXACT []
+synonym: "vestibular sensory epithelium RNA level" EXACT []
+xref: GEO:GSE292500
+xref: PMID:40908485
+is_a: CMO:0004129 ! inner ear ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2026-01-06T11:02:01Z
+
+[Term]
+id: CMO:0004131
+name: dentate gyrus of hippocampal formation ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the dentate gyrus, a part of the hippocampal formation forming a 'V' or 'U' shaped structure with the opening bounded by hippocampal area CA3. It consists of 3 layers from superficial to deep: molecular, granule cell, and polymorphic or hilar layer." [UBERON:0001885]
+synonym: "dentate gyrus of hippocampal formation RNA level" EXACT []
+synonym: "dentate gyrus ribonucleic acid level" EXACT []
+synonym: "dentate gyrus RNA level" EXACT []
+xref: GEO:GSE297030
+xref: PMID:40978196
+is_a: CMO:0003303 ! hippocampal formation ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2026-01-06T11:20:27Z
+
+[Term]
+id: CMO:0004132
+name: blood plasma ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in blood plasma, the liquid component of blood which has had blood cells and platelets removed from it." [UBERON:0001969]
+synonym: "blood plasma RNA level" EXACT []
+synonym: "plasma ribonucleic acid level" EXACT []
+synonym: "plasma RNA level" EXACT []
+xref: GEO:GSE302532
+xref: PMID:41078024
+is_a: CMO:0003337 ! blood ribonucleic acid level
+created_by: slaulederkind
+creation_date: 2026-01-06T11:26:13Z
 
 [Typedef]
 id: part_of
