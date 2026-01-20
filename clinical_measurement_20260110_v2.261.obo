@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.262
-date: 17:01:2026 20:13
+data-version: 2.261
+date: 10:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -4076,7 +4076,6 @@ id: CMO:0000442
 name: femur length
 def: "Distance from one end to the other of the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: VT:0004348
-xref: VT:0004357
 is_a: CMO:0001377 ! femur morphological measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T02:18:42Z
@@ -18387,7 +18386,6 @@ name: liver ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the liver is formed or composed." [CHEBI:33697, CHEBI:33699, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "liver ribonucleic acid composition measurement" EXACT []
 synonym: "liver RNA composition measurement" EXACT []
-xref: VT:0010794
 is_a: CMO:0001918 ! liver nucleic acid measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: JSmith
@@ -27206,7 +27204,6 @@ synonym: "tissue RNA composition measurement" BROAD []
 synonym: "tissue RNA level" EXACT []
 synonym: "transcriptome measurement" NARROW []
 xref: EFO:0009865
-xref: VT:0011060
 is_a: CMO:0002067 ! tissue molecular composition measurement
 created_by: jrsmith
 creation_date: 2018-09-28T17:35:30Z
@@ -27217,7 +27214,6 @@ name: adrenal gland ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNA) of which the tissue of the adrenal gland is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "adrenal gland ribonucleic acid composition measurement" BROAD []
 synonym: "adrenal gland RNA composition measurement" BROAD []
-xref: VT:0010790
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T17:48:52Z
@@ -27228,7 +27224,6 @@ name: brain ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the brain is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "brain RNA composition measurement" BROAD []
 synonym: "brain RNA level" EXACT []
-xref: VT:0010791
 is_a: CMO:0002066 ! brain molecular composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
@@ -27259,7 +27254,6 @@ def: "Any measurement of the absolute or relative amount(s) of one or more of th
 synonym: "lung ribonucleic acid composition measurement" EXACT []
 synonym: "lung RNA composition measurement" EXACT []
 synonym: "lung RNA level" EXACT []
-xref: VT:0010796
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T17:58:33Z
@@ -27271,43 +27265,33 @@ def: "Any measurement of the absolute or relative amount(s) of one or more of th
 synonym: "muscle ribonucleic acid composition measurement" BROAD []
 synonym: "muscle RNA composition measurement" BROAD []
 synonym: "Not4Curation" RELATED []
-xref: VT:0010797
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T18:00:11Z
 
 [Term]
 id: CMO:0002800
-name: spleen ribonucleic acid level
+name: spleen ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the spleen is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "spleen ribonucleic acid composition measurement" BROAD []
-synonym: "spleen RNA composition measurement" BROAD []
-synonym: "spleen RNA level" EXACT []
-xref: VT:0010799
+synonym: "spleen RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T18:01:49Z
 
 [Term]
 id: CMO:0002801
-name: testis ribonucleic acid level
+name: testis ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which testis tissue is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "testis ribonucleic acid composition measurement" BROAD []
-synonym: "testis RNA composition measurement" BROAD []
-synonym: "testis RNA level" EXACT []
-xref: VT:0010801
+synonym: "testis RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T18:03:47Z
 
 [Term]
 id: CMO:0002802
-name: thymus ribonucleic acid level
+name: thymus ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the thymus is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-synonym: "thymus ribonucleic acid composition measurement" BROAD []
-synonym: "thymus RNA composition measurement" BROAD []
-synonym: "thymus RNA level" EXACT []
-xref: VT:0010803
+synonym: "thymus RNA composition measurement" EXACT []
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T18:05:11Z
@@ -27320,7 +27304,6 @@ synonym: "uterine ribonucleic acid level" EXACT []
 synonym: "uterus ribonucleic acid composition measurement" BROAD []
 synonym: "uterus RNA composition measurement" BROAD []
 synonym: "uterus RNA level" EXACT []
-xref: VT:0010805
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: jrsmith
 creation_date: 2018-09-28T18:06:48Z
@@ -28533,7 +28516,6 @@ def: "Any measurement of the absolute or relative amount(s) of one or more of th
 synonym: "heart ribonucleic acid composition measurement" BROAD []
 synonym: "heart RNA composition measurement" BROAD []
 synonym: "heart RNA level" EXACT []
-xref: VT:0010792
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0002932 ! heart nucleic acid measurement
 created_by: sjwang
@@ -28555,7 +28537,6 @@ alt_id: CMO:0003333
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the heart left ventricle is formed or composed." []
 synonym: "heart left ventricle ribonucleic acid composition measurement" BROAD []
 synonym: "heart left ventricle RNA level" EXACT []
-xref: VT:0011039
 is_a: CMO:0002164 ! heart left ventricle molecular composition measurement
 is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: sjwang
@@ -28575,7 +28556,6 @@ name: heart right ventricle ribonucleic acid level
 def: "This is a measurement of the amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil, extracted from or contained in the heart right ventricle, the lower chamber of the right side of the heart (from the perspective of the organism rather than the observer), which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung." []
 synonym: "heart right ventricle ribonucleic acid composition measurement" EXACT []
 synonym: "heart right ventricle RNA level" EXACT []
-xref: VT:0011071
 is_a: CMO:0002933 ! heart ribonucleic acid level
 is_a: CMO:0002938 ! heart right ventricle molecular composition measurement
 created_by: sjwang
@@ -31498,7 +31478,6 @@ creation_date: 2019-10-03T16:12:58Z
 id: CMO:0003251
 name: skeletal muscle ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
-xref: VT:0011059
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-10-17T16:09:06Z
@@ -31508,7 +31487,6 @@ id: CMO:0003252
 name: gastrocnemius ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the gastrocnemius, the most superficial muscle of the triceps surae group, in the posterior portion of the lower hindleg." []
 synonym: "gastrocnemius ribonucleic acid composition measurement" BROAD []
-xref: VT:0011248
 is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-10-17T16:13:44Z
@@ -31517,7 +31495,6 @@ creation_date: 2019-10-17T16:13:44Z
 id: CMO:0003253
 name: ovary ribonucleic acid composition measurement
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which ovary tissue is formed or composed." []
-xref: VT:0011030
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-10-17T16:16:27Z
@@ -31528,7 +31505,6 @@ name: colon ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which colon tissue is formed or composed." []
 synonym: "colon ribonucleic acid composition measurement" BROAD []
 synonym: "colon RNA level" EXACT []
-xref: VT:0011024
 is_a: CMO:0003290 ! large intestine ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-10-17T16:18:33Z
@@ -31539,7 +31515,6 @@ name: skin ribonucleic acid level
 synonym: "skin ribonucleic acid composition measurement" EXACT []
 synonym: "skin RNA composition measurement" EXACT []
 synonym: "skin RNA level" EXACT []
-xref: VT:0011025
 is_a: CMO:0002761 ! skin molecular composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -31560,17 +31535,13 @@ creation_date: 2019-11-19T12:04:48Z
 id: CMO:0003257
 name: urinary bladder ribonucleic acid level
 synonym: "urinary bladder ribonucleic acid composition measurement" BROAD []
-xref: VT:0011073
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:08:22Z
 
 [Term]
 id: CMO:0003258
-name: tonsil ribonucleic acid level
-synonym: "tonsil ribonucleic acid composition measurement" BROAD []
-synonym: "tonsil RNA composition measurement" BROAD []
-synonym: "tonsil RNA level" EXACT []
+name: tonsil ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:11:40Z
@@ -31580,7 +31551,6 @@ id: CMO:0003259
 name: thyroid gland ribonucleic acid level
 synonym: "thyroid gland ribonucleic acid composition measurement" EXACT []
 synonym: "thyroid gland RNA level" EXACT []
-xref: VT:0011056
 is_a: CMO:0002389 ! thyroid gland morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -31598,7 +31568,6 @@ creation_date: 2019-11-19T12:21:49Z
 [Term]
 id: CMO:0003261
 name: stomach ribonucleic acid composition measurement
-xref: VT:0011097
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:25:46Z
@@ -31606,7 +31575,6 @@ creation_date: 2019-11-19T12:25:46Z
 [Term]
 id: CMO:0003262
 name: small intestine ribonucleic acid composition measurement
-xref: VT:0011042
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:32:03Z
@@ -31616,7 +31584,6 @@ id: CMO:0003263
 name: salivary gland ribonucleic acid level
 synonym: "salivary gland ribonucleic acid composition measurement" BROAD []
 synonym: "salivary gland RNA level" EXACT []
-xref: VT:0011091
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:36:38Z
@@ -31633,7 +31600,6 @@ id: CMO:0003265
 name: placenta ribonucleic acid level
 synonym: "placenta ribonucleic acid composition measurement" EXACT []
 synonym: "placenta RNA level" EXACT []
-xref: VT:0011126
 is_a: CMO:0002086 ! placenta morphological measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -31642,7 +31608,6 @@ creation_date: 2019-11-19T12:42:10Z
 [Term]
 id: CMO:0003266
 name: pancreas ribonucleic acid composition measurement
-xref: VT:0011032
 is_a: CMO:0002576 ! pancreas molecular composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -31667,7 +31632,6 @@ id: CMO:0003269
 name: esophagus ribonucleic acid level
 synonym: "esophagus ribonucleic acid composition measurement" BROAD []
 synonym: "esophagus RNA level" EXACT []
-xref: VT:0011095
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T12:54:02Z
@@ -31676,7 +31640,6 @@ creation_date: 2019-11-19T12:54:02Z
 id: CMO:0003270
 name: cerebrum ribonucleic acid level
 synonym: "cerebrum ribonucleic acid composition measurement" BROAD []
-xref: VT:0011250
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:02:13Z
@@ -31686,7 +31649,6 @@ id: CMO:0003271
 name: bone marrow ribonucleic acid level
 synonym: "bone marrow ribonucleic acid composition measurement" BROAD []
 synonym: "bone marrow RNA level" EXACT []
-xref: VT:0011166
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:13:09Z
@@ -31699,7 +31661,6 @@ synonym: "prostate gland ribonucleic acid composition measurement" EXACT []
 synonym: "prostate gland RNA level" EXACT []
 synonym: "prostate ribonucleic acid level" EXACT []
 synonym: "prostate RNA level" EXACT []
-xref: VT:0011027
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:16:43Z
@@ -31709,7 +31670,6 @@ id: CMO:0003273
 name: lymph node ribonucleic acid level
 synonym: "lymph node ribonucleic acid composition measurement" BROAD []
 synonym: "lymph node RNA level" EXACT []
-xref: VT:0011093
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
 creation_date: 2019-11-19T13:19:13Z
@@ -31719,7 +31679,6 @@ id: CMO:0003274
 name: white blood cell ribonucleic acid level
 synonym: "white blood cell ribonucleic acid composition measurement" EXACT []
 synonym: "white blood cell RNA level" EXACT []
-xref: VT:0011242
 is_a: CMO:0002341 ! white blood cell measurement
 created_by: sjwang
 creation_date: 2019-11-19T13:23:57Z
@@ -31739,7 +31698,6 @@ synonym: "adipose tissue ribonucleic acid composition measurement" BROAD []
 synonym: "adipose tissue RNA level" EXACT []
 synonym: "fat tissue RNA level" EXACT []
 synonym: "RNA level of fat tissue" EXACT []
-xref: VT:0011023
 is_a: CMO:0000484 ! adipose tissue molecular composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: sjwang
@@ -31897,7 +31855,6 @@ synonym: "hindlimb muscle ribonucleic acid level" EXACT []
 synonym: "lower extremity muscle ribonucleic acid level" EXACT []
 synonym: "muscle of leg ribonucleic acid composition measurement" BROAD []
 synonym: "muscle of leg ribonucleic acid level" EXACT []
-xref: VT:0011059
 is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
@@ -31914,7 +31871,6 @@ creation_date: 2020-01-10T15:31:08Z
 [Term]
 id: CMO:0003295
 name: spinal cord ribonucleic acid composition measurement
-xref: VT:0011033
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
@@ -31941,17 +31897,13 @@ creation_date: 2020-01-10T15:31:08Z
 id: CMO:0003298
 name: eye ribonucleic acid level
 synonym: "eye ribonucleic acid composition measurement" EXACT []
-xref: VT:0011022
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003299
-name: throat ribonucleic acid level
-synonym: "throat ribonucleic acid composition measurement" BROAD []
-synonym: "throat RNA composition measurement" BROAD []
-synonym: "throat RNA level" EXACT []
+name: throat ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31960,7 +31912,6 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003300
 name: dorsal thalamus ribonucleic acid level
 synonym: "dorsal thalamus ribonucleic acid composition measurement" EXACT []
-xref: VT:0010791
 relationship: part_of CMO:0003369 ! forebrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31990,7 +31941,6 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003303
 name: hippocampal formation ribonucleic acid level
 synonym: "hippocampal formation ribonucleic acid composition measurement" EXACT []
-xref: VT:0011151
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -31999,7 +31949,6 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003304
 name: pituitary gland ribonucleic acid level
 synonym: "pituitary gland ribonucleic acid composition measurement" BROAD []
-xref: VT:0011035
 relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32023,7 +31972,6 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003307
 name: pineal body ribonucleic acid level
 synonym: "pineal body ribonucleic acid composition measurement" BROAD []
-xref: VT:0011038
 relationship: part_of CMO:0003318 ! diencephalon ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32064,10 +32012,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003312
-name: trachea ribonucleic acid level
-synonym: "trachea ribonucleic acid composition measurement" BROAD []
-synonym: "trachea RNA composition measurement" BROAD []
-synonym: "trachea RNA level" EXACT []
+name: trachea ribonucleic acid composition measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32094,7 +32039,6 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003315
 name: amygdala ribonucleic acid level
 synonym: "amygdala ribonucleic acid composition measurement" BROAD []
-xref: VT:0011251
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32159,7 +32103,6 @@ name: vagina ribonucleic acid level
 synonym: "vagina ribonucleic acid composition measurement" EXACT []
 synonym: "vagina RNA composition measurement" EXACT []
 synonym: "vagina RNA level" EXACT []
-xref: VT:0011075
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32179,7 +32122,6 @@ name: heart left atrium ribonucleic acid level
 synonym: "heart left atrium ribonucleic acid composition measurement" EXACT []
 synonym: "left cardiac atrium ribonucleic acid composition measurement" EXACT []
 synonym: "left cardiac atrium ribonucleic acid level" EXACT []
-xref: VT:0011111
 is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32197,7 +32139,6 @@ creation_date: 2020-01-13T09:03:17Z
 id: CMO:0003326
 name: medulla oblongata ribonucleic acid level
 synonym: "medulla oblongata ribonucleic acid composition measurement" BROAD []
-xref: VT:0011253
 relationship: part_of CMO:0003383 ! brainstem ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32248,7 +32189,6 @@ synonym: "substantia nigra ribonucleic acid composition measurement" BROAD []
 synonym: "substantia nigra RNA level" EXACT []
 xref: GEO:GSE280520
 xref: PMID:40707475
-xref: VT:0011230
 is_a: CMO:0003929 ! midbrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32258,7 +32198,6 @@ id: CMO:0003332
 name: epididymis ribonucleic acid level
 synonym: "epididymis ribonucleic acid composition measurement" BROAD []
 synonym: "epididymis RNA level" EXACT []
-xref: VT:0011273
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32266,7 +32205,6 @@ creation_date: 2020-01-13T09:03:17Z
 [Term]
 id: CMO:0003333
 name: heart left ventricle ribonucleic acid composition measurement
-xref: VT:0011039
 is_obsolete: true
 created_by: hsnalabolu
 creation_date: 2020-01-13T09:03:17Z
@@ -32300,7 +32238,6 @@ id: CMO:0003337
 name: blood ribonucleic acid level
 synonym: "blood ribonucleic acid composition measurement" BROAD []
 synonym: "blood RNA level" EXACT []
-xref: VT:0011031
 is_a: CMO:0000023 ! blood chemistry measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
@@ -32319,7 +32256,6 @@ name: tongue ribonucleic acid level
 synonym: "tongue ribonucleic acid composition measurement" EXACT []
 synonym: "tongue RNA composition measurement" EXACT []
 synonym: "tongue RNA level" EXACT []
-xref: VT:0011101
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:28:22Z
@@ -32337,7 +32273,6 @@ creation_date: 2020-01-13T12:34:30Z
 id: CMO:0003341
 name: cerebral cortex ribonucleic acid level
 synonym: "cerebral cortex ribonucleic acid composition measurement" BROAD []
-xref: VT:0011255
 relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-13T12:38:29Z
@@ -32378,8 +32313,6 @@ name: cartilage ribonucleic acid level
 synonym: "cartilage ribonucleic acid composition measurement" BROAD []
 synonym: "cartilage RNA level" EXACT []
 synonym: "cartilage tissue ribonucleic acid composition measurement" BROAD []
-xref: VT:0011052
-xref: VT:0011064
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
@@ -32412,7 +32345,6 @@ id: CMO:0003350
 name: bone tissue ribonucleic acid level
 synonym: "bone tissue ribonucleic acid composition measurement" BROAD []
 synonym: "bone tissue RNA level" EXACT []
-xref: VT:0011068
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:43:10Z
@@ -32432,7 +32364,6 @@ name: cecum ribonucleic acid level
 synonym: "caecum ribonucleic acid level" EXACT []
 synonym: "cecum ribonucleic acid composition measurement" BROAD []
 synonym: "cecum RNA level" EXACT []
-xref: VT:0011247
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:40:22Z
@@ -32440,7 +32371,6 @@ creation_date: 2020-01-15T15:40:22Z
 [Term]
 id: CMO:0003354
 name: ileum ribonucleic acid composition measurement
-xref: VT:0011042
 is_a: CMO:0003262 ! small intestine ribonucleic acid composition measurement
 created_by: hsnalabolu
 creation_date: 2020-01-15T15:42:55Z
@@ -32458,7 +32388,6 @@ id: CMO:0003356
 name: connective tissue ribonucleic acid level
 synonym: "connective tissue ribonucleic acid composition measurement" BROAD []
 synonym: "connective tissue RNA level" EXACT []
-xref: VT:0011068
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:04:10Z
@@ -32527,7 +32456,6 @@ id: CMO:0003363
 name: hindbrain ribonucleic acid level
 synonym: "hindbrain ribonucleic acid composition measurement" BROAD []
 synonym: "hindbrain RNA level" EXACT []
-xref: VT:0010791
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:01:21Z
@@ -32561,7 +32489,6 @@ creation_date: 2020-01-17T09:02:35Z
 id: CMO:0003367
 name: choroid plexus ribonucleic acid level
 synonym: "choroid plexus ribonucleic acid composition measurement" BROAD []
-xref: VT:0011185
 is_a: CMO:0002795 ! brain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:03:16Z
@@ -32572,7 +32499,6 @@ name: telencephalon ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the telencephalon is formed or composed. Together with the diencephalon the telencephalon is part of the the most anterior region of the brain, called the forebrain." []
 synonym: "endbrain ribonucleic acid level" EXACT []
 synonym: "telencephalon ribonucleic acid composition measurement" EXACT []
-xref: VT:0011257
 relationship: part_of CMO:0003369 ! forebrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:01Z
@@ -32582,7 +32508,6 @@ id: CMO:0003369
 name: forebrain ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the forebrain is formed or composed. The forebrain is the most anterior region of the brain including both the telencephalon and diencephalon." []
 synonym: "forebrain ribonucleic acid composition measurement" EXACT []
-xref: VT:0011259
 relationship: part_of CMO:0003372 ! combined forebrain and midbrain ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T09:04:39Z
@@ -32626,7 +32551,6 @@ id: CMO:0003374
 name: venous blood ribonucleic acid level
 synonym: "venous blood ribonucleic acid composition measurement" EXACT []
 synonym: "venous blood RNA level" EXACT []
-xref: VT:0011031
 is_a: CMO:0003337 ! blood ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-17T12:28:10Z
@@ -32691,7 +32615,6 @@ id: CMO:0003381
 name: corpus callosum ribonucleic acid level
 synonym: "corpus callosum ribonucleic acid composition measurement" BROAD []
 xref: UBERON:0002336
-xref: VT:0010791
 relationship: part_of CMO:0002795 ! brain ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:20:28Z
@@ -32718,7 +32641,6 @@ id: CMO:0003384
 name: frontal cortex ribonucleic acid level
 synonym: "frontal cortex ribonucleic acid composition measurement" BROAD []
 xref: UBERON:0001870
-xref: VT:0011255
 relationship: part_of CMO:0003341 ! cerebral cortex ribonucleic acid level
 created_by: jrsmith
 creation_date: 2020-02-17T13:23:46Z
@@ -38305,7 +38227,6 @@ synonym: "kidney ribonucleic acid composition measurement" BROAD []
 synonym: "kidney RNA composition measurement" BROAD []
 synonym: "renal ribonucleic acid level" EXACT []
 synonym: "renal RNA level" EXACT []
-xref: VT:0010793
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003911 ! kidney nucleic acid measurement
 created_by: slaulede
@@ -38443,7 +38364,6 @@ synonym: "peripheral nervous system RNA level" EXACT []
 synonym: "PNS ribonucleic acid composition measurement" BROAD []
 synonym: "PNS ribonucleic acid level" EXACT []
 synonym: "PNS RNA level" EXACT []
-xref: VT:0003632
 is_a: CMO:0003924 ! peripheral nervous system molecular composition measurement
 created_by: slaulede
 creation_date: 2023-06-22T16:39:26Z
@@ -38456,7 +38376,6 @@ synonym: "dorsal root ganglion RNA level" EXACT []
 synonym: "spinal ganglion ribonucleic acid level" EXACT []
 synonym: "spinal ganglion RNA level" EXACT []
 xref: MA:0000230
-xref: VT:0011037
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-06-22T16:53:18Z
@@ -38466,7 +38385,6 @@ id: CMO:0003927
 name: sciatic nerve ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the sciatic nerve is formed or composed." [https://www.merriam-webster.com, UBERON:0001322]
 synonym: "sciatic nerve RNA level" EXACT []
-xref: VT:0011046
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-07T13:46:11Z
@@ -38478,7 +38396,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "cerebellum ribonucleic acid composition measurement" BROAD []
 synonym: "epencephalon ribonucleic acid composition measurement" BROAD []
 xref: UBERON:0002037
-xref: VT:0011261
 is_a: CMO:0002795 ! brain ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-24T15:51:56Z
@@ -38491,7 +38408,6 @@ synonym: "mesencephalon ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain RNA level" EXACT []
 xref: UBERON:0001891
-xref: VT:0010791
 relationship: part_of CMO:0003371 ! combined diencephalon and midbrain ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-24T16:03:01Z
@@ -38502,7 +38418,6 @@ name: hypothalamus ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the hypothalamus is formed or composed." [http://braininfo.rprc.washington.edu/Default.aspx]
 synonym: "hypothalamus ribonucleic acid composition measurement" EXACT []
 xref: UBERON:0001898
-xref: VT:0011048
 is_a: CMO:0003369 ! forebrain ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-24T16:18:48Z
@@ -38515,7 +38430,6 @@ synonym: "dermal ribonucleic acid level" EXACT []
 synonym: "dermal RNA level" EXACT []
 synonym: "dermis RNA composition measurement" EXACT []
 xref: PMID:29317265
-xref: VT:0011025
 is_a: CMO:0003255 ! skin ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-25T13:54:06Z
@@ -38528,7 +38442,6 @@ synonym: "epidermal RNA level" EXACT []
 synonym: "epidermis ribonucleic acid composition measurement" EXACT []
 synonym: "epidermis RNA level" EXACT []
 xref: PMID:29317265
-xref: VT:0011025
 is_a: CMO:0003255 ! skin ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-25T14:00:25Z
@@ -38846,7 +38759,6 @@ name: CD4+ lymphocyte ribonucleic acid composition measurement
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in CD4+ lymphocytes. CD4 is a membrane glycoprotein found primarily on T lymphocytes, but also can be expressed on B cells, macrophages, and granulocytes. On T cells it is a co-receptor for the T cell receptor (TCR), interacts with MHC class II antigens, and functions to initiate or augment the early phase of T-cell activation." [http://en.wikipedia.org/wiki/CD4]
 synonym: "CD4(+) llymphocyte ribonucleic acid composition measurement" EXACT []
 synonym: "CD4(+) lymphocyte ribonucleic acid composition measurement" EXACT []
-xref: VT:0011062
 is_a: CMO:0003274 ! white blood cell ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-10-03T12:41:58Z
@@ -38908,7 +38820,6 @@ synonym: "retinal RNA level" EXACT []
 synonym: "retina RNA level" EXACT []
 synonym: "retina RNA measurement" EXACT []
 xref: PMID:34797904
-xref: VT:0011058
 is_a: CMO:0003298 ! eye ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2023-11-07T12:56:25Z
@@ -38918,7 +38829,6 @@ id: CMO:0003969
 name: trigeminal ganglion ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the trigeminal ganglion is composed." [ISBN-13:9780781733908, UBERON:0001675]
 synonym: "trigeminal ganglion RNA level" EXACT []
-xref: VT:0011066
 is_a: CMO:0001232 ! nervous system measurement
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
@@ -38940,7 +38850,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "urethral ribonucleic acid level" EXACT []
 synonym: "urethral RNA level" EXACT []
 synonym: "urethra RNA level" EXACT []
-xref: VT:0011029
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0003970 ! urethra molecular composition measurement
 created_by: slaulederkind
@@ -38953,7 +38862,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "MRPVAT RNA level" EXACT []
 synonym: "small mesenteric blood vessel perivascular adipose tissue RNA level" EXACT []
 xref: PMID:33815135
-xref: VT:0011023
 is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2023-11-13T15:13:42Z
@@ -38965,7 +38873,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "tendon RNA level" EXACT []
 xref: PMID:37021050
 xref: UBERON:0000043
-xref: VT:0011070
 is_a: CMO:0003356 ! connective tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2023-11-14T17:28:42Z
@@ -38976,7 +38883,6 @@ name: temporal lobe ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the temporal lobe of one or both cerebral hemisphere(s) is formed or composed." [https://www.merriam-webster.com, ISBN-13:978-1455756438]
 synonym: "temporal lobe RNA level" EXACT []
 xref: PMID:35897746
-xref: VT:0011250
 relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-02-23T14:11:10Z
@@ -39001,7 +38907,6 @@ synonym: "external ear ribonucleic acid composition measurement" EXACT []
 synonym: "external ear ribonucleic acid level" EXACT []
 synonym: "outer ear ribonucleic acid composition measurement" EXACT []
 xref: PMID:36733943
-xref: VT:0011085
 is_a: CMO:0003975 ! ear ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-03-01T12:51:34Z
@@ -39062,7 +38967,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "cornea ribonucleic acid composition measurement" EXACT []
 synonym: "cornea RNA composition measurement" EXACT []
 synonym: "cornea RNA level" EXACT []
-xref: VT:0011099
 is_a: CMO:0003298 ! eye ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-03-07T13:01:12Z
@@ -39074,7 +38978,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "aorta ribonucleic acid composition measurement" BROAD []
 synonym: "aorta RNA composition measurement" BROAD []
 synonym: "aorta RNA level" EXACT []
-xref: VT:0011017
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-03-07T14:13:50Z
@@ -39087,7 +38990,6 @@ synonym: "vibrissa follicle RNA level" EXACT []
 synonym: "whisker follicle ribonucleic acid level" EXACT []
 synonym: "whisker follicle RNA level" EXACT []
 xref: PMID:33238484
-xref: VT:0011104
 is_a: CMO:0003932 ! epidermis ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-03-22T13:02:06Z
@@ -39100,7 +39002,6 @@ synonym: "heart right atrium ribonucleic acid amount" EXACT []
 synonym: "heart right atrium RNA level" EXACT []
 synonym: "right cardiac atrium ribonucleic acid amount" EXACT []
 synonym: "right cardiac atrium RNA level" EXACT []
-xref: VT:0011109
 is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-02T13:51:49Z
@@ -39110,7 +39011,6 @@ id: CMO:0003985
 name: sinoatrial node ribonucleic acid level
 def: "This is a measurement of the amount of ribonucleic acid (RNA), the molecule composed of the sugar ribose, phosphate groups and any combination of the bases adenine, guanine, cytosine, and/or uracil, extracted from or contained in the sinoatrial node of the heart right atrium, the upper chamber of the right side of the heart, which receives deoxygenated blood from the vena cavae and the coronary sinus, and pumps it into the right ventricle through the tricuspid valve. The sinoatrial node is located at the junction of the superior vena cava and the right atrium." [CHEBI:33697, UBERON:0002351]
 synonym: "sinoatrial node RNA level" EXACT []
-xref: VT:0011113
 relationship: part_of CMO:0003980 ! vena cava ribonucleic acid level
 relationship: part_of CMO:0003984 ! heart right atrium ribonucleic acid level
 created_by: slaulederkind
@@ -39135,7 +39035,6 @@ synonym: "one-cell embryo ribonucleic acid level" EXACT []
 synonym: "zygote ribonucleic acid level" EXACT []
 xref: GEO:GSE163620
 xref: PMID:34818044
-xref: VT:0011119
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-16T13:38:51Z
@@ -39147,7 +39046,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "two-cell embryo ribonucleic acid level" EXACT []
 xref: GEO:GSE163620
 xref: PMID:34818044
-xref: VT:0011119
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-16T13:43:40Z
@@ -39159,7 +39057,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "four-cell embryo ribonucleic acid level" EXACT []
 xref: GEO:GSE163620
 xref: PMID:34818044
-xref: VT:0011119
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-16T13:46:53Z
@@ -39171,7 +39068,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "blastula ribonucleic acid level" RELATED []
 xref: GEO:GSE163620
 xref: PMID:34818044
-xref: VT:0011119
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-16T13:53:53Z
@@ -39183,7 +39079,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "eight-cell embryo ribonucleic acid level" EXACT []
 xref: GEO:GSE163620
 xref: PMID:34818044
-xref: VT:0011119
 is_a: CMO:0003986 ! embryonic cell/tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-16T13:59:57Z
@@ -39196,7 +39091,6 @@ synonym: "female gametocyte ribonucleic acid level" EXACT []
 synonym: "oocyte RNA level" EXACT []
 xref: GEO:GSE163620
 xref: PMID:34818044
-xref: VT:0011271
 is_a: CMO:0003918 ! isolated cell ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-16T14:10:20Z
@@ -39207,7 +39101,6 @@ name: inferior alveolar nerve ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the inferior alveolar nerve is formed or composed. The inferior alveolar nerve is the branch of the mandibular nerve responsible for sensory innervation to the gingivae of the lower jaw." [https://ncbi.nlm.nih.gov/books/NBK546712/, ISBN-13:9780781733908]
 synonym: "inferior alveolar nerve RNA level" EXACT []
 xref: PMID:37946211
-xref: VT:0011116
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-04-22T17:21:07Z
@@ -39229,7 +39122,6 @@ name: knee joint ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the knee joint, the joint that joins the thigh with the leg and consists of two articulations: one between the femur and tibia, and one between the femur and patella." [https://www.merriam-webster.com/, UBERON:0001485]
 synonym: "knee joint RNA level" EXACT []
 xref: PMID:36354073
-xref: VT:0011052
 is_a: CMO:0003994 ! joint molecular composition measurement
 created_by: slaulederkind
 creation_date: 2024-04-23T17:50:08Z
@@ -39240,7 +39132,6 @@ name: articular chondrocyte ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in chondrocytes isolated from articular cartilage. Articular cartilage is a thin layer of cartilage, usually hyaline cartilage, on the articular surface of bones in synovial joints." [CHEBI:33697, UBERON:0010996]
 synonym: "articular chondrocyte RNA level" EXACT []
 xref: PMID:32778777
-xref: VT:0011121
 is_a: CMO:0003916 ! cell ribonucleic acid level
 is_a: CMO:0004114 ! articular cartilage of joint ribonucleic acid level
 created_by: slaulederkind
@@ -39277,7 +39168,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "broken bone hematoma ribonucleic acid level" EXACT []
 synonym: "fracture hematoma RNA level" EXACT []
 xref: PMID:35882120
-xref: VT:0011060
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-06-07T14:52:51Z
@@ -39290,7 +39180,6 @@ synonym: "neoplasm ribonucleic acid level" EXACT []
 synonym: "Not4Curation" RELATED []
 synonym: "tumorous tissue ribonucleic acid level" EXACT []
 synonym: "tumor ribonucleic acid level" EXACT []
-xref: VT:0011061
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-15T13:56:15Z
@@ -39333,7 +39222,6 @@ synonym: "endometrial RNA level" EXACT []
 synonym: "endometrium RNA level" EXACT []
 synonym: "tunica mucosa RNA level" EXACT []
 synonym: "uterine endometrium RNA level" EXACT []
-xref: VT:0010805
 is_a: CMO:0002803 ! uterus ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T13:04:28Z
@@ -39347,7 +39235,6 @@ synonym: "endometrial, malignant neoplasm ribonucleic acid level" EXACT []
 synonym: "endometrial, malignant, neoplastic tissue ribonucleic acid level" EXACT []
 synonym: "endometrial, malignant tumor ribonucleic acid level" EXACT []
 synonym: "endometrium cancer ribonucleic acid level" EXACT []
-xref: VT:0010805
 is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
 is_a: CMO:0004003 ! endometrium ribonucleic acid level
 created_by: slaulederkind
@@ -39375,7 +39262,6 @@ synonym: "mammary gland cancer RNA level" EXACT []
 synonym: "mammary gland malignant neoplasm RNA level" EXACT []
 synonym: "mammary gland malignant tumor RNA level" EXACT []
 synonym: "N-methyl-N-nitrosourea (MNU)-induced mammary tumor RNA level" NARROW []
-xref: VT:0011087
 is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
 is_a: CMO:0004005 ! mammary gland ribonucleic acid level
 created_by: slaulederkind
@@ -39574,7 +39460,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "MCL ribonucleic acid level" EXACT []
 synonym: "MCL RNA level" EXACT []
 xref: PMID:38597671
-xref: VT:0011130
 is_a: CMO:0003995 ! knee joint ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-09-05T14:22:13Z
@@ -39610,7 +39495,6 @@ synonym: "gonadal adipose RNA level" EXACT []
 synonym: "ovarian fat pad ribonucleic acid level" NARROW []
 synonym: "perigonadal adipose ribonucleic acid amount" EXACT []
 synonym: "periovarian fat pad ribonucleic acid level" NARROW []
-xref: VT:0011023
 is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-09-26T17:45:17Z
@@ -39632,7 +39516,6 @@ id: CMO:0004029
 name: carotid body ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the carotid body, a small epithelioid structure consisting of a small cluster of chemoreceptive and supporting cells located near the bifurcation of the common carotid artery that serves as a chemoreceptive organ that senses the pH, carbon dioxide, and oxygen concentrations in the blood and plays a crucial role in their homeostatic control." [ISBN-13:9780781733908, UBERON:0001629]
 synonym: "carotid body RNA level" EXACT []
-xref: VT:0011138
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-11-04T12:50:38Z
@@ -39646,7 +39529,6 @@ synonym: "SCG RNA level" EXACT []
 synonym: "superior cervical ganglion RNA level" EXACT []
 synonym: "superior sympathetic cervical ganglion RNA level" EXACT []
 xref: GEO:GSE267794
-xref: VT:0011140
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-11-07T12:23:38Z
@@ -39680,7 +39562,6 @@ id: CMO:0004034
 name: right pulmonary vein ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the right pulmonary vein is formed or composed." [https://www.merriam-webster.com/, UBERON:0009032]
 synonym: "right pulmonary vein RNA level" EXACT []
-xref: VT:0011142
 is_a: CMO:0004033 ! right pulmonary vein molecular composition measurement
 created_by: slaulederkind
 creation_date: 2024-12-02T13:56:14Z
@@ -39701,7 +39582,6 @@ name: gastric cardia lymphatic vessel ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in lymphatic vessels of the gastric cardia, the portion of the stomach closest to the esophagus. ." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
 synonym: "cardia lymphatic vessel ribonucleic acid level" EXACT []
 xref: PMID:38499261
-xref: VT:0011144
 is_a: CMO:0004035 ! lymphatic vessel ribonucleic acid level
 relationship: part_of CMO:0003261 ! stomach ribonucleic acid composition measurement
 created_by: slaulederkind
@@ -39724,7 +39604,6 @@ name: nucleus pulposus ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in nucleus pulposus, the jelly-like substance in the middle of the vertebral disk which is a remnant of the notochord." [https://www.merriam-webster.com/, UBERON:0002242]
 synonym: "nucleus pulposus RNA level" EXACT []
 synonym: "RNA level in nucleus pulposus of intervertebral disk" EXACT []
-xref: VT:0011150
 relationship: part_of CMO:0004037 ! intervertebral disk ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-12-12T15:59:51Z
@@ -39735,7 +39614,6 @@ name: CA1 field of hippocampus ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the CA1 field of the hippocampus is formed or composed." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "CA1 field of hippocampus RNA level" EXACT []
 xref: PMID:32062370
-xref: VT:0011151
 is_a: CMO:0003303 ! hippocampal formation ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-12-16T11:34:07Z
@@ -39777,7 +39655,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "thyro-arytenoid muscle ribonucleic acid level" EXACT []
 synonym: "thyro-arytenoid muscle RNA level" EXACT []
 synonym: "thyroarytenoid muscle RNA level" EXACT []
-xref: VT:0011153
 is_a: CMO:0004042 ! larynx ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-01-30T16:49:47Z
@@ -39791,7 +39668,6 @@ synonym: "central gray RNA level" EXACT []
 synonym: "central gray substance of midbrain RNA level" EXACT []
 synonym: "PAG RNA level" EXACT []
 synonym: "periaqueductal gray RNA level" EXACT []
-xref: VT:0010791
 is_a: CMO:0003929 ! midbrain ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-01-30T17:33:28Z
@@ -39814,7 +39690,6 @@ synonym: "tibial ribonucleic acid level" EXACT []
 synonym: "tibial RNA level" EXACT []
 synonym: "tibia RNA level" EXACT []
 xref: GEO:GSE151971
-xref: VT:0011155
 is_a: CMO:0004045 ! tibia molecular composition measurement
 created_by: slaulederkind
 creation_date: 2025-02-04T16:39:44Z
@@ -39834,7 +39709,6 @@ name: cranium ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the cranium, the upper portion of the skull, excluding the mandible." [https://www.merriam-webster.com, UBERON:0003128]
 synonym: "cranium RNA level" EXACT []
 xref: GEO:GSE151971
-xref: VT:0011157
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0004049 ! skull molecular composition measurement
 created_by: slaulederkind
@@ -40080,7 +39954,6 @@ name: striatum ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the striatum is formed or composed. The striatum is a region of the forebrain that consists of the caudate nucleus, putamen and fundus striati." [http://braininfo.rprc.washington.edu/Default.aspx, UBERON:0002435]
 synonym: "striatum RNA level" EXACT []
 xref: PMID:39369937
-xref: VT:0011159
 is_a: CMO:0003369 ! forebrain ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-03-31T13:30:18Z
@@ -40222,7 +40095,6 @@ synonym: "spermatozoon RNA level" EXACT []
 synonym: "sperm RNA level" EXACT []
 xref: CHEBI:33697
 xref: PMID:27628216
-xref: VT:0011168
 is_a: CMO:0003918 ! isolated cell ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-04-29T17:37:19Z
@@ -40233,7 +40105,6 @@ name: parathyroid gland ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the parathyroid gland, usually found as a pair, embedded in the connective tissue capsule on the posterior surface of the thyroid gland" [UBERON:0001132]
 synonym: "parathyroid gland RNA level" EXACT []
 synonym: "parathyroid RNA level" EXACT []
-xref: VT:0011170
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-05-02T12:24:15Z
@@ -40314,7 +40185,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "mesenteric artery RNA level" EXACT []
 xref: GEO:GSE290103
 xref: PMID:40097492
-xref: VT:0011177
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-09T16:39:19Z
@@ -40347,7 +40217,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "corpus cavernosum penis RNA level" EXACT []
 xref: GEO:GSE285267
 xref: PMID:39877365
-xref: VT:0011179
 is_a: CMO:0003321 ! penis ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-12T13:52:57Z
@@ -40360,7 +40229,6 @@ synonym: "arterial aneurysmic lesion ribonucleic acid level" EXACT []
 synonym: "artery aneurysm ribonucleic acid level" EXACT []
 xref: GEO:GSE161044
 xref: PMID:38326494
-xref: VT:0011163
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-16T12:27:54Z
@@ -40375,7 +40243,6 @@ synonym: "Circle of Willis RNA level" EXACT []
 xref: GEO:GSE161044
 xref: PMID:33203959
 xref: PMID:38326494
-xref: VT:0011183
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-16T14:13:58Z
@@ -40450,7 +40317,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "gastric mucosa RNA level" EXACT []
 synonym: "mucosa of stomach ribonucleic acid level" EXACT []
 synonym: "mucosa of stomach RNA level" EXACT []
-xref: VT:0011181
 is_a: CMO:0003261 ! stomach ribonucleic acid composition measurement
 is_a: CMO:0003355 ! mucosa ribonucleic acid level
 created_by: slaulederkind
@@ -40462,7 +40328,6 @@ name: nucleus accumbens ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the nucleus accumbens, a region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen (caudoputamen in rodent) and continuous with these structures. Together with the neostriatum (caudate nucleus and putamen), the nucleus accumbens forms the striatum." [UBERON:0001882]
 synonym: "nucleus accumbens RNA level" EXACT []
 xref: PMID:40133300
-xref: VT:0011106
 is_a: CMO:0004069 ! striatum ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-27T17:11:11Z
@@ -40488,7 +40353,6 @@ synonym: "lumbar vertebra RNA level" EXACT []
 xref: GEO:GSE297538
 xref: MESH:D008159
 xref: PMID:40445441
-xref: VT:0011187
 is_a: CMO:0004103 ! vertebra ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-07-17T09:13:35Z
@@ -40500,7 +40364,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "CA1 stratum radiatum RNA level" EXACT []
 xref: GEO:GSE143555
 xref: PMID:34107264
-xref: VT:0011188
 is_a: CMO:0004039 ! CA1 field of hippocampus ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-07-17T10:00:31Z
@@ -40512,7 +40375,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "CA1 stratum oriens RNA level" EXACT []
 xref: GEO:GSE143555
 xref: PMID:34107264
-xref: VT:0011189
 is_a: CMO:0004039 ! CA1 field of hippocampus ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-07-17T10:05:17Z
@@ -40573,7 +40435,6 @@ synonym: "detrusor RNA level" EXACT []
 synonym: "muscularis propria of the urinary bladder ribonucleic acid level" EXACT []
 synonym: "urinary bladder detrusor smooth muscle ribonucleic acid level" EXACT []
 xref: PMID:40338665
-xref: VT:0011073
 is_a: CMO:0003257 ! urinary bladder ribonucleic acid level
 is_a: CMO:0003260 ! smooth muscle ribonucleic acid level
 created_by: slaulederkind
@@ -40588,7 +40449,6 @@ synonym: "bladder mucous membrane ribonucleic acid level" EXACT []
 synonym: "mucosa of urinary bladder RNA level" EXACT []
 synonym: "mucous membrane of urinary bladder ribonucleic acid level" EXACT []
 synonym: "urinary bladder mucosa ribonucleic acid level" EXACT []
-xref: VT:0011073
 is_a: CMO:0003257 ! urinary bladder ribonucleic acid level
 is_a: CMO:0003355 ! mucosa ribonucleic acid level
 created_by: slaulederkind
@@ -40603,7 +40463,6 @@ synonym: "motor cortex RNA level" EXACT []
 synonym: "primary motor cortex RNA level" EXACT []
 xref: GEO:GSE280520
 xref: PMID:40707475
-xref: VT:0011232
 is_a: CMO:0003384 ! frontal cortex ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-10-23T14:17:32Z
@@ -40615,7 +40474,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "articular cartilage of joint RNA level" EXACT []
 xref: GEO:GSE301460
 xref: PMID:40727099
-xref: VT:0011234
 is_a: CMO:0003346 ! cartilage ribonucleic acid level
 is_a: CMO:0003994 ! joint molecular composition measurement
 created_by: slaulederkind
@@ -40628,8 +40486,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "external carotid artery RNA level" EXACT []
 synonym: "external carotid ribonucleic acid level" EXACT []
 synonym: "external carotid RNA level" EXACT []
-xref: VT:0011236
-xref: VT:0011237
 is_a: CMO:0004028 ! common carotid artery ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-10-30T10:21:07Z
@@ -40640,7 +40496,6 @@ name: tibialis anterior ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the muscle that originates in the upper two-thirds of the lateral surface of the tibia and inserts into the medial cuneiform and first metatarsal bones of the foot. Its acts to invert the foot. It is situated on the lateral side of the tibia; it is thick and fleshy above, tendinous below. This muscle overlaps the anterior tibial vessels and deep peroneal nerve in the upper part of the leg." [UBERON:0001385]
 synonym: "tibialis anterior RNA level" EXACT []
 xref: GEO:GSE299413
-xref: VT:0011238
 is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
 created_by: caripark
 creation_date: 2025-10-31T07:39:48Z
@@ -40785,7 +40640,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "white adipose tissue RNA level" EXACT []
 synonym: "white fat ribonucleic acid level" EXACT []
 synonym: "white fat RNA level" EXACT []
-xref: VT:0002970
 is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-11-21T14:09:28Z
@@ -40811,7 +40665,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "inner ear RNA level" EXACT []
 synonym: "internal ear ribonucleic acid level" EXACT []
 synonym: "internal ear RNA level" EXACT []
-xref: GEO:GSE292500
 xref: MA:0000237
 xref: PMID:40908485
 xref: UBERON:0001846
@@ -40857,15 +40710,6 @@ xref: PMID:41078024
 is_a: CMO:0003337 ! blood ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2026-01-06T11:26:13Z
-
-[Term]
-id: CMO:0004133
-name: prefrontal cortex ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the prefrontal cortex, the anterior part of the frontal lobes of the brain, lying in front of the motor and premotor areas. This brain region has been implicated in planning complex cognitive behaviors, personality expression, decision making, and moderating correct social behavior. The basic activity of this brain region is considered to be orchestration of thoughts and actions in accordance with internal goals." [UBERON:0000451]
-synonym: "prefrontal cortex RNA level" EXACT []
-is_a: CMO:0003384 ! frontal cortex ribonucleic acid level
-created_by: caripark
-creation_date: 2026-01-13T08:40:55Z
 
 [Typedef]
 id: part_of
