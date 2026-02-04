@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.264
-date: 31:01:2026 20:13
+data-version: 2.263
+date: 24:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -40874,7 +40874,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "soleus muscle RNA level" EXACT []
 synonym: "soleus ribonucleic acid level" EXACT []
 synonym: "soleus RNA level" EXACT []
-xref: GEO:GSE308065
 xref: PMID:41502415
 is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
 created_by: caripark

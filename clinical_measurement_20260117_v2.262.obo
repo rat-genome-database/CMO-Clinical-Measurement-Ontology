@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.264
-date: 31:01:2026 20:13
+data-version: 2.262
+date: 17:01:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -40866,31 +40866,6 @@ synonym: "prefrontal cortex RNA level" EXACT []
 is_a: CMO:0003384 ! frontal cortex ribonucleic acid level
 created_by: caripark
 creation_date: 2026-01-13T08:40:55Z
-
-[Term]
-id: CMO:0004134
-name: soleus muscle ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a deep muscle of the triceps surae group, in the superficial posterior compartment of the leg." [UBERON:0001389]
-synonym: "soleus muscle RNA level" EXACT []
-synonym: "soleus ribonucleic acid level" EXACT []
-synonym: "soleus RNA level" EXACT []
-xref: GEO:GSE308065
-xref: PMID:41502415
-is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
-created_by: caripark
-creation_date: 2026-01-23T12:53:14Z
-
-[Term]
-id: CMO:0004135
-name: psoas muscle ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in a powerful flexor of the thigh at the hip joint (psoas major) and a weak flexor of the trunk and lumbar spinal column (psoas minor)." [UBERON:0008450]
-synonym: "psoas muscle RNA level" EXACT []
-synonym: "psoas ribonucleic acid level" EXACT []
-synonym: "psoas RNA level" EXACT []
-xref: PMID:41502415
-is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
-created_by: caripark
-creation_date: 2026-01-23T13:09:27Z
 
 [Typedef]
 id: part_of
