@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.266
-date: 21:02:2026 20:13
+data-version: 2.265
+date: 14:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -40892,15 +40892,6 @@ xref: PMID:41502415
 is_a: CMO:0003362 ! skeletal muscle ribonucleic acid level
 created_by: caripark
 creation_date: 2026-01-23T13:09:27Z
-
-[Term]
-id: CMO:0004136
-name: retroperitoneal fat pad ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the encapsulated adipose tissue located on the dorsal side of the peritoneum." [UBERON:0010411]
-synonym: "retroperitoneal fat pad RNA level" EXACT []
-is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
-created_by: caripark
-creation_date: 2026-02-20T09:20:34Z
 
 [Typedef]
 id: part_of
