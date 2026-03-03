@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.267
-date: 28:02:2026 20:13
+data-version: 2.266
+date: 21:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -251,11 +251,12 @@ relationship: part_of CMO:0000036 ! complete blood count and differential
 id: CMO:0000028
 name: blood protein measurement
 def: "Any measurement involving the amount, composition or type of protein, the complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, in blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "total blood protein measurement" BROAD []
+synonym: "lipid or lipoprotein measurement" BROAD []
+synonym: "total blood protein measurement" EXACT []
 xref: EFO:0004536
 xref: EFO:0005105
 xref: EFO:0007937
-xref: VT:0005416
+xref: VT:0005567
 is_a: CMO:0000023 ! blood chemistry measurement
 
 [Term]
@@ -523,7 +524,7 @@ id: CMO:0000054
 name: plasma total protein level
 def: "Measurement of the total amount of all proteins, the complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, found in a specific volume of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: VT:0005567
-is_a: CMO:0004137 ! blood total protein level
+is_a: CMO:0000028 ! blood protein measurement
 
 [Term]
 id: CMO:0000055
@@ -2022,7 +2023,7 @@ creation_date: 2010-06-10T02:34:30Z
 [Term]
 id: CMO:0000219
 name: lumen diameter at maximum constriction expressed as percent of baseline
-xref: VT:0001614
+xref: VT:0010930
 is_a: CMO:0000218 ! blood vessel constriction measurement
 created_by: mshimoyama
 creation_date: 2010-06-10T02:35:20Z
@@ -3948,7 +3949,7 @@ creation_date: 2010-12-29T09:44:29Z
 id: CMO:0000427
 name: food intake rate
 def: "Amount of food consumed over a specified period of time." [RGD:MS]
-xref: VT:0011164
+xref: VT:0001431
 is_a: CMO:0000772 ! food intake measurement
 created_by: mshimoyama
 creation_date: 2010-12-29T09:45:12Z
@@ -6100,7 +6101,7 @@ id: CMO:0000661
 name: serum total protein level
 def: "Measurement of the total amount of all proteins, the complex organic compounds containing carbon, hydrogen, oxygen, nitrogen, and sulfur consisting of alpha-amino acids joined by peptide linkages, found in a specific volume of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: VT:0005567
-is_a: CMO:0004137 ! blood total protein level
+is_a: CMO:0000028 ! blood protein measurement
 created_by: mshimoyama
 creation_date: 2012-01-09T09:43:32Z
 
@@ -8924,7 +8925,6 @@ creation_date: 2012-07-26T12:27:42Z
 [Term]
 id: CMO:0000968
 name: artery diameter
-xref: VT:0002191
 xref: VT:0010641
 is_a: CMO:0000179 ! blood vessel diameter
 is_a: CMO:0000974 ! artery measurement
@@ -9126,7 +9126,7 @@ synonym: "heart intraventricular wall thickness" RELATED []
 synonym: "heart ventricle septum thickness" RELATED []
 synonym: "heart ventricular septal wall thickness" RELATED []
 synonym: "SWT" RELATED []
-xref: VT:0007086
+xref: VT:0007075
 is_a: CMO:0000240 ! heart right ventricle posterior wall thickness
 is_a: CMO:0000986 ! heart left ventricle anterior wall thickness
 created_by: JSmith
@@ -13169,7 +13169,6 @@ def: "A measurement of the two-dimensional extent of the enclosed cavity or chan
 synonym: "LS" EXACT []
 synonym: "lumen size" EXACT []
 xref: PMID:10364562
-xref: VT:0002191
 xref: VT:0010643
 is_a: CMO:0001408 ! artery lumen measurement
 created_by: JSmith
@@ -13200,9 +13199,7 @@ def: "A direct measurement of two dimensional extent of the tunica media, the mi
 synonym: "arterial tunica media area" EXACT []
 synonym: "media area (MA) of artery" RELATED []
 xref: VT:0000530
-xref: VT:0002191
 xref: VT:0010643
-xref: VT:0011164
 is_a: CMO:0001411 ! artery tunica media measurement
 created_by: JSmith
 creation_date: 2013-01-15T11:21:04Z
@@ -13214,7 +13211,6 @@ def: "A calculated measurement of the average width of the tunica media, the mid
 synonym: "arterial tunica media width" EXACT []
 synonym: "artery tunica media width" EXACT []
 synonym: "media width (MW) of artery" RELATED []
-xref: VT:0002191
 xref: VT:0010641
 xref: VT:0010643
 is_a: CMO:0000967 ! calculated artery wall thickness measurement
@@ -13228,7 +13224,6 @@ name: artery neointimal hyperplastic lesion area
 def: "A measurement of the extent of a two-dimensional surface of or plane through a single hyperplastic lesion of the tunica intima, that is, the inner coat of the arterial wall, or a measurement of the total area occupied by hyperplastic lesions of the tunica intima in a cross-section of an artery, one of the large blood vessels carrying blood in a direction away from the heart to the tissues. A hyperplastic lesion is a localized pathological increase in the number of cells of an organ or tissue resulting from an increased rate of cellular division due to injury or disease; especially one that is circumscribed and well defined." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, http://en.wikipedia.org/wiki/Intimal_hyperplasia "Wikipedia", ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "artery intimal hyperplastic lesion area" EXACT []
 synonym: "neointimal hyperplasia area of artery" EXACT []
-xref: VT:0010639
 xref: VT:0010644
 is_a: CMO:0000975 ! artery lesion measurement
 created_by: JSmith
@@ -13249,7 +13244,6 @@ id: CMO:0001416
 name: artery neointimal hyperplastic lesion area to total wall area ratio
 def: "A calculated measurement in which the area of the arterial tunica intima occupied by one or more hyperplastic lesions is divided by the total cross-sectional area of the artery wall and presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "ratio of neointimal hyperplasia area to total wall area of artery" EXACT []
-xref: VT:0010639
 xref: VT:0010644
 is_a: CMO:0001415 ! calculated artery neointimal hyperplastic lesion area
 created_by: JSmith
@@ -13260,7 +13254,6 @@ id: CMO:0001417
 name: lesioned artery residual lumen area
 def: "The area of the arterial lumen remaining when the luminal space is restricted by a pathological process, e.g. hyperplasia." [PMID:16434542]
 synonym: "residual lumen area of diseased artery" EXACT []
-xref: VT:0010639
 xref: VT:0010644
 is_a: CMO:0000976 ! calculated artery lesion measurement
 created_by: JSmith
@@ -13886,7 +13879,6 @@ synonym: "aortic peak velocity (APV)" EXACT []
 synonym: "maximum aortic velocity" EXACT []
 synonym: "peak aortic blood flow velocity" EXACT []
 synonym: "peak of aortic outflow velocity (PAV)" EXACT []
-xref: EFO:0022982
 xref: VT:0010490
 is_a: CMO:0001478 ! aortic blood flow velocity
 created_by: JSmith
@@ -17838,8 +17830,8 @@ creation_date: 2013-11-07T16:05:25Z
 [Term]
 id: CMO:0001865
 name: immune cell count
-def: "The number of immune cells in a specified sample. An immune cell is any cell involved in the immune system, a complex set of interconnected and interdependent cellular and molecular components having the primary functions of distinguishing self from not self and of defense against foreign organisms or substances. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-xref: VT:0010191
+def: "The number of immune cells in a specified sample.  An immune cell is any cell involved in the immune system, a complex set of interconnected and interdependent cellular and molecular components having the primary functions of distinguishing self from not self and of defense against foreign organisms or substances. A cell is a membrane-enclosed protoplasmic mass constituting the smallest structural unit of an organism that is capable of independent functioning." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+xref: VT:0000217
 is_a: CMO:0001864 ! immune cell measurement
 created_by: JSmith
 creation_date: 2013-11-07T16:12:26Z
@@ -19501,7 +19493,6 @@ creation_date: 2013-12-16T17:50:20Z
 id: CMO:0002031
 name: serum anti-toxoplasma antibody titer
 def: "The amount of anti-toxoplasma antibodies in a specified sample of serum (the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed) expressed as the last dilution of serum at which a positive result could be obtained. An anti-toxoplasma antibody is an immunoglobulin molecule possessing a specific amino acid sequence that binds to a specific antigen found on or in the parasite toxoplasma, a genus of sporozoa the only species of which is Toxoplasma gondii that are intracellular parasites of many organs and tissues of birds and mammals, including humans. A parasite is an organism that grows, feeds, and is sheltered on or in a different organism while contributing nothing to the survival of its host and possibly causing damage to that host. An antigen is a substance introduced into an organism which initiates an immune response, including the production of the very antibodies which bind to it in an effort to destroy it." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
-xref: VT:0002460
 xref: VT:0010779
 is_a: CMO:0001830 ! serum anti-toxoplasma antibody level
 is_a: CMO:0002619 ! serum antibody titer
@@ -20972,9 +20963,9 @@ name: food calorie intake rate
 def: "The number of calories (usually large calories, kilogram calories, dietary calories, or nutritional calories) consumed as food by an organism per period of time. A large calorie is the amount of energy needed to raise the temperature of one kilogram of water by one degree Celsius, a measure of the energy which an organism can derive by metabolizing the food." [http://en.wikipedia.org/wiki/Calorie "Wikipedia"]
 synonym: "calorie intake rate from food" EXACT []
 synonym: "food energy intake rate" RELATED []
-xref: VT:0011164
+xref: VT:0001431
 is_a: CMO:0000427 ! food intake rate
-is_a: CMO:0002206 ! food calorie intake measurement
+relationship: part_of CMO:0002178 ! total food calorie intake rate
 created_by: JSmith
 creation_date: 2014-03-05T15:51:17Z
 
@@ -20983,7 +20974,7 @@ id: CMO:0002178
 name: total food calorie intake rate
 def: "The entire number of calories (usually large calories, kilogram calories, dietary calories, or nutritional calories) consumed as food by an organism per period of time, i.e., the calorie intake rate from all food sources." [http://en.wikipedia.org/wiki/Calorie "Wikipedia"]
 synonym: "total food energy intake rate" RELATED []
-xref: VT:0011164
+xref: VT:0001431
 is_a: CMO:0002208 ! total food calorie intake level
 created_by: JSmith
 creation_date: 2014-03-05T15:52:38Z
@@ -21264,7 +21255,7 @@ creation_date: 2014-03-07T13:45:37Z
 [Term]
 id: CMO:0002206
 name: food calorie intake measurement
-def: "This is any measurement of the calories (usually kilocalories [kcal]) consumed as food by an organism. A kilocalorie (kcal) is the amount of energy needed to raise the temperature of one kilogram of water by one degree Celsius, a measure of the energy which an organism can derive by metabolizing the food." [http://en.wikipedia.org/wiki/Calorie "Wikipedia"]
+def: "Any measurement of the calories (usually large calories, kilogram calories, dietary calories, or nutritional calories) consumed as food by an organism. A large calorie is the amount of energy needed to raise the temperature of one kilogram of water by one degree Celsius, a measure of the energy which an organism can derive by metabolizing the food." [http://en.wikipedia.org/wiki/Calorie "Wikipedia"]
 synonym: "food energy intake measurement" RELATED []
 is_a: CMO:0000772 ! food intake measurement
 is_a: CMO:0002248 ! calorie intake measurement
@@ -21284,11 +21275,11 @@ creation_date: 2014-03-10T13:06:25Z
 [Term]
 id: CMO:0002208
 name: total food calorie intake level
-def: "Measurement of the entire number of calories (usually kilocalories [kcal]) consumed as food by an organism. A kilocalorie is the amount of energy needed to raise the temperature of one kilogram of water by one degree Celsius, a measure of the energy which an organism can derive by metabolizing the food." [http://en.wikipedia.org/wiki/Calorie "Wikipedia"]
+def: "Measurement of the entire number of calories (usually large calories, kilogram calories, dietary calories, or nutritional calories) consumed as food by an organism. A large calorie is the amount of energy needed to raise the temperature of one kilogram of water by one degree Celsius, a measure of the energy which an organism can derive by metabolizing the food." [http://en.wikipedia.org/wiki/Calorie "Wikipedia"]
 synonym: "total food-derived calorie intake level" RELATED []
 synonym: "total food-derived energy intake level" RELATED []
 synonym: "total food energy intake level" RELATED []
-is_a: CMO:0002177 ! food calorie intake rate
+is_a: CMO:0002206 ! food calorie intake measurement
 created_by: JSmith
 creation_date: 2014-03-10T13:08:35Z
 
@@ -21299,7 +21290,7 @@ def: "A calculated measurement in which the number of calories (usually large ca
 synonym: "food calorie intake level to body weight gain ratio" RELATED []
 synonym: "food calorie intake level to gain in body weight ratio" RELATED []
 synonym: "food energy intake level to change in body weight ratio" RELATED []
-xref: VT:0011164
+xref: VT:0001431
 is_a: CMO:0002207 ! calculated food calorie intake measurement
 created_by: JSmith
 creation_date: 2014-03-10T13:09:56Z
@@ -21325,9 +21316,9 @@ creation_date: 2014-03-10T13:19:22Z
 id: CMO:0002212
 name: food intake weight to change in body weight ratio
 def: "A calculated measurement in which the weight of food consumed by an organism during a specified period of time or under specified conditions, is divided by corresponding difference in body weight during that same period of time or under the same conditions, and the result presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-synonym: "food intake weight to body weight gain ratio" NARROW []
-synonym: "food intake weight to gain in body weight ratio" NARROW []
-xref: VT:0011164
+synonym: "food intake weight to body weight gain ratio" RELATED []
+synonym: "food intake weight to gain in body weight ratio" RELATED []
+xref: VT:0001431
 is_a: CMO:0002211 ! calculated food intake weight measurement
 created_by: JSmith
 creation_date: 2014-03-10T13:21:16Z
@@ -21345,7 +21336,7 @@ creation_date: 2014-03-10T13:26:37Z
 id: CMO:0002214
 name: food intake weight to body weight ratio
 def: "A calculated measurement in which the weight of food consumed by an organism during a specified period of time or under specified conditions, is divided by the total weight of the body of the organism, and the result presented as a ratio, fraction, quotient or percentage." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
-xref: VT:0011164
+xref: VT:0001431
 is_a: CMO:0002211 ! calculated food intake weight measurement
 created_by: JSmith
 creation_date: 2014-03-10T13:36:34Z
@@ -23112,7 +23103,7 @@ synonym: "neonatal death of offspring shortly after birth as percentage of total
 synonym: "number of neonatal deaths to total litter size ratio" RELATED []
 synonym: "percent neonatal deaths" RELATED []
 synonym: "percent post-birth perinatal deaths" RELATED []
-xref: VT:0005372
+xref: VT:0001661
 is_a: CMO:0002380 ! calculated litter size measurement
 is_a: CMO:0003818 ! calculated offspring mortality measurement
 created_by: JSmith
@@ -24104,7 +24095,7 @@ def: "A measurement which has been normalized, adjusted or derived by a mathemat
 synonym: "calculated hepatic glutathione level" RELATED []
 synonym: "calculated liver GSH level" RELATED []
 xref: CHEBI:16856
-xref: VT:0010619
+xref: VT:0010944
 is_a: CMO:0002480 ! liver glutathione level
 created_by: JSmith
 creation_date: 2014-06-12T13:59:32Z
@@ -27782,7 +27773,7 @@ id: CMO:0002853
 name: aorta wall phosphorylated eNOS level to total eNOS level ratio
 def: "A calculated measurement in which aorta wall phosphorylated eNOS protein level is divided by aorta wall total eNOS protein level and presented as a ratio, fraction, quotient or percentage. Phosphorylation of eNOS is a mechanism that catylzes a structural change of the enzyme to an activated form." []
 synonym: "aorta wall phosphylated eNOS protein level to total eNOS protein level ratio" EXACT []
-xref: VT:0010946
+xref: VT:0015090
 is_a: CMO:0002001 ! calculated aorta wall molecular composition measurement
 created_by: sjwang
 creation_date: 2018-11-19T15:53:29Z
@@ -28552,7 +28543,7 @@ creation_date: 2018-12-07T12:02:20Z
 id: CMO:0002934
 name: heart insulin-like growth factor 1 mRNA level
 synonym: "heart Igf1 mRNA level" EXACT []
-xref: VT:0010792
+xref: VT:0010951
 is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: sjwang
 creation_date: 2018-12-07T12:04:28Z
@@ -28610,7 +28601,7 @@ creation_date: 2018-12-07T12:35:54Z
 id: CMO:0002940
 name: heart insulin-like growth factor 1 receptor mRNA level
 synonym: "heart Igf1r mRNA level" EXACT []
-xref: VT:0010792
+xref: VT:0010561
 is_a: CMO:0002933 ! heart ribonucleic acid level
 created_by: sjwang
 creation_date: 2018-12-07T12:44:11Z
@@ -29306,8 +29297,6 @@ id: CMO:0003013
 name: artery tunica media to artery total diameter ratio
 def: "A calculated measurement of the average width of the tunica media (the middle coat of the arterial wall) divided by the artery total diameter (measured as the length of a line which crosses a transverse view of an artery, passing through its center and ending on either side at the outer surface of the blood vessel wall)." []
 xref: VT:0000530
-xref: VT:0002191
-xref: VT:0011164
 is_a: CMO:0000967 ! calculated artery wall thickness measurement
 created_by: sjwang
 creation_date: 2019-01-22T15:47:09Z
@@ -29317,8 +29306,6 @@ id: CMO:0003014
 name: artery lumen to artery total diameter ratio
 def: "A calculated measurement of the average width of the artery lumen (measured as the length of a line which crosses a transverse view of an artery, passing through its center and ending on either side at the inner surface of the blood vessel wall) divided by the artery total diameter (measured as the length of a line which crosses a transverse view of an artery, passing through its center and ending on either side at the outer surface of the blood vessel wall)." []
 xref: VT:0000530
-xref: VT:0002191
-xref: VT:0011164
 is_a: CMO:0000967 ! calculated artery wall thickness measurement
 created_by: sjwang
 creation_date: 2019-01-22T15:50:45Z
@@ -29619,7 +29606,7 @@ creation_date: 2019-02-15T14:51:22Z
 id: CMO:0003046
 name: serum glutathione S-transferase-alpha level
 def: "Measurement of the amount of glutathione S-transferase-alpha (GST-a)in a specific sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. GST-a is one of a family of enzymes that play an important role in detoxification by catalyzing the conjugation of many hydrophobic and electrophilic compounds with reduced glutathione." []
-xref: VT:0001570
+xref: VT:0005416
 is_a: CMO:0003045 ! blood glutathione S-transferase-alpha level
 created_by: sjwang
 creation_date: 2019-02-15T14:54:10Z
@@ -29634,9 +29621,9 @@ creation_date: 2019-02-15T15:08:23Z
 
 [Term]
 id: CMO:0003048
-name: serum glutathione S-transferase-mu level
-def: "Measurement of the amount of glutathione S-transferase-mu (GST-mu)in a specific sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. GST-mu functions in the detoxification of electrophilic compounds, including carcinogens, therapeutic drugs, environmental toxins and products of oxidative stress, by conjugation with glutathione." []
-xref: VT:0001570
+name: serum glutathione S-transferase-u level
+def: "Measurement of the amount of glutathione S-transferase-mu (GST-u)in a specific sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. GST-u functions in the detoxification of electrophilic compounds, including carcinogens, therapeutic drugs, environmental toxins and products of oxidative stress, by conjugation with glutathione." []
+xref: VT:0005416
 is_a: CMO:0003047 ! blood glutathione S-transferase-mu level
 created_by: sjwang
 creation_date: 2019-02-15T15:15:33Z
@@ -31374,7 +31361,7 @@ creation_date: 2019-08-01T16:03:32Z
 id: CMO:0003235
 name: hypothalamus serotonin level
 def: "The measurement of serotonin in the hypothalamus." []
-xref: VT:0010863
+xref: VT:0010876
 is_a: CMO:0003092 ! forebrain serotonin level
 created_by: sjwang
 creation_date: 2019-08-01T16:12:36Z
@@ -32391,7 +32378,8 @@ name: cartilage ribonucleic acid level
 synonym: "cartilage ribonucleic acid composition measurement" BROAD []
 synonym: "cartilage RNA level" EXACT []
 synonym: "cartilage tissue ribonucleic acid composition measurement" BROAD []
-xref: VT:0011234
+xref: VT:0011052
+xref: VT:0011064
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-15T10:42:18Z
@@ -35650,15 +35638,15 @@ name: retinal inner nuclear layer thickness
 def: "The measurement of the thickness of the retinal layer between the inner plexiform layer and the outer plexiform layer that contains closely packed cell bodies of bipolar cells, horizontal cells, and amacrine cells." [https://en.wikipedia.org/wiki/Inner_nuclear_layer, UBERON:0001791]
 synonym: "INL thickness" EXACT []
 xref: PMID:21993171
-xref: VT:0003733
+xref: VT:0001325
 is_a: CMO:0003084 ! retinal inner layer thickness
 created_by: slaulede
 creation_date: 2021-03-04T17:52:13Z
 
 [Term]
 id: CMO:0003669
-name: photoreceptor inner segment layer thickness
-def: "This is a measurement of the inner segment of the retinal photoreceptor layer. The inner segment of the photoreceptor connects the outer segment and synapse and is filled with organelles such as the ER, Golgi, and mitochondria, where much of metabolism and regulation of membrane potential takes place." [https://emedicine.medscape.com/article/2019624-overview#a3, PMID:24210432]
+name: photoreceptor inner segment thickness
+def: "This is a measurement of the inner segment of a photoreceptor. The inner segment connects the outer segment and synapse and is filled with organelles such as the ER, Golgi, and mitochondria, where much of metabolism and regulation of membrane potential takes place." [https://emedicine.medscape.com/article/2019624-overview#a3, PMID:24210432]
 synonym: "PR IS" EXACT []
 xref: PMID:21993171
 xref: PMID:24210432
@@ -37120,7 +37108,7 @@ name: ratio of deaths related to chronic hypertension to total study population 
 def: "A measure of the total number of deaths related to chronic hypertension occurring during a specified period of time within a study population divided by the total number of individuals in the study population and presented as a ratio, fraction, quotient or percentage." [ISBN-13:9780781733908, PMID:11907153]
 synonym: "incidence of deaths related to chronic hypertension" EXACT []
 xref: PMID:11907153
-xref: VT:0005372
+xref: VT:0001661
 is_a: CMO:0001023 ! ratio of deaths to total study population during a period of time
 created_by: slaulede
 creation_date: 2021-07-22T17:11:54Z
@@ -37141,7 +37129,7 @@ name: ratio of deaths related to experimental autoimmune encephalomyelitis to to
 def: "A measure of the total number of deaths related to experimental autoimmune encephalomyelitis occurring during a specified period of time within a study population divided by the total number of individuals in the study population and presented as a ratio, fraction, quotient or percentage." [ISBN-13:9780781733908, PMID:15634914]
 synonym: "incidence of deaths related to experimental autoimmune encephalomyelitis" EXACT []
 xref: PMID:15634914
-xref: VT:0005372
+xref: VT:0001661
 is_a: CMO:0001023 ! ratio of deaths to total study population during a period of time
 created_by: slaulede
 creation_date: 2021-07-23T16:38:37Z
@@ -37153,7 +37141,7 @@ def: "This is a measure of the total number of metabolic syndrome subjects withi
 synonym: "incidence of metabolic syndrome survivors" EXACT []
 synonym: "percentage of metabolic syndrome survivors in a study population during a period of time" NARROW []
 xref: PMID:23154293
-xref: VT:0005372
+xref: VT:0001661
 is_a: CMO:0002737 ! ratio of survivors to total study population during a period of time
 created_by: slaulede
 creation_date: 2021-07-23T17:23:59Z
@@ -37222,7 +37210,7 @@ synonym: "ratio of deaths related to 7,12-Dimethylbenz(a)anthracene toxicity to 
 xref: CHEBI:254496
 xref: MESH:D015127
 xref: PMID:20737482
-xref: VT:0005372
+xref: VT:0001661
 is_a: CMO:0001023 ! ratio of deaths to total study population during a period of time
 created_by: slaulede
 creation_date: 2021-07-26T18:13:14Z
@@ -37233,7 +37221,7 @@ name: ratio of deaths related to left ventricular hypertrophy to total study pop
 def: "A measure of the total number of deaths related to left ventricular hypertrophy occurring during a specified period of time within a study population divided by the total number of individuals in the study population and presented as a ratio, fraction, quotient or percentage." [ISBN-13:9780781733908, PMID:17551266]
 synonym: "incidence of deaths related to left ventricular hypertrophy" EXACT []
 xref: PMID:17551266
-xref: VT:0005372
+xref: VT:0001661
 is_a: CMO:0001023 ! ratio of deaths to total study population during a period of time
 created_by: slaulede
 creation_date: 2021-07-27T11:35:11Z
@@ -40372,7 +40360,7 @@ synonym: "arterial aneurysmic lesion ribonucleic acid level" EXACT []
 synonym: "artery aneurysm ribonucleic acid level" EXACT []
 xref: GEO:GSE161044
 xref: PMID:38326494
-xref: VT:0010639
+xref: VT:0011163
 is_a: CMO:0003316 ! artery ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-06-16T12:27:54Z
@@ -40797,7 +40785,7 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "white adipose tissue RNA level" EXACT []
 synonym: "white fat ribonucleic acid level" EXACT []
 synonym: "white fat RNA level" EXACT []
-xref: VT:0011244
+xref: VT:0002970
 is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-11-21T14:09:28Z
@@ -40910,22 +40898,9 @@ id: CMO:0004136
 name: retroperitoneal fat pad ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the encapsulated adipose tissue located on the dorsal side of the peritoneum." [UBERON:0010411]
 synonym: "retroperitoneal fat pad RNA level" EXACT []
-xref: VT:0011280
 is_a: CMO:0003276 ! adipose tissue ribonucleic acid level
 created_by: caripark
 creation_date: 2026-02-20T09:20:34Z
-
-[Term]
-id: CMO:0004137
-name: blood total protein level
-def: "This is a measurement of the total amount of all proteins found in a specific volume of blood." [https://www.merriam-webster.com/, ISBN-13:9780781733908]
-synonym: "total blood protein" EXACT []
-synonym: "total blood protein level" EXACT []
-synonym: "total protein" BROAD []
-xref: VT:0005567
-is_a: CMO:0000028 ! blood protein measurement
-created_by: slaulederkind
-creation_date: 2026-02-26T15:23:31Z
 
 [Typedef]
 id: part_of
