@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.269
-date: 14:03:2026 20:13
+data-version: 2.267
+date: 28:02:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -11480,6 +11480,9 @@ xref: EFO:0007785
 xref: EFO:0007933
 xref: EFO:0009270
 xref: VT:0005007
+xref: VT:0010011
+xref: VT:0010511
+xref: VT:1000278
 is_a: CMO:0001552 ! bone mineral morphological measurement
 created_by: JSmith
 creation_date: 2012-12-18T17:04:40Z
@@ -16675,7 +16678,6 @@ creation_date: 2013-08-01T12:14:06Z
 id: CMO:0001751
 name: number of periods of grooming in an experimental apparatus
 def: "A value or quantity determined by count of distinct, separable periods of time during which an animal in a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose is cleaning itself or another animal." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
-synonym: "number of bouts of grooming in an experimental apparatus" EXACT []
 synonym: "number of grooming acts in an experimental apparatus" EXACT []
 synonym: "number of instances of grooming in an experimental apparatus" EXACT []
 is_a: CMO:0001748 ! grooming measurement
@@ -29543,13 +29545,8 @@ creation_date: 2019-02-15T10:52:45Z
 
 [Term]
 id: CMO:0003038
-name: urine HAVCR1 level
-def: "This is a measurement of the amount of hepatitis A virus cellular receptor 1 (HAVCR1) in a specified volume of urine. HAVCR1 is a receptor for both hepatitis A virus (HHAV) and T-cell immunoglobulin and mucin domain containing 4 (TIMD4)." [RGD:1352552]
-synonym: "urine hepatitis A virus cellular receptor 1 level" EXACT []
-synonym: "urine kidney injury molecule 1 level" EXACT []
-synonym: "urine KIM-1 level" EXACT []
-synonym: "urine T-cell immunoglobulin mucin family member 1 level" EXACT []
-synonym: "urine TIM-1 level" EXACT []
+name: urine KIM-1/TIM-1/HAVCR level
+def: "The amount of hepatitis A virus cellular receptor 1 (HAVCR1)in a specific volume of urine. HAVCR1is also called kidney injury molecule 1(KIM1)and T-cell immunoglobulin mucin family member 1 (TIM-1)." [RGD:1352552]
 xref: VT:0005160
 is_a: CMO:0000591 ! urine protein level
 created_by: sjwang
@@ -29746,28 +29743,18 @@ creation_date: 2019-02-20T13:32:26Z
 
 [Term]
 id: CMO:0003059
-name: blood HAVCR1 level
-def: "This is a measurement of the amount of hepatitis A virus cellular receptor 1 (HAVCR1) in a specified volume of blood. HAVCR1 is a receptor for both hepatitis A virus (HHAV) and T-cell immunoglobulin and mucin domain containing 4 (TIMD4)." [RGD:1352552]
-synonym: "blood hepatitis A virus cellular receptor 1 level" EXACT []
-synonym: "blood kidney injury molecule 1 level" EXACT []
-synonym: "blood KIM-1 level" EXACT []
-synonym: "blood T-cell immunoglobulin mucin family member 1 level" EXACT []
-synonym: "blood TIM-1 level" EXACT []
+name: blood KIM-1/TIM-1/HAVCR1
+def: "The amount of hepatitis A virus cellular receptor 1 (HAVCR1)in a specified volume of blood. HAVCR1is also called kidney injury molecule 1(KIM1)and T-cell immunoglobulin mucin family member 1 (TIM-1)." [RGD:1352552]
 is_a: CMO:0000028 ! blood protein measurement
 created_by: sjwang
 creation_date: 2019-02-20T13:36:18Z
 
 [Term]
 id: CMO:0003060
-name: serum HAVCR1 level
-def: "This is a measurement of the amount of hepatitis A virus cellular receptor 1 (HAVCR1) in a specified volume of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. HAVCR1 is a receptor for both hepatitis A virus (HHAV) and T-cell immunoglobulin and mucin domain containing 4 (TIMD4)." []
-synonym: "serum hepatitis A virus cellular receptor 1 level" EXACT []
-synonym: "serum kidney injury molecule 1 level" EXACT []
-synonym: "serum KIM-1 level" EXACT []
-synonym: "serum T-cell immunoglobulin mucin family member 1 level" EXACT []
-synonym: "serum TIM-1 level" EXACT []
+name: serum KIM-1/TIM-1/HAVCR1
+def: "The amount of hepatitis A virus cellular receptor 1 (HAVCR1)in a specified volume of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed. HAVCR1is also called kidney injury molecule 1(KIM1)and T-cell immunoglobulin mucin family member 1 (TIM-1)." []
 xref: VT:0005416
-is_a: CMO:0003059 ! blood HAVCR1 level
+is_a: CMO:0003059 ! blood KIM-1/TIM-1/HAVCR1
 created_by: sjwang
 creation_date: 2019-02-20T13:40:06Z
 
@@ -32483,7 +32470,7 @@ id: CMO:0003356
 name: connective tissue ribonucleic acid level
 synonym: "connective tissue ribonucleic acid composition measurement" BROAD []
 synonym: "connective tissue RNA level" EXACT []
-xref: VT:0011284
+xref: VT:0011068
 is_a: CMO:0002793 ! tissue ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:04:10Z
@@ -40155,8 +40142,6 @@ synonym: "number of bouts of grooming in an open field apparatus" EXACT []
 synonym: "number of instances of grooming in an open field apparatus" EXACT []
 synonym: "number of periods of grooming in an OF apparatus" EXACT []
 xref: PMID:28341233
-xref: VT:0001440
-xref: VT:0010451
 is_a: CMO:0001751 ! number of periods of grooming in an experimental apparatus
 created_by: slaulederkind
 creation_date: 2025-03-31T17:13:37Z

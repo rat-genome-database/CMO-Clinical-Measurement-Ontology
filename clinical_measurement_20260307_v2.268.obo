@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.269
-date: 14:03:2026 20:13
+data-version: 2.268
+date: 07:03:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -16675,7 +16675,6 @@ creation_date: 2013-08-01T12:14:06Z
 id: CMO:0001751
 name: number of periods of grooming in an experimental apparatus
 def: "A value or quantity determined by count of distinct, separable periods of time during which an animal in a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose is cleaning itself or another animal." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
-synonym: "number of bouts of grooming in an experimental apparatus" EXACT []
 synonym: "number of grooming acts in an experimental apparatus" EXACT []
 synonym: "number of instances of grooming in an experimental apparatus" EXACT []
 is_a: CMO:0001748 ! grooming measurement
@@ -40155,8 +40154,6 @@ synonym: "number of bouts of grooming in an open field apparatus" EXACT []
 synonym: "number of instances of grooming in an open field apparatus" EXACT []
 synonym: "number of periods of grooming in an OF apparatus" EXACT []
 xref: PMID:28341233
-xref: VT:0001440
-xref: VT:0010451
 is_a: CMO:0001751 ! number of periods of grooming in an experimental apparatus
 created_by: slaulederkind
 creation_date: 2025-03-31T17:13:37Z
