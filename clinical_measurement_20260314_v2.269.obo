@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.270
-date: 04:04:2026 20:13
+data-version: 2.269
+date: 14:03:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -906,9 +906,9 @@ is_a: CMO:0000098 ! lung dry weight
 
 [Term]
 id: CMO:0000105
-name: body mass index
+name: body mass index (BMI)
 def: "A measurement relating body weight to height in an organism; typically calculated as the weight of an individual divided by the height of that individual squared. For quadrupeds, the square of body height is often replaced by the square of body length." [http://www.medicinenet.com "MedicineNet"]
-synonym: "BMI" EXACT []
+synonym: "BMI" RELATED []
 synonym: "body mass index" EXACT []
 synonym: "height-adjusted body mass index" NARROW []
 synonym: "longitudinal BMI measurement" NARROW []
@@ -16665,9 +16665,8 @@ creation_date: 2013-08-01T11:06:28Z
 
 [Term]
 id: CMO:0001750
-name: total accumulated grooming time in a discrete space in an experimental apparatus
+name: duration of grooming in a discrete space in an experimental apparatus
 def: "The total amount of time that the animal spends in a distinct and specified area of an experimental apparatus cleaning itself or cleaning another animal. An experimental apparatus is a piece of technical equipment or machinery, an appliance, or a device designed for a particular purpose." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed, Macmillan:The_Macmillan_Online_Dictionary_of_American_English]
-synonym: "duration of grooming in a discrete space in an experimental apparatus" EXACT []
 is_a: CMO:0001749 ! total accumulated grooming time in an experimental apparatus
 created_by: JSmith
 creation_date: 2013-08-01T12:14:06Z
@@ -27072,7 +27071,7 @@ synonym: "BMI using body length, nose to tail" RELATED []
 synonym: "BMI using nose to tail body length" RELATED []
 synonym: "nose to tail tip BMI" RELATED []
 is_a: CMO:0000078 ! body length, nose to tail
-is_a: CMO:0000105 ! body mass index
+is_a: CMO:0000105 ! body mass index (BMI)
 created_by: jesmith
 creation_date: 2017-08-25T16:59:00Z
 
@@ -27084,7 +27083,7 @@ synonym: "BMI using body length, nose to rump" RELATED []
 synonym: "BMI using nose to rump body length" RELATED []
 synonym: "nose to rump BMI" RELATED []
 is_a: CMO:0000079 ! body length, nose to rump
-is_a: CMO:0000105 ! body mass index
+is_a: CMO:0000105 ! body mass index (BMI)
 created_by: jesmith
 creation_date: 2017-08-25T17:00:55Z
 
@@ -39762,7 +39761,7 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "CA1 field of hippocampus RNA level" EXACT []
 xref: PMID:32062370
 xref: VT:0011151
-is_a: CMO:0003365 ! hippocampus proper ribonucleic acid level
+is_a: CMO:0003303 ! hippocampal formation ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-12-16T11:34:07Z
 
@@ -40942,51 +40941,6 @@ xref: VT:0005567
 is_a: CMO:0000028 ! blood protein measurement
 created_by: slaulederkind
 creation_date: 2026-02-26T15:23:31Z
-
-[Term]
-id: CMO:0004138
-name: pericardium ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the pericardial sac, a double-walled sac (serous plus fibrous pericardium) containing the heart and the roots of the great vessels." [https://teachmeanatomy.info/thorax/organs/heart/pericardium/, MA:0000099]
-synonym: "pericardium RNA level" EXACT []
-xref: GEO:GSE282713
-xref: PMID:41022776
-is_a: CMO:0002933 ! heart ribonucleic acid level
-created_by: caripark
-creation_date: 2026-03-17T07:34:40Z
-
-[Term]
-id: CMO:0004139
-name: heart left ventricle myocardium ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the thick contractile middle layer of uniquely constructed and arranged muscle cells that forms the bulk of the heart left ventricle wall." [Mosby:Mosbys_Medical_Dictionary--8th_Ed]
-synonym: "heart left ventricle myocardium RNA level" EXACT []
-xref: GEO:GSE282713
-xref: PMID:41022776
-xref: VT:0011039
-is_a: CMO:0002935 ! heart left ventricle ribonucleic acid level
-created_by: caripark
-creation_date: 2026-03-17T07:48:19Z
-
-[Term]
-id: CMO:0004140
-name: CA3 field of hippocampus ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the part of the hippocampus proper bounded by the hilus of the dentate gyrus and area CA2, characterized by large pyramidal cells and a dense projection from dentate gyrus granule cell mossy fibers." [UBERON:0003883]
-synonym: "CA3 field of hippocampus RNA level" EXACT []
-xref: GEO:GSE280972
-xref: PMID:40204224
-is_a: CMO:0003365 ! hippocampus proper ribonucleic acid level
-created_by: caripark
-creation_date: 2026-03-17T08:06:34Z
-
-[Term]
-id: CMO:0004141
-name: maximum time run on treadmill with shock grid
-def: "This is a measurement of the amount of time a subject spends running on a treadmill equiped with a shock grid, before exhaustion, that is, privation of energy with consequent inability to respond to stimuli. A treadmill is a piece of equipment consisting of a continuously moving belt which allows the action of walking or running without the entire body moving forward. The shock grid is an attachment at the rear of the treadmill which delivers a mild electrical shock to the subject as negative feedback for stopping forward motion." [https://omnitech-usa.com/product/accupacer-mouse-treadmill/]
-synonym: "maximum time run on treadmill equipped with shock grid" EXACT []
-xref: https://www.panlab.com/en/
-xref: PMID:16033863
-is_a: CMO:0002306 ! maximum time run on treadmill
-created_by: slaulederkind
-creation_date: 2026-03-27T12:36:29Z
 
 [Typedef]
 id: part_of
