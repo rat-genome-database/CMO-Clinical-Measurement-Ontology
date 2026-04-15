@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.271
-date: 11:04:2026 20:13
+data-version: 2.270
+date: 04:04:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -40987,36 +40987,6 @@ xref: PMID:16033863
 is_a: CMO:0002306 ! maximum time run on treadmill
 created_by: slaulederkind
 creation_date: 2026-03-27T12:36:29Z
-
-[Term]
-id: CMO:0004142
-name: ventral tegmental area ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the ventral tegmental area, the unpaired midbrain region situated in the ventromedial portion of the reticular formation. The VTA is medial to the substantia nigra and ventral to the red nucleus, and extends caudally from the posterior hypothalamus in the diencephalon. The VTA contains dopamine neurons that project to various limbic and cortical areas and is a critical component of the brain's reward circuitry." [UBERON:0002691]
-synonym: "ventral tegmental area RNA level" EXACT []
-synonym: "VTA ribonucleic acid level" EXACT []
-synonym: "VTA RNA level" EXACT []
-is_a: CMO:0003929 ! midbrain ribonucleic acid level
-created_by: caripark
-creation_date: 2026-04-10T12:09:13Z
-
-[Term]
-id: CMO:0004143
-name: biceps femoris ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the biceps femoris, a muscle of the posterior thigh. It has two parts, one of which (the long head) forms part of the hamstrings muscle group." [UBERON:0001374]
-synonym: "biceps femoris RNA level" EXACT []
-is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
-created_by: caripark
-creation_date: 2026-04-10T12:12:44Z
-
-[Term]
-id: CMO:0004144
-name: dorsal striatum ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the dorsal components of the striatum comprising the caudate nucleus and the putamen, in species that have distinct nuclei; the caudoputamen in species which don't." [UBERON:0005382]
-synonym: "dorsal striatum RNA level" EXACT []
-xref: PMID:41002437
-is_a: CMO:0004069 ! striatum ribonucleic acid level
-created_by: caripark
-creation_date: 2026-04-10T12:18:17Z
 
 [Typedef]
 id: part_of
