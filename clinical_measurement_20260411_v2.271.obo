@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.272
-date: 18:04:2026 20:13
+data-version: 2.271
+date: 11:04:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -38517,7 +38517,7 @@ synonym: "mesencephalon ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain ribonucleic acid composition measurement" EXACT []
 synonym: "midbrain RNA level" EXACT []
 xref: UBERON:0001891
-xref: VT:0011288
+xref: VT:0010791
 relationship: part_of CMO:0003371 ! combined diencephalon and midbrain ribonucleic acid level
 created_by: slaulede
 creation_date: 2023-07-24T16:03:01Z
@@ -40107,7 +40107,7 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "striatum RNA level" EXACT []
 xref: PMID:39369937
 xref: VT:0011159
-is_a: CMO:0003368 ! telencephalon ribonucleic acid level
+is_a: CMO:0003369 ! forebrain ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-03-31T13:30:18Z
 
@@ -40995,7 +40995,6 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "ventral tegmental area RNA level" EXACT []
 synonym: "VTA ribonucleic acid level" EXACT []
 synonym: "VTA RNA level" EXACT []
-xref: VT:0011290
 is_a: CMO:0003929 ! midbrain ribonucleic acid level
 created_by: caripark
 creation_date: 2026-04-10T12:09:13Z
@@ -41005,7 +41004,6 @@ id: CMO:0004143
 name: biceps femoris ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the biceps femoris, a muscle of the posterior thigh. It has two parts, one of which (the long head) forms part of the hamstrings muscle group." [UBERON:0001374]
 synonym: "biceps femoris RNA level" EXACT []
-xref: VT:0011291
 is_a: CMO:0003293 ! muscle of leg ribonucleic acid level
 created_by: caripark
 creation_date: 2026-04-10T12:12:44Z
@@ -41016,29 +41014,9 @@ name: dorsal striatum ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the dorsal components of the striatum comprising the caudate nucleus and the putamen, in species that have distinct nuclei; the caudoputamen in species which don't." [UBERON:0005382]
 synonym: "dorsal striatum RNA level" EXACT []
 xref: PMID:41002437
-xref: VT:0011295
 is_a: CMO:0004069 ! striatum ribonucleic acid level
 created_by: caripark
 creation_date: 2026-04-10T12:18:17Z
-
-[Term]
-id: CMO:0004145
-name: multifidus muscle ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the small, triangular muscular and tendinous bundles located on either side of the spinal column that fill the groove between the transverse and spinous processes of the vertebrae (from the sacrum to the axis [C2])." [MP:0021138]
-synonym: "multifidus muscle RNA level" EXACT []
-xref: VT:0011293
-is_a: CMO:0003294 ! skeletal muscle of trunk ribonucleic acid level
-created_by: caripark
-creation_date: 2026-04-13T13:50:02Z
-
-[Term]
-id: CMO:0004146
-name: femur ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [ISBN:978-0440237013, ISBN:978-1416049982]
-synonym: "femur RNA level" EXACT []
-is_a: CMO:0003350 ! bone tissue ribonucleic acid level
-created_by: caripark
-creation_date: 2026-04-17T11:14:30Z
 
 [Typedef]
 id: part_of
