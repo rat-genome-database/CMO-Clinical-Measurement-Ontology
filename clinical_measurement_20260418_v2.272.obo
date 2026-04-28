@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: 2.273
-date: 25:04:2026 20:13
+data-version: 2.272
+date: 18:04:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2023-05-30 --
 default-namespace: clinical_measurement_ontology
@@ -39761,7 +39761,7 @@ name: CA1 field of hippocampus ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the CA1 field of the hippocampus is formed or composed." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "CA1 field of hippocampus RNA level" EXACT []
 xref: PMID:32062370
-xref: VT:0011300
+xref: VT:0011151
 is_a: CMO:0003365 ! hippocampus proper ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-12-16T11:34:07Z
@@ -41036,38 +41036,9 @@ id: CMO:0004146
 name: femur ribonucleic acid level
 def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the femur, the major bone in the upper portion of the hindlimb of quadrupeds or the lower limb of bipeds." [ISBN:978-0440237013, ISBN:978-1416049982]
 synonym: "femur RNA level" EXACT []
-xref: VT:0011297
 is_a: CMO:0003350 ! bone tissue ribonucleic acid level
 created_by: caripark
 creation_date: 2026-04-17T11:14:30Z
-
-[Term]
-id: CMO:0004147
-name: renal glomerulus ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the renal glomerulus, a capillary tuft which forms a close network with the visceral epithelium (podocytes) and the mesangium to form the filtration barrier and is surrounded by Bowman's capsule in nephrons of the vertebrate kidney." [UBERON:0000074]
-synonym: "kidney glomerulus ribonucleic acid level" EXACT []
-synonym: "kidney glomerulus RNA level" EXACT []
-synonym: "renal glomerulus RNA level" EXACT []
-xref: PMID:35310946
-xref: VT:0011298
-is_a: CMO:0003912 ! kidney ribonucleic acid level
-created_by: caripark
-creation_date: 2026-04-20T08:21:05Z
-
-[Term]
-id: CMO:0004148
-name: facial nerve ribonucleic acid level
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) in the facial nerve, the cranial nerve that branches into the supraorbital (supplying the skin of the eye region and the lateral line organs here), the palatine (to the roof of the buccal cavity), and the hyomandibular (dividing into the jugular and mental branches)." [UBERON:0001647]
-synonym: "CN-VII ribonucleic acid level" EXACT []
-synonym: "CN-VII RNA level" EXACT []
-synonym: "facial nerve RNA level" EXACT []
-synonym: "seventh cranial nerve ribonucleic acid level" EXACT []
-synonym: "seventh cranial nerve RNA level" EXACT []
-xref: PMID:40394959
-xref: VT:0011303
-is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
-created_by: caripark
-creation_date: 2026-04-21T10:36:49Z
 
 [Typedef]
 id: part_of
