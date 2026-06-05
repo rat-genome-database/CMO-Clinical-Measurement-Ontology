@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-05-30
-date: 30:05:2026 20:13
+data-version: releases/2026-05-09
+date: 09:05:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-12 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-05-05 --
 default-namespace: clinical_measurement_ontology
 ontology: cmo
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-05-30" xsd:string
+property_value: owl:versionInfo "2026-05-09" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -40859,7 +40859,7 @@ creation_date: 2026-01-06T10:35:12Z
 [Term]
 id: CMO:0004130
 name: vestibular epithelium ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vestibular epithelium, the specialized sensory tissue in the inner ear vestibular labyrinth (utricle, saccule, and semicircular canals) containing hair cells that detect head movements and gravity, converting these mechanical signals into neural impulses to control balance, posture, and eye movements." [PMID:35401109]
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vestibular epithelium, the specialized sensory tissue in the inner ear vestibular labyrinth (utricle, saccule, and semicircular canals) containing hair cells that detect head movements and gravity, converting these mechanical signals into neural impulses to control balance, posture, and eye movements." [PMID:35401109, PMID:35401109]
 synonym: "vestibular epithelium RNA level" EXACT []
 synonym: "vestibular sensory epithelium ribonucleic acid level" EXACT []
 synonym: "vestibular sensory epithelium RNA level" EXACT []
@@ -41090,58 +41090,6 @@ xref: VT:0011303
 is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
 created_by: caripark
 creation_date: 2026-04-21T10:36:49Z
-
-[Term]
-id: CMO:0004149
-name: eyelid morphological measurement
-def: "Any measurement of the physical form or structure of the eyelid, a fold of skin that covers and protects part of the eyeball. Examples: upper eyelid, lower eyelid, nictitating membrane." [UBERON:0001711]
-synonym: "blepharon morphological measurement" EXACT []
-synonym: "eye lid morphological measurement" EXACT []
-is_a: CMO:0003080 ! eye morphological measurement
-created_by: caripark
-creation_date: 2026-05-29T09:13:48Z
-
-[Term]
-id: CMO:0004150
-name: tarsal gland measurement
-def: "This is any measurement, morphological or physiological, involving the tarsal gland, a modified lobulated sebaceous gland at the rim of an eyelid, responsible for the supply of meibum." [UBERON:0001818]
-synonym: "Meibomian gland measurement" EXACT []
-is_a: CMO:0000784 ! exocrine gland measurement
-created_by: caripark
-creation_date: 2026-05-29T09:27:43Z
-
-[Term]
-id: CMO:0004151
-name: tarsal gland morphological measurement
-def: "Any measurement of the physical form or structure of the tarsal gland, a modified lobulated sebaceous gland at the rim of an eyelid, responsible for the supply of meibum." [UBERON:0001818]
-synonym: "Meibomian gland morphological measurement" EXACT []
-is_a: CMO:0004149 ! eyelid morphological measurement
-is_a: CMO:0004150 ! tarsal gland measurement
-created_by: caripark
-creation_date: 2026-05-29T09:46:27Z
-
-[Term]
-id: CMO:0004152
-name: tarsal gland molecular composition measurement
-def: "This is any quantitation of the molecules, atoms and/or ions which constitute the chemical make-up of the tarsal gland, a modified lobulated sebaceous gland at the rim of an eyelid, responsible for the supply of meibum." [UBERON:0001818]
-synonym: "Meibomian gland molecular composition measurement" EXACT []
-is_a: CMO:0004151 ! tarsal gland morphological measurement
-created_by: caripark
-creation_date: 2026-05-29T09:52:26Z
-
-[Term]
-id: CMO:0004153
-name: tarsal gland ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the tarsal gland, a modified lobulated sebaceous gland at the rim of an eyelid, responsible for the supply of meibum." [UBERON:0001818]
-synonym: "meibomian gland ribonucleic acid level" EXACT []
-synonym: "meibomian gland RNA level" EXACT []
-synonym: "tarsal gland RNA level" EXACT []
-xref: GEO:GSE277020
-xref: PMID:41533908
-xref: VT:0011275
-is_a: CMO:0004152 ! tarsal gland molecular composition measurement
-created_by: caripark
-creation_date: 2026-05-29T10:10:03Z
 
 [Typedef]
 id: part_of
