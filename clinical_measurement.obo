@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-06-27
-date: 27:06:2026 20:13
+data-version: releases/2026-07-18
+date: 18:07:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 default-namespace: clinical_measurement_ontology
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-06-27" xsd:string
+property_value: owl:versionInfo "2026-07-18" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -31907,7 +31907,7 @@ id: CMO:0003289
 name: right renal cortex ribonucleic acid level
 synonym: "right renal cortex ribonucleic acid composition measurement" BROAD []
 synonym: "right renal cortex RNA level" EXACT []
-is_a: CMO:0003912 ! kidney ribonucleic acid level
+is_a: CMO:0004157 ! renal cortex ribonucleic acid level
 created_by: hsnalabolu
 creation_date: 2020-01-10T15:31:08Z
 
@@ -40724,6 +40724,7 @@ synonym: "fourth lumbar spinal ganglion RNA level" EXACT []
 xref: GEO:GSE246156
 xref: PMID:18316160
 xref: PMID:40786564
+xref: VT:0011317
 is_a: CMO:0003926 ! dorsal root ganglion ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2025-10-31T12:51:44Z
@@ -41198,6 +41199,7 @@ def: "This is any measurement of the absolute or relative amount(s) of one or mo
 synonym: "cerebral neural tissue RNA level" EXACT []
 xref: GEO:GSE223851
 xref: PMID:41294147
+xref: VT:0011315
 relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
 created_by: caripark
 creation_date: 2026-06-26T09:42:29Z
@@ -41208,9 +41210,56 @@ name: cerebral blood vessel ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the vessels through which blood circulates in the cerebrum." [UBERON:0001981]
 synonym: "cerebral blood vessel RNA level" EXACT []
 xref: PMID:41294147
+xref: VT:0011316
 relationship: part_of CMO:0003270 ! cerebrum ribonucleic acid level
 created_by: caripark
 creation_date: 2026-06-26T09:46:13Z
+
+[Term]
+id: CMO:0004157
+name: renal cortex ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the outer part of the kidney, composed mainly of glomeruli and convoluted tubules." [ISBN:978-1416049982]
+synonym: "cortex of kidney ribonucleic acid level" EXACT []
+synonym: "cortex of kidney RNA level" EXACT []
+synonym: "kidney cortex ribonucleic acid level" EXACT []
+synonym: "kidney cortex RNA level" EXACT []
+synonym: "renal cortex RNA level" EXACT []
+xref: GEO:GSE298727
+xref: PMID:41368709
+xref: VT:0011319
+is_a: CMO:0003912 ! kidney ribonucleic acid level
+created_by: caripark
+creation_date: 2026-07-13T08:29:05Z
+
+[Term]
+id: CMO:0004158
+name: gingiva of lower jaw ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the fibrous investing tissue of the lower jaw, covered by keratinized epithelium, that immediately surrounds a tooth and is contiguous with its periodontal ligament and with the mucosal tissues of the mouth." [ISBN:0013002015, UBERON:0001828]
+synonym: "gingiva of lower jaw RNA level" EXACT []
+synonym: "gum of lower jaw ribonucleic acid level" EXACT []
+synonym: "gum of lower jaw RNA level" EXACT []
+xref: GEO:GSE295190
+xref: PMID:41975020
+xref: VT:0011323
+is_a: CMO:0003338 ! mouth mucosa ribonucleic acid level
+created_by: caripark
+creation_date: 2026-07-13T08:52:51Z
+
+[Term]
+id: CMO:0004159
+name: renal outer medulla ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the region of the kidney that lies between the renal cortex and the renal inner medulla." [UBERON:0001293]
+synonym: "kidney outer medulla ribonucleic acid level" EXACT []
+synonym: "kidney outer medulla RNA level" EXACT []
+synonym: "outer medulla of kidney ribonucleic acid level" EXACT []
+synonym: "outer medulla of kidney RNA level" EXACT []
+synonym: "renal outer medulla RNA level" EXACT []
+xref: GEO:GSE298727
+xref: PMID:41368709
+xref: VT:0011320
+is_a: CMO:0003912 ! kidney ribonucleic acid level
+created_by: caripark
+creation_date: 2026-07-13T08:59:54Z
 
 [Typedef]
 id: part_of
