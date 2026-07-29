@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-07-25
-date: 25:07:2026 20:13
+data-version: releases/2026-07-18
+date: 18:07:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-06-23 --
 default-namespace: clinical_measurement_ontology
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-07-25" xsd:string
+property_value: owl:versionInfo "2026-07-18" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -41260,30 +41260,6 @@ xref: VT:0011320
 is_a: CMO:0003912 ! kidney ribonucleic acid level
 created_by: caripark
 creation_date: 2026-07-13T08:59:54Z
-
-[Term]
-id: CMO:0004160
-name: ventral cochlear nucleus ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the cochlear nucleus, placed between the two divisions of the cochlear nerve, on the ventral aspect of the inferior peduncle. This nucleus serves primarily as a relay station for ascending auditory information." [UBERON:0002828]
-synonym: "anterior cochlear nucleus ribonucleic acid level" EXACT []
-synonym: "anterior cochlear nucleus RNA level" EXACT []
-synonym: "ventral cochlear nucleus RNA level" EXACT []
-xref: GEO:GSE280674
-is_a: CMO:0003326 ! medulla oblongata ribonucleic acid level
-created_by: caripark
-creation_date: 2026-07-21T15:53:40Z
-
-[Term]
-id: CMO:0004161
-name: anterior cinglulate cortex ribonucleic acid level
-def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the frontal part of the cingulate cortex that resembles a collar form around the corpus callosum. It includes both the ventral and dorsal areas of the cingulate cortex." [UBERON:0009835]
-synonym: "anterior cingulate cortex RNA level" EXACT []
-xref: GEO:GSE327217
-xref: PMID:42134517
-xref: VT:0011325
-relationship: part_of CMO:0003341 ! cerebral cortex ribonucleic acid level
-created_by: caripark
-creation_date: 2026-07-24T07:35:56Z
 
 [Typedef]
 id: part_of
