@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-29
-date: 29:08:2026 20:13
+data-version: releases/2026-08-15
+date: 15:08:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: clinical_measurement_ontology
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-08-29" xsd:string
+property_value: owl:versionInfo "2026-08-15" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -39077,13 +39077,11 @@ creation_date: 2024-03-01T12:51:34Z
 id: CMO:0003977
 name: mammary gland ribonucleic acid level
 alt_id: CMO:0003275
-alt_id: CMO:0004005
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mammary gland, the specialized exocrine gland of the skin of female mammals, which secretes milk for nourishment of the young." [https://www.merriam-webster.com/, ISBN-13:978-1455756438]
 synonym: "mammary gland ribonucleic acid composition measurement" EXACT []
-synonym: "mammary gland RNA level" EXACT []
 synonym: "mammary organ ribonucleic acid composition measurement" BROAD []
 xref: PMID:36733943
-is_a: CMO:0003255 ! skin ribonucleic acid level
+is_a: CMO:0002793 ! tissue ribonucleic acid level
 is_a: CMO:0004050 ! mammary gland molecular composition measurement
 created_by: slaulederkind
 creation_date: 2024-03-01T13:37:50Z
@@ -39317,7 +39315,7 @@ creation_date: 2024-04-29T15:26:05Z
 
 [Term]
 id: CMO:0003997
-name: maximum inner diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free saline
+name: maximim inner diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free saline
 def: "This is an ex vivo measurement of the length of a line which crosses a transverse view of a calcium-free physiological salt solution (PSS)-perfused (80 mmHg equilibrium pressure) middle cerebral artery, passing through its center and ending on either side at the inner surface of the blood vessel wall. The middle cerebral arteries are the largest of the cerebral arteries and supply blood to the lateral cerebral cortex, anterior temporal lobes and insular cortices of the brain." [PMID:26637559]
 synonym: "Dmax" EXACT []
 synonym: "maximim diameter of middle cerebral artery perfused in bicarbonate-buffered, calcium-free saline" BROAD []
@@ -39424,14 +39422,12 @@ creation_date: 2024-07-16T13:27:27Z
 
 [Term]
 id: CMO:0004005
-name: obsolete mammary gland ribonucleic acid level
-def: "OBSOLETE. This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mammary gland(s), a specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males." [https://www.merriam-webster.com, UBERON:0001911]
-synonym: "breast mammary gland ribonucleic acid level" NARROW []
-synonym: "lactiferous gland ribonucleic acid level" EXACT []
-synonym: "mammary gland RNA level" EXACT []
-synonym: "thoracic mammary gland ribonucleic acid level" NARROW []
+name: mammary gland ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the mammary gland(s), a specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males." [https://www.merriam-webster.com, UBERON:0001911]
+synonym: "breast mammary gland" NARROW []
+synonym: "lactiferous gland" EXACT []
+synonym: "thoracic mammary gland" NARROW []
 is_a: CMO:0003255 ! skin ribonucleic acid level
-is_obsolete: true
 created_by: slaulederkind
 creation_date: 2024-07-16T13:53:12Z
 
@@ -39447,8 +39443,8 @@ synonym: "mammary gland malignant neoplasm RNA level" EXACT []
 synonym: "mammary gland malignant tumor RNA level" EXACT []
 synonym: "N-methyl-N-nitrosourea (MNU)-induced mammary tumor RNA level" NARROW []
 xref: VT:0011087
-is_a: CMO:0003977 ! mammary gland ribonucleic acid level
 is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
+is_a: CMO:0004005 ! mammary gland ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T16:11:00Z
 

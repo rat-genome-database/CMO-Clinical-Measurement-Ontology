@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-29
-date: 29:08:2026 20:13
+data-version: releases/2026-08-22
+date: 22:08:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: clinical_measurement_ontology
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-08-29" xsd:string
+property_value: owl:versionInfo "2026-08-22" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -39431,7 +39431,6 @@ synonym: "lactiferous gland ribonucleic acid level" EXACT []
 synonym: "mammary gland RNA level" EXACT []
 synonym: "thoracic mammary gland ribonucleic acid level" NARROW []
 is_a: CMO:0003255 ! skin ribonucleic acid level
-is_obsolete: true
 created_by: slaulederkind
 creation_date: 2024-07-16T13:53:12Z
 
@@ -39447,8 +39446,8 @@ synonym: "mammary gland malignant neoplasm RNA level" EXACT []
 synonym: "mammary gland malignant tumor RNA level" EXACT []
 synonym: "N-methyl-N-nitrosourea (MNU)-induced mammary tumor RNA level" NARROW []
 xref: VT:0011087
-is_a: CMO:0003977 ! mammary gland ribonucleic acid level
 is_a: CMO:0004001 ! malignant, neoplastic tissue ribonucleic acid level
+is_a: CMO:0004005 ! obsolete mammary gland ribonucleic acid level
 created_by: slaulederkind
 creation_date: 2024-07-16T16:11:00Z
 
