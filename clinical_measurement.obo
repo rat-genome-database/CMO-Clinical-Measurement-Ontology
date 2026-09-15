@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-08-29
-date: 29:08:2026 20:13
+data-version: releases/2026-09-12
+date: 12:09:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: clinical_measurement_ontology
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-08-29" xsd:string
+property_value: owl:versionInfo "2026-09-12" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -536,8 +536,8 @@ is_a: CMO:0004137 ! blood total protein level
 
 [Term]
 id: CMO:0000055
-name: plasma globulin level
-def: "A measure related to globulin, a protein insoluble in water but soluble in a saline solution, extensively found in plasma." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete plasma globulin level
+def: "OBSOLETE. A measure related to globulin, a protein insoluble in water but soluble in a saline solution, extensively found in plasma." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_obsolete: true
 
 [Term]
@@ -683,8 +683,8 @@ is_a: CMO:0000073 ! calculated heart weight
 
 [Term]
 id: CMO:0000075
-name: heart weight as percentage of body weight
-def: "A calculated value in which the weight of the heart, the chambered, muscular organ in vertebrates that pumps blood received from the veins into the arteries, thereby maintaining the flow of blood through the entire circulatory system, is presented as percentage of the total weight of the body, thus normalizing it to body weight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, RGD:JRS]
+name: obsolete heart weight as percentage of body weight
+def: "OBSOLETE. A calculated value in which the weight of the heart, the chambered, muscular organ in vertebrates that pumps blood received from the veins into the arteries, thereby maintaining the flow of blood through the entire circulatory system, is presented as percentage of the total weight of the body, thus normalizing it to body weight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, RGD:JRS]
 comment: Term merged into CMO:0000074, heart weight to body weight ratio
 is_obsolete: true
 
@@ -796,12 +796,12 @@ creation_date: 2010-06-23T04:14:20Z
 
 [Term]
 id: CMO:0000090
-name: liver/biliary morphological measurement
+name: obsolete liver/biliary morphological measurement
 is_obsolete: true
 
 [Term]
 id: CMO:0000091
-name: renal/urinary morphological measurement
+name: obsolete renal/urinary morphological measurement
 is_obsolete: true
 
 [Term]
@@ -1116,8 +1116,8 @@ creation_date: 2009-12-17T10:28:12Z
 
 [Term]
 id: CMO:0000122
-name: mean corpuscular hemoglobin level
-def: "The average amount of hemoglobin per red blood cell as a caculated value by dividing the total mass of hemoglobin by the number of red blood cells in a volume of blood, often expressed as picograms per cell." [http://en.wikipedia.org/wiki/Mean_corpuscular_hemoglobin "Wikipedia"]
+name: obsolete mean corpuscular hemoglobin level
+def: "OBSOLETE. The average amount of hemoglobin per red blood cell as a caculated value by dividing the total mass of hemoglobin by the number of red blood cells in a volume of blood, often expressed as picograms per cell." [http://en.wikipedia.org/wiki/Mean_corpuscular_hemoglobin "Wikipedia"]
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2009-12-17T10:32:27Z
@@ -1307,8 +1307,8 @@ creation_date: 2010-05-17T01:28:51Z
 
 [Term]
 id: CMO:0000140
-name: both kidneys wet weight as percentage of body weight
-def: "A calculated measurement in which the weight after removal from the body but without desiccation of both kidneys, the paired organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes, is divided by the total weight of the body and presented as a percentage, thus normalizing it to body weight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete both kidneys wet weight as percentage of body weight
+def: "OBSOLETE. A calculated measurement in which the weight after removal from the body but without desiccation of both kidneys, the paired organ which functions to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes, is divided by the total weight of the body and presented as a percentage, thus normalizing it to body weight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "thalamus volume" NARROW []
 xref: EFO:0006935
 xref: VT:0002707
@@ -1318,8 +1318,8 @@ creation_date: 2010-05-17T01:48:45Z
 
 [Term]
 id: CMO:0000141
-name: liver weight as percentage of body weight
-def: "Weight of the liver in comparison to whole body weight expressed as percentage." [RGD:MS]
+name: obsolete liver weight as percentage of body weight
+def: "OBSOLETE. Weight of the liver in comparison to whole body weight expressed as percentage." [RGD:MS]
 synonym: "liver somatic index, LSI" RELATED []
 xref: VT:0003402
 is_obsolete: true
@@ -1548,7 +1548,7 @@ creation_date: 2010-05-25T04:07:21Z
 
 [Term]
 id: CMO:0000166
-name: lung weight, single
+name: obsolete lung weight, single
 is_obsolete: true
 created_by: rnigam
 creation_date: 2010-05-25T00:00:00Z
@@ -2951,8 +2951,8 @@ creation_date: 2010-09-01T08:18:12Z
 
 [Term]
 id: CMO:0000320
-name: retina cell count
-def: "Number of cells in a specified sample of the innermost coat lining of the interior of the eyeball." [Wikipedia:en.wikipedia.org]
+name: obsolete retina cell count
+def: "OBSOLETE. Number of cells in a specified sample of the innermost coat lining of the interior of the eyeball." [Wikipedia:en.wikipedia.org]
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2010-09-01T08:19:08Z
@@ -3365,8 +3365,8 @@ creation_date: 2010-11-12T09:46:59Z
 
 [Term]
 id: CMO:0000364
-name: complete blood cell count
-def: "The calculation of the cellular elements of the blood, usually including cell counts for white and red blood cells and platelets." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
+name: obsolete complete blood cell count
+def: "OBSOLETE. The calculation of the cellular elements of the blood, usually including cell counts for white and red blood cells and platelets." [ISBN:978-0323057479, Mosby:Mosbys_Manual_of_Diagnostic_and_Laboratory_Tests--4th_Ed]
 synonym: "CBC" RELATED []
 is_obsolete: true
 created_by: mshimoyama
@@ -3847,8 +3847,8 @@ creation_date: 2010-12-28T01:45:55Z
 
 [Term]
 id: CMO:0000414
-name: mammary gland morphological measurement
-def: "Measurement of the physical form or structure of any part of the structure of the mammary gland, the specialized gland of the skin of female mammals, which secretes milk for nourishment of the young." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete mammary gland morphological measurement
+def: "OBSOLETE. Measurement of the physical form or structure of any part of the structure of the mammary gland, the specialized gland of the skin of female mammals, which secretes milk for nourishment of the young." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "breast size" NARROW []
 xref: EFO:0004884
 is_obsolete: true
@@ -4651,8 +4651,8 @@ creation_date: 2011-01-04T03:28:42Z
 
 [Term]
 id: CMO:0000506
-name: hemoglobin concentration
-def: "The amount of hemoglobin, the red oxygen-carrying pigment of erythrocytes, in a specified volume of blood, as calculated from the optical density of a solution of lysed red cells in which hemoglobin has been converted to cyanomethemoglobin and measured with a spectrophotometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete hemoglobin concentration
+def: "OBSOLETE. The amount of hemoglobin, the red oxygen-carrying pigment of erythrocytes, in a specified volume of blood, as calculated from the optical density of a solution of lysed red cells in which hemoglobin has been converted to cyanomethemoglobin and measured with a spectrophotometer." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "hemoglobin absorbance" RELATED []
 xref: VT:0001588
 is_obsolete: true
@@ -4971,8 +4971,8 @@ creation_date: 2011-10-28T04:33:14Z
 
 [Term]
 id: CMO:0000540
-name: heart left ventricle weight as a percentage of body weight
-def: "A calculated value in which the weight of the left ventricle, the lower chamber of the left side of the heart, which pumps oxygenated blood out through the aorta to all the tissues of the body, is presented as percentage of the total weight of the body thus normalizing it to body weight." [Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+name: obsolete heart left ventricle weight as a percentage of body weight
+def: "OBSOLETE. A calculated value in which the weight of the left ventricle, the lower chamber of the left side of the heart, which pumps oxygenated blood out through the aorta to all the tissues of the body, is presented as percentage of the total weight of the body thus normalizing it to body weight." [Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-10-28T04:33:59Z
@@ -5082,7 +5082,7 @@ creation_date: 2011-11-02T02:49:08Z
 
 [Term]
 id: CMO:0000552
-name: blood apolipoprotein level
+name: obsolete blood apolipoprotein level
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-02T00:00:00Z
@@ -5544,14 +5544,14 @@ creation_date: 2011-11-03T02:17:14Z
 
 [Term]
 id: CMO:0000601
-name: CD25+ cell count
+name: obsolete CD25+ cell count
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-03T00:00:00Z
 
 [Term]
 id: CMO:0000602
-name: CD4+ cell count
+name: obsolete CD4+ cell count
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-03T00:00:00Z
@@ -5707,14 +5707,14 @@ creation_date: 2011-11-03T02:44:48Z
 
 [Term]
 id: CMO:0000619
-name: single adrenal gland weight to body weight ratio
+name: obsolete single adrenal gland weight to body weight ratio
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-03T02:45:33Z
 
 [Term]
 id: CMO:0000620
-name: both adrenal glands weight as percentage of body weight
+name: obsolete both adrenal glands weight as percentage of body weight
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-03T02:49:33Z
@@ -5749,8 +5749,8 @@ creation_date: 2011-11-03T02:50:38Z
 
 [Term]
 id: CMO:0000623
-name: single kidney wet weight as percentage of body weight
-def: "A calculated measurement in which the weight after removal from the body but without desiccation of a single kidney, one of the paired organs which function to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes, is divided by the total weight of the body and presented as a percentage, thus normalizing it to body weight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete single kidney wet weight as percentage of body weight
+def: "OBSOLETE. A calculated measurement in which the weight after removal from the body but without desiccation of a single kidney, one of the paired organs which function to maintain proper water and electrolyte balance, regulate acid-base concentration, and filter the blood of metabolic wastes, is divided by the total weight of the body and presented as a percentage, thus normalizing it to body weight." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "individual kidney wet weight as percentage of body weight" EXACT []
 is_obsolete: true
 created_by: mshimoyama
@@ -5758,7 +5758,7 @@ creation_date: 2011-11-03T02:50:52Z
 
 [Term]
 id: CMO:0000624
-name: heart right ventricle wet weight
+name: obsolete heart right ventricle wet weight
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-03T00:00:00Z
@@ -5812,7 +5812,7 @@ creation_date: 2011-11-03T02:59:23Z
 
 [Term]
 id: CMO:0000631
-name: lung weight
+name: obsolete lung weight
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-03T00:00:00Z
@@ -5888,7 +5888,7 @@ creation_date: 2011-11-03T03:08:51Z
 
 [Term]
 id: CMO:0000639
-name: sperm count
+name: obsolete sperm count
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-03T00:00:00Z
@@ -6057,7 +6057,7 @@ creation_date: 2011-11-03T03:28:13Z
 
 [Term]
 id: CMO:0000655
-name: heart left ventricle wet weight
+name: obsolete heart left ventricle wet weight
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2011-11-04T00:00:00Z
@@ -6090,15 +6090,15 @@ creation_date: 2011-11-04T04:12:55Z
 
 [Term]
 id: CMO:0000659
-name: blood globulin measurement
-def: "Any measurement related to one or more globulins, a class of proteins defined as being insoluble in water but soluble in a saline solution which includes carrier proteins, acute phase reactants, coagulation factors, complement components, and immunoglobulins, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+name: obsolete blood globulin measurement
+def: "OBSOLETE. Any measurement related to one or more globulins, a class of proteins defined as being insoluble in water but soluble in a saline solution which includes carrier proteins, acute phase reactants, coagulation factors, complement components, and immunoglobulins, in a specified sample of blood." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2012-01-09T09:42:26Z
 
 [Term]
 id: CMO:0000660
-name: serum globulin level
+name: obsolete serum globulin level
 is_obsolete: true
 created_by: mshimoyama
 creation_date: 2012-01-09T09:42:47Z
@@ -6325,14 +6325,14 @@ creation_date: 2012-02-15T06:18:51Z
 
 [Term]
 id: CMO:0000686
-name: calculated heart left ventricle infarction size
+name: obsolete calculated heart left ventricle infarction size
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-02-15T06:27:35Z
 
 [Term]
 id: CMO:0000687
-name: heart left ventricle infarction size to total heart left ventricle size ratio
+name: obsolete heart left ventricle infarction size to total heart left ventricle size ratio
 xref: VT:0010745
 is_obsolete: true
 created_by: jsmith
@@ -9155,8 +9155,8 @@ creation_date: 2012-07-27T06:00:34Z
 
 [Term]
 id: CMO:0000989
-name: heart left ventricle end-diastolic relative wall thickness
-def: "A calculated measurement of left ventricular geometry and is calculated by dividing the end-diastolic diameter into 2x the posterior wall thickness at end-diastole, 2x the septal wall thickness at end-diastole or the sum of the posterior and septal wall thicknesses at end-diastole. It represents a measure of the wall thickness normalized to the size of the ventricle lumen." [http://circ.ahajournals.org/cgi/content/meeting_abstract/120/18_MeetingAbstracts/S883 "Website"]
+name: obsolete heart left ventricle end-diastolic relative wall thickness
+def: "OBSOLETE. A calculated measurement of left ventricular geometry and is calculated by dividing the end-diastolic diameter into 2x the posterior wall thickness at end-diastole, 2x the septal wall thickness at end-diastole or the sum of the posterior and septal wall thicknesses at end-diastole. It represents a measure of the wall thickness normalized to the size of the ventricle lumen." [http://circ.ahajournals.org/cgi/content/meeting_abstract/120/18_MeetingAbstracts/S883 "Website"]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-07-27T06:15:29Z
@@ -9485,8 +9485,8 @@ creation_date: 2012-08-21T11:51:52Z
 
 [Term]
 id: CMO:0001024
-name: percentage of deaths in a study population during a period of time
-def: "The total number of deaths occurring during a specified period of time within a study population divided by the total number of individuals in the study population, expressed as a percentage." [http://en.wikipedia.org/wiki/Mortality_rate "Wikipedia"]
+name: obsolete percentage of deaths in a study population during a period of time
+def: "OBSOLETE. The total number of deaths occurring during a specified period of time within a study population divided by the total number of individuals in the study population, expressed as a percentage." [http://en.wikipedia.org/wiki/Mortality_rate "Wikipedia"]
 synonym: "death incidence measurement as percent" RELATED []
 synonym: "death rate" RELATED []
 synonym: "mortality rate" RELATED []
@@ -9643,16 +9643,16 @@ creation_date: 2012-08-23T04:51:04Z
 
 [Term]
 id: CMO:0001040
-name: number of prompted entries into a discrete space in an experimental apparatus
-def: "The total number of times during an experiment that an organism or experimental subject enters into a distinct and specified area of an experimental apparatus in response to a specific external inducement, enticement or encouragement." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+name: obsolete number of prompted entries into a discrete space in an experimental apparatus
+def: "OBSOLETE. The total number of times during an experiment that an organism or experimental subject enters into a distinct and specified area of an experimental apparatus in response to a specific external inducement, enticement or encouragement." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-08-23T04:56:50Z
 
 [Term]
 id: CMO:0001041
-name: number of unprompted entries into a discrete space in an experimental apparatus
-def: "The total number of times during an experiment that an organism or experimental subject enters into a distinct and specified area of an experimental apparatus without external inducement, enticement or encouragement." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+name: obsolete number of unprompted entries into a discrete space in an experimental apparatus
+def: "OBSOLETE. The total number of times during an experiment that an organism or experimental subject enters into a distinct and specified area of an experimental apparatus without external inducement, enticement or encouragement." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-08-23T04:57:59Z
@@ -9836,8 +9836,8 @@ creation_date: 2012-08-31T11:40:57Z
 
 [Term]
 id: CMO:0001059
-name: pancreatic islet area to total pancreatic area ratio
-def: "A calculated value in which the area of a cross-section of the pancreas which is occupied by pancreatic islets is divided by the total area of the pancreas cross-section and presented as a ratio thus normalizing it to the size of the pancreas." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete pancreatic islet area to total pancreatic area ratio
+def: "OBSOLETE. A calculated value in which the area of a cross-section of the pancreas which is occupied by pancreatic islets is divided by the total area of the pancreas cross-section and presented as a ratio thus normalizing it to the size of the pancreas." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-08-31T12:21:57Z
@@ -9875,8 +9875,8 @@ creation_date: 2012-08-31T12:47:28Z
 
 [Term]
 id: CMO:0001063
-name: beta cell area to total pancreatic islet area ratio
-def: "A calculated value in which the area occupied by beta cells is divided by the total area of the pancreatic islet and presented as a ratio thus normalizing it to the size of the pancreatic islet(s). A beta cell is a type of basophilic cell that makes up most of the bulk of the pancreatic islets (i.e. the islets of Langerhans) and secretes insulin." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete beta cell area to total pancreatic islet area ratio
+def: "OBSOLETE. A calculated value in which the area occupied by beta cells is divided by the total area of the pancreatic islet and presented as a ratio thus normalizing it to the size of the pancreatic islet(s). A beta cell is a type of basophilic cell that makes up most of the bulk of the pancreatic islets (i.e. the islets of Langerhans) and secretes insulin." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-08-31T12:48:14Z
@@ -9976,8 +9976,8 @@ creation_date: 2012-09-04T02:03:59Z
 
 [Term]
 id: CMO:0001074
-name: area of liver occupied by tumorous lesions as percentage of total liver area
-def: "A calculated measurement of the area of the liver occupied by tumorous lesions compared to the total area of the liver, expressed as a percentage. A tumorous lesion is one which is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors and preneoplastic lesions, as well as hyperplastic lesions composed of histologically normal cells." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, RGD:JRS]
+name: obsolete area of liver occupied by tumorous lesions as percentage of total liver area
+def: "OBSOLETE. A calculated measurement of the area of the liver occupied by tumorous lesions compared to the total area of the liver, expressed as a percentage. A tumorous lesion is one which is or has the potential to become a tumor, that is, a neoplasm or new growth of tissue in which cell multiplication is more or less uncontrolled and progressive. Tumorous lesions include tumors and preneoplastic lesions, as well as hyperplastic lesions composed of histologically normal cells." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, RGD:JRS]
 synonym: "percent tumorous foci area in liver" RELATED []
 xref: VT:0010547
 is_obsolete: true
@@ -10046,8 +10046,8 @@ creation_date: 2012-09-04T03:01:09Z
 
 [Term]
 id: CMO:0001081
-name: volume of liver occupied by tumorous lesions as percentage of total liver volume
-def: "A calculated value in which the volume of the liver occupied by tumorous lesions is compared to the total volume of the liver and expressed as a percentage thus normalizing it to the size of the liver." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
+name: obsolete volume of liver occupied by tumorous lesions as percentage of total liver volume
+def: "OBSOLETE. A calculated value in which the volume of the liver occupied by tumorous lesions is compared to the total volume of the liver and expressed as a percentage thus normalizing it to the size of the liver." [American_Heritage:The_American_Heritage_Dictionary_of_the_English_Language--4th_Ed]
 xref: VT:0010547
 is_obsolete: true
 created_by: jsmith
@@ -10190,8 +10190,8 @@ creation_date: 2012-09-06T01:29:10Z
 
 [Term]
 id: CMO:0001095
-name: liver fibrotic lesion area to total liver area ratio
-def: "A calculated value in which area of the liver occupied by fibrotic lesions is divided by the total area of the liver and presented as a ratio, fraction or quotient, thus normalizing it to the size of the liver." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
+name: obsolete liver fibrotic lesion area to total liver area ratio
+def: "OBSOLETE. A calculated value in which area of the liver occupied by fibrotic lesions is divided by the total area of the liver and presented as a ratio, fraction or quotient, thus normalizing it to the size of the liver." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-09-06T01:31:40Z
@@ -10298,7 +10298,7 @@ creation_date: 2012-09-12T06:13:40Z
 
 [Term]
 id: CMO:0001106
-name: blood Th1 cell to Th2 cell ratio as percentage
+name: obsolete blood Th1 cell to Th2 cell ratio as percentage
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-09-12T06:15:56Z
@@ -10997,8 +10997,8 @@ creation_date: 2012-10-22T12:14:30Z
 
 [Term]
 id: CMO:0001176
-name: kidney glomerulosclerotic lesion count to total glomeruli count ratio
-def: "A calculated value in which the number of glomeruli with lesions resulting from fibrosis, scarring or hyaline deposits is divided by the total number of glomeruli in a specified sample of kidney and presented as a ratio, fraction or quotient, thus normalizing it to the total number of glomeruli." []
+name: obsolete kidney glomerulosclerotic lesion count to total glomeruli count ratio
+def: "OBSOLETE. A calculated value in which the number of glomeruli with lesions resulting from fibrosis, scarring or hyaline deposits is divided by the total number of glomeruli in a specified sample of kidney and presented as a ratio, fraction or quotient, thus normalizing it to the total number of glomeruli." []
 is_obsolete: true
 created_by: jsmith
 creation_date: 2012-10-22T00:00:00Z
@@ -11778,8 +11778,8 @@ creation_date: 2013-01-08T15:17:52Z
 
 [Term]
 id: CMO:0001258
-name: kidney fibrotic lesion area to total kidney area ratio
-def: "A calculated value in which the extent of the two-dimensional surface occupied by fibrotic lesions is divided by the total extent of the two-dimensional surface of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete kidney fibrotic lesion area to total kidney area ratio
+def: "OBSOLETE. A calculated value in which the extent of the two-dimensional surface occupied by fibrotic lesions is divided by the total extent of the two-dimensional surface of the kidney and presented as a ratio, fraction, quotient or percentage, thus normalizing it to the size of the kidney." [American_Heritage:The_American_Heritage_Science_Dictionary_2005, Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 xref: VT:0010580
 is_obsolete: true
 created_by: jsmith
@@ -13989,8 +13989,8 @@ creation_date: 2013-01-25T17:36:40Z
 
 [Term]
 id: CMO:0001492
-name: time to first movement outside a discrete space in a an experimental apparatus following a stimulus
-def: "The latency period following an external stimulus spent by an organism or experimental subject in the initial occupied space before moving to a different space in an experimental apparatus." [RGD:JRS, RGD:SL]
+name: obsolete time to first movement outside a discrete space in a an experimental apparatus following a stimulus
+def: "OBSOLETE. The latency period following an external stimulus spent by an organism or experimental subject in the initial occupied space before moving to a different space in an experimental apparatus." [RGD:JRS, RGD:SL]
 synonym: "measurement of response latency" RELATED []
 synonym: "time between stimulus and first movement outside a discrete space in a an experimental apparatus" RELATED []
 is_obsolete: true
@@ -14358,16 +14358,16 @@ creation_date: 2013-01-30T10:28:24Z
 
 [Term]
 id: CMO:0001529
-name: serum globulin measurement
-def: "Any measurement related to one or more globulins, a class of proteins defined as being insoluble in water but soluble in a saline solution which includes carrier proteins, acute phase reactants, coagulation factors, complement components, and immunoglobulins, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+name: obsolete serum globulin measurement
+def: "OBSOLETE. Any measurement related to one or more globulins, a class of proteins defined as being insoluble in water but soluble in a saline solution which includes carrier proteins, acute phase reactants, coagulation factors, complement components, and immunoglobulins, in a specified sample of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2013-01-30T11:28:10Z
 
 [Term]
 id: CMO:0001530
-name: plasma globulin measurement
-def: "Any measurement related to one or more globulins, a class of proteins defined as being insoluble in water but soluble in a saline solution which includes carrier proteins, acute phase reactants, coagulation factors, complement components, and immunoglobulins, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
+name: obsolete plasma globulin measurement
+def: "OBSOLETE. Any measurement related to one or more globulins, a class of proteins defined as being insoluble in water but soluble in a saline solution which includes carrier proteins, acute phase reactants, coagulation factors, complement components, and immunoglobulins, in a specified sample of plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Miller-Keane:Miller-Keane_Encyclopedia_and_Dictionary_of_Medicine_Nursing_and_Allied_Health--7th_Ed]
 is_obsolete: true
 created_by: jsmith
 creation_date: 2013-01-30T11:28:18Z
@@ -14383,8 +14383,8 @@ creation_date: 2013-01-30T12:00:54Z
 
 [Term]
 id: CMO:0001532
-name: plasma E. coli specific antibody measurement
-def: "Any measurement related to immunoglobulin molecule(s) with an amino acid sequence that binds with Escherichia coli, a Gram negative rod-shaped bacterium, in plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
+name: obsolete plasma E. coli specific antibody measurement
+def: "OBSOLETE. Any measurement related to immunoglobulin molecule(s) with an amino acid sequence that binds with Escherichia coli, a Gram negative rod-shaped bacterium, in plasma, the fibrinogen-containing fluid portion of the blood in which the particulate components are suspended." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982]
 synonym: "plasma anti-E. coli antibody measurement" EXACT []
 is_obsolete: true
 created_by: jsmith
@@ -14479,8 +14479,8 @@ creation_date: 2013-01-30T14:05:28Z
 
 [Term]
 id: CMO:0001542
-name: serum total immunoglobulin E level
-def: "The total amount of immunoglobulin E (IgE), one of the five classes of antibodies produced by the body which is concentrated in the lungs, skin, and mucous membranes and, as a primary defense against environmental antigens, can trigger anaphylactic hypersensitivity, in a specified volume of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
+name: obsolete serum total immunoglobulin E level
+def: "OBSOLETE. The total amount of immunoglobulin E (IgE), one of the five classes of antibodies produced by the body which is concentrated in the lungs, skin, and mucous membranes and, as a primary defense against environmental antigens, can trigger anaphylactic hypersensitivity, in a specified volume of serum, the clear liquid that separates from blood after it has clotted completely, i.e. blood plasma from which fibrinogen has been removed." [Dorland:Dorlands_Illustrated_Medical_Dictionary--31st_Ed, ISBN:978-1416049982, Mosby:Mosbys_Medical_Dictionary--8th_Ed]
 synonym: "serum total IgE level" EXACT []
 xref: VT:0002492
 is_obsolete: true
@@ -14640,8 +14640,8 @@ creation_date: 2013-05-07T18:08:40Z
 
 [Term]
 id: CMO:0001559
-name: calculated bone biomechanical measurement
-def: "A measurement, the value of which has been normalized, adjusted or derived by a mathematical process or computation, of the quantification of the action of forces on or related to bone, the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." []
+name: obsolete calculated bone biomechanical measurement
+def: "OBSOLETE. A measurement, the value of which has been normalized, adjusted or derived by a mathematical process or computation, of the quantification of the action of forces on or related to bone, the hard, rigid form of connective tissue constituting most of the skeleton of vertebrates and composed chiefly of calcium salts." []
 is_obsolete: true
 created_by: jsmith
 creation_date: 2013-05-07T00:00:00Z
@@ -20340,8 +20340,8 @@ creation_date: 2014-01-27T12:50:46Z
 
 [Term]
 id: CMO:0002110
-name: serum total immunoglobulin M level
-def: "The entire amount in a specified sample of serum of all types of immunoglobulin M (IgM), one of the five classes of antibodies produced by the body. IgM is found in circulating body fluids and is the first class of antibodies to appear in response to an initial exposure to an antigen." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
+name: obsolete serum total immunoglobulin M level
+def: "OBSOLETE. The entire amount in a specified sample of serum of all types of immunoglobulin M (IgM), one of the five classes of antibodies produced by the body. IgM is found in circulating body fluids and is the first class of antibodies to appear in response to an initial exposure to an antigen." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "serum total IgM level" EXACT []
 is_obsolete: true
 created_by: jsmith
@@ -20369,8 +20369,8 @@ creation_date: 2014-01-27T13:21:41Z
 
 [Term]
 id: CMO:0002113
-name: serum total immunoglobulin G level
-def: "The entire amount in a specified sample of serum of all types and subclasses of immunoglobulin G (IgG), the most abundant class of antibodies found in blood serum and lymph. IgG antibodies are active against bacteria, fungi, viruses, and foreign particles, and trigger action of the complement system." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
+name: obsolete serum total immunoglobulin G level
+def: "OBSOLETE. The entire amount in a specified sample of serum of all types and subclasses of immunoglobulin G (IgG), the most abundant class of antibodies found in blood serum and lymph. IgG antibodies are active against bacteria, fungi, viruses, and foreign particles, and trigger action of the complement system." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007]
 synonym: "serum total IgG level" EXACT []
 is_obsolete: true
 created_by: jsmith
@@ -20393,6 +20393,7 @@ name: serum immunoglobulin G1 level
 def: "The amount in a specified sample of serum of the G1 subclass of immunoglobulin G (IgG), the most abundant class of antibodies found in blood serum and lymph. IgG antibodies are active against bacteria, fungi, viruses, and foreign particles, and trigger action of the complement system. IgG subclasses differ in the structure of their hinge regions. IgG1 is the most abundant subclass in serum, and is able to activate complement and bind to the Fc receptor on phagocytic cells." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://en.wikipedia.org/wiki/Immunoglobulin_G "Wikipedia"]
 synonym: "serum IgG1 level" EXACT []
 is_a: CMO:0002114 ! serum immunoglobulin G subclass level
+is_a: CMO:0004167 ! blood immunoglobulin G1 level
 created_by: jsmith
 creation_date: 2014-01-27T14:57:46Z
 
@@ -20402,6 +20403,7 @@ name: serum immunoglobulin G2a level
 def: "The amount in a specified sample of serum of the G2a subclass of immunoglobulin G (IgG), the most abundant class of antibodies found in blood serum and lymph. IgG antibodies are active against bacteria, fungi, viruses, and foreign particles, and trigger action of the complement system. IgG subclasses differ in the structure of their hinge regions. IgG2a is able to activate complement and bind to the Fc receptor on phagocytic cells." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://en.wikipedia.org/wiki/Immunoglobulin_G "Wikipedia"]
 synonym: "serum IgG2a level" EXACT []
 is_a: CMO:0002114 ! serum immunoglobulin G subclass level
+is_a: CMO:0004168 ! blood immunoglobulin G2 level
 created_by: jsmith
 creation_date: 2014-01-27T14:57:50Z
 
@@ -23859,7 +23861,7 @@ synonym: "blood vitamin A1 level" RELATED []
 synonym: "retinol measurement" BROAD []
 xref: CHEBI:50211
 xref: EFO:0007900
-is_a: CMO:0003698 ! blood vitamin level
+is_a: CMO:0004164 ! blood vitamin A level
 created_by: jsmith
 creation_date: 2014-06-09T16:49:56Z
 
@@ -27253,8 +27255,8 @@ creation_date: 2018-09-28T17:52:36Z
 
 [Term]
 id: CMO:0002796
-name: heart ribonucleic acid composition measurement
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the heart is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+name: obsolete heart ribonucleic acid composition measurement
+def: "OBSOLETE. Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the heart is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "heart RNA composition measurement" EXACT []
 is_obsolete: true
 created_by: jrsmith
@@ -27262,8 +27264,8 @@ creation_date: 2018-09-28T17:54:27Z
 
 [Term]
 id: CMO:0002797
-name: kidney ribonucleic acid composition measurement
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the kidney is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
+name: obsolete kidney ribonucleic acid composition measurement
+def: "OBSOLETE. Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of which the tissue of the kidney is formed or composed." [McGraw-Hill:McGraw-Hill_Concise_Dictionary_of_Modern_Medicine, Saunders:Saunders_Comprehensive_Veterinary_Dictionary--3rd_Ed]
 synonym: "kidney RNA composition measurement" EXACT []
 is_obsolete: true
 created_by: jrsmith
@@ -28253,8 +28255,8 @@ creation_date: 2018-11-30T15:43:05Z
 
 [Term]
 id: CMO:0002902
-name: blood hemoglobin A1c level level to blood hemoglobin level ratio
-def: "A calculated measurement in which the amount of hemoglobin A1c in a specified sample of blood is divided by the amount of total hemoglobin in that same sample, and the result presented as a ratio, fraction, quotient or percentage." []
+name: obsolete blood hemoglobin A1c level level to blood hemoglobin level ratio
+def: "OBSOLETE. A calculated measurement in which the amount of hemoglobin A1c in a specified sample of blood is divided by the amount of total hemoglobin in that same sample, and the result presented as a ratio, fraction, quotient or percentage." []
 is_obsolete: true
 created_by: sjwang
 creation_date: 2018-11-30T15:51:29Z
@@ -30407,7 +30409,7 @@ creation_date: 2019-04-23T14:15:01Z
 
 [Term]
 id: CMO:0003134
-name: initial nifedipine concentration in the plasma
+name: obsolete initial nifedipine concentration in the plasma
 synonym: "C0" EXACT []
 is_obsolete: true
 created_by: sjwang
@@ -30434,7 +30436,7 @@ creation_date: 2019-04-23T14:32:15Z
 
 [Term]
 id: CMO:0003137
-name: the first 120min of plasma nifedipine level area under curve
+name: obsolete the first 120min of plasma nifedipine level area under curve
 synonym: "plasma nifedipine AUC 2hr" RELATED []
 xref: VT:0010622
 is_obsolete: true
@@ -31071,32 +31073,32 @@ creation_date: 2019-07-22T15:33:47Z
 
 [Term]
 id: CMO:0003202
-name: Myocardial interstitial angiotensin II level
-def: "Angiotensin II collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall." [PMID:22768235]
+name: obsolete Myocardial interstitial angiotensin II level
+def: "OBSOLETE. Angiotensin II collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall." [PMID:22768235]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-07-22T15:48:05Z
 
 [Term]
 id: CMO:0003203
-name: myocardial interstitial bradykinin level
-def: "Bradykinin found in the intercellular spaces of the myocardium." [PMID:22768235]
+name: obsolete myocardial interstitial bradykinin level
+def: "OBSOLETE. Bradykinin found in the intercellular spaces of the myocardium." [PMID:22768235]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-07-22T15:57:30Z
 
 [Term]
 id: CMO:0003204
-name: Myocardial interstitial norepinephrine
-def: "Norepinephrine collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall - PMID: 22768235" [PMID:22768235]
+name: obsolete Myocardial interstitial norepinephrine
+def: "OBSOLETE. Norepinephrine collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall - PMID: 22768235" [PMID:22768235]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-07-22T15:59:52Z
 
 [Term]
 id: CMO:0003205
-name: Myocardial interstitial epinephrine
-def: "Epinephrine collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall - PMID: 22768235" [PMID:22768235]
+name: obsolete Myocardial interstitial epinephrine
+def: "OBSOLETE. Epinephrine collected by microdialysis probe with semipermeable membrane fiber at a depth of 4 mm within the LV myocardium free wall - PMID: 22768235" [PMID:22768235]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-07-22T16:01:55Z
@@ -31133,8 +31135,8 @@ creation_date: 2019-07-24T13:54:54Z
 
 [Term]
 id: CMO:0003209
-name: heart left ventricle weight to right ventricle weight ratio
-def: "A calculated value which compares the weight of the left ventricle, the lower chamber of the left side of the heart, which pumps oxygenated blood out through the aorta to all the tissues of the body, with the weight of the right ventricle, the lower chamber of the right side of the heart, which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung, and presents it as a ratio." [https://www.drugbank.ca/drugs/DB00421 "DRUGBANK"]
+name: obsolete heart left ventricle weight to right ventricle weight ratio
+def: "OBSOLETE. A calculated value which compares the weight of the left ventricle, the lower chamber of the left side of the heart, which pumps oxygenated blood out through the aorta to all the tissues of the body, with the weight of the right ventricle, the lower chamber of the right side of the heart, which pumps venous blood through the pulmonary trunk and arteries to the capillaries of the lung, and presents it as a ratio." [https://www.drugbank.ca/drugs/DB00421 "DRUGBANK"]
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-07-24T14:40:19Z
@@ -31532,8 +31534,8 @@ creation_date: 2019-10-03T16:12:58Z
 
 [Term]
 id: CMO:0003251
-name: skeletal muscle ribonucleic acid composition measurement
-def: "Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
+name: obsolete skeletal muscle ribonucleic acid composition measurement
+def: "OBSOLETE. Any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) of a skeletal muscle." []
 xref: VT:0011059
 is_obsolete: true
 created_by: sjwang
@@ -31776,7 +31778,7 @@ creation_date: 2019-11-19T13:23:57Z
 
 [Term]
 id: CMO:0003275
-name: mammary organ ribonucleic acid composition measurement
+name: obsolete mammary organ ribonucleic acid composition measurement
 is_obsolete: true
 created_by: sjwang
 creation_date: 2019-11-19T13:29:32Z
@@ -32321,7 +32323,7 @@ creation_date: 2020-01-13T09:03:17Z
 
 [Term]
 id: CMO:0003333
-name: heart left ventricle ribonucleic acid composition measurement
+name: obsolete heart left ventricle ribonucleic acid composition measurement
 xref: VT:0011039
 is_obsolete: true
 created_by: hsnalabolu
@@ -32548,7 +32550,7 @@ creation_date: 2020-01-16T08:05:00Z
 
 [Term]
 id: CMO:0003359
-name: peripheral nervous system ribonucleic acid composition measurement
+name: obsolete peripheral nervous system ribonucleic acid composition measurement
 is_obsolete: true
 created_by: hsnalabolu
 creation_date: 2020-01-16T08:05:24Z
@@ -32765,7 +32767,7 @@ creation_date: 2020-02-17T13:20:28Z
 
 [Term]
 id: CMO:0003382
-name: occipital cortex ribonucleic acid composition measurement
+name: obsolete occipital cortex ribonucleic acid composition measurement
 xref: UBERON:0016540
 is_obsolete: true
 created_by: jrsmith
@@ -32982,8 +32984,8 @@ creation_date: 2020-05-04T14:39:47Z
 
 [Term]
 id: CMO:0003403
-name: kidney fractional mesangial volume
-def: "A calculated value made by dividing the mesangial volume measurement by the total glomerular volume measurement, both values having been determined from measurements of microscopic images." [PMID:14993490, PMID:3226452]
+name: obsolete kidney fractional mesangial volume
+def: "OBSOLETE. A calculated value made by dividing the mesangial volume measurement by the total glomerular volume measurement, both values having been determined from measurements of microscopic images." [PMID:14993490, PMID:3226452]
 synonym: "mesangial volume density (Vv)" EXACT []
 synonym: "mesangial Vv" EXACT []
 synonym: "ratio of glomerular area occupied by mesangial cells to total glomerular area" EXACT []
@@ -36098,8 +36100,8 @@ creation_date: 2021-05-03T13:03:21Z
 
 [Term]
 id: CMO:0003704
-name: dose of whole thorax lung irradiation at which breathing rate increases for 50% of the total study population
-def: "The amount of x-radiation that is sufficient to cause lung injury (measurable as increased breathing rate) to 50 percent of a population within a certain time frame." [https://medical-dictionary.thefreedictionary.com/ED50, PMID:30575429]
+name: obsolete dose of whole thorax lung irradiation at which breathing rate increases for 50% of the total study population
+def: "OBSOLETE. The amount of x-radiation that is sufficient to cause lung injury (measurable as increased breathing rate) to 50 percent of a population within a certain time frame." [https://medical-dictionary.thefreedictionary.com/ED50, PMID:30575429]
 xref: PMID:30575429
 xref: VT:0002327
 is_obsolete: true
@@ -37627,8 +37629,8 @@ creation_date: 2021-10-04T12:56:44Z
 
 [Term]
 id: CMO:0003842
-name: hepatic extraction fraction
-def: "This is the fraction of a drug entering the liver in the blood which is irreversibly removed (extracted) during one pass of the blood through the liver. The hepatic extraction fraction (HEF) depends on the hepatic blood flow, uptake into hepatocytes, and enzyme metabolism. HEF can be calculated using deconvolution analysis of the liver using scintigraphic data." [https://en.wikipedia.org/wiki/Extraction_ratio, PMID:8429339]
+name: obsolete hepatic extraction fraction
+def: "OBSOLETE. This is the fraction of a drug entering the liver in the blood which is irreversibly removed (extracted) during one pass of the blood through the liver. The hepatic extraction fraction (HEF) depends on the hepatic blood flow, uptake into hepatocytes, and enzyme metabolism. HEF can be calculated using deconvolution analysis of the liver using scintigraphic data." [https://en.wikipedia.org/wiki/Extraction_ratio, PMID:8429339]
 synonym: "hepatic extraction ratio" EXACT []
 xref: PMID:30208622
 is_obsolete: true
@@ -39968,8 +39970,8 @@ creation_date: 2025-03-03T17:14:25Z
 
 [Term]
 id: CMO:0004054
-name: amount of time spent in voluntary immobility after start of conditioned stimulus in a two-way shuttle box
-def: "This is a measurement of the total amount of experiment time that an organism or experimental subject spends frozen, that is, not moving from one place or position to another after a conditioned stimulus has been initiated." []
+name: obsolete amount of time spent in voluntary immobility after start of conditioned stimulus in a two-way shuttle box
+def: "OBSOLETE. This is a measurement of the total amount of experiment time that an organism or experimental subject spends frozen, that is, not moving from one place or position to another after a conditioned stimulus has been initiated." []
 is_obsolete: true
 created_by: slaulederkind
 creation_date: 2025-03-04T11:54:44Z
@@ -41288,6 +41290,261 @@ xref: VT:0011325
 relationship: part_of CMO:0003341 ! cerebral cortex ribonucleic acid level
 created_by: caripark
 creation_date: 2026-07-24T07:35:56Z
+
+[Term]
+id: CMO:0004162
+name: blood anti-Mullerian hormone level
+def: "Measurement of the amount in blood of the heterodimeric glycoprotein hormone that plays an essential role in sex determination in early embryonic development." [MP:0014513]
+xref: VT:0011335
+is_a: CMO:0000286 ! blood peptide hormone level
+created_by: caripark
+creation_date: 2026-09-08T08:38:11Z
+
+[Term]
+id: CMO:0004163
+name: blood beta-carotene level
+def: "Measurement of the amount in blood of a carotenoid that is a precursor of vitamin A." [MESH:D019207]
+xref: CHEBI:17579
+xref: VT:0011336
+is_a: CMO:0003698 ! blood vitamin level
+created_by: caripark
+creation_date: 2026-09-08T08:45:27Z
+
+[Term]
+id: CMO:0004164
+name: blood vitamin A level
+def: "Measurement of the amount in blood of any of the vitamin A compounds, retinol, retinal (retinaldehyde), and retinoic acid, all of which are derivatives of beta-carotene." [GO:0006776]
+xref: CHEBI:12777
+xref: VT:0010627
+is_a: CMO:0003698 ! blood vitamin level
+created_by: caripark
+creation_date: 2026-09-08T08:49:03Z
+
+[Term]
+id: CMO:0004165
+name: blood vitamin E level
+def: "Measurement of the amount in blood of a fat-soluble vitamin that acts as a natural antioxidant by scavenging free radicals and molecular oxygen." [CHEBI:33234]
+xref: VT:0011337
+is_a: CMO:0003698 ! blood vitamin level
+created_by: caripark
+creation_date: 2026-09-08T09:03:54Z
+
+[Term]
+id: CMO:0004166
+name: blood serotonin level
+def: "Measurement of the amount in blood of a monoamine neurotransmitter derived primarily from tryptophan." [MP:0005322]
+xref: CHEBI:28790
+xref: MESH:D012701
+xref: VT:0011219
+is_a: CMO:0001005 ! blood monoamine hormone level
+created_by: caripark
+creation_date: 2026-09-08T09:08:25Z
+
+[Term]
+id: CMO:0004167
+name: blood immunoglobulin G1 level
+def: "Measurement of the amount in blood of the G1 subclass of immunoglobulin G (IgG), the most abundant class of antibodies found in blood serum and lymph. IgG antibodies are active against bacteria, fungi, viruses, and foreign particles, and trigger action of the complement system. IgG subclasses differ in the structure of their hinge regions. IgG1 is the most abundant subclass in serum, and is able to activate complement and bind to the Fc receptor on phagocytic cells." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, http://en.wikipedia.org/wiki/Immunoglobulin_G]
+synonym: "blood IgG1 level" EXACT []
+is_a: CMO:0002091 ! blood immunoglobulin G level
+created_by: caripark
+creation_date: 2026-09-08T09:20:23Z
+
+[Term]
+id: CMO:0004168
+name: blood immunoglobulin G2 level
+def: "Measurement of the amount in blood of immunoglobulin class G2." [MP:0013802]
+synonym: "blood IgG2 level" EXACT []
+xref: VT:0011218
+is_a: CMO:0002091 ! blood immunoglobulin G level
+created_by: caripark
+creation_date: 2026-09-11T15:05:39Z
+
+[Term]
+id: CMO:0004169
+name: tail circumference
+def: "Measurement of the distance around the external caudal extension of the body." [UBERON:0002415]
+xref: VT:0011338
+is_a: CMO:0000190 ! tail morphological measurement
+created_by: caripark
+creation_date: 2026-09-11T15:08:33Z
+
+[Term]
+id: CMO:0004170
+name: blood alpha-1 globulin level
+def: "Measurement of the amount of the proteins in the alpha-1 (faster) subgroup of the serum proteins that have the most rapid migration during electrophoresis in a specified sample of blood." [MESH:D000510]
+xref: VT:0011343
+is_a: CMO:0002398 ! blood globulin level
+created_by: caripark
+creation_date: 2026-09-11T15:10:28Z
+
+[Term]
+id: CMO:0004171
+name: blood alpha-2 globulin level
+def: "Measurement of the amount of the proteins in the alpha-2 (slower) subgroup of the serum proteins that have the most rapid migration during electrophoresis in a specified sample of blood." [MESH:D000510]
+xref: VT:0011344
+is_a: CMO:0002398 ! blood globulin level
+created_by: caripark
+creation_date: 2026-09-11T15:13:26Z
+
+[Term]
+id: CMO:0004172
+name: blood beta-globulin level
+def: "Measurement of the amount of the serum proteins with an electrophoretic mobility that falls between alpha-globulins and gamma-globulins in a specified sample of blood." [MESH:D001609]
+xref: VT:0011345
+is_a: CMO:0002398 ! blood globulin level
+created_by: caripark
+creation_date: 2026-09-11T15:14:30Z
+
+[Term]
+id: CMO:0004173
+name: blood gamma-globulin level
+def: "Measurement of the amount of the serum proteins that migrate to the gamma region (most positively charged) upon electrophoresis in a specified sample of blood." [MESH:D005719]
+xref: VT:0011346
+is_a: CMO:0002398 ! blood globulin level
+created_by: caripark
+creation_date: 2026-09-11T15:17:49Z
+
+[Term]
+id: CMO:0004174
+name: skin temperature
+def: "Measurement of the level of heat on the external surface of the skin of an organism." [MESH:D001831]
+xref: VT:0011347
+is_a: CMO:0000015 ! body temperature
+created_by: caripark
+creation_date: 2026-09-11T15:19:49Z
+
+[Term]
+id: CMO:0004175
+name: milk protein-to-fat ratio
+def: "A calculated measurement in which the amount of protein in a specified sample of milk is divided by the amount of fat in that same sample of milk, and the result presented as a ratio, fraction, quotient or percentage." [https://pubs.nmsu.edu/_d/D104/index.html]
+is_a: CMO:0000787 ! milk measurement
+created_by: caripark
+creation_date: 2026-09-11T15:23:56Z
+
+[Term]
+id: CMO:0004176
+name: blood pepsinogen level
+def: "Measurement of the amount in blood of the granular zymogen of the gastric glands that is converted to pepsin under acidic conditions." [https://www.merriam-webster.com/dictionary/pepsinogen]
+xref: VT:0011355
+is_a: CMO:0000028 ! blood protein measurement
+created_by: caripark
+creation_date: 2026-09-11T15:25:30Z
+
+[Term]
+id: CMO:0004177
+name: blood immunoglobulin Y level
+def: "Measurement of the amount in blood of immunoglobulin class Y, the major antibody in amphibian, bird, reptile, and lungfish blood." [https://en.wikipedia.org/wiki/Immunoglobulin_Y]
+xref: VT:0011358
+is_a: CMO:0001531 ! blood immunoglobulin measurement
+created_by: caripark
+creation_date: 2026-09-11T15:27:25Z
+
+[Term]
+id: CMO:0004178
+name: duodenum length
+def: "Measurement of the distance from end to end of the first and shortest part of the small intestine, which extends from the stomach to the jejunum." [https://en.wikipedia.org/wiki/Duodenum, UBERON:0002114]
+xref: VT:0010197
+relationship: part_of CMO:0001224 ! small intestine length
+created_by: caripark
+creation_date: 2026-09-11T15:45:56Z
+
+[Term]
+id: CMO:0004179
+name: duodenum weight
+def: "Measurement of the weight or heaviness of first and shortest part of the small intestine, which extends from the stomach to the jejunum." [https://en.wikipedia.org/wiki/Duodenum, UBERON:0002114]
+xref: VT:0010198
+relationship: part_of CMO:0000470 ! small intestine weight
+created_by: caripark
+creation_date: 2026-09-11T15:47:53Z
+
+[Term]
+id: CMO:0004180
+name: ileum length
+def: "Measurement of the distance from end to end of the final section of the small intestine, which extends from the jejunum to the colon." [https://en.wikipedia.org/wiki/Ileum, UBERON:0002116]
+xref: VT:0010224
+relationship: part_of CMO:0001224 ! small intestine length
+created_by: caripark
+creation_date: 2026-09-11T15:51:08Z
+
+[Term]
+id: CMO:0004181
+name: ileum weight
+def: "Measurement of the weight or heaviness of the final section of the small intestine, which extends from the jejunum to the colon." [https://en.wikipedia.org/wiki/Ileum, UBERON:0002116]
+xref: VT:0011225
+relationship: part_of CMO:0000470 ! small intestine weight
+created_by: caripark
+creation_date: 2026-09-11T15:52:50Z
+
+[Term]
+id: CMO:0004182
+name: jejunum length
+def: "Measurement of the distance from end to end of the portion of the small intestine that extends from the duodenum to the ileum." [UBERON:0002115]
+xref: VT:0010212
+relationship: part_of CMO:0001224 ! small intestine length
+created_by: caripark
+creation_date: 2026-09-11T15:55:15Z
+
+[Term]
+id: CMO:0004183
+name: jejunum weight
+def: "Measurement of the weight or heaviness of the portion of the small intestine that extends from the duodenum to the ileum." [UBERON:0002115]
+xref: VT:0010213
+relationship: part_of CMO:0000470 ! small intestine weight
+created_by: caripark
+creation_date: 2026-09-11T16:00:08Z
+
+[Term]
+id: CMO:0004184
+name: milk mineral measurement
+def: "Measurement of the amount or composition in milk of a chemical substance that is normally crystalline formed and has been formed as a result of geological processes." [CHEBI:46662]
+is_a: CMO:0000787 ! milk measurement
+created_by: caripark
+creation_date: 2026-09-11T16:01:23Z
+
+[Term]
+id: CMO:0004185
+name: milk copper content
+def: "Measurement of the amount in milk of a metallic element that has atomic symbol Cu and normally occurs as a cofactor for a number of proteins, including amine oxidases and chaperone proteins." [MP:0003952]
+xref: VT:0010710
+is_a: CMO:0004184 ! milk mineral measurement
+created_by: caripark
+creation_date: 2026-09-11T16:02:21Z
+
+[Term]
+id: CMO:0004186
+name: milk iron content
+def: "Measurement of the amount in milk of a metallic element that is an essential component of hemoglobins, cytochromes, and iron-binding proteins." [ISBN:0-683-40008-8, MESH:D007501]
+xref: VT:0010711
+is_a: CMO:0004184 ! milk mineral measurement
+created_by: caripark
+creation_date: 2026-09-11T16:03:23Z
+
+[Term]
+id: CMO:0004187
+name: milk selenium content
+def: "Measurement of the amount in milk of a metallic element that is chemically similar to sulfur." [ISBN:0-683-40008-8]
+xref: VT:0010713
+is_a: CMO:0004184 ! milk mineral measurement
+created_by: caripark
+creation_date: 2026-09-11T16:05:25Z
+
+[Term]
+id: CMO:0004188
+name: milk zinc content
+def: "Measurement of the amount in milk of a metallic element that is a cofactor in many proteins." [ISBN:0-683-40008-8]
+xref: VT:0010714
+is_a: CMO:0004184 ! milk mineral measurement
+created_by: caripark
+creation_date: 2026-09-11T16:07:13Z
+
+[Term]
+id: CMO:0004189
+name: milk calcium content
+def: "Measurement of the amount in milk of a metallic bivalent element with atomic symbol Ca and atomic number 20." [VT:0010290]
+xref: VT:0010290
+is_a: CMO:0004184 ! milk mineral measurement
+created_by: caripark
+creation_date: 2026-09-11T16:08:21Z
 
 [Typedef]
 id: part_of
