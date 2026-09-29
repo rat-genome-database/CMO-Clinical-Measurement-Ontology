@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-09-19
-date: 19:09:2026 20:13
+data-version: releases/2026-09-12
+date: 12:09:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: clinical_measurement_ontology
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-09-19" xsd:string
+property_value: owl:versionInfo "2026-09-12" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -7296,7 +7296,7 @@ creation_date: 2012-06-13T02:58:57Z
 [Term]
 id: CMO:0000792
 name: milk somatic cell count
-def: "The number of somatic cells (leukocytes and epithelial cells) present in milk; a high count is an indicator of mastitis." [LPT:1000072]
+def: "The number of somatic cells (leukocytes and epithelial cells) present in milk; a high count is an indicator of mastitis." [PT:1000072]
 is_a: CMO:0000791 ! milk somatic cell measurement
 created_by: jsmith
 creation_date: 2012-06-13T03:00:28Z
@@ -7304,7 +7304,7 @@ creation_date: 2012-06-13T03:00:28Z
 [Term]
 id: CMO:0000793
 name: milk somatic cell score
-def: "Transformation of the number of somatic cells (leukocytes and epithelial cells) present in milk (ln(SCC/100,000)+3)." [LPT:1000072]
+def: "Transformation of the number of somatic cells (leukocytes and epithelial cells) present in milk (ln(SCC/100,000)+3)." [PT:1000072]
 is_a: CMO:0000791 ! milk somatic cell measurement
 created_by: jsmith
 creation_date: 2012-06-13T03:01:45Z
@@ -7312,7 +7312,7 @@ creation_date: 2012-06-13T03:01:45Z
 [Term]
 id: CMO:0000794
 name: milk protein content
-def: "The amount in milk of macromolecules consisting of long sequences of amino acids in peptide linkage." [LPT:1000165, Stedman:Stedmans_Medical_Dictionary]
+def: "The amount in milk of macromolecules consisting of long sequences of amino acids in peptide linkage." [PT:1000165, Stedman:Stedmans_Medical_Dictionary]
 is_a: CMO:0000789 ! milk protein measurement
 created_by: jsmith
 creation_date: 2012-06-13T03:07:39Z
@@ -7320,7 +7320,7 @@ creation_date: 2012-06-13T03:07:39Z
 [Term]
 id: CMO:0000795
 name: milk protein percentage
-def: "The amount in milk of macromolecules consisting of long sequences of amino acids in peptide linkage, expressed as a percentage of total milk amount." [LPT:1000165, Stedman:Stedmans_Medical_Dictionary]
+def: "The amount in milk of macromolecules consisting of long sequences of amino acids in peptide linkage, expressed as a percentage of total milk amount." [PT:1000165, Stedman:Stedmans_Medical_Dictionary]
 is_a: CMO:0000797 ! calculated milk protein content measurement
 created_by: jsmith
 creation_date: 2012-06-13T03:13:36Z
@@ -7328,7 +7328,7 @@ creation_date: 2012-06-13T03:13:36Z
 [Term]
 id: CMO:0000796
 name: milk protein yield
-def: "The total amount of milk protein produced over a specific period of time." [LPT:0010028]
+def: "The total amount of milk protein produced over a specific period of time." [PT:0010028]
 is_a: CMO:0000789 ! milk protein measurement
 created_by: jsmith
 creation_date: 2012-06-13T03:15:40Z
@@ -7343,7 +7343,7 @@ creation_date: 2012-06-15T01:06:23Z
 [Term]
 id: CMO:0000798
 name: milk casein content
-def: "Measurement of the amount of casein, the predominant phosphoprotein in milk." [LPT:0010280]
+def: "Measurement of the amount of casein, the predominant phosphoprotein in milk." [PT:0010280]
 is_a: CMO:0000794 ! milk protein content
 created_by: jsmith
 creation_date: 2012-06-15T01:09:27Z
@@ -7368,7 +7368,7 @@ creation_date: 2012-06-15T01:20:39Z
 [Term]
 id: CMO:0000801
 name: milk casein percentage
-def: "The amount of casein, the predominant phosphoprotein in milk, expressed as a percentage of total milk protein." [LPT:0010280]
+def: "The amount of casein, the predominant phosphoprotein in milk, expressed as a percentage of total milk protein." [PT:0010280]
 is_a: CMO:0000795 ! milk protein percentage
 is_a: CMO:0000799 ! calculated milk casein content
 created_by: jsmith
@@ -7377,7 +7377,7 @@ creation_date: 2012-06-15T01:22:13Z
 [Term]
 id: CMO:0000802
 name: milk alpha-casein content
-def: "The amount in milk of the alpha fraction of the casein phosphoprotein." [LPT:0000002]
+def: "The amount in milk of the alpha fraction of the casein phosphoprotein." [PT:0000002]
 is_a: CMO:0000798 ! milk casein content
 created_by: jsmith
 creation_date: 2012-06-15T05:08:22Z
@@ -7385,7 +7385,7 @@ creation_date: 2012-06-15T05:08:22Z
 [Term]
 id: CMO:0000803
 name: milk beta-casein content
-def: "The amount in milk of the beta fraction of the casein phosphoprotein." [LPT:0010284]
+def: "The amount in milk of the beta fraction of the casein phosphoprotein." [PT:0010284]
 is_a: CMO:0000798 ! milk casein content
 created_by: jsmith
 creation_date: 2012-06-15T05:09:53Z
@@ -7393,7 +7393,7 @@ creation_date: 2012-06-15T05:09:53Z
 [Term]
 id: CMO:0000804
 name: milk kappa-casein content
-def: "The amount in milk of kappa-casein, a casein which plays a crucial role in micellar structure; its concentration determines micellar size." [LPT:0010283]
+def: "The amount in milk of kappa-casein, a casein which plays a crucial role in micellar structure; its concentration determines micellar size." [PT:0010283]
 is_a: CMO:0000798 ! milk casein content
 created_by: jsmith
 creation_date: 2012-06-15T05:11:37Z
@@ -7401,7 +7401,7 @@ creation_date: 2012-06-15T05:11:37Z
 [Term]
 id: CMO:0000805
 name: milk alpha-casein percentage
-def: "The amount in milk of the alpha fraction of the casein phosphoprotein, expressed as a percentage of total casein content or total milk protein." [LPT:0000002]
+def: "The amount in milk of the alpha fraction of the casein phosphoprotein, expressed as a percentage of total casein content or total milk protein." [PT:0000002]
 is_a: CMO:0000801 ! milk casein percentage
 created_by: jsmith
 creation_date: 2012-06-15T05:13:05Z
@@ -7409,7 +7409,7 @@ creation_date: 2012-06-15T05:13:05Z
 [Term]
 id: CMO:0000806
 name: milk beta-casein percentage
-def: "The amount in milk of the beta fraction of the casein phosphoprotein, expressed as a percentage of total casein or total milk protein." [LPT:0010284]
+def: "The amount in milk of the beta fraction of the casein phosphoprotein, expressed as a percentage of total casein or total milk protein." [PT:0010284]
 is_a: CMO:0000801 ! milk casein percentage
 created_by: jsmith
 creation_date: 2012-06-15T05:14:12Z
@@ -7417,7 +7417,7 @@ creation_date: 2012-06-15T05:14:12Z
 [Term]
 id: CMO:0000807
 name: milk kappa-casein percentage
-def: "The amount in milk of kappa-casein, a casein which plays a crucial role in micellar structure, expressed as a percentage of total milk protein." [LPT:0010283]
+def: "The amount in milk of kappa-casein, a casein which plays a crucial role in micellar structure, expressed as a percentage of total milk protein." [PT:0010283]
 is_a: CMO:0000801 ! milk casein percentage
 created_by: jsmith
 creation_date: 2012-06-15T05:16:07Z
@@ -7433,7 +7433,7 @@ creation_date: 2012-06-15T05:25:14Z
 [Term]
 id: CMO:0000809
 name: milk alpha-lactalbumin content
-def: "The amount in milk of alpha-lactalbumin, an enzyme that catalyzes lactose synthesis in mammary epithelial cells." [LPT:0010003]
+def: "The amount in milk of alpha-lactalbumin, an enzyme that catalyzes lactose synthesis in mammary epithelial cells." [PT:0010003]
 is_a: CMO:0000808 ! milk whey protein content
 created_by: jsmith
 creation_date: 2012-06-15T05:26:47Z
@@ -7441,7 +7441,7 @@ creation_date: 2012-06-15T05:26:47Z
 [Term]
 id: CMO:0000810
 name: milk beta-lactoglobulin content
-def: "The amount in milk of beta-lactoglobulin, which may bind retinol; this milk constituent is allergenic." [LPT:0010266]
+def: "The amount in milk of beta-lactoglobulin, which may bind retinol; this milk constituent is allergenic." [PT:0010266]
 is_a: CMO:0000808 ! milk whey protein content
 created_by: jsmith
 creation_date: 2012-06-15T05:28:17Z
@@ -7458,7 +7458,7 @@ creation_date: 2012-06-15T05:29:55Z
 [Term]
 id: CMO:0000812
 name: milk alpha-lactalbumin percentage
-def: "The amount in milk of alpha-lactalbumin, an enzyme that catalyzes lactose synthesis in mammary epithelial cells, expressed as a percentage of total milk protein." [LPT:0010003]
+def: "The amount in milk of alpha-lactalbumin, an enzyme that catalyzes lactose synthesis in mammary epithelial cells, expressed as a percentage of total milk protein." [PT:0010003]
 is_a: CMO:0000795 ! milk protein percentage
 is_a: CMO:0000811 ! calculated milk whey protein content
 created_by: jsmith
@@ -7467,7 +7467,7 @@ creation_date: 2012-06-15T05:33:49Z
 [Term]
 id: CMO:0000813
 name: milk beta-lactoglobulin percentage
-def: "The amount in milk of beta-lactoglobulin, which may bind retinol, expressed as a percentage of total whey protein or total protein." [LPT:0010266]
+def: "The amount in milk of beta-lactoglobulin, which may bind retinol, expressed as a percentage of total whey protein or total protein." [PT:0010266]
 is_a: CMO:0000795 ! milk protein percentage
 is_a: CMO:0000811 ! calculated milk whey protein content
 created_by: jsmith
@@ -7476,7 +7476,7 @@ creation_date: 2012-06-15T05:34:46Z
 [Term]
 id: CMO:0000814
 name: milk fat yield
-def: "The total amount of milk fat produced over a specific period of time." [LPT:0010027]
+def: "The total amount of milk fat produced over a specific period of time." [PT:0010027]
 is_a: CMO:0000788 ! milk fat measurement
 created_by: jsmith
 creation_date: 2012-06-15T05:45:51Z
@@ -7495,7 +7495,7 @@ creation_date: 2012-06-15T05:47:54Z
 [Term]
 id: CMO:0000816
 name: milk fat percentage
-def: "The amount of fat in milk, expressed as a percentage of total milk amount." [LPT:1000161]
+def: "The amount of fat in milk, expressed as a percentage of total milk amount." [PT:1000161]
 is_a: CMO:0000825 ! calculated milk fat content measurement
 created_by: jsmith
 creation_date: 2012-06-15T05:52:05Z
@@ -7586,7 +7586,7 @@ creation_date: 2012-06-19T04:31:22Z
 [Term]
 id: CMO:0000827
 name: milk fatty acid C12:1(n-3) percentage
-def: "The amount in milk fat of an unsaturated, omega-3 fatty acid with a twelve-carbon backbone and one double bond, expressed as a percentage of total fatty acid amount." [LPT:0000011]
+def: "The amount in milk fat of an unsaturated, omega-3 fatty acid with a twelve-carbon backbone and one double bond, expressed as a percentage of total fatty acid amount." [PT:0000011]
 synonym: "milk lauroleic acid percentage" EXACT []
 xref: CHEBI:38375
 is_a: CMO:0000822 ! milk omega-3 fatty acid measurement
@@ -7597,7 +7597,7 @@ creation_date: 2012-06-19T05:18:28Z
 [Term]
 id: CMO:0000828
 name: milk fatty acid cis-9-C14:1 percentage
-def: "The amount in milk fat of an unsaturated fatty acid with a fourteen-carbon backbone and a cis double bond at C-9, expressed as a percentage of total fatty acid amount." [LPT:0010326]
+def: "The amount in milk fat of an unsaturated fatty acid with a fourteen-carbon backbone and a cis double bond at C-9, expressed as a percentage of total fatty acid amount." [PT:0010326]
 synonym: "milk myristoleic acid percentage" EXACT []
 xref: CHEBI:27781
 is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
@@ -7607,10 +7607,9 @@ creation_date: 2012-06-19T05:20:43Z
 [Term]
 id: CMO:0000829
 name: milk fatty acid cis-9-C16:1 percentage
-def: "The amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a cis double bond at C-9, expressed as a percentage of total fatty acid amount." [LPT:0010372]
+def: "The amount in milk fat of an unsaturated fatty acid with a sixteen-carbon backbone and a cis double bond at C-9, expressed as a percentage of total fatty acid amount." [PT:0010372]
 synonym: "milk palmitoleic acid percentage" EXACT []
 xref: CHEBI:28716
-xref: VT:0010372
 is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
 created_by: jsmith
 creation_date: 2012-06-19T05:21:33Z
@@ -7618,7 +7617,7 @@ creation_date: 2012-06-19T05:21:33Z
 [Term]
 id: CMO:0000830
 name: milk fatty acid cis-9-C18:1 percentage
-def: "The amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-9, expressed as a percentage of total fatty acid amount." [LPT:0010371]
+def: "The amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-9, expressed as a percentage of total fatty acid amount." [PT:0010371]
 synonym: "milk oleic acid percentage" EXACT []
 xref: CHEBI:16196
 is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
@@ -7628,11 +7627,10 @@ creation_date: 2012-06-19T05:22:59Z
 [Term]
 id: CMO:0000831
 name: milk fatty acid trans-11-C18:1 percentage
-def: "The amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-11." [LPT:0010329]
+def: "The amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-11." [PT:0010329]
 synonym: "milk trans-vaccenic acid percentage" EXACT []
 synonym: "milk vaccenic acid percentage" RELATED []
 xref: CHEBI:28727
-xref: VT:0010329
 is_a: CMO:0000824 ! milk trans fatty acid measurement
 is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
 created_by: jsmith
@@ -7641,7 +7639,7 @@ creation_date: 2012-06-19T05:24:43Z
 [Term]
 id: CMO:0000832
 name: milk conjugated linoleic acid percentage
-def: "The amount in milk fat of any/all isomers of linoleic acid in which the double bonds are conjugated, i.e. double bonds alternate with single bonds, expressed as a percentage of total fatty acid amount." [LPT:0010324, MeSH:D044243]
+def: "The amount in milk fat of any/all isomers of linoleic acid in which the double bonds are conjugated, i.e. double bonds alternate with single bonds, expressed as a percentage of total fatty acid amount." [MeSH:D044243, PT:0010324]
 synonym: "milk CLA percentage" EXACT []
 xref: CHEBI:61159
 is_a: CMO:0001383 ! milk polyunsaturated fatty acid percentage
@@ -7651,7 +7649,7 @@ creation_date: 2012-06-19T05:26:29Z
 [Term]
 id: CMO:0000833
 name: milk fatty acid cis-9,cis-12-C18:2 percentage
-def: "The amount in milk fat of an unsaturated, omega-6 fatty acid with an eighteen-carbon backbone, expressed as a percentage of total fatty acid amount." [LPT:0010325]
+def: "The amount in milk fat of an unsaturated, omega-6 fatty acid with an eighteen-carbon backbone, expressed as a percentage of total fatty acid amount." [PT:0010325]
 synonym: "milk linoleic acid percentage" EXACT []
 xref: CHEBI:17351
 is_a: CMO:0000823 ! milk omega-6 fatty acid measurement
@@ -7662,7 +7660,7 @@ creation_date: 2012-06-19T05:36:10Z
 [Term]
 id: CMO:0000834
 name: milk fatty acid C10:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a ten-carbon backbone, expressed as a percentage of total fatty acid amount." [LPT:0010312]
+def: "The amount in milk fat of a saturated fatty acid with a ten-carbon backbone, expressed as a percentage of total fatty acid amount." [PT:0010312]
 synonym: "milk capric acid percentage" EXACT []
 xref: CHEBI:30813
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
@@ -7672,7 +7670,7 @@ creation_date: 2012-06-21T05:07:10Z
 [Term]
 id: CMO:0000835
 name: milk fatty acid C12:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a twelve-carbon backbone, expressed as a percentage of total fatty acid amount." [LPT:0010314]
+def: "The amount in milk fat of a saturated fatty acid with a twelve-carbon backbone, expressed as a percentage of total fatty acid amount." [PT:0010314]
 synonym: "milk lauric acid percentage" EXACT []
 xref: CHEBI:30805
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
@@ -7682,7 +7680,7 @@ creation_date: 2012-06-21T05:20:45Z
 [Term]
 id: CMO:0000836
 name: milk fatty acid C14:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a fourteen-carbon backbone, expressed as a percentage of total fatty acid amount." [LPT:0010315]
+def: "The amount in milk fat of a saturated fatty acid with a fourteen-carbon backbone, expressed as a percentage of total fatty acid amount." [PT:0010315]
 synonym: "milk myristic acid percentage" EXACT []
 xref: CHEBI:28875
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
@@ -7692,7 +7690,7 @@ creation_date: 2012-06-21T05:22:30Z
 [Term]
 id: CMO:0000837
 name: milk fatty acid C15:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a fifteen-carbon backbone, expressed as a percentage of total fatty acid amount." [LPT:0000009]
+def: "The amount in milk fat of a saturated fatty acid with a fifteen-carbon backbone, expressed as a percentage of total fatty acid amount." [PT:0000009]
 synonym: "milk pentadecanoic acid percentage" RELATED []
 synonym: "milk pentadecylic acid percentage" RELATED []
 xref: CHEBI:42504
@@ -7703,7 +7701,7 @@ creation_date: 2012-06-21T05:24:12Z
 [Term]
 id: CMO:0000838
 name: milk fatty acid C16:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a sixteen-carbon backbone, expressed as a percentage of total fatty acid amount." [LPT:0010316]
+def: "The amount in milk fat of a saturated fatty acid with a sixteen-carbon backbone, expressed as a percentage of total fatty acid amount." [PT:0010316]
 synonym: "milk palmitic acid percentage" EXACT []
 xref: CHEBI:15756
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
@@ -7713,7 +7711,7 @@ creation_date: 2012-06-21T05:26:42Z
 [Term]
 id: CMO:0000839
 name: milk fatty acid C18:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with an eighteen-carbon backbone, expressed as a percentage of total fatty acid content." [LPT:0010318]
+def: "The amount in milk fat of a saturated fatty acid with an eighteen-carbon backbone, expressed as a percentage of total fatty acid content." [PT:0010318]
 synonym: "milk stearic acid percentage" EXACT []
 xref: CHEBI:28842
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
@@ -7723,7 +7721,7 @@ creation_date: 2012-06-21T05:28:06Z
 [Term]
 id: CMO:0000840
 name: milk fatty acid C20:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a twenty-carbon backbone, expressed as a percentage of total fatty acid amount." [LPT:0010319]
+def: "The amount in milk fat of a saturated fatty acid with a twenty-carbon backbone, expressed as a percentage of total fatty acid amount." [PT:0010319]
 synonym: "milk arachidic acid percentage" RELATED []
 synonym: "milk eicosanoic acid percentage" RELATED []
 xref: CHEBI:28822
@@ -7734,7 +7732,7 @@ creation_date: 2012-06-21T05:30:01Z
 [Term]
 id: CMO:0000841
 name: milk fatty acid C24:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a twenty-four-carbon backbone, expressed as a percentage of total fatty acid content." [LPT:0000010]
+def: "The amount in milk fat of a saturated fatty acid with a twenty-four-carbon backbone, expressed as a percentage of total fatty acid content." [PT:0000010]
 synonym: "milk lignoceric acid percentage" RELATED []
 synonym: "milk tetracosanoic acid percentage" RELATED []
 xref: CHEBI:28866
@@ -7745,7 +7743,7 @@ creation_date: 2012-06-21T05:32:16Z
 [Term]
 id: CMO:0000842
 name: milk fatty acid C6:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a six-carbon backbone, expressed as a percentage of total fatty acid content." [LPT:0010308]
+def: "The amount in milk fat of a saturated fatty acid with a six-carbon backbone, expressed as a percentage of total fatty acid content." [PT:0010308]
 synonym: "milk caproic acid percentage" EXACT []
 xref: CHEBI:30776
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
@@ -7755,7 +7753,7 @@ creation_date: 2012-06-21T05:34:23Z
 [Term]
 id: CMO:0000843
 name: milk fatty acid C8:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with an eight-carbon backbone, expressed as a percentage of total fatty acid content." [LPT:0010310]
+def: "The amount in milk fat of a saturated fatty acid with an eight-carbon backbone, expressed as a percentage of total fatty acid content." [PT:0010310]
 synonym: "milk caprylic acid percentage" EXACT []
 xref: CHEBI:28837
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
@@ -12464,7 +12462,7 @@ creation_date: 2013-01-09T17:29:18Z
 [Term]
 id: CMO:0001333
 name: egg weight, fowl
-def: "The relative heaviness of an ovum in combination with its nutrient stores and protective outer coverings, of a bird." [LPT:1000577]
+def: "The relative heaviness of an ovum in combination with its nutrient stores and protective outer coverings, of a bird." [PT:1000577]
 is_a: CMO:0000402 ! egg measurement, fowl
 created_by: jsmith
 creation_date: 2013-01-10T15:07:44Z
@@ -12497,7 +12495,7 @@ creation_date: 2013-01-10T15:21:17Z
 [Term]
 id: CMO:0001337
 name: eggshell weight, fowl
-def: "The relative heaviness of the rinsed and dried outermost protective covering of a bird's egg." [LPT:1000260]
+def: "The relative heaviness of the rinsed and dried outermost protective covering of a bird's egg." [PT:1000260]
 is_a: CMO:0001335 ! eggshell measurement, fowl
 relationship: part_of CMO:0001333 ! egg weight, fowl
 created_by: jsmith
@@ -12506,7 +12504,7 @@ creation_date: 2013-01-10T15:23:45Z
 [Term]
 id: CMO:0001338
 name: eggshell percentage, fowl
-def: "The weight of the rinsed and dried eggshell, expressed as a percentage of total egg weight." [LPT:1000260]
+def: "The weight of the rinsed and dried eggshell, expressed as a percentage of total egg weight." [PT:1000260]
 is_a: CMO:0001337 ! eggshell weight, fowl
 created_by: jsmith
 creation_date: 2013-01-10T15:25:43Z
@@ -12514,7 +12512,7 @@ creation_date: 2013-01-10T15:25:43Z
 [Term]
 id: CMO:0001339
 name: eggshell color, fowl
-def: "The visually perceived hue of the outermost protective covering of a bird's egg." [LPT:1000255]
+def: "The visually perceived hue of the outermost protective covering of a bird's egg." [PT:1000255]
 is_a: CMO:0001335 ! eggshell measurement, fowl
 created_by: jsmith
 creation_date: 2013-01-10T15:29:23Z
@@ -12522,7 +12520,7 @@ creation_date: 2013-01-10T15:29:23Z
 [Term]
 id: CMO:0001340
 name: eggshell strength, fowl
-def: "The force required to fracture the hard outermost covering of a bird's egg." [LPT:1000258]
+def: "The force required to fracture the hard outermost covering of a bird's egg." [PT:1000258]
 is_a: CMO:0001335 ! eggshell measurement, fowl
 created_by: jsmith
 creation_date: 2013-01-10T15:30:34Z
@@ -12530,7 +12528,7 @@ creation_date: 2013-01-10T15:30:34Z
 [Term]
 id: CMO:0001341
 name: eggshell thickness, fowl
-def: "The thickness, that is, the length or extent of the dimension between the inner and outer surfaces of an eggshell, the outermost protective covering of a bird's egg." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, LPT:1000259]
+def: "The thickness, that is, the length or extent of the dimension between the inner and outer surfaces of an eggshell, the outermost protective covering of a bird's egg." [American_Heritage:The_American_Heritage_Medical_Dictionary_2007, PT:1000259]
 is_a: CMO:0001335 ! eggshell measurement, fowl
 created_by: jsmith
 creation_date: 2013-01-10T15:31:38Z
@@ -12538,7 +12536,7 @@ creation_date: 2013-01-10T15:31:38Z
 [Term]
 id: CMO:0001342
 name: egg albumen weight, fowl
-def: "The relative heaviness of the nutritive and protective gelatinous substance (egg white) surrounding the yolk of a bird's egg." [LPT:1000254]
+def: "The relative heaviness of the nutritive and protective gelatinous substance (egg white) surrounding the yolk of a bird's egg." [PT:1000254]
 synonym: "egg white weight, fowl" RELATED []
 is_a: CMO:0001336 ! egg albumen measurement, fowl
 relationship: part_of CMO:0001333 ! egg weight, fowl
@@ -12548,7 +12546,7 @@ creation_date: 2013-01-10T15:37:38Z
 [Term]
 id: CMO:0001343
 name: egg albumen height, fowl
-def: "The height of the inner thick albumen (egg white) when a bird's egg is broken onto a flat surface." [LPT:1000253]
+def: "The height of the inner thick albumen (egg white) when a bird's egg is broken onto a flat surface." [PT:1000253]
 synonym: "egg white height, fowl" RELATED []
 is_a: CMO:0001336 ! egg albumen measurement, fowl
 created_by: jsmith
@@ -12566,7 +12564,7 @@ creation_date: 2013-01-10T15:42:03Z
 [Term]
 id: CMO:0001345
 name: egg length, fowl
-def: "The length from end to end, that is, the linear extent along the longest axis, of a bird's egg, the ovum in combination with its nutrient stores and protective outer coverings." [Collins:Collins_Online_English_Dictionary, LPT:1000773]
+def: "The length from end to end, that is, the linear extent along the longest axis, of a bird's egg, the ovum in combination with its nutrient stores and protective outer coverings." [Collins:Collins_Online_English_Dictionary, PT:1000773]
 is_a: CMO:0000402 ! egg measurement, fowl
 created_by: jsmith
 creation_date: 2013-01-10T15:44:39Z
@@ -12574,7 +12572,7 @@ creation_date: 2013-01-10T15:44:39Z
 [Term]
 id: CMO:0001346
 name: egg width, fowl
-def: "The diameter across the short axis of a bird's egg, the ovum in combination with its protective outer coverings." [LPT:1000264]
+def: "The diameter across the short axis of a bird's egg, the ovum in combination with its protective outer coverings." [PT:1000264]
 is_a: CMO:0000402 ! egg measurement, fowl
 created_by: jsmith
 creation_date: 2013-01-10T15:56:31Z
@@ -12923,7 +12921,7 @@ creation_date: 2013-01-11T16:56:34Z
 [Term]
 id: CMO:0001383
 name: milk polyunsaturated fatty acid percentage
-def: "The amount in milk fat of all organic, monobasic acids derived from hydrocarbons in which the carbon chain has two or more double or triple carbon-carbon bonds, expressed as a percentage of the total fatty acid amount." [LPT:0010374]
+def: "The amount in milk fat of all organic, monobasic acids derived from hydrocarbons in which the carbon chain has two or more double or triple carbon-carbon bonds, expressed as a percentage of the total fatty acid amount." [PT:0010374]
 synonym: "milk polyunsaturated fatty acid composition" RELATED []
 is_a: CMO:0000821 ! milk polyunsaturated fatty acid measurement
 created_by: jsmith
@@ -12932,7 +12930,7 @@ creation_date: 2013-01-11T17:13:11Z
 [Term]
 id: CMO:0001384
 name: milk monounsaturated fatty acid percentage
-def: "The amount in milk fat of all organic, monobasic acids derived from hydrocarbons in which the carbon chain has only one double or triple carbon-carbon bond, expressed as a percentage of the total fatty acid amount." [LPT:0010373]
+def: "The amount in milk fat of all organic, monobasic acids derived from hydrocarbons in which the carbon chain has only one double or triple carbon-carbon bond, expressed as a percentage of the total fatty acid amount." [PT:0010373]
 synonym: "milk monounsaturated fatty acid composition" RELATED []
 is_a: CMO:0000820 ! milk monounsaturated fatty acid measurement
 created_by: jsmith
@@ -12941,7 +12939,7 @@ creation_date: 2013-01-11T17:26:31Z
 [Term]
 id: CMO:0001385
 name: milk saturated fatty acid percentage
-def: "The amount in milk fat of all organic, monobasic acids derived from hydrocarbons in which the carbon chain contains only single carbon-carbon bonds, expressed as a percentage of the total fatty acid amount." [LPT:0010304]
+def: "The amount in milk fat of all organic, monobasic acids derived from hydrocarbons in which the carbon chain contains only single carbon-carbon bonds, expressed as a percentage of the total fatty acid amount." [PT:0010304]
 is_a: CMO:0000819 ! milk saturated fatty acid measurement
 created_by: jsmith
 creation_date: 2013-01-11T17:31:12Z
@@ -12949,7 +12947,7 @@ creation_date: 2013-01-11T17:31:12Z
 [Term]
 id: CMO:0001386
 name: milk fatty acid cis-10-C17:1 percentage
-def: "The amount in milk fat of an unsaturated fatty acid with a seventeen-carbon backbone and a cis double bond at C-10, expressed as a percentage of the total fatty acid amount." [LPT:0000031]
+def: "The amount in milk fat of an unsaturated fatty acid with a seventeen-carbon backbone and a cis double bond at C-10, expressed as a percentage of the total fatty acid amount." [PT:0000031]
 synonym: "milk cis-10-heptadeceonic acid percentage" RELATED []
 is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
 created_by: jsmith
@@ -12958,7 +12956,7 @@ creation_date: 2013-01-11T17:33:48Z
 [Term]
 id: CMO:0001387
 name: milk fatty acid cis-11-C18:1 percentage
-def: "The amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-11, expressed as a percentage of the total fatty acid amount." [LPT:0000032]
+def: "The amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a cis double bond at C-11, expressed as a percentage of the total fatty acid amount." [PT:0000032]
 synonym: "milk cis-vaccenic acid percentage" RELATED []
 is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
 created_by: jsmith
@@ -12967,7 +12965,7 @@ creation_date: 2013-01-11T17:36:22Z
 [Term]
 id: CMO:0001388
 name: milk fatty acid C18:3 (n-3) percentage
-def: "The amount in milk fat of an unsaturated, omega-3 fatty acid with an eighteen-carbon backbone and three double bonds, expressed as a percentage of the total fatty acid amount." [LPT:0010369]
+def: "The amount in milk fat of an unsaturated, omega-3 fatty acid with an eighteen-carbon backbone and three double bonds, expressed as a percentage of the total fatty acid amount." [PT:0010369]
 synonym: "milk linolenic acid percentage" RELATED []
 is_a: CMO:0000822 ! milk omega-3 fatty acid measurement
 is_a: CMO:0001383 ! milk polyunsaturated fatty acid percentage
@@ -12977,7 +12975,7 @@ creation_date: 2013-01-11T17:43:44Z
 [Term]
 id: CMO:0001389
 name: milk fatty acid cis-5,8,11,14-C20:4 percentage
-def: "The amount in milk fat of an unsaturated, omega-6 fatty acid with a twenty-carbon backbone and cis double bonds at C-5, C-8, C11, and C-14, expressed as a percentage of the total fatty acid amount." [LPT:0010365]
+def: "The amount in milk fat of an unsaturated, omega-6 fatty acid with a twenty-carbon backbone and cis double bonds at C-5, C-8, C11, and C-14, expressed as a percentage of the total fatty acid amount." [PT:0010365]
 synonym: "milk arachidonic acid percentage" RELATED []
 is_a: CMO:0000823 ! milk omega-6 fatty acid measurement
 is_a: CMO:0001383 ! milk polyunsaturated fatty acid percentage
@@ -12987,7 +12985,7 @@ creation_date: 2013-01-11T17:48:08Z
 [Term]
 id: CMO:0001390
 name: milk fatty acid C17:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a seventeen-carbon backbone, expressed as a percentage of the total fatty acid amount." [LPT:0010317]
+def: "The amount in milk fat of a saturated fatty acid with a seventeen-carbon backbone, expressed as a percentage of the total fatty acid amount." [PT:0010317]
 synonym: "milk margaric acid percentage" RELATED []
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
 created_by: jsmith
@@ -12996,7 +12994,7 @@ creation_date: 2013-01-11T17:52:27Z
 [Term]
 id: CMO:0001391
 name: milk fatty acid C4:0 percentage
-def: "The amount in milk fat of a saturated fatty acid with a four-carbon backbone, expressed as a percentage of the total fatty acid amount." [LPT:0010306]
+def: "The amount in milk fat of a saturated fatty acid with a four-carbon backbone, expressed as a percentage of the total fatty acid amount." [PT:0010306]
 synonym: "milk butyric acid percentage" RELATED []
 is_a: CMO:0001385 ! milk saturated fatty acid percentage
 created_by: jsmith
@@ -41547,132 +41545,6 @@ xref: VT:0010290
 is_a: CMO:0004184 ! milk mineral measurement
 created_by: caripark
 creation_date: 2026-09-11T16:08:21Z
-
-[Term]
-id: CMO:0004190
-name: milk chloride content
-def: "Measurement of the amount in milk of Inorganic compounds derived from hydrochloric acid that contain the Cl- ion." [MESH:D002712]
-xref: VT:0010294
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:42:58Z
-
-[Term]
-id: CMO:0004191
-name: milk iodine content
-def: "Measurement of the amount in milk of a nonmetallic element of the halogen group, which is especially important in thyroid hormone synthesis." [MESH:D007455]
-xref: VT:0010824
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:44:28Z
-
-[Term]
-id: CMO:0004192
-name: milk magnesium content
-def: "Measurement of the amount in milk of an alkaline earth element, atomic number 12, atomic symbol Mg." [VT:0010295]
-xref: VT:0010295
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:45:50Z
-
-[Term]
-id: CMO:0004193
-name: milk manganese content
-def: "Measurement of the amount in milk of a metallic element that resembles iron." [ISBN:0-683-40008-8]
-xref: VT:0010712
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:47:28Z
-
-[Term]
-id: CMO:0004194
-name: milk phosphorus content
-def: "Measurement of the amount in milk of a nonmetallic essential element which occurs naturally in phosphates and takes part in a broad variety of chemical reactions." [VT:0010293]
-xref: VT:0010293
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:49:30Z
-
-[Term]
-id: CMO:0004195
-name: milk potassium content
-def: "Measurement of the amount in milk of potassium, an alkali metal element that has formula K." [CHEBI:26216]
-xref: VT:0010291
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:51:50Z
-
-[Term]
-id: CMO:0004196
-name: milk sodium content
-def: "Measurement of the amount in milk of an alkali metal element that has formula Na." [CHEBI:26708]
-xref: VT:0010292
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:53:49Z
-
-[Term]
-id: CMO:0004197
-name: milk sulfur content
-def: "Measurement of the amount in milk of a nonmetallic element with atomic symbol S and atomic number 16." [MESH:D013455]
-xref: VT:0010808
-is_a: CMO:0004184 ! milk mineral measurement
-created_by: caripark
-creation_date: 2026-09-14T07:55:22Z
-
-[Term]
-id: CMO:0004198
-name: milk fatty acid trans-12-C18:1 percentage
-def: "Measurement of the amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-12, , expressed as a percentage of the total fatty acid amount." [VT:0011363]
-xref: VT:0011363
-is_a: CMO:0000824 ! milk trans fatty acid measurement
-is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
-created_by: caripark
-creation_date: 2026-09-14T07:56:59Z
-
-[Term]
-id: CMO:0004199
-name: milk freezing point
-def: "Measurement of the temperature at which liquid milk becomes a solid." [https://www.britannica.com/science/freezing-point]
-is_a: CMO:0000787 ! milk measurement
-created_by: caripark
-creation_date: 2026-09-14T08:08:58Z
-
-[Term]
-id: CMO:0004200
-name: blood interleukin-2 level
-def: "Measurement of the amount in blood of interlekin-2, a soluble substance elaborated by antigen- or mitogen-stimulated T-cells which induces DNA synthesis in naive lymphocytes." [MESH:D007376]
-xref: VT:0008598
-is_a: CMO:0001925 ! blood interleukin measurement
-created_by: caripark
-creation_date: 2026-09-14T08:19:08Z
-
-[Term]
-id: CMO:0004201
-name: blood interleukin-8 level
-def: "Measurement of the amount in blood of a cytokine produced by a variety of cell types that plays a role in the regulation of the acute inflammatory response; it induces chemotaxis of neutrophils and other inflammatory cells." [MESH:D016209]
-xref: VT:0011215
-is_a: CMO:0001925 ! blood interleukin measurement
-created_by: caripark
-creation_date: 2026-09-14T08:20:57Z
-
-[Term]
-id: CMO:0004202
-name: blood interleukin-10 level
-def: "Measurement of the amount in blood of a cytokine produced by a variety of cell types, including T-cells, monocytes, dendritic cells and epithelial cells that exerts a variety of effects on immunoregulation and inflammation." [MESH:D016753]
-xref: VT:0008590
-is_a: CMO:0001925 ! blood interleukin measurement
-created_by: caripark
-creation_date: 2026-09-14T08:24:25Z
-
-[Term]
-id: CMO:0004203
-name: blood interleukin-12 level
-def: "Measurement of the amount in blood of a heterodimeric cytokine that plays a role in innate and adaptive immune responses; it is produced by dendritic cells, macrophages and a variety of other immune cells and plays a role in the stimulation of interferon-gamma production by T-cells and natural killer cells." [MESH:D018664]
-xref: VT:0008616
-is_a: CMO:0001925 ! blood interleukin measurement
-created_by: caripark
-creation_date: 2026-09-14T08:26:34Z
 
 [Typedef]
 id: part_of
