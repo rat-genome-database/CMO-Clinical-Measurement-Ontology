@@ -1,6 +1,6 @@
 format-version: 1.2
-data-version: releases/2026-09-19
-date: 19:09:2026 20:13
+data-version: releases/2026-10-10
+date: 10:10:2026 20:13
 saved-by: jrsmith
 auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
 default-namespace: clinical_measurement_ontology
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-09-19" xsd:string
+property_value: owl:versionInfo "2026-10-10" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -41472,7 +41472,7 @@ creation_date: 2026-09-11T15:51:08Z
 id: CMO:0004181
 name: ileum weight
 def: "Measurement of the weight or heaviness of the final section of the small intestine, which extends from the jejunum to the colon." [https://en.wikipedia.org/wiki/Ileum, UBERON:0002116]
-xref: VT:0011225
+xref: VT:0010225
 relationship: part_of CMO:0000470 ! small intestine weight
 created_by: caripark
 creation_date: 2026-09-11T15:52:50Z
@@ -41623,7 +41623,9 @@ creation_date: 2026-09-14T07:55:22Z
 [Term]
 id: CMO:0004198
 name: milk fatty acid trans-12-C18:1 percentage
-def: "Measurement of the amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-12, , expressed as a percentage of the total fatty acid amount." [VT:0011363]
+def: "Measurement of the amount in milk fat of an unsaturated fatty acid with an eighteen-carbon backbone and a trans double bond at C-12, expressed as a percentage of the total fatty acid amount." [VT:0011363]
+synonym: "milk trans-12-octadecenoic acid percentage" EXACT []
+xref: LPT:0000196
 xref: VT:0011363
 is_a: CMO:0000824 ! milk trans fatty acid measurement
 is_a: CMO:0001384 ! milk monounsaturated fatty acid percentage
