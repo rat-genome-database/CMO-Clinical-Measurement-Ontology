@@ -1,8 +1,8 @@
 format-version: 1.2
-data-version: releases/2026-10-10
-date: 10:10:2026 20:13
+data-version: releases/2026-11-14
+date: 14:11:2026 20:13
 saved-by: jrsmith
-auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-07-29 --
+auto-generated-by: --RGD OBO FILE GENERATOR -- build 2026-10-26 --
 default-namespace: clinical_measurement_ontology
 ontology: cmo
 property_value: dc:creator "Carissa A. Park" xsd:string
@@ -12,7 +12,7 @@ property_value: dc:creator "Mary Shimoyama" xsd:string
 property_value: dc:creator "Rajni Nigam" xsd:string
 property_value: dc:creator "Shur-Jen Wang" xsd:string
 property_value: dc:creator "Stanley J. F. Laulederkind" xsd:string
-property_value: owl:versionInfo "2026-10-10" xsd:string
+property_value: owl:versionInfo "2026-11-14" xsd:string
 property_value: terms:license https://creativecommons.org/licenses/by/4.0/
 
 [Term]
@@ -40584,7 +40584,7 @@ creation_date: 2025-07-17T10:00:31Z
 
 [Term]
 id: CMO:0004106
-name: CA1 stratum oriens ribonucleic acid level 
+name: CA1 stratum oriens ribonucleic acid level
 def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the part of the stratum oriens hippocampal layer lying in area CA1, superficial to the alveus of CA1 and deep to the pyramidal cell layer of CA1. It is continuous with the stratum oriens of CA2 and bounded by the subiculum." [https://www.merriam-webster.com, UBERON:0014552]
 synonym: "CA1 stratum oriens RNA level" EXACT []
 xref: GEO:GSE143555
@@ -41675,6 +41675,20 @@ xref: VT:0008616
 is_a: CMO:0001925 ! blood interleukin measurement
 created_by: caripark
 creation_date: 2026-09-14T08:26:34Z
+
+[Term]
+id: CMO:0004204
+name: median nerve ribonucleic acid level
+def: "This is any measurement of the absolute or relative amount(s) of one or more of the ribonucleic acids (RNAs) found in the nerve of the arm that originates from the brachial plexus and is formed from parts of the medial and lateral cords of the brachial plexus, and continues down the arm to enter the forearm with the brachial artery." [UBERON:0001148]
+synonym: "median nerve RNA level" EXACT []
+synonym: "nervus medianus ribonucleic acid level" EXACT []
+synonym: "nervus medianus RNA level" EXACT []
+xref: GEO:GSE293387
+xref: PMID:41975628
+xref: VT:0011391
+is_a: CMO:0003925 ! peripheral nervous system ribonucleic acid level
+created_by: caripark
+creation_date: 2026-10-30T10:13:17Z
 
 [Typedef]
 id: part_of
